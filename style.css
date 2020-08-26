@@ -9,6 +9,7 @@ body {
     top: 0px;
     left: 0px;
     right: 0px;
+    position: absolute;
 
 }
 
@@ -19,6 +20,11 @@ body {
 
 .font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0px 0px 0px;
+}
+
+img {
+    margin: 100px 0px 0px 0px;
 }
 
 .listas {
@@ -48,5 +54,5 @@ h3 {
 
 footer {
     text-align: center;
-    
+
 }
