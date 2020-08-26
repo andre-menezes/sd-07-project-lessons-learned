@@ -1,7 +1,10 @@
 body{
     background-color:rgb(253, 251, 251);
-    scroll-behavior: inherit;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
 }
 .myArticle{
     position: absolute;
