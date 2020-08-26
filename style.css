@@ -17,6 +17,11 @@ header {
 #minha_foto {
     width: 120px;
     border-radius: 10px;
-    float: left;
+    display: inline-block;
     margin-top: 70px;
+}
+
+#licoes_aprendidas {
+    margin-left: 10px;
+    margin-top: 2%;
 }
