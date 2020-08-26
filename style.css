@@ -5,7 +5,7 @@
 
 #cabecalho {
   text-align: center;
-  background-color: hsl(165, 93%, 73%);
+  background-color: hsl(165 , 93% , 73%);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -41,16 +41,15 @@ body {
   margin-top: 30px;
 }
 
-
 #navigation-left {
   float: left;
-  background-color: hsl(148, 76%, 92%);
+  background-color: hsl(148 , 76% , 92%);
 }
 
 #navigation-right {
   clear: both;
   float: left;
-  background-color: hsl(150, 23%, 78%);
+  background-color: hsl(150 , 23% , 78%);
 }
 
 .aprendidas {
@@ -68,10 +67,11 @@ body {
   width: 200px;
 }
 
-h2, h3, h4 {
+h2 , h3 , h4 {
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
 .content {
   text-align: center;
   width: 75%;
