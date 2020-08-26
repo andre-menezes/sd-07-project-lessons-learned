@@ -5,11 +5,8 @@ body {
 #cabecalho {
     position:fixed;
     top: 0px;
-    right: 0px;
-    left: 0px;
     background-color: rgb(42, 110, 39);
-    width: 1366px;
-    height: 90px;
+    width: 100%;
     border: 3px solid black;
 }
 
@@ -21,12 +18,11 @@ body {
 
 #minha_foto {
     width: 200px;
-    position: absolute;
-    top: 98px;
-    display: block;
+    /*position: relative;
+    top: 300px;*/
 }
 
-#licoes_aprendidas {
+/*#licoes_aprendidas {
     position: absolute;
-    top: 350px;
+   top: 350px;
 }
