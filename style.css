@@ -24,3 +24,7 @@ ol{
 ul{
     display: inline-block;
 }
+footer{
+    position: fixed ;
+    bottom: 0px;
+}
