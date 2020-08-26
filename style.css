@@ -5,8 +5,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  height: 40em;
+  height: 5em;
   width: 100%;
+  background-color: #00e600;
+  margin: 0;
 }
 
 #titulo {
@@ -14,16 +16,21 @@ body {
 }
 
 .picture-name {
-  margin-top: 5em;
+  margin-top: 6em;
+  align-content: center;
 }
 
 #minha_foto {
   width: 10em;
   border: 2px dashed blue;
-  float: left;
+  /* float: left; */
 }
 
-#licoes_aprendidas {
+.licoes_aprendidas {
   margin-top: 13em;
   clear: both;
+}
+
+footer {
+  background-color: #00e600;
 }
