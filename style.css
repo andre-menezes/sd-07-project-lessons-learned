@@ -11,5 +11,14 @@ body{
 }
 
 #titulo{
-    color: red;
+    color: rgb(255, 255, 255);
+}
+
+#minha_foto{
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#licoes_aprendidas{
+    font-style: italic;
 }
