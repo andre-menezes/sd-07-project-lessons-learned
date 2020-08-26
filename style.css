@@ -18,12 +18,15 @@ body {
 img {
     margin-top: 100px;
     text-align: center;
+    border: 15px solid rgb(29 , 133 , 62);
 }
 
 #navegador {
     margin-top: 50px;
     position: fixed;
     z-index: 2;
+    display: block;
+    text-align: center;
 }
 
 .lado-esquerdo, .lado-direito {
@@ -52,13 +55,31 @@ img {
     text-align: center;
 }
 
-footer {
+#rodape     {
     background-color: rgb(29 , 133 , 62);
     margin-bottom: 0px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     color: rgb(255 , 255 , 255);
     font-style: italic;
     font-family: monospace;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(0 , 0 , 0);
+}
+
+a:hover {
+    color: rgb(255 , 255 , 255);
+}
+
+.redes-sociais {
+    background-color: rgb(29 , 133 , 62);
+    margin-bottom: 0px;
+    padding-top: 10px;;
     text-align: center;
 }
