@@ -57,13 +57,13 @@ nav a {
     height: 450px;
     
 }
-#licoes_aprendidas{
+#licoes_aprendidas_box{
     display: inline-block;
     margin-right: 70px;
     border-left: 2px dotted black;
     padding-left: 50px;
 }
-#licoes_a_aprender{
+#licoes_a_aprender_box{
     display: inline-block;
     margin-right: 200px;
 }
@@ -75,19 +75,21 @@ nav a {
     top: 600px;
 }
 .lado_esquerdo{
-    display: inline-block;
+    /*display: inline-block;*/
     width: 750px;
     text-align: center;
     margin: 40px;
-    clear: both
+    float: left;
+    /*clear: both*/
     
 }
 .lado_direito{
-    display: inline-block;
+    /*display: inline-block;*/
     width: 450px;
     text-align: center;
     position: relative;
     top: -76px;
+    float: right;
 }
 
 /*---------------- REDES SOCIAIS -------------------*/
