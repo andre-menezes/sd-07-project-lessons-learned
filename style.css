@@ -1,0 +1,9 @@
+#cabecalho {
+    background-color: rgb(219, 196, 196);
+    position: fixed;
+    border-color: brown;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 35px;
+  }
