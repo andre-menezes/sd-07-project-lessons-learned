@@ -52,6 +52,37 @@ h1 {
     width: 250px;
 }
 
+.picture-container {
+    text-align: center;
+    background-color:rgb(248, 243, 231);
+}
+
+.lesson-learned, .to_be_learned {
+    width:40%;
+    display: inline-block;
+}
+
+.to_be_learned {
+    margin-left:150px;
+}
+
+.tabela {
+    margin-top:15px;
+    background-color:rgb(238, 247, 230);
+    text-align: center;
+}
+
+.tabela table {
+    text-align: center;
+    width: 100%;
+}
+
+.tabela th, td {
+    border:2px dashed;
+    width:50%;
+    text-align: center;
+}
+
 .lado-esquerdo, .lado-direito {
     width: 45%;
     display: inline-block;
