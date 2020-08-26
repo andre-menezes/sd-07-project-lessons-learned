@@ -37,15 +37,18 @@ body {
     padding-right: 55px;
 }
 
-.firt-article {    
+.lado-esquerdo {    
+    /* float: left; */
+    display: inline-block;
     width: 60%;
+    height: 250px;
     border: 1px solid black;
     margin: 50px 0px 0px 100px;
 }
 
 .perfil {
     display: inline-block;    
-    width: 303px;
+    width: 218px;
     border: 1px solid black;
     margin-top: 21px;
 }
@@ -53,8 +56,27 @@ body {
 .paragraphy {
     display: inline-block;
     box-sizing: border-box;
-    margin-left: 10px;
-    width: 500px;
+    margin-left: 30px;
+    width:550px;
     vertical-align: top;
     text-align: justify;
+    font-size: 19px;
 }
+
+.lado-direito {
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    margin: 50px 100px 0px 0px;
+}
+
+/* .curso {
+    border: 1px solid black; 
+    border-spacing: 43px;   
+    margin-left: 10px; 
+    text-align: center;   */
