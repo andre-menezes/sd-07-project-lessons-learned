@@ -1,50 +1,70 @@
-body{
-    background-color: rgb(253 , 251 , 251);
-    margin: 0px;
+body {
+  background-color: rgb(253 , 251 , 251);
+  margin: 0px;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0px;
-    background-color: darkcyan;
-    height: 230px;
-    width: 100%;
-    padding-top: 20px;
-    color: whitesmoke;
-    font-family: 'Verdana', sans-serif;
-    text-align: left;
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  background-color: darkcyan;
+  height: 230px;
+  width: 100%;
+  padding-top: 20px;
+  color: whitesmoke;
+  font-family: Verdana, sans-serif;
+  text-align: left;
 }
 
-.cabecalho-item{
-    display: inline-block;
-    vertical-align: middle;
-    width: 35%;
-    margin-left: 50px;
+.cabecalho-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 35%;
+  margin-left: 50px;
 }
 
-#corpo{
-    margin: 280px 100px;
+#corpo {
+  margin: 280px 100px;
 }
 
-#codar{
-    font-weight: 600;
-    color: #28a745;
-    font-style: italic;
+#codar {
+  font-weight: 600;
+  color: #28a745;
+  font-style: italic;
 }
 
-#rodape{
-    background-color: darkcyan;
-    height: 40px;
+#rodape {
+  background-color: darkcyan;
+  height: 40px;
 }
 
-#rodape h4{
-    padding-top: 10px;
-    text-align: center;
-    color: whitesmoke;
+#rodape h4 {
+  padding-top: 10px;
+  text-align: center;
+  color: whitesmoke;
 }
 
-#trybe{
-    font-family: 'Verdana', sans-serif;
-    font-weight: 1000;
-    color: #28a745;
+.section {
+  text-align: center;
+}
+
+.section-lista {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  border: 1px solid black;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.section-article {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  vertical-align: top;
+}
+
+#trybe {
+  font-family: Verdana, sans-serif;
+  font-weight: 1000;
+  color: #28a745;
 }
