@@ -44,6 +44,25 @@ header {
     margin-bottom: 10%;
 }
 
+.link-picture {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(7, 6, 94);
+    display: block;
+    margin-top: 20%;
+}
+
+
+
+
 #rodape {
   color: rgb(12, 1, 1); 
   background-color: rgb(228, 178, 178);
@@ -52,8 +71,9 @@ header {
   font-weight: 600; 
   text-decoration-line: none;  
   position: absolute;
-  right: 50px;
+  text-align: center;
   margin-right: 50px;
   margin-left: 50px;
-  margin-top: 30%;
+  margin-top: 20%;
+  margin-bottom: 5%;
 }
