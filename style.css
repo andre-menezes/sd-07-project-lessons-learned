@@ -9,7 +9,8 @@ body {
         background-color: seagreen;
         width: 100%;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 18px;
+        font-size: 20px;
 }
 
 a{
@@ -30,7 +31,7 @@ ul, ol, h4, footer {
     width: 130px;
     border-radius: 50%;
     border: 2px solid;
-    margin-top: 120px;
+    margin-top: 160px;
     margin-left: 580px;
 }
 
@@ -40,7 +41,7 @@ article{
     margin: 30px 210px 40px;
 }
 
-aside{
+.lado-direito{
     width: 160px;
     padding-left: 15px;
     float: right;
@@ -53,4 +54,5 @@ aside{
 footer{
     background-color: seagreen;
     padding: 10px 30px;
+    line-height: 20px;
 }
