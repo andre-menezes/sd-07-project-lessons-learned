@@ -3,10 +3,16 @@
     text-align: center;
     color: black;
     top: 0px;
+    left: 0px;
     padding: 10px;
+    position: fixed;
+    width: 100%;
 }
 .minha_foto
 {
     position: absolute;
-    float: center;
+
+}
+body{
+background: rgb(253,251,251);
 }
