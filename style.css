@@ -16,3 +16,22 @@ body {
 #licoes_aprendidas{
     list-style-type: decimal;
 }
+
+#minha_foto{
+    display: block;
+    margin-left:1%;
+    margin-top:6%;
+    width: 200px;
+
+
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#licoes_a_aprender{
+    display:inline-block;
+    margin-left: 2%;
+}
