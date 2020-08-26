@@ -28,13 +28,16 @@ body {
 }
 
 .lado-direito {
-  background-color: red;
+
   float: right;
-  width: 40%;
+  text-align: justify;
+  width: 35%;
+  padding: 27px 20px 10px 5px;
 }
 .lado-esquerdo {
-  background-color:black;
+
   float: left;
+  margin: 10px 5px 20px 20px;
   width: 50%;
 }
 
