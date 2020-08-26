@@ -8,13 +8,13 @@ header {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: #011627;
+    background-color: black;
+    margin-bottom: 50px;
 }
 h1 {
     text-align: center;
     font-size: 25px;
     font-family: sans-serif;
-    color: #ff9f1c;
 }
 nav ul {
     list-style: none;
@@ -33,5 +33,20 @@ nav a {
     text-decoration: none;
     color: #ff9f1c;
 }
+h1 a {
+    text-decoration: none;
+    color: #ff9f1c;
+}
+#minha_foto {
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 100px;
+    height: 300px;
+}
+ol {
 
+}
+footer a{
+    color: black;
+}
 
