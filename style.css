@@ -4,17 +4,15 @@ body {
 
 #cabecalho {
     position: fixed;
-    margin-top:0px;
+    top:0px;
     text-align: center;
     width: 100%;    
+    background:linear-gradient(80deg,#3ea1d3,#44e2a6,#14a3e6);
 }
 
 #minha_foto {
     margin-top:90px;
     float:right
 
-    
-}
-.Titulo{
     
 }
