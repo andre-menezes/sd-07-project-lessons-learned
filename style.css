@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
+
+#cabecalho {
+    position: relative;
+    top: 0px;
+    border: 5px solid black;
+}
+
+#titulo {
+    text-align: center;
+}
