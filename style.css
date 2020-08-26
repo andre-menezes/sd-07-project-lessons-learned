@@ -1,6 +1,5 @@
 body{
     background-color: rgb(253, 251, 251) ;
-
 }
 
 #cabecalho{
@@ -95,6 +94,7 @@ color:#fff;
     border:1px solid #070303;
     width: 100%;
     background-color: rgb(173, 222, 255);
+    clear: both;
 }
 
 #rodape a{
@@ -102,17 +102,30 @@ color:#fff;
     color: black;
     margin-right: 20px;
 }
-
-.estudo p{
-    text-align: justify;
-    font-weight: 15px;
+.lado-esquerdo{
+    float: left;
+    display: inline-block;
+    width: 50%;
 }
 
-aside{
+.lado-esquerdo p{
+    text-align: justify;
+    display: inline-block;
+}
+
+.lado-direito{
     position: absolutes;
     float: right;
     display: block;
-    width: 30%;
+    width: 40%;
     border: 2px ridge #3322ff;
     margin-right: 30px;
+    margin-top: 20px;
+}
+
+aside p{
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 10px;
+    line-height:20px;
 }
