@@ -80,8 +80,7 @@ body {
     padding: 4.9%;
 }
 
-.blocos_tabela {
-    
+.blocos_tabela {   
     text-align: center;
 }
 
@@ -91,4 +90,8 @@ body {
 
 .blocos_tabela td {
     padding: 10px;
+}
+
+#rodape {
+    text-align: center;
 }
