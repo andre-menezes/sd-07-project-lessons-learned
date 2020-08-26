@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    background-color: rgb(253, 251, 251);
+}
+header {
+    width: 100%;
+    position:fixed;
+    background-color: rgb(126, 126, 126);
+}
+#cabecalho{
+}
+#titulo{
+
+}
+footer{
+    background:rgb(126, 126, 126);
+}
+#titulo{
+
+}
+#rodape{
+
+}
