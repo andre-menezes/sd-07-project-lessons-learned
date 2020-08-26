@@ -15,7 +15,7 @@ height: 50px;
 
 #titulo{
 text-align: center;
-color: white;  
+color: rgb(255, 255, 255);  
 }
 
 #minha_foto{
@@ -39,5 +39,5 @@ color: rgb(255, 255, 255);
 }
 
 #menu{
-position: relative;   
+position: relative;
 }
