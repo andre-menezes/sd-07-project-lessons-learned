@@ -43,7 +43,6 @@ a{
     position: relative;
     left: 299px;
     top: 135px;
-    border: 2px dotted green;
 }
 p{
     text-align: justify;
@@ -53,10 +52,10 @@ p{
 .lista01, .lista02{
     display: inline-block;
     position: relative;
-    border: 2px dotted green;
     top: 140px;
-    left: 600px;
+    left: 700px;
     width: 300px;
+    z-index: 3;
 }
 
 .lado-equerdo{
@@ -76,16 +75,29 @@ p{
     align-items: center;
 }
 .sucesso{
-    background-color: green;
-    border: 3px dotted green;
     text-align: center;
     width: 300px;
     position: relative;
-    bottom: 40px;
+    bottom: 70px;
     left: 40px;
 }
 footer{
     position: relative;
     padding: 0;
     top: 40px;
+    z-index: 2;
+}
+.fig-fundo{
+    width: 1366px;
+    height: 100px;
+    background-color: #284E39;
+    z-index: 1;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    padding: 0;
+    color: white;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 50% 20% 50%;
 }
