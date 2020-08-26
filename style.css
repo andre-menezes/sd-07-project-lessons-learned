@@ -12,10 +12,28 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: blueviolet;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+main div {
+
+  background-color: aqua;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
 
 }
 
-#titulo {
-  text-align: center;
+img {
+  /* position: absolute; */
+  top: 100px;
+  margin-top: 100px;
+  width: 200px;
+  border-radius: 50%;
+  border: 7px solid green;
 
 }
