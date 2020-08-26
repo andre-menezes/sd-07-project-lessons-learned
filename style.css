@@ -9,23 +9,34 @@ body {
     color: white;
     font-size: 20px;
     font-family: fantasy;
-
-
 }
 
 #minha_foto {
    margin-top: 100px;
 }
 
-#secao_aprendizado {
+.meu_aprendizado {
+    display: block;
+    width: 60%;
+    float: left;
     line-height: normal;
-    font-size: 18px;
+    font-size: 18px
+}
+
+.secao_aprendizado {
+    display: block;
+    width: 20%;
+    float: right;
+    line-height: normal;
+    font-size: 16px;
+    
 }
 
 ul {
     line-height: normal;
     font-size: 18px;
     font-family: fantasy;
+    clear: both;
 }
 
 ol {
