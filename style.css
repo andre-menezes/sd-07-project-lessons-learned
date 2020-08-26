@@ -12,9 +12,18 @@
 body {
     font-family: 'Baloo Tamma 2', cursive;
     color: black;
-    background-color: #dddddd;
+    background-color:  rgb(253, 251, 251); /*requisito 1*/
 }
+.interface{
+    width: 900px;
+    margin: -20px auto 0px auto;
+}
+header#cabecalho{
+    position: relative;/*requesito 2*/
+    top: 0; /*requesito 2*/
 
+    border: 2px solid black;
+}
 
 
 
