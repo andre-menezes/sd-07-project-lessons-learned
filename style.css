@@ -8,45 +8,67 @@ body{
 }
 
 #titulo{
-    color:#3322ff
+    color:#3322ff;
 }
 
 #menu{
 list-style:none;
-border:1px solid #c0c0c0;
+border:1px solid #070303;
+width: 95%;
+display: inline-block;
+background-color: rgb(173, 222, 255);
 }
 
 #menu li{
-position:relative;
 float:left;
-border-right:1px solid #c0c0c0;
+border-right:1px solid #070303;
 }
 
-#menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+#menu li a{
+    color:#000; 
+    text-decoration:none; 
+    padding:10px 15px; 
+    display:inline-block;
+}
 
 #menu li a:hover{
 background:#333;
 color:#fff;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
 }
 
-#menu li  ul{
-position:absolute;
-top:25px;
-left:0;
-background-color:#fff;
-display:none;
-}
-
-header{
+header{userphoto
     clear: both;
     margin-top: 50px;
 }
 
-#userphoto{
+#minha_foto{
     border-radius: 50%;
     width: 180px;
     border: 10px groove #3322ffee;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+#meu_nome{
+    display: inline-block;
+    float: left;
+    margin:90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border: 10px groove #3322ffee;
+}
+
+.artigo{
+    width: 200px;
+    text-align: center;
+}
+
+.artigo ol li{
+    margin: 5px;
+}
+
+#licoes_aprendidas{
+    text-align: center;
+    margin: 20px;
 }
