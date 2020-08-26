@@ -8,5 +8,6 @@ body {
 }
 
 #minha_foto {
-    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
 }
