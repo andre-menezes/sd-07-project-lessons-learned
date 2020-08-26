@@ -4,8 +4,13 @@
     position: absolute;
     top: 0px;
     left: 50px;
+    right: 50px;
     background: black;
     
+}
+
+#titulo{
+    margin-left: 40%;
 }
 
 .body {
