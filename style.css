@@ -4,12 +4,13 @@ body{
 }
 .cabecalho{
     background-color:rgb(100,95,102);
-    top:"0px";
+    position: top"0px";
     display:inline-block;
 }
 
 .minha_foto{
     width:200px;
+    height:200px;
 }
 
 .artigo{
