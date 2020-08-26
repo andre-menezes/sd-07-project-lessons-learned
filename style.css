@@ -5,4 +5,25 @@ body {
 #cabecalho {
         position: fixed;
         top: 0px;
+        background-color: seagreen;
+        width: 100%;
+        text-align: center;
 }
+
+a{
+    text-decoration: none;
+    color: seagreen;
+    background-color: rgb(253 , 251 , 251);
+    padding: 7px;
+}
+
+#minha_foto{
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid;
+    top: 0px;
+    margin-top: 30px;
+    position: absolute;
+    text-align: end;
+}
+
