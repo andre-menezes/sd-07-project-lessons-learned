@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(19, 18, 18);
+    line-height: 1.3em;
 }
 
 .header {
