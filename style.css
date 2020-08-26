@@ -1,11 +1,11 @@
-body {
+body{
         background-color: rgb(253 , 251 , 251);
         margin: 0;
 }
 
-/*------Cabeçalho------*/
+/* Cabeçalho */
 
-header {
+header{
         position: fixed;
         top: 0px;
         width: 100%;
@@ -14,66 +14,67 @@ header {
         background-color: rgb(97 , 145 , 105);
 }
 
-nav {
+nav{
         margin: 0;
         background-color: rgb(135 , 163 , 137);
         font-size: 1.5em;
 }
 
-nav li {
+nav li{
         list-style: none;
         display: inline-block;
 }
 
-/*------Minha-Foto-----*/
+/* Minha-Foto */
 
-.perfil {
+.perfil{
         padding: 15px;
         margin-top: 109px;
 }
 
-#minha_foto {
+#minha_foto{
         margin: 15px;
 }
 
-.icon-github {
+.icon-github{
         height: 50px;
 }
 
-/*------Lições---------*/
+/* Lições */
 
-#licoes {
+#licoes{
         padding: 15px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender{
         display: inline-block;
 }
 
-/*------Content--------*/
+/* Content */
 
-#container {
+#container{
         text-align: center;
 }
 
-/*------Artigo---------*/
+/* Artigo */
 
-article {
+article{
         display: inline-block;
         width: 50%;
         padding: 15px;
 }
-/*------Passagem-------*/
 
-aside {
+/* Passagem */
+
+aside{
         display: inline-block;
         width: 30%;
         padding: 15px;
 }
 
-/*------Rodapé---------*/
+/* Rodapé */
 
-footer {
+footer{
         padding: 15px;
-        background-color: rgb(82, 82, 82);
+        background-color: rgb(82 , 82 , 82);
 }
