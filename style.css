@@ -55,19 +55,40 @@ body {
     top: 300px;
 }
 
+
+.licoes_aprendidas {
+    text-align: center;
+}
+
+.licoes_a_aprender {
+    text-align: center;
+}
+
 .artigo {
-    align-items: center;
+    vertical-align: middle;
 }
 
-.lado-esquerdo {
+.licoes_aprendidas, .lado-esquerdo {
     display: inline-block;
     width: 40%;
     padding: 4.9%;
 }
 
-.lado-direito {
+.licoes_a_aprender, .lado-direito {
     display: inline-block;
     width: 40%;
     padding: 4.9%;
-    height: 100%;
+}
+
+.blocos_tabela {
+    
+    text-align: center;
+}
+
+.blocos_tabela th {
+    padding: 10px;
+}
+
+.blocos_tabela td {
+    padding: 10px;
 }
