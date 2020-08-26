@@ -24,3 +24,21 @@ p {
     color: darkolivegreen;
     line-height: 19px;
 }
+
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.lado-direito {
+    width: 40%;
+    padding-left: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+}
