@@ -24,3 +24,19 @@ header {
   text-align: left;
   font-weight: 300;
 }
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 40%;
+    align-content: left;
+    vertical-align: top;
+    margin: 15px;
+}
+
+.lado-direito {
+    display: inline-block;
+    width: 40%;
+    align-content: right;
+    vertical-align: top;
+    margin: 15px;
+}
