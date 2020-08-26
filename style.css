@@ -4,18 +4,34 @@ html {
 body {
     background-color: rgb(253, 251, 251);
 }
-.cabecalho {
+header {
     position: fixed;
     top: 0px;
+    width: 100%;
+    background-color: #011627;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #ff9f1c;
 }
 nav ul {
     list-style: none;
-    color: black;
+    font-weight: bold;
+    text-align: center;      
+    padding-right: 80px;
+    font-family: sans-serif;
+    margin-right: 20x;
+    font-size: 15px;
 }
 nav li {
     display: inline-block;
-    padding-left: 20px;
-    list-style: none;
-    color: black;
+    margin-left: 15px;  
 }
+nav a {
+    text-decoration: none;
+    color: #ff9f1c;
+}
+
 
