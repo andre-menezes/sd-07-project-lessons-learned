@@ -16,7 +16,7 @@ body {
   background: rgb(31, 124, 22)
 }
 
-li{
+nav ul li{
   display:inline-block
 
 }
