@@ -28,3 +28,18 @@ body{
     line-height: 30px;
     font-family: sans-serif;
 }
+
+#artigo{
+    /* background-color: chartreuse; */
+    width: 60%;
+    display:inline-block;
+    border-right-style: dotted;
+}
+
+#secao-do-artigo{
+    /* background-color: brown; */
+    width: 20%;
+    display:inline-block;
+    vertical-align: top;    
+    padding: 0px 0px 0px 7px;
+}
