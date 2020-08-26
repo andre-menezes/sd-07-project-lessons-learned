@@ -17,7 +17,7 @@ body {
 .interface{width: 900px;
     margin: -20px auto 0px auto;
 }
-header#cabecalho{    
+header#cabecalho{   
     position: fixed;/*requesito 2*/
     top: 0px; /*requesito 2*/
     background-color:  blue;
@@ -26,6 +26,7 @@ header#cabecalho{
     width: 880px;
 }
 header#cabecalho h1, h2{
+    font-family: 'Exo 2', sans-serif; 
     margin: 0px;
     padding: 0px;
 }
