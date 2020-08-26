@@ -36,6 +36,14 @@ header p,header h1{
 .head_fix{
     margin: 160px 0px 0px 0px;
 }
+#licoes_a_aprender{
+
+}
+.center_article{
+    margin:auto;
+    text-align: center;
+    width: 30%;
+}
 .right_list{
     float:right;
 }
