@@ -9,7 +9,7 @@ body {
     height: 50px;
     top: 0px;
 }
-header{
+header {
     background-color: rgb(49, 224, 49);
 }
 #titulo {
@@ -23,7 +23,7 @@ header{
 nav {
     background-color: rgb(36, 167, 36);
     width: 100%;
-    display:flex;
+    display: flex;
 }
 nav a {
 margin-left: 20px;
@@ -39,15 +39,19 @@ main {
     background-color: rgb(172, 172, 172);
 }
 #minha_foto {
-    height: 200px;
+    height: 170px;
 }
 #sobre_mim a {
-    font-size:20px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 10px;
 }
-#la {
-    float: left;
-}
-#ln {
+article {
+    width: 60%;
     float: right;
+}
+#rodape {
+    background-color: gray;
+}
+footer p {
+    padding: 20px;
 }
