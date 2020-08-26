@@ -15,7 +15,20 @@ body {
     text-align: center;
 }
 
+.navigation ul{
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    list-style: none;
+}
+
 #minha_foto {
     margin-top: 150px;
     margin-left: 50px;
+}
+
+#rodape {
+    margin-top: 20px;
 }
