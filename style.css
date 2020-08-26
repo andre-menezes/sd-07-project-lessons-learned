@@ -28,3 +28,10 @@ body{
   text-transform: uppercase;
   letter-spacing: 10px
 }
+.main_pefil{
+  max-width: 1366px;
+  width: 100%;
+  background-color: grey;
+  margin: auto;
+  margin-top: 60px;
+}
