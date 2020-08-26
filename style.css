@@ -1,9 +1,72 @@
+body{
+    background-color:rgb(253, 251, 251);
+    scroll-behavior: inherit;
+}
 #cabecalho {
-    background-color: rgb(219, 196, 196);
-    position: fixed;
+    background-color: rgb(11, 116, 67);
+    position: absolute;
     border-color: brown;
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 35px;
+    height: 120px;
+  }
+/* h3{
+    position: absolute;
+    border:0;
+    border-top: 1px solid rgb(14, 13, 13);
+    top:970px;
+} */
+  h4{
+      position: absolute;
+      margin-top:340px;
+      margin-left:10px;
+  }
+  .titulo{
+      text-align: center;
+      color: cornsilk;
+  }
+  #minha_foto {
+      position: absolute;
+      margin-top:130px;
+      margin-left: 10px;
+      width: 230px;
+      
+  }
+  #licoes_aprendidas{
+      position: absolute;
+      top:500px;
+      margin-left: 10px;
+  }
+  #licoes_a_aprender {
+      position: absolute;
+      top:550px;
+      left:250px;
+  }
+
+  #rodape img{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      display: inline-block;
+      position: relative;
+      padding: 100px;
+      margin-left: 100px;
+      width: 100px;
+      top:700px;
+  }
+  .css {
+      position: absolute;
+      top:970px;
+      left: 187px;
+     
+  }
+  .git{
+    position: absolute;
+    top:970px;
+    left: 587px;
+  }
+  .js{
+    position: absolute;
+    top:970px;
+    left: 977px;
   }
