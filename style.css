@@ -1,7 +1,12 @@
 body{
-  background:rgb(253, 251, 251)
+  background:rgb(253, 251, 251);
 }
 #cabecalho{
   top: 0px;
   position: fixed;
+}
+
+h1{
+  font-size: 30pt;
+
 }
