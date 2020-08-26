@@ -1,7 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  padding: 10px;
+  padding-top: 30px;
+}
+
+img {
+  height: 200px;
 }
 
 #cabecalho {
@@ -15,6 +19,10 @@ body {
 
 #titulo {
   display: inline;
+}
+
+#alunoInformacoes {
+  text-align: center;
 }
 
 
