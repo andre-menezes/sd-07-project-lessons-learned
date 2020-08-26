@@ -1,55 +1,55 @@
 body {
-    position: relative;
-    top: 200px;
-    background-color: rgb(253, 251, 251);
+  position: relative;
+  top: 200px;
+  background-color: rgb(253, 251, 251);
 }
 
 .page-header {
-    position: fixed;
-    top: 0px;
-    background-color: rgb(0, 159, 253);
-    padding: 50px;
-    width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(0, 159, 253);
+  padding: 50px;
+  width: 100%;
 }
 
 .navegacao {
-    background-color: white;
+  background-color: white;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
-ol, ul {
-    display: inline-block;
-    width: 30%;
-    background-color: yellow;
+ol,
+ul {
+  display: inline-block;
+  width: 30%;
+  background-color: yellow;
 }
 
 .aprendizado {
-    display: inline-block;
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .lado-esquerdo {
-    width: 55%;
-    float: left;
+  display: inline-block;
+  width: 55%;
 }
 
 .lado-direito {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 10px 0 20px -10px rgb(42, 42, 114);
-    font-style: italic;
-    color: #29627e;
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 10px 0 20px -10px rgb(42, 42, 114);
+  font-style: italic;
+  color: #29627e;
 }
 
 footer {
-    width: 30%;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(0, 159, 253);
-    color: rgb(253, 251, 251);
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(0, 159, 253);
+  color: rgb(253, 251, 251);
 }
