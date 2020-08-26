@@ -6,3 +6,11 @@ body{
     position: fixed;
     top: 0px;
 }
+
+img{
+    margin-top: 20px;
+}
+
+#navegador{
+    margin-top: 70px;
+}
