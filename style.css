@@ -15,8 +15,12 @@ body{
   height: 100px;
 }
 
-article{
+#relato{
   margin-top: 100px;
+}
+
+#licoes{
+  margin-top: 20px;
 }
 
 #licoes_aprendidas{
