@@ -14,19 +14,18 @@ body {
   font-family: fantasy;
 }
 
-
 #titulo {
   color: rgb(253, 251, 251);
 }
 
 #minha_foto {
   float: left;
-  margin-left: 20px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .aprendizado {
-  text-align: justify;
+    margin: 30px;
 }
 
 #navigation-left {
@@ -37,11 +36,12 @@ body {
 
 #navigation-right {
   float: right;
-  right: 30%;
   background-color: hsl(148, 76%, 92%);
 }
 
 .sidebar {
+  float: right;
+  clear: both;  
   font-size: 13px;
 
 }
@@ -61,7 +61,10 @@ body {
 }
 
 .content {
- top: 50px;
+ margin-top: 50px;
+ margin-right: 5px;
+ margin-left: 5px;
+
 }
 
 ul {
