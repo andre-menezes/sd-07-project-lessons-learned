@@ -1,28 +1,28 @@
-p{
+p {
   font-size: 1em;
 }
 
-h6{
+h6 {
   font-size: 0.6em;
 }
 
-h5{
+h5 {
   font-size: 0.8 em;
 }
 
-h4{
+h4 {
   font-size: 1.2em;
 }
 
-h3{
+h3 {
   font-size: 1.5em;
 }
 
-h2{
+h2 {
   font-size: 2em;
 }
 
-h1{
+h1 {
   font-size: 4em;
 }
 
@@ -35,11 +35,12 @@ header {
   color: white;
   text-align: center;
 }
+
 header h1 {
   font-size: 1.5em;
 }
 
-nav ul{
+nav ul {
   display: inline-block;
   width: 70%;
   padding-left: 0;
@@ -47,14 +48,14 @@ nav ul{
   text-align-last: justify;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   background-color: rgb(19 , 36 , 139);
   padding: 7px;
   border-radius: 10px;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
 }
