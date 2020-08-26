@@ -5,7 +5,7 @@ body{
 
 
 #cabecalho {
-     background-color: rgb(15, 163, 107);
+     background: rgb(15, 163, 107);
      position: fixed;
      top: 0px;
      left: 0px;
