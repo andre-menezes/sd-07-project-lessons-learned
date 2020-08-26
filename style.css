@@ -1,7 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'sans-serif';
     color: rgb(33, 33, 33);
+    line-height: 25px;
 }
 
 a {
@@ -18,8 +19,8 @@ a:hover {
 #cabecalho {
     position: fixed;
     width: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background-color: rgb(102, 191, 191);
 }
 
@@ -45,8 +46,8 @@ a:hover {
     list-style-type: none;
 }
 
-#social-links {
-    padding: 10px;
+.social-links {
+    line-height: 10px;
 
 }
 
@@ -77,4 +78,8 @@ a:hover {
 
 #h3-skills {
     clear: both;
+}
+
+#readme {
+    font-size: 250px;
 }
