@@ -1,16 +1,24 @@
 body {
+    position: relative;
+    top: 200px;
     background-color: rgb(253, 251, 251);
 }
 
 .page-header {
     position: fixed;
     top: 0px;
+    background-color: saddlebrown;
+    padding: 50px;
+    width: 100%;
+}
+
+.navegacao {
+    background-color: white;
 }
 
 .aprendizado {
     display: inline-block;
     padding: 20px 0px;
-    background-color: saddlebrown;
 }
 
 .lado-esquerdo {
