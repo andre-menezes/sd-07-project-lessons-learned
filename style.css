@@ -21,3 +21,7 @@ body{  /*primeiro requisito*/
     top: 150px;
     color: rgb(10, 10, 10);
 }
+footer{
+    position: absolute;
+    color: rgb(10, 10, 10);
+}
