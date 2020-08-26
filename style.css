@@ -37,3 +37,8 @@ article{
     font-size: 12px;
     bottom: 0px;
 }
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
