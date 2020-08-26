@@ -12,16 +12,20 @@ body {
     color: rgb(253, 251, 251);
 }
 #minha_foto {
-    margin: 75px;
-    border-radius: 50% 50%;
     
+    margin: 80px 0 0 530px;
+    border-radius: 50% 50%;
+   
 }
 #licoes_aprendidas {
     margin-left: 10px;
     padding-left: 10px;
+    display: inline-block;
+    
 
 }
 #licoes_a_aprender {
+
 
 }
 #rodape {
@@ -51,6 +55,12 @@ body {
 .lado-direito {
     float: left;
     display: inline-block;
+    margin-right: 30px;
     width: 400px;
 
+}
+.nova_parte {
+    float: left;
+    display: inline-block;
+    width: 400px;
 }
