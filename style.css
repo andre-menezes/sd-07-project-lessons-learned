@@ -1,7 +1,7 @@
-*{
+body{  /*primeiro requisito*/
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho{ /*segundo requisito*/
     position: fixed;
     top: 0px;
     background-color: rgb(151, 27, 27);
@@ -9,9 +9,15 @@
     margin: auto;
 }
 
-#minha_foto{
+#minha_foto{ /*terceiro requisito*/
     position: relative;
     top: 100px;
     width: 100px;
     border-radius: 20%;
+}
+
+.listas{
+    position: relative;
+    top: 150px;
+    color: rgb(10, 10, 10);
 }
