@@ -8,9 +8,21 @@ header {
     position: fixed;
     top: 0px;
     width: 100%;
-
+    height: 90px;
     text-align: center;
     background-color: burlywood;
+}
+
+nav {
+    margin: 0;
+    background-color: rosybrown;
+    font-size: 1.5em;
+}
+
+nav li {
+    list-style: none;
+    background-color: aqua;
+    display: inline-block;
 }
 /*---------------------*/
 
@@ -31,7 +43,7 @@ header {
 /*---------------------*/
 
 /*------Lições---------*/
-.licoes {
+#licoes {
     padding: 15px;
     background-color: grey;
 }
@@ -42,7 +54,7 @@ header {
 /*---------------------*/
 
 /*------Content--------*/
-.container {
+#container {
     background-color: rosybrown;
     text-align: center;
 }
@@ -50,14 +62,14 @@ header {
 /*------Artigo---------*/
 article {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     padding: 15px;
     background-color: palegreen;
 }
 /*------Passagem-------*/
-.passagem {
+aside {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     padding: 15px;
     background-color: palegreen;
 }
