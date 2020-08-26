@@ -1,21 +1,23 @@
 body {
-    background-color: rgb(253,251,251); 
+    background-color:rgb(253,251,251); 
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
     left: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     width: 100%;
-    background-color: rgb(5, 177, 62);
+    background-color:rgb(236, 143, 224);
+    font-family: 'Epilogue', sans-serif;
 }
 
 #titulo {
     text-align: center;
+    font-size: 48px;
 }
 
-.navigation ul{
+.navigation ul {
     text-align: center;
 }
 
@@ -24,9 +26,47 @@ body {
     list-style: none;
 }
 
+.main {
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
 #minha_foto {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 50px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 70%;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.lado-direito{
+    float: right;
+    width: 15%;
+    margin: 10px;
+    border: 5px inset;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 40px;
+}
+
+table {
+    margin: 10px;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(190, 57, 243)
+}
+
+.link {
+    clear: both;
+    font-family: 'Roboto', sans-serif;
 }
 
 #rodape {
