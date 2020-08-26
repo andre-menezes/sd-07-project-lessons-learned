@@ -20,3 +20,17 @@ table, tr, td {
 img {
     margin-top: 100px;
 }
+
+.lado-direito {
+    float: right;
+    margin-left: -500px;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin-right: 0px;
+}
+
+aside {
+    margin-top: 450px;
+}
