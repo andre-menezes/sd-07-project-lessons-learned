@@ -36,10 +36,21 @@ body {
 
 .unordenate-list{
     display: inline-block;
+    margin-right: 30px;
+}
+
+.github-link {
+    display: inline-block;
+}
+
+.github-link a {
+    background-color: rgb((54, 54, 54));
+    padding-top: 20px;
 }
 
 #rodape{
     background-color: rgb(28, 28, 28);
+    margin-top: 250px;
     text-align: center;
     padding: 10px;
 }
