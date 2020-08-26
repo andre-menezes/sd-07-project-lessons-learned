@@ -1,5 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-size: 2em;
+    color: rgb(255, 1, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2em;
 }
 .cabecalho {
     position: fixed;
