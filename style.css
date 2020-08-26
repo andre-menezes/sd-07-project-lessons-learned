@@ -16,7 +16,7 @@ body{
 }
 
 #minha-foto{
-    margin-top: 30%;
+    top: 10%;
     position: relative;
 
 }
@@ -29,4 +29,13 @@ body{
     background-color: green;
     position: botton;
     color:white;
+}
+
+#tabela-leo{
+    margin-bottom: 10px;
+}
+
+#artigo1_leo{
+
+    margin-bottom: 20px;
 }
