@@ -5,9 +5,26 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  margin-bottom: 50px;
 }
 
-#minha_foto{
-  width: 300px;
-  margin-top: 30px;
+#minha_foto {
+  position: relative;
+  width: 250px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: inline-block;
+  width: 48%;
+  height: auto;
+  border: 1px solid #000;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.info article {
+  border: 1px solid #000;
+
 }
