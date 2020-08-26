@@ -6,7 +6,9 @@ header {
     top: 0px;
 }
 #minha_foto {
-    position: absolute;
-    top:80px;
     width: 200px;
+}
+section {
+    position: absolute;
+    top: 100px;
 }
