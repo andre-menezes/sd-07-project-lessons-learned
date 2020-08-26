@@ -7,10 +7,17 @@ body{
     top: 0px;
 }
 
+#titulo{
+    background-color: rgb(29,133,62);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
 img{
     margin-top: 20px;
 }
 
 #navegador{
-    margin-top: 70px;
+    margin-top: 130px;
 }
