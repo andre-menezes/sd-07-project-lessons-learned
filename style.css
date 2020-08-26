@@ -5,9 +5,12 @@ body {
 
 .topnav {
     background-color: rgb(191, 23, 54);
-    padding: 8px;
     position: relative;
+    padding: 8px;
     top: 0px;
+    left: 0px;
+    right: 0px;
+
 }
 
 .h1style {
