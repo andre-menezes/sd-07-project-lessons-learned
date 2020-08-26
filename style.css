@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
+    margin:0px;
 }
 
 .header{
@@ -11,4 +12,13 @@ body{
 
 .header h1{
     text-align: center;
+}
+
+.section{
+    margin-top:100px;
+    text-align: center;
+}
+
+.section img{
+    width: 300px;
 }
