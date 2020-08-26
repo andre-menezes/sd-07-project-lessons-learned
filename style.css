@@ -1,7 +1,31 @@
 body{
     background-color: rgb(253, 251,251); 
+    height: 100%;
+ 
 }
 
 #cabecalho{
-    position: top 0px;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    padding: 0.5%;
+    font-family: monospace;
+    text-align: center;
+    background-color: green;
+    position: fixed;
+}
+
+#minha-foto{
+    margin-top: 100px;
+
+}
+
+#rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: green;
+    position: botton;
+    color:white;
 }
