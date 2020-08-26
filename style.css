@@ -7,10 +7,28 @@ body {
     top: 0px;
     background-color: rgb(21, 50, 74);
     color: white;
-    
+    font-size: 20px;
+    font-family: fantasy;
+
 
 }
 
 #minha_foto {
    margin-top: 100px;
 }
+
+#secao_aprendizado {
+    line-height: normal;
+    font-size: 18px;
+}
+
+ul {
+    line-height: normal;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+a {
+    text-decoration: none;
+}
+
