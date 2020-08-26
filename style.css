@@ -36,3 +36,10 @@ header {
     display: inline-block;
 }
 /*---------------------*/
+
+/*------Rodapé---------*/
+footer {
+    padding: 15px;
+    background-color: rgb(97, 83, 83);
+}
+/*---------------------*/
