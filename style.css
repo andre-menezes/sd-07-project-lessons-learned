@@ -7,7 +7,18 @@ body {
     top: 0px;
 }
 
-aside {
+.aprendizado {
+    display: inline-block;
+    padding: 20px 0px;
+    background-color: saddlebrown;
+}
+
+.lado-esquerdo {
+    width: 55%;
+    float: left;
+}
+
+.lado-direito {
     width: 40%;
     padding-left: .5rem;
     margin-left: .5rem;
