@@ -1,6 +1,20 @@
 body{
     background-color:rgb(253, 251, 251);
     scroll-behavior: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.myArticle{
+    position: absolute;
+    top: 220px;
+    float: right;
+    left: 260px;
+    font-size: 18px;
+}
+.asideSection{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    font-size: 18px;
 }
 #cabecalho {
     background-color: rgb(11, 116, 67);
@@ -11,12 +25,11 @@ body{
     right: 0px;
     height: 120px;
   }
-/* h3{
-    position: absolute;
-    border:0;
-    border-top: 1px solid rgb(14, 13, 13);
-    top:970px;
-} */
+
+  .trybe{
+      color: rgb(6, 90, 6);
+  }
+
   h4{
       position: absolute;
       margin-top:340px;
@@ -46,7 +59,7 @@ body{
 
   #rodape img{
       margin-bottom: 20px;
-      margin-top: 20px;
+      margin-top: 100px;
       display: inline-block;
       position: relative;
       padding: 100px;
@@ -56,17 +69,17 @@ body{
   }
   .css {
       position: absolute;
-      top:970px;
+      top:1050px;
       left: 187px;
      
   }
   .git{
     position: absolute;
-    top:970px;
+    top:1050px;
     left: 587px;
   }
   .js{
     position: absolute;
-    top:970px;
+    top:1050px;
     left: 977px;
   }
