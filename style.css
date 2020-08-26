@@ -1,13 +1,99 @@
-body {
-  background-color: rgb(253 , 251 , 251);
-  margin-top: 90px;
+p{
+  font-size: 1em;
+}
+
+h6{
+  font-size: 0.6em;
+}
+
+h5{
+  font-size: 0.8 em;
+}
+
+h4{
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h1{
+  font-size: 4em;
 }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 125;
   background-color: rgb(0 , 16 , 95);
   color: white;
   text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  width: 70%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align-last: justify;
+}
+
+nav ul li{
+  display: inline-block;
+  background-color: rgb(19 , 36 , 139);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+  margin-top: 125px;
+}
+
+section {
+  background-color: rgb(223 , 223 , 223);
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
+  text-align-last: center;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 20px;
+}
+
+section h2 {
+  letter-spacing: 10px;
+}
+
+section ol {
+  padding: 20px 30px;
+  text-align-last: left;
+  display: inline-block;
+  box-shadow: 3px 2px 5px 1px;
+  width: 30%;
+  border-radius: 15px;
+  letter-spacing: 0;
+}
+
+section ul {
+  padding: 20px 30px;
+  text-align-last: left;
+  display: inline-block;
+  width: 30%;
+  box-shadow: 3px 2px 5px 1px;
+  border-radius: 15px;
+  letter-spacing: 0;
 }
