@@ -4,13 +4,25 @@ body {
 
 #cabecalho {
     position:fixed;
-    top: 0;
+    top: 0px;
+    right: 0px;
+    left: 0px;
     background-color: rgb(42, 110, 39);
-    width: 100%;
+    width: 1366px;
+    height: 90px;
+    border: 3px solid black;
 }
 
 #titulo {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
+}
+
+#minha_foto {
+    width: 200px;
+    position: absolute;
+    top: 98px;
+    display: block;
+    
 }
