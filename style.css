@@ -37,22 +37,34 @@ body {
 h1{
 
     font-size: 25px;
+    color: darkblue;
 
 }
 h3{
 
     font-size: 18px;
+    color: darkblue;
 
 }
 
 .lado-esquerdo{
     display: inline-block;
     width: 500px;
-    
+    height: 200px;
+    line-height: 1.5em;
+    text-align: justify;
+
 }
-    
- 
+     
 .lado-direito{
     display: inline-block;
     width: 500px;
+    height: 200px;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-left: 20px;
+  
 }
+
+
+
