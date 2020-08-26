@@ -55,12 +55,12 @@ header nav ul li a:defined{
 .minha_aprendizagem {
     color: rgb(17, 16, 16);
 }
-.minha_aprendizagem article{
+.minha_aprendizagem .lado-esquerdo{
     width: 70%;
     background: rgb(185, 221, 226);
     float: left;
 }
-.minha_aprendizagem aside {
+.minha_aprendizagem .lado-direito {
     float: right;
     width: 30%;
     background: rgb(217, 231, 179);
