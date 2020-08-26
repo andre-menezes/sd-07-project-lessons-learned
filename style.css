@@ -29,14 +29,14 @@ body{
     font-family: sans-serif;
 }
 
-#artigo{
+#lado-esquerdo{
     /* background-color: chartreuse; */
     width: 60%;
     display:inline-block;
     border-right-style: dotted;
 }
 
-#secao-do-artigo{
+#lado-direito{
     /* background-color: brown; */
     width: 20%;
     display:inline-block;
