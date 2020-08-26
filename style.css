@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 120px;
 }
 
 #cabecalho {
@@ -12,6 +13,7 @@ body {
 
 #titulo {
     color: #2c2c2c;
+    font-weight: bold;
 }
 
 #minha_foto {
