@@ -74,17 +74,18 @@ body{
     text-align: center;
 }
 
-.article{
+.lado-esquerdo{
     padding-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 15px;
     line-height: 20px;
     display: inline-block;
     max-width:40%;
     text-align: center;
 }
 
-.aside{
+.lado-direito{
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
