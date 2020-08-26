@@ -17,8 +17,12 @@ body {
 }
 
 nav ul li{
-  display:inline-block
+  display:inline-block;
 
+}
+
+.lessons {
+  display: inline-block;
 }
 
 #minha_foto{
@@ -30,4 +34,12 @@ nav ul li{
 
 #titulo {
   color: white;
+}
+
+#licoes_aprendidas {
+  display: inline-block
+}
+
+#licoes_a_aprender {
+  display: inline-block  
 }
