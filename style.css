@@ -1,0 +1,39 @@
+body
+{
+
+    background-color: rgb(253, 251, 251) ;
+    margin : 0px ;
+
+}
+#cabecalho
+{   
+
+    padding-top: 0px ;
+
+}
+
+#cabecalho #titulo, p
+{
+
+
+}
+#titulo{}
+#minha_foto
+{
+   
+
+    width : 10% ;
+
+}   
+#menu
+{
+
+    
+
+}
+#licoesAprendidas{}
+#licoes_aprendidas{}
+#licoes_a_aprender{}
+#licoesAAprender{}
+#links{}
+#logoGithub{}
