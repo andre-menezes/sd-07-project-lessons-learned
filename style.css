@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(253,251,251);
+    background-color: rgb(253 , 251 , 251);
     margin: 0px;
 }
 
 #cabecalho{
     position: fixed;
     top: 0px;
-    background-color: #417cc0;
+    background-color: darkcyan;
     height: 230px;
     width: 100%;
     padding-top: 20px;
@@ -26,6 +26,25 @@ body{
     margin: 280px 100px;
 }
 
-#rodape{
+#codar{
+    font-weight: 600;
+    color: #28a745;
+    font-style: italic;
+}
 
+#rodape{
+    background-color: darkcyan;
+    height: 40px;
+}
+
+#rodape h4{
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#trybe{
+    font-family: 'Verdana', sans-serif;
+    font-weight: 1000;
+    color: #28a745;
 }
