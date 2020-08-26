@@ -90,3 +90,55 @@ nav a {
     top: -76px;
 }
 
+/*---------------- REDES SOCIAIS -------------------*/
+#target3{
+    position: absolute;
+    z-index: 1;
+    top: 1100px;
+}
+.redes_sociais{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    margin: 40px;
+}
+a {
+    color: black;
+    margin-right: 35px;
+    width: 97px;
+    height: 97px;
+}
+.a_1{
+    display: inline-block;
+    background-image: url(icons8-github-96.png);
+}
+.a_2{
+    display: inline-block;
+    background-image: url(icons8-instagram-96.png);
+}
+.a_3{
+    display: inline-block;
+    background-image: url(icons8-linkedin-circled-96.png);
+}
+
+/*---------------- CONTEÚDO DEV -------------------*/
+
+.conteudo_dev_box{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top: -122px;
+}
+#conteudo_dev {
+    position: relative;
+    left: 120px;
+    text-align: left;
+    line-height: 25px;
+}
+
+/*---------------- FOOTER -------------------*/
+
+footer {
+    text-align: center;
+}
