@@ -58,7 +58,6 @@ main {
 main section {
     display: flex;
     padding: 15px 30px;
-    align-items: center;
     justify-content: space-around;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -89,9 +88,13 @@ main section div.profile em {
     margin-bottom: 15px;
 }
 
-main section div h2.title {
+.title {
     color: rgb(15, 163, 107);
     margin-bottom: 10px;
+}
+
+main section div h2.title {
+    margin-top: 30px;
 }
 
 main section div li {
