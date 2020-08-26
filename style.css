@@ -35,17 +35,17 @@ nav {
     border-right: 3px solid #cb997e;
 }
 
-.secao2 {
+.lado-esquerdo {
     text-align: justify;
     line-height: 1.5em;
 }
 
-.secao1 {
+.lado-direito {
     float: right;
     width: 25%;
     text-align: justify;
     margin: 0 0 0 10px;
-    border: 3px double pink;
+    border: 3px double #cb997e;
     padding: 10px;
 }
 
