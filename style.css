@@ -10,9 +10,10 @@ body{
     background-color: #3C887E;
 }
 
-.article{
+.section-main{
     padding: 10px;
 }
+
 .header h1{
     text-align: center;
 }
@@ -24,4 +25,19 @@ body{
 
 .section-img img{
     width: 300px;
+}
+
+.section-lessons{
+    margin-top: 30px;
+}
+
+.footer{
+    font-weight: bold;
+    font-style: italic;
+    padding:5px;  
+}
+
+.footer .section-links img{
+    width: 60px;
+    display: inline-block;
 }
