@@ -17,4 +17,10 @@ header {
   display: inline-block;
   width: 30%;
   vertical align: middle;
-} 
+}
+#titulo{
+  text-align: center;
+}
+nav a {
+  margin-right: 100px;
+}
