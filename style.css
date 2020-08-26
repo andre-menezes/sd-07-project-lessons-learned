@@ -7,7 +7,7 @@ body {
     position: fixed;
     background-color: rgb(49, 224, 49);
     width: 100%;
-    height: 55px;
+    height: 50px;
     top: 0px;
 }
 #titulo {
@@ -18,13 +18,26 @@ body {
     text-align: center;
     font-size: 45px;
 }
+nav {
+    background-color: rgb(36, 167, 36);
+    margin-top: 50px;
+    height: 25px;
+    width: 100%;
+    display:flex;
+}
+nav a {
+margin-left: 20px;
+margin-top: 5px;
+}
 #sobre_mim {
     margin-top: 100px;
     margin-left: 50px;
+    line-height: 25px;
 }
 #minha_foto {
     height: 200px;
 }
 #sobre_mim a {
     font-size:20px;
+    margin-left: 20px;
 }
