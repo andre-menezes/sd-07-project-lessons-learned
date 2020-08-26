@@ -36,8 +36,8 @@ header p,header h1{
 .head_fix{
     margin: 160px 0px 0px 0px;
 }
-#licoes_a_aprender{
-
+.botton_fix{
+    bottom: 532px;
 }
 .center_article{
     margin:auto;
@@ -48,11 +48,12 @@ header p,header h1{
     float:right;
 }
 .right_container{
-    width: 150px;
+    width: 180px;
     display: inline-block;
     margin: 25px;
 }
 aside.aside_1{
     width: 150px;
     float: right;
+    margin:0px 65px;
 }
