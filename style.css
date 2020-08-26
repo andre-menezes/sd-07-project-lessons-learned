@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   line-height: 1.6;
 }
 
@@ -18,14 +18,14 @@ header h1 {
 }
 
 .desempenho {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   margin: 5px;
   border: 1px darkseagreen solid;
   padding: 5px;
   text-align: right;
   font-weight: 600;
   font-size: 10px;
-  color: rgb(50, 50, 50);
+  color: rgb(50 , 50 , 50);
 }
 
 .resultado {
@@ -64,6 +64,7 @@ footer {
   bottom: 0;
   font-size: 12px;
 }
+
 footer p a {
   color: whitesmoke;
 }
@@ -74,6 +75,7 @@ header nav a {
   color: whitesmoke;
   font-weight: 600;
 }
+
 header nav a:hover {
   color: blue;
 }
