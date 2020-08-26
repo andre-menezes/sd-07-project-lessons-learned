@@ -12,7 +12,14 @@ body {
   padding-top: 20px;
   color: whitesmoke;
   font-family: Verdana, sans-serif;
+  font-size: 20px;
   text-align: left;
+}
+
+#cabecalho h2 {
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
 }
 
 .cabecalho-item {
@@ -22,13 +29,17 @@ body {
   margin-left: 50px;
 }
 
+.cabecalho-item img {
+  border-radius: 20%;
+}
+
 #corpo {
   margin: 280px 100px;
 }
 
 #codar {
   font-weight: 600;
-  color:rgb(41 , 173 , 41);
+  color: rgb(41 , 173 , 41);
   font-style: italic;
 }
 
@@ -36,12 +47,14 @@ body {
   float: right;
   width: 25%;
   text-align: justify;
+  line-height: 1.5em;
 }
 
 .lado-esquerdo {
   float: left;
   width: 70%;
   text-align: justify;
+  line-height: 1.5em;
 }
 
 #nav {
@@ -61,9 +74,9 @@ body {
 }
 
 #nav li a:hover {
-    color: black;
-    text-decoration: none;
-  }
+  color: black;
+  text-decoration: none;
+ }
 
 #rodape {
   background-color: darkcyan;
