@@ -4,7 +4,6 @@ body{
 
 #cabecalho{
     top: 0px;
-    clear: both;
 }
 
 #titulo{
@@ -17,6 +16,7 @@ border:1px solid #070303;
 width: 95%;
 display: inline-block;
 background-color: rgb(173, 222, 255);
+margin-top: 0px;
 }
 
 #menu li{
@@ -34,11 +34,6 @@ border-right:1px solid #070303;
 #menu li a:hover{
 background:#333;
 color:#fff;
-}
-
-header{userphoto
-    clear: both;
-    margin-top: 50px;
 }
 
 #minha_foto{
@@ -59,16 +54,28 @@ header{userphoto
     border: 10px groove #3322ffee;
 }
 
+.artigo section{
+    display: inline-block;
+}
+
+.artigo section h3{
+    color: #3322ff;
+}
+
 .artigo{
-    width: 200px;
+    width: 100%px;
     text-align: center;
 }
 
-.artigo ol li{
+.artigo li{
     margin: 5px;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas, #licoes_a_aprender{
     text-align: center;
     margin: 20px;
+}
+
+.artigo ol, .artigo ul{
+    display: inline-block;
 }
