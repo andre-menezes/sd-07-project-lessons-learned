@@ -84,6 +84,7 @@ body {
 
 .blocos_tabela {
     text-align: center;
+    margin: auto;
 }
 
 .blocos_tabela th {
@@ -96,4 +97,5 @@ body {
 
 #rodape {
     text-align: center;
+    margin: 30px 0;
 }
