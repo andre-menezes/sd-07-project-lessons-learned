@@ -2,5 +2,11 @@
     background: green;
     text-align: center;
     color: black;
+    top: 0px;
     padding: 10px;
+}
+.minha_foto
+{
+    position: absolute;
+    float: center;
 }
