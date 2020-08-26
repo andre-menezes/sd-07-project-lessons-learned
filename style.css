@@ -1,64 +1,64 @@
 
-#cabecalho{
+#cabecalho {
     text-align: center;
     top: 0px;
-    background-color:#7CFADB;
+    background-color:hsl(165, 93%, 73%);
     padding: 10px;
 }
 
-body{
+body {
     background-color: rgb(253, 251, 251);
     font-family: fantasy;
 }
 
 
-#titulo{
+#titulo {
     color: rgb(253, 251, 251);
 }
 
-#minha_foto{
+#minha_foto {
     float: left;
     margin-left: 20px;
     margin-right: 15px;
 }
-.aprendizado{
+
+.aprendizado {
     text-align: justify;
 
 }
 
-.navigation{
+.navigation {
     left: 70%;
     background-color: rgb(253, 251, 251);
 
 }
 
-.sidebar{
+.sidebar {
     right: 30%;
     font-size: 13px;
     margin-top: 55px;
     margin-right: 3px;
     margin-left: 5px;
-    
 }
 
-.aprendidas{
-    float: left;
-    margin: 35px;
-
-}
-
-.a_aprendi{
+.aprendidas {
     float: left;
     margin: 35px;
 }
 
-.content{
+.a_aprendi {
+    float: left;
+    margin: 35px;
+}
+
+.content {
     clear: both;
 
 }
 
-#rodape{
-    background-color:#7CFADB;
+#rodape {
+    clear: both;
+    background-color:hsl(165, 93%, 73%);
     margin-top: 10px;
     padding: 10px;
 }
