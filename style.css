@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 #cabecalho {
@@ -52,7 +53,7 @@ body {
 }
 
 #listas_a_aprender{
-    width: 210px;
+    width: 230px;
     position: absolute;
     left: 900px;
     top: 300px
@@ -78,4 +79,14 @@ main ul, main li, main ol {
     float: right;
     font-style: italic;
     background-color: lightblue;
+}
+
+#tabela {
+    position: absolute;
+    left: 800px;
+    bottom: -168px;
+}
+
+td, tr, th {
+    border: 1px solid black;
 }
