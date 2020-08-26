@@ -33,3 +33,11 @@
     z-index: 2;
 }
 
+article {
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
