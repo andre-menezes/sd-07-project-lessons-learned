@@ -69,23 +69,23 @@ body{
     height: 200px;
     text-align: center;
 }
- .menu-rodape ul li img {
+.menu-rodape ul li img {
     width: 25px;
 }
- .menu-rodape ul{
+.menu-rodape ul{
      list-style: none;
 }
- .menu-rodape ul li{
+.menu-rodape ul li{
      padding: 10px;
      height: 25px;
      width: 100px;
      display: inline-block;
 }
- .menu-rodape ul li a{
+.menu-rodape ul li a{
      line-height: 25px;
      text-decoration:none ;
      color: #f2f2f2;
 }
- .menu-rodape ul li:hover{
+.menu-rodape ul li:hover{
      background-color: rgba(27, 11, 247, 0.5);
 }
