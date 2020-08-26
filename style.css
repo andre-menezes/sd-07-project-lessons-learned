@@ -105,8 +105,10 @@ body {
 #rodape {
     margin-top: 120px;
     font-family: sans-serif;
+    opacity: 30%;
 }
 
-#rodape a {
-    margin-left: 100px
+th{
+    display: inline-block;
+    margin-left: 600px;
 }
