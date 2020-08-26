@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,9 @@ header{
     height: 15%;
     text-align: center;
     padding: 20px;
+}
+h1{
+    font-family: 'Londrina Solid', cursive; 
 }
 nav {
     text-align: left;
@@ -53,4 +58,33 @@ table {
     margin-left: 100px;
     height: 200px;
     width: 400px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 45%;
+    margin-left: 40px;
+   
+}
+article {
+    text-align: justify;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.lado-direito {
+    display:block;
+    float: right;
+    width: 50%;
+}
+
+footer {
+    clear: both;
+    
+    
+}
+footer p {
+    padding-top: 50px;
+    text-align: center;
 }
