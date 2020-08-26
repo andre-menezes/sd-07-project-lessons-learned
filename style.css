@@ -1,6 +1,5 @@
 
 #cabecalho{
-
     text-align: center;
     top: 0px;
     background-color:#7CFADB;
@@ -17,24 +16,13 @@ body{
     color: rgb(253, 251, 251);
 }
 
-.aprendidas{
-    float: left;
-    margin: 35px;
-
-}
-
-.a_aprendi{
-    float: left;
-    margin: 35px;
-}
-
 #minha_foto{
     float: left;
     margin-left: 20px;
     margin-right: 15px;
 }
 .aprendizado{
-    text-justify: auto;
+    text-align: justify;
 
 }
 
@@ -49,7 +37,18 @@ body{
     margin-top: 55px;
     margin-right: 3px;
     margin-left: 5px;
+    
+}
 
+.aprendidas{
+    float: left;
+    margin: 35px;
+
+}
+
+.a_aprendi{
+    float: left;
+    margin: 35px;
 }
 
 .content{
