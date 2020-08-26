@@ -4,10 +4,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.page-header {
+#cabecalho {
   position: fixed;
   top: 0px;
   background-color: rgb(0, 159, 253);
+  margin: 0px;
+  border: solid 10px rgb(42, 42, 114);
   padding: 50px;
   width: 100%;
 }
@@ -16,15 +18,17 @@ body {
   background-color: white;
 }
 
-img {
+#minha_foto {
   display: block;
+  margin: 0px 0px;
+  border-radius: 50%;
 }
 
-ol,
-ul {
+.aprendido,
+.aprender {
   display: inline-block;
   width: 30%;
-  background-color: yellow;
+  background-color: rgb(255, 164, 0);
 }
 
 .aprendizado {
@@ -37,6 +41,7 @@ ul {
 }
 
 .lado-direito {
+  margin: 0px 10px;
   width: 40%;
   padding-left: 0.5rem;
   margin-left: 0.5rem;
