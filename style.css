@@ -1,26 +1,30 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
+
 header {
   position: fixed; /* seta posição fixa */
-  top: 0px;          /* distancia */
+  top: 0;        /* distancia */
   width: 100%;
   background-color: rgb(240, 240, 200);
-  border-bottom: 2px groove rgb(120, 120, 120);
+  border-bottom: 2px groove rgb(120 , 120 , 120);
 }
+
 .foto {
   width: 20%;
   margin-top: 140px;
   margin-right: 10%;
 }
+
 .listas {
   display: inline-block;
   width: 30%;
-  vertical align: middle;
 }
-#titulo{
+
+#titulo {
   text-align: center;
 }
+
 nav a {
   margin-right: 100px;
 }
