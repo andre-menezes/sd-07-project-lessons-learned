@@ -20,3 +20,26 @@ body {
   background-color: green;
 
 }
+.aprendizado {
+  border: 1px dashed black;
+  margin: 10px 10px;
+  padding: 10px 10px;
+
+}
+
+.lado-direito {
+  background-color: red;
+  float: right;
+  width: 40%;
+}
+.lado-esquerdo {
+  background-color:black;
+  float: left;
+  width: 50%;
+}
+
+#rodape {
+
+  clear: both;
+}
+
