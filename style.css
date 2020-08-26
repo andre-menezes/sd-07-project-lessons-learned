@@ -103,8 +103,9 @@ color:#fff;
     margin-right: 20px;
 }
 
-#estudo{
+.estudo p{
     text-align: justify;
+    font-weight: 15px;
 }
 
 aside{
