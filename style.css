@@ -3,12 +3,23 @@ body {
     margin: 0;
 }
 
-/*------cabeçalho------*/
+/*------Cabeçalho------*/
 header {
-    position: absolute;
+    position: fixed;
     top: 0px;
     width: 100%;
-    text-align: center;
 
+    text-align: center;
     background-color: burlywood;
+}
+/*---------------------*/
+
+/*------Minha-Foto-----*/
+.perfil {
+    margin-top: 80px;
+    background-color: cadetblue;
+}
+
+#minha_foto {
+    margin: 15px;
 }
