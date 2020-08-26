@@ -6,3 +6,9 @@ header {
     position: fixed;
     top: 0px;
 }
+
+img {
+    margin: 20px ;
+    padding: 10px;
+    border-radius: 50%;
+}
