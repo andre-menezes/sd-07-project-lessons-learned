@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-body{
+body {
     background: rgb(253, 251, 251);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
-    width: 100%;
-}
+    width: 100%; }
 
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
-    margin: auto;
-}
+    margin: auto; }
 
 /* header */
 .barra{
