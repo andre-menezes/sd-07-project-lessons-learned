@@ -1,9 +1,9 @@
-body {
-    background-color: rgb(253, 251, 251);
+body{
+    background-color: rgb(253,251,251);
     margin: 0px;
 }
 
-#cabecalho {
+#cabecalho{
     position: fixed;
     top: 0px;
     background-color: #417cc0;
@@ -11,17 +11,21 @@ body {
     width: 100%;
     padding-top: 20px;
     color: whitesmoke;
-    font-family: "Verdana", sans-serif;
+    font-family: 'Verdana', sans-serif;
     text-align: left;
 }
 
-.cabecalho-item {
+.cabecalho-item{
     display: inline-block;
     vertical-align: middle;
     width: 35%;
     margin-left: 50px;
 }
 
-#corpo {
+#corpo{
     margin: 280px 100px;
+}
+
+#rodape{
+
 }
