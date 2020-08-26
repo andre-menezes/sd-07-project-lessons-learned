@@ -17,6 +17,6 @@ border: 15px solid green;
 padding: 50px;
 margin: 20px;}
 
-.lado-esquerdo{float:left; color: blueviolet;}
+.lado-esquerdo{float:left; color: blueviolet; width: 50%; position: relative;}
 
-.lado-direito{float:right; color: blue;}
+.lado-direito{float:right; color: blue;  width: 50%; position: relative;}
