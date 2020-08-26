@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-header {
+#cabecalho {
     color: white;
     background-color: rgb(32, 32, 44);
     padding: 48px;
@@ -18,7 +18,8 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-footer {
+#rodape {
+    margin-top: 100px;
     color: white;
     padding: 48px;
     background-color: rgb(32, 32, 44);
@@ -30,6 +31,7 @@ footer {
     position: relative;
     border-radius: 200px;
     margin: 20px;
+    margin-top: 150px;
     border: 15px solid black;
 }
 
@@ -39,16 +41,16 @@ footer {
 
 #listas_aprendidas {
     width: 200px;
-    position: relative;
-    top: -400px;
+    position: absolute;
     left: 600px;
+    top: 300px
 }
 
 #listas_a_aprender{
     width: 210px;
-    position: relative;
-    top: -625px;
+    position: absolute;
     left: 900px;
+    top: 300px
 }
 
 ul,li {
