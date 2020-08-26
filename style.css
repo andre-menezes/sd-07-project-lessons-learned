@@ -6,4 +6,44 @@ body{
     height: 150px;
     color: brown;
     background-color: burlywood;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#titulo{
+    position: relative;
+}
+#minha_foto{
+    height: 150px;
+    position: relative;
+    float: left;
+}
+ul{
+    columns: 2;
+    width: 300px;
+}
+
+
+#listas{
+    left: 0px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+h3{
+    text-align: center;
+}
+#principal{
+    padding-top: 50px;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#rodape{
+    height: 150px;
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
