@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-color: rgb(32, 32, 44);
+    padding: 48px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    color: black;
+    background-color: rgb(253, 251, 251);
+}
+
+footer {
+    color: white;
+    padding: 48px;
+    background-color: rgb(32, 32, 44);
+}
+
+#minha_foto {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 200px;
+    margin: 20px;
+    border: 15px solid black;
+}
+
+#meu_nome {
+    margin-left: 70px;
+}
+
+#listas_aprendidas {
+    width: 200px;
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+
+#listas_a_aprender{
+    width: 210px;
+    position: relative;
+    top: -625px;
+    left: 900px;
+}
+
+ul,li {
+    border: 1px solid black;
+}
