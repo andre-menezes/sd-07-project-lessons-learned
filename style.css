@@ -2,21 +2,42 @@ body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .header-style {
     width: 100%;
     height: 150px;
-    border: 1px solid black;
     background-color: rgb(15, 163, 107);
     top: 0px;
 }
 
 .header-title {
-    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 24pt;
-    margin: 0;
-    padding: 0;
-    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 50pt;
+    margin-top: 0;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.profile {
+    width: 100%;
+    height: 335px;
+    background-color: rgb(204, 226, 218);
+    text-align: center;
+}
+
+.profile img {
+    
+    margin: 20px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px dashed rgb(0, 0, 0);
+}
+
+.profile h3 {
+    font-size: 40pt;
+    margin-left: 20px;
+    margin-top: 0;
 }
