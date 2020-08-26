@@ -11,3 +11,7 @@ body {
 #minha_foto {
     width: 400px;
 }
+
+.link {
+    text-decoration: none;
+}
