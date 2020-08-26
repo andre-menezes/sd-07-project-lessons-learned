@@ -1,16 +1,12 @@
 /*Projeto 1*/
 
 #cabecalho {
-    /*position: absolute;*/
+    position: relative;
     top: 0px;
     left: 50px;
     right: 50px;
     background: black;
     
-}
-
-#minha_foto {
-    width: 200px;
 }
 
 #titulo{
@@ -20,5 +16,12 @@
 .body {
     color: blue;
     background: rgb(253, 251, 251);
-    margin: 35px;
+    /*margin: 35px;*/
 }
+
+#minha_foto {
+    width: 200px;
+}
+
+
+
