@@ -6,3 +6,13 @@ body {
     position: fixed;
     top: 0px;
 }
+
+table, tr, td {
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+img {
+    margin-top: 100px;
+}
