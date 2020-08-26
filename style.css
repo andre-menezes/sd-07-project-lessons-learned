@@ -20,3 +20,24 @@ body {
 .font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.listas {
+    display: inline-block;
+    color: rgb(253, 251, 251);
+    text-align-last: left;
+    font-size: 15pt;
+    }
+
+#licoes_a_aprender {
+    position: relative;
+    padding: 30px;
+    padding: 10px 425px 10px 90px;
+    background-color: rgb(20, 85, 217);
+}
+
+#licoes_aprendidas {
+    position: relative;
+    padding: 30px;
+    padding: 10px 80px 10px 425px;
+    background-color: rgb(20, 85, 217);
+}
