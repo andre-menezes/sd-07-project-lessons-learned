@@ -1,0 +1,18 @@
+body {
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    background-color:green;
+}   
+
+#licoes_aprendidas{
+    list-style-type: decimal;
+}
