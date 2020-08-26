@@ -57,6 +57,7 @@ body{
 
 .section-img img{
     width: 300px;
+    border-radius: 100%;
 }
 
 .table{
