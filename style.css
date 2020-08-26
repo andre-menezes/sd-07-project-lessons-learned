@@ -2,7 +2,6 @@
 #cabecalho{
     text-align: center;
     top: 0px;
-    display: block;
     background-color:#7CFADB;
     padding: 10px;
 }
@@ -13,7 +12,6 @@ body{
 
 
 #titulo{
-    display: inline-block;
     color: rgb(253, 251, 251) ;
 }
 
