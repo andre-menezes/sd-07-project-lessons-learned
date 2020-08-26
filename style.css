@@ -1,12 +1,17 @@
 *{
     background-color: rgb(253, 251, 251);
 }
-.cabecalho{
-        position: fixed;
-        top: 0px;
-        background-color: rgb(151, 27, 27);
-        color: rgb(10, 10, 10);
-        margin: auto;
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    background-color: rgb(151, 27, 27);
+    color: rgb(10, 10, 10);
+    margin: auto;
+}
 
-
+#minha_foto{
+    position: relative;
+    top: 100px;
+    width: 100px;
+    border-radius: 20%;
 }
