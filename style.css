@@ -2,19 +2,28 @@
 body{
     background: rgb(253, 251, 251);
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* header */
 header{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     text-align: center;
     background: rgb(16, 51, 48);
-    color: white;
+    color: whitesmoke;
 }
-
 header nav {
     width: 100%;
     text-align: start;
@@ -38,5 +47,23 @@ header nav ul li a:hover{
 header nav ul li a:checked,
 header nav ul li a:active,
 header nav ul li a:defined{
-    color: white;
+    color: whitesmoke;
 }
+/* header end */
+
+/* .minha_aprendizagem */
+.minha_aprendizagem {
+    color: rgb(17, 16, 16);
+}
+.minha_aprendizagem article{
+    width: 70%;
+    background: rgb(185, 221, 226);
+}
+.minha_aprendizagem .minha_aprendizagem_header {
+    text-align: center;
+}
+.minha_aprendizagem .minha_aprendizagem_header img {
+    width: min(10vw, 15vh);
+    border-radius: 50%;
+}
+/* .minha_aprendizagem end */
