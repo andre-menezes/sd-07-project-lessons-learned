@@ -10,15 +10,18 @@ body{
     background-color: #3C887E;
 }
 
+.article{
+    padding: 10px;
+}
 .header h1{
     text-align: center;
 }
 
-.section{
+.section-img{
     margin-top:100px;
     text-align: center;
 }
 
-.section img{
+.section-img img{
     width: 300px;
 }
