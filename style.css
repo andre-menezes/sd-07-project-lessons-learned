@@ -27,8 +27,12 @@ header {
 /*---------------------*/
 
 /*------Lições---------*/
-#licoes_aprendidas {
+.licoes {
     padding: 15px;
+    background-color: grey;
+}
+#licoes_aprendidas, #licoes_a_aprender {
     background-color: green;
+    display: inline-block;
 }
 /*---------------------*/
