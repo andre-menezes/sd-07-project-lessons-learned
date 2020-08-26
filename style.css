@@ -21,7 +21,7 @@ body {
 header#cabecalho{
     position: relative;/*requesito 2*/
     top: 0; /*requesito 2*/
-
+    background-color:  rgb(253, 251, 251);
     border: 2px solid black;
 }
 
