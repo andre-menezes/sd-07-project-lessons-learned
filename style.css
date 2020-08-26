@@ -46,3 +46,20 @@ body {
         border-radius: 3%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
 }
+.artigo h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.artigo p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+.nota {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    background-color: rgb(173, 216, 230);
+    display: block;
+    float: right;
+    width: 30%;
+    padding: 26px;
+}
