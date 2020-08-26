@@ -58,6 +58,12 @@ header nav ul li a:defined{
 .minha_aprendizagem article{
     width: 70%;
     background: rgb(185, 221, 226);
+    float: left;
+}
+.minha_aprendizagem aside {
+    float: left;
+    width: 30%;
+    background: rgb(217, 231, 179);
 }
 .minha_aprendizagem .minha_aprendizagem_header {
     text-align: center;
@@ -67,3 +73,6 @@ header nav ul li a:defined{
     border-radius: 50%;
 }
 /* .minha_aprendizagem end */
+footer{
+    clear: both;
+}
