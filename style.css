@@ -1,13 +1,17 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+        background-color: rgb(253 , 251 , 251);
 }
-header{
-    position: fixed;
-    top: 0px;
+
+header {
+        position: fixed;
+        top: 0px;
 }
-aside .lateral{
-    float: right;
+
+aside.lateral {
+        float: right;
+        background-color: red;
 }
-table, th, td{
-    border: 1px solid black;
+
+table , th , td {
+        border: 1px solid black;
 }
