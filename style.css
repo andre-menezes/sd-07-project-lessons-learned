@@ -19,7 +19,29 @@ p{
 
   background-color: rgb(246, 174, 45);
   width: 100%;
-  height: 100px;
+
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#cabecalho h1{
+  text-align: center;
+}
+
+#cabegalho nav{
+  text-align: center;
+}
+
+#cabecalho ul li{
+    display: inline-block;
+    background-color: rgb(93, 87, 107);
+    padding: .5rem;
+}
+
+#cabecalho a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 #relato{
