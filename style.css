@@ -16,11 +16,21 @@ body {
 .header-style h1{
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 50pt;
+    font-size: 30pt;
     margin-top: 0;
-    padding-top: 20px;
+    padding-left: 200px;
+    padding-top: 45px;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    float: left;
+}
+.header-style a {
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    margin-right: 40px;
+    padding-top: 45px;
 }
 
 .profile {
