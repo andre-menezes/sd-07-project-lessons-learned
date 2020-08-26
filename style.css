@@ -17,12 +17,13 @@ body{
     height: 150px;;
 }
 #rodape{
-    position: fixed;
+    position: relative;
     bottom:0px;
     left:0px;
+    right: 0px;
     background-color: rgb(12, 161, 62);
     border: 3px dashed darkgreen;
-    width: 1330px;
+    width: 1336px;
     color:white;
     height: 40px;
     text-align: center;
@@ -56,4 +57,7 @@ aside.aside_1{
     width: 150px;
     float: right;
     margin:0px 65px;
+}
+.sample_text{
+    border: 2px solid white;
 }
