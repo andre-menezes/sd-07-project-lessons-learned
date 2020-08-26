@@ -40,6 +40,16 @@ table, th, td{
     border: 1px solid black;    
 }
 
-.lado-direito {
-    
+.lado-esquerdo {
+    margin-left: 10px;
+    width: 45%;
+}
+
+.lado-direito {    
+    margin-left: 20px;
+    width: 45%;
+}
+
+#rodape {
+    text-align: center;
 }
