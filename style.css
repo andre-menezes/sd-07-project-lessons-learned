@@ -72,12 +72,14 @@ body {
     display: inline-block;
     width: 40%;
     padding: 4.9%;
+    vertical-align: middle;
 }
 
 .licoes_a_aprender , .lado-direito {
     display: inline-block;
     width: 40%;
     padding: 4.9%;
+    vertical-align: middle;
 }
 
 .blocos_tabela {
