@@ -1,8 +1,47 @@
 body    {
     background-color: rgb(253, 251, 251);
+    margin-top: 150px;
+    font-family: 'Raleway', sans-serif;
 }
 
 header  {
     top: 0px;
     background-color: green;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#listas {
+    padding: 5px;
+    margin: 5px;
+}
+
+article {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+aside   {
+    width: 40%;
+    float: right;
+}
+
+footer  {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    clear: both;
+}
+
+#aprendizados   {
+    display: inline-block;
+    padding: 15px;
+}
+
+#imagem {
+    display: inline-block;
+    padding-top: 10px;
 }
