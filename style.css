@@ -1,5 +1,7 @@
 body {
   margin: 150px auto 0 auto;
+  background-color: rgb(253, 251, 251);
+
 }
 
 header#cabecalho {
@@ -15,6 +17,6 @@ header#cabecalho h1#titulo {
   text-align: center;
 }
 
-div#corpo {
+/* div#corpo {
   background-color: rgb(253, 251, 251);
-}
+} */
