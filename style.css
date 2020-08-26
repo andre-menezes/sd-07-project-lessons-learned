@@ -22,10 +22,11 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: blueviolet;
+  background-color: rgb(131, 226, 43);
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+  font-size: 10px;
 
 
 
@@ -72,7 +73,7 @@ main div {
 
 img {
 
-  margin-top: 30px;
+  margin-top: 40px;
   width: 200px;
   border-radius: 50%;
   border: 7px solid green;
@@ -130,6 +131,7 @@ img {
   margin: 0 auto;
   text-align: center;
   padding: 60px 0;
+  background-color: brown;
 }
 
 .experiencias h1 {
@@ -143,4 +145,15 @@ img {
   margin: 0 auto;
   background-color: blue;
 
+}
+
+#rodape {
+  text-align: center;
+  padding: 20px 0;
+  background-color: aquamarine;
+}
+
+#rodape div {
+  max-width: 1170px;
+  margin: 0 auto;
 }
