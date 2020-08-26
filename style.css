@@ -11,8 +11,24 @@ header#cabecalho {
   position: fixed;
   top: 0px;
 
-  background-color: green;
+  background-color: #3babfd;
+
+  text-align: center;
+}
+
+header#cabecalho nav ul li {
+  display: inline;
+  list-style: none;
+  margin: 10px 30px;
+  padding: 7px;
+  background-color: rgb(2, 48, 2);
+  border-radius: 5px;
+}
+
+header#cabecalho nav ul a {
+  text-decoration: none;
   color: white;
+  font-weight: 600;
 }
 
 div.cabecalho {
@@ -22,7 +38,8 @@ div.cabecalho {
 }
 
 header#cabecalho h1#titulo {
-  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
 }
 
 section#geral ol,
@@ -32,26 +49,65 @@ section#geral ul {
 
 div#corpo {
   width: 90%;
-  background-color: pink;
   margin: auto;
-  padding: 5px 30px;  
+  padding: 5px 30px;
+}
+
+section#geral {
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: #6dc1ff;
+}
+
+section#geral img#minha_foto {
+  width: 90%;
+}
+
+section#principal {
+  padding: 0 20px;
 }
 
 section.lado-esquerdo {
+  width: 46.5%;
   float: left;
-  border: 1px solid green;
+  text-align: justify;
+  background-color: #b2ddff;
+}
+
+section.lado-esquerdo caption {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+section.lado-esquerdo table {
+  border: 1px solid black;
+  border-spacing: 0px;
+}
+
+section.lado-esquerdo table th,
+section.lado-esquerdo table td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+section.lado-direito {
+  float: right;
+  width: 25%;
+  background-color: #6dc1ff;
+}
+
+section.lado-direito aside {
+  padding: 10px;
+  text-align: center;
 }
 
 footer#rodape {
+  clear: both;
   text-align: center;
-  border: 1px solid red;
 }
 
 footer#rodape a {
   text-decoration: none;
   color: green;
 }
-
-/* div#corpo {
-  background-color: rgb(253, 251, 251);
-} */
