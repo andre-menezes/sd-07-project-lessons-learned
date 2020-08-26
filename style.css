@@ -23,7 +23,7 @@ body {
     margin: -20px auto 0px auto;
 }
 
-header#cabecalho {
+#cabecalho {
     position: fixed;/* requesito 2 */
     top: 0px; /* requesito 2 */
     background-color: blue;
@@ -32,18 +32,18 @@ header#cabecalho {
     width: 880px;
 }
 
-header#cabecalho h1, h2 {
+#cabecalho h1, h2 {
     font-family: 'Exo 2', sans-serif;
     margin: 0px;
     padding: 0px;
     line-height: 2pt;
 }
 
-header#cabecalho a {
+#cabecalho a {
     float: right;
 }
 
-img#minha_foto {
+#minha_foto {
     margin-top: 80px;
 }
 
@@ -74,7 +74,7 @@ p {
     margin-top: 250px;
 }
 
-footer#rodape {
+#rodape {
     display: inline-block;
     width: 900px;
     text-align: center;
@@ -82,7 +82,7 @@ footer#rodape {
     border-top: 1px solid black;
 }
 
-footer#rodape p {
+#rodape p {
     font-size: 10pt;
     margin: 0;
     padding: 0;
