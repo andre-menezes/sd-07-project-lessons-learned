@@ -2,9 +2,25 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
-    top: 0px;
-    position: fixed;
+#cabecalho {
+    top: 0px;   
+    background-color: cornflowerblue;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#cabecalho li{    
+    display: inline;
+    margin-right: 10px;
+}
+
+
+#titulo {
+    text-align: center;
+    padding-top: 30px;
 }
 
 #minha_foto {
