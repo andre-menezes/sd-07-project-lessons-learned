@@ -35,6 +35,18 @@ nav ul a:hover{
   padding: 10px;
 }
 
+img {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgb(35, 133, 31);
+  float: left;
+}
+
+img:hover{
+  background-color: rgb(68, 231, 62);
+}
+
 nav li{
   display: inline-block;
   margin: 2px 20px;
@@ -53,13 +65,57 @@ p{
   color: darkslategrey;
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  border: 1px solid blue;
+}
+
+.meandlist{
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.aprendizado {
+  position: relative;
+  float: right;
+  width: 70%;
+  top: 10px;
+  background-color: rgb(35, 133, 31);
+  padding: 20px
+}
+
+.licoes_a_aprender {
+  position: relative;
+  float: right;
+  right: 30%;
+  width: 15%;
+  background-color: rgb(68, 231, 62);
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.licoes_aprendidas {
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 15%;
+  background-color: rgb(68, 231, 62);
+  padding: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
 .main{
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .content{
+  position: relative;
   width: 100%;
-  margin: 1px;
 }
 
 .lado-esquerdo {
