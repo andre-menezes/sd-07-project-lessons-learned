@@ -41,8 +41,23 @@ header {
 }
 /*---------------------*/
 
+/*------Content--------*/
+.container {
+    background-color: rosybrown;
+    text-align: center;
+}
+
 /*------Artigo---------*/
 article {
+    display: inline-block;
+    width: 40%;
+    padding: 15px;
+    background-color: palegreen;
+}
+/*------Passagem-------*/
+.passagem {
+    display: inline-block;
+    width: 40%;
     padding: 15px;
     background-color: palegreen;
 }
