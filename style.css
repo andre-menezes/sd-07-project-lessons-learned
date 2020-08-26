@@ -43,16 +43,20 @@ nav a {
 
 .lado-esquerdo {
     width: 40%;
-    margin-top: 146px;
     text-align: justify;
+    margin-top: 150px;
     display: inline-block;
-    padding: 20px 30px;  
+    padding-left: 30px;  
+    padding-right: 30px;  
+    vertical-align: top;
 }
 
 .lado-direito {
     width: 40%;
-    margin-top: 146px;
+    margin-top: 150px;
     display: inline-block;
+    padding-left: 30px;  
+    padding-right: 30px;  
 }
 
 article p {
