@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    background: rgb(253, 251, 251);
-    font-family: 'Roboto', sans-serif;
+    background: rgb(253 , 251 , 251);
+    font-family: Roboto, sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    background: rgb(16, 51, 48);
+    background: rgb(16 , 51 , 48);
     color: whitesmoke; }
 
 .barra nav {
@@ -43,28 +43,28 @@ body {
     border-radius: 5px; }
 
 .barra nav ul li a:hover {
-    border: 1px solid black; }
+    border: 1px solid rgb(0 , 0 , 0); }
 
 .barra nav ul li a:checked,
 .barra nav ul li a:active,
 .barra nav ul li a:defined {
-    color: whitesmoke; }
+    color: rgb(245 , 245 , 245); }
 
 /* .barra end */
 
 /* .minha_aprendizagem */
 .minha_aprendizagem {
-    color: rgb(17, 16, 16); }
+    color: rgb(17 , 16 , 16); }
 
-.minha_aprendizagem .lado-esquerdo{
+.minha_aprendizagem .lado-esquerdo {
     width: 70%;
-    background: rgb(185, 221, 226);
+    background: rgb(185 , 221 , 226);
     float: left; }
 
 .minha_aprendizagem .lado-direito {
     float: right;
     width: 30%;
-    background: rgb(217, 231, 179); }
+    background: rgb(217 , 231 , 179); }
 
 .minha_aprendizagem .minha_aprendizagem_header {
     text-align: center; }
