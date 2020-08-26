@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Raleway', sans-serif;
 }
 
 #cabecalho {
@@ -32,7 +35,17 @@ nav li {
 #minha_foto {
   width: 10em;
   border: 2px dashed blue;
-  /* float: left; */
+  margin-left: 4em;
+}
+
+.lessons-learned {
+  float: left;
+  width: 30%;
+}
+
+.lessons-to-learn {
+  float: right;
+  width: 50%;
 }
 
 .licoes_aprendidas {
@@ -40,6 +53,25 @@ nav li {
   clear: both;
 }
 
+.learning {
+  float: left;
+  width: 40%;
+  margin-right: 5em;
+  margin-left: 3em;
+}
+
+.about-learning {
+  float: right;
+  width: 40%;
+  margin-left: 5em;
+  margin-right: 3em;
+}
+
+.external-link {
+  clear: both;
+}
+
 footer {
+  clear: both;
   background-color: #00e600;
 }
