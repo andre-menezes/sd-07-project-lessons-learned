@@ -17,19 +17,17 @@ body{
     height: 150px;
     position: relative;
     float: left;
+    margin: 15px;
 }
 ul{
     columns: 2;
     width: 300px;
 }
 
-
 #listas{
     left: 0px;
     height: 300px;
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    
+    width: 400px;
 }
 h3{
     text-align: center;
@@ -40,6 +38,9 @@ h3{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+}
+#artigo{
+    margin: 15px;
 }
 #rodape{
     height: 150px;
