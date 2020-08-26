@@ -4,13 +4,14 @@ body{
 header{
     background-color: rgb(33, 33, 77);
     color: rgb(253,251,251);
-    font: normal 40pt Arial;
+    font: normal 20pt Arial;
     margin: 0;
     padding: 2% 2% 2% 2%;
     position: fixed;
     top: 0px;
 }
-#myphoto{
+#minha-foto{ 
+    width: 20%;
     padding-left: 6%;
     padding-top: 15%;   
 }
