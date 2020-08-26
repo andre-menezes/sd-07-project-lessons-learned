@@ -1,23 +1,52 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
+  max-width: auto;
   background-color: rgb(253,251,251);
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
 #cabecalho {
-  /* display: flex; */
-  object-position: fixed;
-  margin-top: 0px;
-  padding: 8px;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  right:0;
+  left: 0;
+  max-width: auto;
   background-color: rgb(0,109,119);
-  color: rgb(255,255,255);
 }
 
 #titulo {
   text-align: center;
+  color: rgb(255,255,255);
+  padding: 10px;
+  font-size: 35px;
+}
+
+.navigation {
+  background-color: cornflowerblue;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.navigation a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font: bolder;
+  font-size: larger;
+  padding: 3px;
+}
+
+::content{
+  margin-top: 30px;
+  padding: 50px;
+}
+
+img {
+  margin: 20px;
 }
