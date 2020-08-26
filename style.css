@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -11,6 +12,7 @@ body {
     text-align: center;
 }
 
-#foto {
+#minha_foto {
+    margin-top: 100px;
     width: 150px;
 }
