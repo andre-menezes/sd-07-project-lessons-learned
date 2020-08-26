@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 5rem;
+  border-bottom: 1px solid #ccc;
+}
+#titulo {
+  color: #fff;
+  line-height: 5rem;
+  text-align: center;
+}
