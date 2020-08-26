@@ -1,0 +1,7 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(236, 120, 11);
+    font-size: 1.2rem; /*tamanho das letras*/
+    line-height: 1.6em; /*interlineado*/
+    margin: 0;
+}
