@@ -15,3 +15,8 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#minha_foto {
+    margin-top: 81px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
