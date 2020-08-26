@@ -8,3 +8,10 @@ header{
   width: 100%;
   text-align: center;
 }
+
+td{
+  border-color: black;
+  padding: 3px;
+  margin: 1px;
+  border: 1px solid black;
+}
