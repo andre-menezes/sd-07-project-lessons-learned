@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
@@ -61,7 +61,7 @@ body {
   width: 100%;
   padding: 15px;
   margin-top: 15px;
-  border: double #82d4bb;
+  border: double rgb(130 , 212 , 187);
   border-radius: 10%;
 }
 
