@@ -52,3 +52,25 @@ h2 {
 #licoes_a_aprender {
   display: inline-block;
 }
+
+.lado-direito {
+  margin-top:113px;
+  margin-right:250px;
+  float: right;
+  width: 13%;
+  background-color: rgb(31, 124, 22);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 325px;
+  background-color: rgb(31, 124, 22);
+  border-radius:5px;
+  padding: 10px;
+  text-align:center
+}
