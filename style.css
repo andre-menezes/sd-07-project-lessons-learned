@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
@@ -16,11 +16,10 @@ body {
   right: 0;
   left: 0;
   height: 5rem;
-  border-bottom: 1px solid #ccc;
 }
 
 #titulo {
-  color: #fff;
+  color: white;
   line-height: 5rem;
   text-align: center;
   font-family: -apple-system, Roboto, sans-serif;
