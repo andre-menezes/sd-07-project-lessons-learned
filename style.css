@@ -1,3 +1,19 @@
+
 body{
     background-color:rgb(253,251,251);
+}
+.cabecalho{
+    background-color:rgb(100,95,102);
+}
+
+.minha_foto{
+    width:200px;
+}
+
+.artigo{
+    margin-right: 6px;
+}
+
+.aside{
+    margin-right: 6px;
 }
