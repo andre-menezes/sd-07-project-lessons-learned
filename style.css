@@ -44,6 +44,7 @@ body {
 #minha_foto {
     margin-top: 100px;
     border-radius: 50%;
+    border: 3px solid rgb(15, 163, 107);
 }
 
 .lado-esquerdo {
