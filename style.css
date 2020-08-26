@@ -25,9 +25,42 @@ body{
     text-align: center;
     padding-top:25px;
 }
+
+
+#cabecalho a{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    size:20px;
+    text-decoration: none;
+    display:block;
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    padding-top:6px;
+}
+#cabecalho a:hover{
+    background-color: rgb(255, 100, 100);
+    color:rgb(79, 79, 79);
+}
 #minha_foto{
     width: 200px;
     position:absolute;
     top:101px;
     left: 30px;
+}
+.mylink{
+    width: 200px;
+    position:absolute;
+    top:250px;
+    left: 30px;
+    display:block;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    size:20px;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    padding-top:3px;
 }
