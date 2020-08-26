@@ -4,6 +4,13 @@
   border: 0;
 }
 
+.conteiner::after,
+.conteiner::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 
