@@ -4,6 +4,11 @@ body {
 #cabecalho {
     top: 0px;
     background-color: aqua;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: block;
 }
 #titulo {
     text-align: center;
