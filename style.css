@@ -19,7 +19,6 @@ body{
 #cabecalho {
     background-color: rgb(11, 116, 67);
     position: fixed;
-    border-color: brown;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -36,7 +35,7 @@ body{
       margin-top:340px;
       margin-left:10px;
   }
-  .titulo{
+  #titulo{
       text-align: center;
       color: cornsilk;
   }
