@@ -1,18 +1,22 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 #cabecalho {
   text-align: center;
   top: 0px;
-  background-color:hsl(165, 93%, 73%);
+  background-color: hsl(165, 93%, 73%);
   padding: 10px;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb( 253, 251, 251 );
   font-family: fantasy;
 }
 
 
 #titulo {
-  color: rgb(253, 251, 251);
+  color: rgb( 253, 251, 251 );
 }
 
 #minha_foto {
@@ -28,14 +32,14 @@ body {
 #navigation-left {
   float: left;
   left: 30%;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb( 253, 251, 251 );
 
 }
 
 #navigation-right {
   float: right;
   right: 30%;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb( 253, 251, 251 );
 }
 
 .sidebar {
@@ -46,8 +50,10 @@ body {
 }
 
 .aprendidas {
+  display: block;
   float: left;
   margin: 35px;
+  width: 60px;
 }
 
 .a_aprendi {
@@ -61,7 +67,7 @@ body {
 
 #rodape {
   clear: both;
-  background-color:hsl(165, 93%, 73%);
+  background-color: hsl(165, 93%, 73%);
   margin-top: 10px;
   padding: 10px;
 }
