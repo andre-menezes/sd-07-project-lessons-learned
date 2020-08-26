@@ -5,4 +5,25 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  height: 40em;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.picture-name {
+  margin-top: 5em;
+}
+
+#minha_foto {
+  width: 10em;
+  border: 2px dashed blue;
+  float: left;
+}
+
+#licoes_aprendidas {
+  margin-top: 13em;
+  clear: both;
 }
