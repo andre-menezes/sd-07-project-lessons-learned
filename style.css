@@ -6,7 +6,7 @@
       text-align: center; 
 
   }
-      .cabecalho {
+      #cabecalho {
           background-color: red;
           position:fixed;
           top:0px;
@@ -14,4 +14,9 @@
           right:0;
           height:75px;
           
+      }
+
+      #minha_foto {
+        width:300px;
+        height:300px ;
       }
