@@ -9,6 +9,7 @@ header {
   width: 100%;
   text-align: center;
   background-color: rgb(5, 85, 2);
+  z-index: 999;
 }
 
 h1, h2 {
@@ -67,8 +68,8 @@ p{
 }
 
 footer {
-  margin: 10px;
-  padding: 0 40%;
+  margin-top: 50px;
+  padding: 10px 40%;
   width: 100%;
   clear: both;
   background-color: rgb(5, 85, 2);
@@ -124,19 +125,31 @@ footer {
 }
 
 .lado-esquerdo {
+  padding: 20px;
   float: left;
   width: 40%;
+  height: 160px;
+  background-color: rgb(216, 216, 216);
+  text-align: justify;
+  border: 1px solid gray;
 }
 
 .lado-direito {
+  padding: 30px;
+  position: relative;
   float: right;
-  right: 40%;
+  right: 5%;
   width:40%;
+  height: 100px;
+  background-color: rgb(216, 216, 216);
+  margin: 1px;
+  text-align: justify;
+  border: 1px solid gray;
 }
 
 .button {
   position: relative;
-  left: 70%;
+  left: 27%;
   bottom: 20px;
   clear: both;
   padding: 10px 20px;
@@ -149,7 +162,7 @@ footer {
   box-shadow: 1px 1px 2px black;
 }
 
-.button:hover{
+.button:hover {
   background-color: rgb(68, 231, 62);
 }
 
