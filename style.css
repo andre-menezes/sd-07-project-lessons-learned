@@ -48,15 +48,38 @@ p{
 }
 
 #relato{
-  margin-top: 110px;
+  margin-top: 115px;
 }
 
-#licoes{
-  margin-top: 20px;
+.licoes{
+  margin: 2rem auto;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas,
+#licoes_a_aprender{
   padding-inline-start: 2rem;
+}
+
+.licoes .lado-esquerdo,
+.licoes .lado-direito{
+  display: inline-block;
+}
+
+.licoes .lado-direito{
+  margin-left: 2rem;
+}
+
+.conteudoFuturo{
+  margin: 2rem auto;
+}
+
+.conteudoFuturo #tabelaConteudo{
+  border-collapse: collapse;
+}
+
+.conteudoFuturo #tabelaConteudo td{
+  border: 1px solid black;
+  padding: .4rem;
 }
 
 #rodape{
