@@ -7,7 +7,15 @@ header {
   width:100%;
   background-color:rgb(240,240,200);
 }
-.foto {
-  width:250px;
-  margin-top:100px;
+ .foto {
+  width:20%;
+  margin-top:140px;
+  margin-right:10%
+ 
 }
+.listas {
+  display:inline-block;
+  width:30%;
+  vertical align:middle;
+} 
+
