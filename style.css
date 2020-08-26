@@ -15,13 +15,13 @@ a {
   color: white;
 }
 
-header#cabecalho {
+#cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 80px;
   background-color: rgb(15 , 163 , 107);
-  padding: 10px 0px;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,7 @@ header#cabecalho {
   border-bottom: 2px solid rgba(0 , 0 , 0 , 0.1);
 }
 
-header#cabecalho h1 {
+#cabecalho h1 {
   line-height: 24pt;
   color: white;
 }
@@ -66,22 +66,22 @@ main section {
   margin-bottom: 15px;
 }
 
-main section div.profile {
+main section .profile {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-main section div.profile img {
+main section .profile img {
   max-width: 300px;
   border-radius: 50%;
 }
 
-main section div.profile h2 {
+main section .profile h2 {
   margin-top: 20px;
 }
 
-main section div.profile em {
+main section .profile em {
   font-size: 16px;
   color: rgb(68 , 68 , 68);
   margin-top: 10px;
@@ -101,13 +101,13 @@ main section div li {
   margin-left: 25px;
 }
 
-main section#experiencia {
+main #experiencia {
   display: flex;
-  gap: 0px 30px;
+  gap: 0 30px;
   padding: 15px 30px;
 }
 
-main section#experiencia article {
+main #experiencia article {
   padding-right: 25px;
   border-right: 1px solid rgba(0 , 0 , 0 , 0.1);
 }
