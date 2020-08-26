@@ -4,7 +4,7 @@ body{
 
 #cabecalho{
     top: 0px;
-    position: fixed;
+    clear: both;
 }
 
 #titulo{
@@ -38,4 +38,15 @@ top:25px;
 left:0;
 background-color:#fff;
 display:none;
+}
+
+header{
+    clear: both;
+    margin-top: 50px;
+}
+
+#userphoto{
+    border-radius: 50%;
+    width: 180px;
+    border: 10px groove #3322ffee;
 }
