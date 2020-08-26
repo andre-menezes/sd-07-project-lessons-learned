@@ -33,6 +33,7 @@ body{
 }
 .barra nav ul li {
     display: inline-block;
+    line-height: 10px;
 }
 .barra nav ul li + li {
     margin-left: 15px;
