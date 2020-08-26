@@ -1,122 +1,122 @@
-body{
-    background-color: rgb(253, 251, 251);
-    margin:0px;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.header{
-    position: fixed;
-    top:0px;
-    width:100%;
-    background-color: #3C887E;
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #3c887e;
 }
 
-.header h1{
-    color:white;
+.header h1 {
+  color: white;
 }
 
-.navigation{
-    padding: 0px; 
+.navigation {
+  padding: 0px;
 }
 
 .navigation ul {
-    background-color: #82D4BB;
-    padding:0px;
-    margin-bottom: 0px;
+  background-color: #82d4bb;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 
-.navigation ul li{
-    display: inline;
-    padding:0px;
-    font-weight: bold; 
+.navigation ul li {
+  display: inline;
+  padding: 0px;
+  font-weight: bold;
 }
 
-.navigation ul li a{
-    color: white;
-    text-decoration: none;   
-    display:inline-block;
-    padding:10px;
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }
 
-.navigation ul li a:hover{
-    background-color: #82AC9F;
+.navigation ul li a:hover {
+  background-color: #82ac9f;
 }
 
-.header h1{
-    text-align: center;
+.header h1 {
+  text-align: center;
 }
 
-.section-main{
-    padding: 15px;
+.section-main {
+  padding: 15px;
 }
 
-.section-img{
-    margin-top:130px;
-    text-align: center;
+.section-img {
+  margin-top: 130px;
+  text-align: center;
 }
 
-.section-img img{
-    width: 300px;
-    border-radius: 100%;
+.section-img img {
+  width: 300px;
+  border-radius: 100%;
 }
 
-.table{
-    width:100%;
-    padding: 15px;
-    margin-top:15px;
-    border: double #82D4BB;
-    border-radius: 10%;
+.table {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border: double #82d4bb;
+  border-radius: 10%;
 }
 
-.section-lessons{
-    margin-top: 30px;
+.section-lessons {
+  margin-top: 30px;
 }
 
-.section-lessons h2{
-    border: solid #3C887E;
-    text-align:center;
+.section-lessons h2 {
+  border: solid #3c887e;
+  text-align: center;
 }
 
-.second-title{
-    margin: 15px;
-    border: solid #3C887E;
-    text-align: center;
+.second-title {
+  margin: 15px;
+  border: solid #3c887e;
+  text-align: center;
 }
 
-.lado-esquerdo{
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    line-height: 20px;
-    display: inline-block;
-    max-width:40%;
-    text-align: center;
+.lado-esquerdo {
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 40%;
+  text-align: center;
 }
 
-.lado-direito{
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    line-height: 20px;
-    display: inline-block;
-    max-width:40%;
-    border: 5px dotted #3C887E;
-    text-align:center;
+.lado-direito {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 40%;
+  border: 5px dotted #3c887e;
+  text-align: center;
 }
 
-.footer{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 13px;
-    padding-left: 8px; 
-    padding-top: 3px;
-    margin-bottom: 8px;
-    margin-top: 50px; 
-    background-color: #E8EDDF;
+.footer {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-top: 3px;
+  margin-bottom: 8px;
+  margin-top: 50px;
+  background-color: #e8eddf;
 }
 
-.footer .section-links img{
-    width: 60px;
-    display: inline-block;
+.footer .section-links img {
+  width: 60px;
+  display: inline-block;
 }
