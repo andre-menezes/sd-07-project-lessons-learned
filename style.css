@@ -3,6 +3,7 @@ html {
 }
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
 }
 header {
     position: fixed;
@@ -38,15 +39,37 @@ h1 a {
     color: #ff9f1c;
 }
 #minha_foto {
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-top: 160px;
+    margin-left: 100px;
     border-radius: 100px;
-    height: 300px;
-}
-ol {
+    height: 250px;
 
 }
+.div_ol {
+    float: right;
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+    top: 30px;
+    margin-top: 150px;
+}
+.div_ul {
+    float: right;
+    position: absolute;
+    left: 900px;
+    top: 179px;
+    bottom: 300px;
+}
+#sobre-meu-aprendizado {
+    clear: right;
+    margin-top: 80px;
+}
+h3 {
+    font-size: 25px;
+}
+
 footer a{
     color: black;
+    clear: both;
 }
 
