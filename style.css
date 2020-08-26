@@ -1,83 +1,79 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
+        background-color: rgb(253 , 251 , 251);
+        margin: 0;
 }
 
 /*------Cabeçalho------*/
+
 header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    background-color: burlywood;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        background-color: rgb(97 , 145 , 105);
 }
 
 nav {
-    margin: 0;
-    background-color: rosybrown;
-    font-size: 1.5em;
+        margin: 0;
+        background-color: rgb(135 , 163 , 137);
+        font-size: 1.5em;
 }
 
 nav li {
-    list-style: none;
-    background-color: aqua;
-    display: inline-block;
+        list-style: none;
+        display: inline-block;
 }
-/*---------------------*/
 
 /*------Minha-Foto-----*/
+
 .perfil {
-    padding: 15px;
-    margin-top: 109px;
-    background-color: cadetblue;
+        padding: 15px;
+        margin-top: 109px;
 }
 
 #minha_foto {
-    margin: 15px;
+        margin: 15px;
 }
 
 .icon-github {
-    height: 50px;
+        height: 50px;
 }
-/*---------------------*/
 
 /*------Lições---------*/
+
 #licoes {
-    padding: 15px;
-    background-color: grey;
+        padding: 15px;
 }
+
 #licoes_aprendidas, #licoes_a_aprender {
-    background-color: green;
-    display: inline-block;
+        display: inline-block;
 }
-/*---------------------*/
 
 /*------Content--------*/
+
 #container {
-    background-color: rosybrown;
-    text-align: center;
+        text-align: center;
 }
 
 /*------Artigo---------*/
+
 article {
-    display: inline-block;
-    width: 50%;
-    padding: 15px;
-    background-color: palegreen;
+        display: inline-block;
+        width: 50%;
+        padding: 15px;
 }
 /*------Passagem-------*/
+
 aside {
-    display: inline-block;
-    width: 30%;
-    padding: 15px;
-    background-color: palegreen;
+        display: inline-block;
+        width: 30%;
+        padding: 15px;
 }
-/*---------------------*/
 
 /*------Rodapé---------*/
+
 footer {
-    padding: 15px;
-    background-color: rgb(97, 83, 83);
+        padding: 15px;
+        background-color: rgb(82, 82, 82);
 }
-/*---------------------*/
