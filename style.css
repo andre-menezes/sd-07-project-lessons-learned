@@ -28,5 +28,21 @@ body{
 #minha_foto {
 
     width: 150px;
+    margin: 1px;
 
+}
+
+#licoes_aprendidas{
+
+    color: royalblue;
+}
+
+#licoes_a_aprender{
+
+    color: royalblue;
+}
+
+#rodape{
+
+    color: seagreen;
 }
