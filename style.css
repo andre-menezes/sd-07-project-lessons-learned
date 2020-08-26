@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: red;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: green;
+  width: 100%;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+#minhas_listas {
+  color: blue;
+  margin: 30px;
+}
