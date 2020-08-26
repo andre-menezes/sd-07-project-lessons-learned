@@ -25,3 +25,9 @@ body{
     text-align: center;
     padding-top:25px;
 }
+#minha_foto{
+    width: 200px;
+    position:absolute;
+    top:101px;
+    left: 30px;
+}
