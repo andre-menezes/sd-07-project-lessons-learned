@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    background: rgb(253 , 251 , 251);
+    background:rgb(253 , 251 , 251);
     font-family: Roboto, sans-serif;
     font-size: 18px;
     margin: 0;
@@ -34,7 +34,7 @@ body {
     display: inline-block;
     line-height: 10px; }
 
-.barra nav ul li + li {
+nav ul li + li {
     margin-left: 15px; }
 
 .barra nav ul li a {
@@ -43,12 +43,10 @@ body {
     border-radius: 5px; }
 
 .barra nav ul li a:hover {
-    border: 1px solid rgb(0 , 0 , 0); }
+    border: 1px solid black; }
 
-.barra nav ul li a:checked,
-.barra nav ul li a:active,
-.barra nav ul li a:defined {
-    color: rgb(245 , 245 , 245); }
+.barra nav ul li a:checked , .barra nav ul li a:active , .barra nav ul li a:defined {
+    color: whitesmoke; }
 
 /* .barra end */
 
@@ -70,7 +68,7 @@ body {
     text-align: center; }
 
 .minha_aprendizagem .minha_aprendizagem_header img {
-    width: min(10vw, 15vh);
+    width: min(10vw , 15vh);
     border-radius: 50%; }
 
 /* .minha_aprendizagem end */
