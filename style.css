@@ -2,10 +2,46 @@ body{
     background-color: rgb(253,251,251);
     width: 1366px;
     height: 768;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 #cabecalho{
         position: fixed;
         top:0;
         left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #284E39;
+        z-index: 10;
+}
+#encontreme{
+    display: block;
+    position: relative;
+    width: 900px;
+    height: 120px;
+    top: 120px;
+    left: 458px;
+    text-align: center;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+    padding: 10spx 20px;
+    border: 2px dotted green;
+    background-color: #D2EAE7;
+    font-size: 30px;
+}
+#minha_foto{
+    position: relative;
+    top: 20px;
+    width: 200px;
+}
+#sobre_mim{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 253px;
 }
