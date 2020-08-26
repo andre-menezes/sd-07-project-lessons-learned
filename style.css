@@ -1,4 +1,7 @@
 body {
+
+  position: fixed;top: 50px;
+
     background-color: rgb(253, 251, 251);
 
     font-size: 15px;
@@ -11,12 +14,12 @@ body {
   }
 #cabecalho {position: fixed;top: 0px}
 
-.boxmodel{
-width: 300px;
-border: 15px solid green;
-padding: 50px;
-margin: 20px;}
+table, th, td {border: 1px solid black;}
 
-.lado-esquerdo{float:left; color: blueviolet; width: 50%; position: relative; margin-left: 175px}
+.boxmodel{
+border: 5px solid green;
+}
+
+.lado-esquerdo{float:left; color: blueviolet; width: 60%; position: relative; margin-left: 175px}
 
 .lado-direito{float:right; color: blue;  width: 20%; position: relative;}
