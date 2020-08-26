@@ -12,9 +12,10 @@ nav {
     margin-top: 80px;
     background-color: beige;
 }
-h3 {
+.links {
     display: inline-block;
     margin-right: 20px;
+    font-size: 15px;
 }
 #minha_foto {
     width: 200px;
