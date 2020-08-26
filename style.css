@@ -13,7 +13,7 @@
     padding: 18px;
 }
 
-li {
+#menu ul li {
     display:inline;
     padding: 18px;
     color: white;
@@ -22,4 +22,9 @@ li {
 #titulo {
     float: left;
 }
+
+#licoes_a_aprender {
+    color: black;
+}
+
 
