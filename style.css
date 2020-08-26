@@ -7,14 +7,18 @@ body {
     background-color: #3A4069;
     margin-bottom: 80px;
     padding: 20px;
-    top:0px;
     font-family: Courier, "Lucida Console", monospace; 
     color:#DD696D;
-    
+    margin: 0;
+    width: 100%;
+   
+    top: 0;
+
+        
 }
 
 #titulo{
-    top:0px;
+    display:block;
     margin-bottom: 0px;
     text-align: center;
     font-family: Courier, "Lucida Console", monospace; 
@@ -45,4 +49,9 @@ body {
 
 #div_img{
     padding: 20px;
+}
+
+#rodape{
+    padding: 20px;
+    
 }
