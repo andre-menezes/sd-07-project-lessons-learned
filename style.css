@@ -10,11 +10,12 @@ body {
 }
 
 #cabecalho {
-  text-align: center;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+
 }
 
 #titulo {
-  position: fixed;
+  text-align: center;
 
 }
