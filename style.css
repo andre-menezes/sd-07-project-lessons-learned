@@ -7,4 +7,6 @@ body {
 }
 article {
     margin: 40px 0;
+    padding: 1px;
+    border: 1px solid black;
 }
