@@ -1,7 +1,7 @@
 body {
-  font-family: Alata , monospace, sans-serif;
-  background-color: rgb(253 , 251 , 251);
-  color: rgb(31 , 31 , 31);
+  font-family: Alata, monospace, sans-serif;
+  background-color: rgb(253, 251, 251);
+  color: rgb(31, 31, 31);
   font-style: italic;
   line-height: 23px;
 }
@@ -10,8 +10,21 @@ p {
   font-size: 15px;
 }
 
-h1 , h2 , h3 {
-  font-family: Lato , monospace;
+nav a:visited {
+  color: yellow;
+}
+nav a:link {
+  color: white;
+}
+
+#titulo {
+  color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Lato, monospace;
   font-style: normal;
 }
 
@@ -23,7 +36,23 @@ footer {
   text-align: center;
 }
 
+.first {
+  margin-top: 100px;
+}
+
+.fill-in {
+  background-color: blueviolet;
+}
+
+#cabecalho {
+  display: block;
+}
+
 header {
+  margin: 0;
+  padding: 40px;
+  width: 100%;
+  background-color: blueviolet;
   position: fixed;
   top: 0;
 }
@@ -40,7 +69,7 @@ article {
 
 aside {
   float: right;
-  background-color: rgb(131 , 131 , 131);
+  background-color: rgb(131, 131, 131);
   width: 20%;
 }
 
@@ -50,6 +79,8 @@ img {
   border: 3px solid white;
 }
 
-table , th , td {
+table,
+th,
+td {
   border: 1px solid black;
 }
