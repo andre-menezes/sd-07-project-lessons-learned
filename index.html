@@ -9,7 +9,7 @@
   <body>
     <!-- Trecho sobre navbar retirado do site: https://www.w3schools.com/howto/howto_css_fixed_menu.asp -->
     <header id="cabecalho" class="navbar">
-      <h1>Lições aprendidas - Trybe</h1>
+      <h1 id="titulo">Lições aprendidas - Trybe</h1>
       <nav>
         <a href="./index.html">Home</a>
         <a href="https://app.betrybe.com/" target="_blank">Login trybe</a>
@@ -22,9 +22,12 @@
       </div>
       <em>Pablo Pessanha</em>
       <div class="lessons">
-        <div id="licoes_aprendidas" class="box">
-          <ul class="learned">
-            <h2>O que já aprendi:</h2>
+        <div class="titles_lessons">
+          <h2>O que já aprendi:</h2>
+          <h2>O que irei aprender:</h2>
+        </div>
+        <div class="box">
+          <ol class="learned" id="licoes_aprendidas">
             <li>Como criar um Linkedin;</li>
             <li>Como fazer um portfolio;</li>
             <li>Configurar Terminal</li>
@@ -38,11 +41,10 @@
             </li>
             <li>Síntaxe HTML e CSS;</li>
             <li>Como fazer um site básico(como este) com HTML e CSS</li>
-          </ul>
+          </ol>
         </div>
-        <div id="licoes_a_aprender" class="box">
-          <ul class="learning">
-            <h2>O que irei aprender;</h2>
+        <div class="box">
+          <ul class="learning" id="licoes_a_aprender">
             <li>Páginas responsivas;</li>
             <li>Javascript;</li>
             <li>Banco de dados, SQL e NoSql;</li>
@@ -56,9 +58,40 @@
           </ul>
         </div>
       </div>
+      <div class="article">
+        <section>
+          <article class="about">
+            <h2>Sobre o meu aprendizado</h2>
+            <em>
+              "Nunca pensei que tantas coisas fossem capazes de acontecer em tão
+              pouco tempo!"
+            </em>
+            <br />
+            <h4>O que aconteceu nesse meio tempo?</h4>
+            <p>
+              Desde quando era pequeno, sempre tive aptidão em quaisquer meio
+              tecnólogico, sempre usei bastante computador, videogame e celular,
+              conheci a programação na minha adolescencia, mas achava algo vago
+              e pouco proporcional, com o tempo, descobri que as coisas não eram
+              bem assim e agora estou desbravando esse mundo incrivel na Trybe!
+            </p>
+          </article>
+        </section>
+        <section>
+          <aside>
+            <h4>Git e Github</h4>
+            <em>"Uma das coisas mais legais que aprendi!"</em>
+            <p>
+              Sem dúvidas, uma das coisas mais legais que tive o prazer de
+              aprender, foi sobre o serviço Git de versionamento de código, até
+              o momento, acho bem legal e divertido mexer nele!
+            </p>
+          </aside>
+        </section>
+      </div>
     </div>
     <footer id="rodape">
-      <p>todos os direitos reservadors</p>
+      <p>Pablo Pessanha - Trybe / Turma 7</p>
     </footer>
   </body>
 </html>

@@ -7,6 +7,7 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 /*=== HEADER ===*/
 header {
   top: 0;
@@ -44,21 +45,6 @@ nav {
 }
 
 /*=== CONTENT ===*/
-.content {
-  text-align: center;
-}
-.box {
-  display: inline-block;
-  padding: 30px;
-}
-
-.box h2 {
-  text-align: center;
-  padding-bottom: 10px;
-}
-.box li {
-  padding-top: 5px;
-}
 .image-content img {
   display: block;
   margin: 120px auto 10px auto;
@@ -66,22 +52,77 @@ nav {
   height: auto;
   border-radius: 100%;
 }
+.content {
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  padding: 30px;
+}
 .lessons {
   padding-left: 20px;
   text-align: left;
 }
-
-.learned li {
+.titles_lessons h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.titles_lessons h2 + h2 {
+  padding-left: 500px;
+}
+.box li {
+  padding-top: 5px;
+}
+.learning li {
   list-style-type: square;
 }
+/*=== ARTICLE ===*/
+article {
+  padding-left: 20px;
+  text-align: left;
+}
+.about h2 {
+  padding-top: 15;
+  padding-bottom: 5px;
+}
+.about h4 {
+  font-weight: 600;
+  padding-top: 10px;
+}
 
+.about p {
+  width: 50%;
+  padding-top: 5px;
+  font-weight: 300;
+}
+/*=== ASIDE ===*/
+aside {
+  padding-left: 20px;
+  text-align: left;
+}
+aside h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+aside p {
+  padding-top: 10px;
+  font-weight: 300;
+  width: 50%;
+}
 /*=== FOOTER ===*/
 footer {
   text-align: center;
   background-color: rgb(19, 19, 19);
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   padding: 20px;
   position: relative;
-  margin-top: 45px;
+  margin-top: 20px;
+}
+footer p {
+  color: #0fa36b;
 }
