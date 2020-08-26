@@ -2,3 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     width: 100%;
 }
+
+#cabecalho {
+    border-top: 0px;
+}
