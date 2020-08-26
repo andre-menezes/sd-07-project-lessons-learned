@@ -4,7 +4,26 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    width: 100%;
+    background-color:rgb(3, 149, 168);
+} 
+.Menu  {
+    background-color:rgb(3, 149, 168);
+    padding: 1px 30px;
 }
+.Menu li {
+    margin-right: 40px;
+    display: inline;
+}    
+.Menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size;30px:  
+        }
+#minha_foto {
+    margin-top: 200px;
+}  
 #rodape {
     font-size: 2px;
 }
