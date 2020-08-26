@@ -25,4 +25,15 @@ img {
   text-align: center;
 }
 
+#conhecimentos ul {
+  display: inline-block;
+  position: relative;
+}
+
+.aprendido {
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
 
