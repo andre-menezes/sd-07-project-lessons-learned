@@ -1,8 +1,27 @@
 *{
   margin:0;
   padding:0;
-  display: inline-block;
 }
 body{
   background-color: rgb(253,251,251);
+}
+
+/**** header ****/
+
+.main-cabecalho{
+  background-color:rgb(15,163,107);
+  width: 100%;
+}
+.main-cabecalho-container{
+  max-width: 1366px;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  padding: 15px;
+}
+.main-cabecalho-container h1{
+  color:white;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px
 }
