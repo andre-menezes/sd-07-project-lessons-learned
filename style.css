@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Times New Roman", 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
 }
 
@@ -28,7 +28,7 @@ nav li {
 }
 
 h3 {
-color: rgb(0 , 77 , 0);
+  color: rgb(0 , 77 , 0);
 }
 
 #titulo {
