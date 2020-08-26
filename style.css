@@ -13,6 +13,7 @@ p {
 nav a:visited {
   color: yellow;
 }
+
 nav a:link {
   color: white;
 }
@@ -21,8 +22,8 @@ nav a:link {
   color: whitesmoke;
 }
 
-h1,
-h2,
+h1 ,
+h2 ,
 h3 {
   font-family: Lato, monospace;
   font-style: normal;
@@ -69,7 +70,7 @@ article {
 
 aside {
   float: right;
-  background-color: rgb(131, 131, 131);
+  background-color: rgb(131 , 131 , 131);
   width: 20%;
 }
 
@@ -79,8 +80,8 @@ img {
   border: 3px solid white;
 }
 
-table,
-th,
+table ,
+th ,
 td {
   border: 1px solid black;
 }
