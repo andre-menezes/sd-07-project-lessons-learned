@@ -4,8 +4,17 @@ body {
 
 #cabecalho {
     position: fixed;
+    margin-top:0px;
+    text-align: center;
+    width: 100%;    
 }
 
 #minha_foto {
-    width:"400px";
+    margin-top:90px;
+    float:right
+
+    
+}
+.Titulo{
+    
 }
