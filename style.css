@@ -59,6 +59,14 @@ body{
     width: 300px;
 }
 
+.table{
+    width:100%;
+    padding: 15px;
+    margin-top:15px;
+    border: double #82D4BB;
+    border-radius: 10%;
+}
+
 .section-lessons{
     margin-top: 30px;
 }
