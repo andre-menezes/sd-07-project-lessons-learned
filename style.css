@@ -14,81 +14,67 @@ body {
     margin: auto; }
 
 /* header */
-.barra{
+.barra {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
     background: rgb(16, 51, 48);
-    color: whitesmoke;
-}
+    color: whitesmoke; }
 
 .barra nav {
     width: 100%;
-    text-align: start;
-}
+    text-align: start; }
 
 .barra nav ul {
-    list-style-type: none;
-}
+    list-style-type: none; }
 
 .barra nav ul li {
     display: inline-block;
-    line-height: 10px;
-}
+    line-height: 10px; }
 
 .barra nav ul li + li {
-    margin-left: 15px;
-} 
+    margin-left: 15px; } 
 
 .barra nav ul li a {
     text-decoration: none;
     padding: 4px 10px;
-    border-radius: 5px;
-}
+    border-radius: 5px; }
 
-.barra nav ul li a:hover{
-    border: 1px solid black;
-}
+.barra nav ul li a:hover {
+    border: 1px solid black; }
 
 .barra nav ul li a:checked,
 .barra nav ul li a:active,
-.barra nav ul li a:defined{
-    color: whitesmoke;
-}
+.barra nav ul li a:defined {
+    color: whitesmoke; }
 
 /* .barra end */
 
 /* .minha_aprendizagem */
 .minha_aprendizagem {
-    color: rgb(17, 16, 16);
-}
+    color: rgb(17, 16, 16); }
 
 .minha_aprendizagem .lado-esquerdo{
     width: 70%;
     background: rgb(185, 221, 226);
-    float: left;
-}
+    float: left; }
 
 .minha_aprendizagem .lado-direito {
     float: right;
     width: 30%;
-    background: rgb(217, 231, 179);
-}
+    background: rgb(217, 231, 179); }
 
 .minha_aprendizagem .minha_aprendizagem_header {
-    text-align: center;
-}
+    text-align: center; }
 
 .minha_aprendizagem .minha_aprendizagem_header img {
     width: min(10vw, 15vh);
-    border-radius: 50%;
-}
+    border-radius: 50%; }
 
 /* .minha_aprendizagem end */
 
-footer{
+footer {
     clear: both;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif; }
