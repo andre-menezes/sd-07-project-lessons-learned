@@ -11,3 +11,23 @@ body {
     width: 200px;
     border-radius: 100%;
 }
+
+#licoes_a_aprender{
+    border-style: dotted;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#licoes_aprendidas{
+    border-style: solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+article{
+    margin: 20px;
+}
+
+aside{
+    margin: 20px;
+}
