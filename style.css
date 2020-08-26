@@ -7,6 +7,10 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+/*=== HEADER ===*/
+header {
+  top: 0;
+}
 .navbar {
   overflow: hidden;
   background-color: rgb(19, 19, 19);
@@ -31,9 +35,22 @@ nav {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 0px;
+  padding-top: 25px;
+  padding-bottom: 14px;
   text-decoration: none;
 }
 .navbar a + a {
-  margin: 0px 25px;
+  padding-left: 100px;
+}
+
+/*=== CONTENT ===*/
+.content {
+  text-align: center;
+}
+.image-content img {
+  display: block;
+  margin: 120px auto 10px auto;
+  width: 20%;
+  height: auto;
+  border-radius: 100%;
 }
