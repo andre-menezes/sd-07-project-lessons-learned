@@ -55,6 +55,12 @@ footer{
     background: black;
     width: 100%;
 }
+aside{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 45px;
+}
+}
 footer a{
     margin-left: 5px;
     display: block;
