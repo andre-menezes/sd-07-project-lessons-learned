@@ -13,6 +13,7 @@ body{
     position: relative;
 }
 #minha_foto{
+    top: 75px;
     height: 150px;
     position: relative;
     float: left;
