@@ -2,5 +2,18 @@ body {
   background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+  display: block;
+}
+
+header {
   top: 0px;
+  width: 100%;
+  padding: 20px;
+  background-color: cadetblue;
+  position: fixed;
+}
+
+spam {
+  color: blue;
+  font-weight: bold;
 }
