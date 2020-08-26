@@ -42,7 +42,7 @@ body {
   padding: 3px;
 }
 
-::content{
+content{
   margin-top: 30px;
   padding: 50px;
 }
