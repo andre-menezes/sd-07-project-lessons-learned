@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
   font-family: montserrat, sans-serif;
   max-width: 1366px;
   max-height: 768px;
@@ -9,19 +9,19 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: rgb(143 , 192 , 169);
+  background-color: rgb(143, 192, 169);
 }
 
 .cabecalho h1 {
   width: 100%;
   display: inline-block;
   text-align: center;
-  background-color: rgb(143 , 192 , 169);
+  background-color: rgb(143, 192, 169);
 }
 
 .menu ul {
   width: 100%;
-  background-color: rgb(143 , 192 , 169);  
+  background-color: rgb(143, 192, 169);
 }
 
 .menu li {
@@ -31,7 +31,7 @@
 
 .menu li a {
   text-decoration: none;
-  background-color: rgb(143 , 192 , 169);
+  background-color: rgb(143, 192, 169);
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -67,7 +67,7 @@
   padding: 5px 10px;
   line-height: 2em;
   text-align: justify;
-  border: 1px dashed rgb(143 , 192 , 169);
+  border: 1px dashed rgb(143, 192, 169);
 }
 
 .lado-direito {
@@ -78,7 +78,7 @@
   padding: 5px 10px;
   line-height: 2em;
   text-align: justify;
-  border: 1px dashed rgb(143 , 192 , 169);
+  border: 1px dashed rgb(143, 192, 169);
 }
 
 .volta-topo {
@@ -89,9 +89,9 @@
 .footer {
   margin-top: 40px;
   padding: 40px;
-  background-color: rgb(143 , 192 , 169);
+  background-color: rgb(143, 192, 169);
 }
 
 .footer a {
-  background-color: rgb(143 , 192 , 169);
+  background-color: rgb(143, 192, 169);
 }
