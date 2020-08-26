@@ -20,6 +20,6 @@ table, th, td {border: 1px solid black;}
 border: 5px solid green;
 }
 
-.lado-esquerdo{float:left; color: blueviolet; width: 60%; position: relative; margin-left: 175px}
+.lado-esquerdo{float:left; color: blueviolet; width: 60%; position: relative; margin-left: 150px; margin: auto; padding: 0%; border: 0px;}
 
-.lado-direito{float:right; color: blue;  width: 20%; position: relative;}
+.lado-direito{float:right; color: blue;  width: 20%; position: relative; margin: auto; margin: auto; padding: 0%; border: 0px;}
