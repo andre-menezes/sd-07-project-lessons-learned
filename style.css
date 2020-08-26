@@ -1,34 +1,31 @@
 body {
-  background-color: rgb(253, 251, 251);
-  margin: 0px;
+  background-color: rgb(253 , 251 , 251);
+  margin: 0;
   font-family: "Courier New", Courier, monospace;
 }
 
 .header {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
-  background-color: #3c887e;
-}
-
-.header h1 {
+  background-color: rgb(60 , 136 , 126);
   color: white;
 }
 
 .navigation {
-  padding: 0px;
+  padding: 0;
 }
 
 .navigation ul {
-  background-color: #82d4bb;
-  padding: 0px;
-  margin-bottom: 0px;
+  background-color: rgb(130 , 212 , 187);
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .navigation ul li {
   display: inline;
-  padding: 0px;
-  font-weight: bold;
+  padding: 0;
+  font-weight: 600;
 }
 
 .navigation ul li a {
@@ -39,7 +36,7 @@ body {
 }
 
 .navigation ul li a:hover {
-  background-color: #82ac9f;
+  background-color: rgb(130 , 172 , 159);
 }
 
 .header h1 {
@@ -73,21 +70,18 @@ body {
 }
 
 .section-lessons h2 {
-  border: solid #3c887e;
+  border: solid rgb(60 , 136 , 126);
   text-align: center;
 }
 
 .second-title {
   margin: 15px;
-  border: solid #3c887e;
+  border: solid rgb(60 , 136 , 126);
   text-align: center;
 }
 
 .lado-esquerdo {
-  padding-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 15px;
+  padding: 15px;
   line-height: 20px;
   display: inline-block;
   max-width: 40%;
@@ -101,19 +95,19 @@ body {
   line-height: 20px;
   display: inline-block;
   max-width: 40%;
-  border: 5px dotted #3c887e;
+  border: 5px dotted rgb(60 , 136 , 126);
   text-align: center;
 }
 
 .footer {
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
   font-size: 13px;
   padding-left: 8px;
   padding-top: 3px;
   margin-bottom: 8px;
   margin-top: 50px;
-  background-color: #e8eddf;
+  background-color: rgb(232 , 237 , 223);
 }
 
 .footer .section-links img {
