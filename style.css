@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(102, 191, 191);
+}
+
+#cabecalho h1 {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 350px;
+}
+
+#rodape {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(102, 191, 191);
+}
+
+
+#rodape ul li {
+    padding: 10px;
+}
