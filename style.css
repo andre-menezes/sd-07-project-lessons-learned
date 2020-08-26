@@ -1,15 +1,19 @@
 body {
+    margin: 0px 0px;
     background-color: rgb(253, 251, 251);
+    
 }
 
-#cabecalho {
-    top: 0px;   
+#cabecalho {      
+    position: fixed;
     background-color: cornflowerblue;
+    width: 100%;        
 }
 
 #cabecalho a {
     text-decoration: none;
     font-size: 20px;
+    color: cornsilk;
 }
 
 #cabecalho li{    
@@ -21,14 +25,21 @@ body {
 #titulo {
     text-align: center;
     padding-top: 30px;
+    color: aliceblue;   
 }
 
 #minha_foto {
     width: 150px;
     height: 200px;
     border-radius: 50%;
+    margin-top: 180px;
+    margin-bottom: 15px;
 }
 
 table, th, td{
     border: 1px solid black;    
+}
+
+.lado-direito {
+    
 }
