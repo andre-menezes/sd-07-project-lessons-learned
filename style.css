@@ -1,7 +1,7 @@
-*{
-    font-family: monospace;
+* {
+  font-family: monospace;
 }
-body{
+body {
     margin:0;
     background-color: rgb(253, 251, 251);
 }
@@ -13,43 +13,45 @@ header {
     position:fixed;
     top: 0;
 }
-footer{
+footer {
     background:rgb(126, 126, 126);
 }
-#cabecalho{
+#cabecalho {
     border: 1px solid #000000;
 }
-#titulo{
+#titulo {
     text-align: center;
 }
-#minha_foto{
+#minha_foto {
     height: 100px;
     border-radius: 10px;
     padding: 1px;
 }
-#rodape{
+#rodape {
+    text-align: left;
 }
-.article{  
+.article {
+    background-color:rgb(238, 238, 238);
 }
-.caixaNav{
+.caixaNav {
     margin-bottom: 3px;
     line-height: 20px;
     background-color: rgb(238, 238, 238);
     margin-top: 75px;
 }
-.asideBox{
+.asideBox {
     margin: 3px 3px;
     position: absolute;
     left: 66%;
     display: inline-block;
     width: 30%;
 }
-.sectionMain{
+.sectionMain {
     padding: 10px;
     height: 300px;
     display: inline-block;
     width: 60%;
 }
-.tabela{
+.tabela {
     margin: 5px;
 }
