@@ -1,4 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(253,251,251);
-  width: 60%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#cabecalho {
+  /* display: flex; */
+  object-position: fixed;
+  margin-top: 0px;
+  padding: 8px;
+  background-color: rgb(0,109,119);
+  color: rgb(255,255,255);
+}
+
+#titulo {
+  text-align: center;
 }
