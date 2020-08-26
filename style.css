@@ -1,8 +1,57 @@
-body{
+ body{
     background-color: rgb(253, 251, 251);
 }
-
-#cabecalho{
+#cabecalho {
+    /* overflow:hidden */
+    background-color: #333;
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    height: 65px;
+
+  
 }
+.navegation a{   
+    color: #f1f1f1;
+    text-decoration: none;
+ 
+}
+
+
+#titulo{   
+    color: #f1f1f1;
+    text-align: center;
+    display: initial;
+    
+  }
+
+#minha_foto{
+    width: 100px;
+    /* width: 20%; */
+    margin-top: 70px;
+    border-radius: 30%;
+    
+}
+
+#licoes_aprendidas{
+   column-count: 2; 
+}
+
+#licoes_a_aprender{
+    column-count: 5; 
+ }
+ 
+ #rodape{
+    /* overflow: hidden; */
+    background-color: #333;
+    width: 100%;
+    height: 40px;
+}
+
+#rodape a{   
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
