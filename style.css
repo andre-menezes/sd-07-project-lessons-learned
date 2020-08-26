@@ -15,7 +15,7 @@ body{
 }
 
 /* header */
-header{
+.barra{
     position: fixed;
     top: 0;
     left: 0;
@@ -24,32 +24,33 @@ header{
     background: rgb(16, 51, 48);
     color: whitesmoke;
 }
-header nav {
+.barra nav {
     width: 100%;
     text-align: start;
 }
-header nav ul {
+.barra nav ul {
     list-style-type: none;
 }
-header nav ul li {
+.barra nav ul li {
     display: inline-block;
-}header nav ul li + li {
+}
+.barra nav ul li + li {
     margin-left: 15px;
 } 
-header nav ul li a {
+.barra nav ul li a {
     text-decoration: none;
     padding: 4px 10px;
     border-radius: 5px;
 }
-header nav ul li a:hover{
+.barra nav ul li a:hover{
     border: 1px solid black;
 }
-header nav ul li a:checked,
-header nav ul li a:active,
-header nav ul li a:defined{
+.barra nav ul li a:checked,
+.barra nav ul li a:active,
+.barra nav ul li a:defined{
     color: whitesmoke;
 }
-/* header end */
+/* .barra end */
 
 /* .minha_aprendizagem */
 .minha_aprendizagem {
