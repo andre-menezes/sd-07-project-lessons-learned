@@ -8,3 +8,6 @@ body {
 #titulo {
     text-align: center;
 }
+#minha_foto {
+    max-width: 200px;
+}
