@@ -12,6 +12,7 @@ header {
 #titulo {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 #minha_foto {
@@ -23,19 +24,36 @@ header {
 
 .listas{
     display: inline-block
+    
 }
 
 
 #licoes_aprendidas {
     margin-left: 10px;
     margin-top: 2%;
+    margin-bottom: 10%;
     background-color: rgb(168, 60, 60);
-    width: 60%;
+    width: 100%;
 }
 
 #licoes_a_aprender {
     margin-left: 40%;
-    margin-bottom: ;
-    width:60%;
+    margin-top: 2%;
+    width:100%;
     background-color: rgb(168, 60, 60);
+    margin-bottom: 10%;
+}
+
+#rodape {
+  color: rgb(12, 1, 1); 
+  background-color: rgb(228, 178, 178);
+  padding: 11px 21px; 
+  border-radius: 4px;
+  font-weight: 600; 
+  text-decoration-line: none;  
+  position: absolute;
+  right: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30%;
 }
