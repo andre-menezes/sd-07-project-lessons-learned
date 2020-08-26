@@ -3,8 +3,11 @@ body {
 }
 #cabecalho {
     position:fixed;
-    padding:20px;
-    margin:0px;
+    padding:10px;
+    top:0px;
     background-color:green;
     
+}
+#minha_foto {
+    width:160px;
 }
