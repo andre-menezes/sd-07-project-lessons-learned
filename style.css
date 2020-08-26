@@ -8,3 +8,8 @@ body{
     width: 100%;
     background-color:rgb(99,105,209);    
 }
+
+#minha_foto{
+    width: 250px;
+    margin: 100px 20px;
+}
