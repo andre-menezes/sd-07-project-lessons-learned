@@ -11,8 +11,14 @@ h1, h2{
     font-family: 'Ubuntu Mono', monospace;
     color: rgb(162, 227, 196);
 }
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(60, 73, 63);
+}
 section{
-    background-color: rgb(126, 141, 133)
+    background-color: rgb(126, 141, 133);
+    padding: 20px;
 }
 /* END DEFAULT */
 /* CABECALHO */
@@ -43,7 +49,45 @@ a:hover{
 }
 /* END MENU */
 /* END CABECALHO */
+/* SOBRE */
 .primeira{
     margin-top: 250px;
+    margin-left: 20px;
     width: 800px;
+    height: 380px;
 }
+.primeira h2{
+    width: 860px;
+    margin-left: -30px;
+    border-radius: 0 0 5% 5%;
+}
+img{
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+}
+/* TABLE */
+table{
+    font-family: 'Arvo', serif;
+    font-size: 1.2em;
+    color: rgb(240, 247, 244);
+    margin-top: 80px;
+}
+th{
+    background-color: rgb(179, 191, 184);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+td{
+    text-align: center;
+    background-color: rgb(60, 73, 63);
+    color: rgb(162, 227, 196);
+    border-radius: 20% 0;
+    padding: 10px;
+}
+.main-td{
+    text-align: left;
+    color: rgb(126, 141, 133);
+    background-color: rgb(240, 247, 244);
+}
+/* END TABLE */
+/* END SOBRE */
