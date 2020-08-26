@@ -9,5 +9,11 @@ body {
 
 img {
     width: 200px;
+    margin-top: 10px;
+    border: solid green;
+    padding: 11px;
+}
+
+nav {
     margin-top: 100px;
 }
