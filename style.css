@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding:0;
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(253,251,251);
+}
+
+.container{
+    width: 768px;
+    height: 1366px;
+}
+#cabecalho{
+    position: fixed;
+    margin-top:0px;
+    width: 100%;
+}
