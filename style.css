@@ -1,3 +1,26 @@
 body{
     background:rgb(253, 251, 251)
 }
+header{
+    width: 40%;
+    text-align: center;
+}
+header img{
+    display: inline-block;
+    width: 30%;
+}
+header h1{
+    display: inline-block;
+    position: absolute;
+    margin: 0px;
+}
+section{
+    margin-left: 25%;
+    margin-top: 50px;
+}
+ol{
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+}
