@@ -1,12 +1,15 @@
 /*Projeto 1*/
 
-.cabecalho {
+#cabecalho {
     position: absolute;
     top: 0px;
+    left: 50px;
     background: black;
+    
 }
 
 .body {
     color: blue;
     background: rgb(253, 251, 251);
+    margin: 35px;
 }
