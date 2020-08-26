@@ -5,13 +5,23 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    bottom>150px;
     background-color: rgb(12, 161, 62);
     border: 3px dashed darkgreen;
     width: 1330px;
-    height: 150px;
-    float: initial;
+    height: 150px;;
 }
+#rodape{
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    background-color: rgb(12, 161, 62);
+    border: 3px dashed darkgreen;
+    width: 1330px;
+    color:white;
+    height: 40px;
+    text-align: center;
+}
+
 #titulo{
     color:whitesmoke;
 }
@@ -23,4 +33,7 @@ body{
 }
 .head_fix{
     margin: 160px 0px 0px 0px;
+}
+#licoes_aprendidas{
+    float: right;
 }
