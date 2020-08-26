@@ -41,6 +41,13 @@ header {
 }
 /*---------------------*/
 
+/*------Artigo---------*/
+article {
+    padding: 15px;
+    background-color: palegreen;
+}
+/*---------------------*/
+
 /*------Rodapé---------*/
 footer {
     padding: 15px;
