@@ -6,11 +6,16 @@
 #cabecalho {
     color: white;
     background-color: rgb(32, 32, 44);
-    padding: 48px;
+    padding: 24px;
     position: fixed;
     top: 0px;
     width: 100%;
     text-align: center;
+} 
+
+#header-nav ul li{
+    display: inline;
+    margin: 15px;
 }
 
 body {
@@ -53,6 +58,24 @@ body {
     top: 300px
 }
 
-ul,li {
+main ul, main li, main ol {
     border: 1px solid black;
+}
+
+#artigo {
+    border: 8px solid black;
+    width: 500px;
+    position: relative;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+#aside-article {
+    width: 200px;
+    font-size: 15px;
+    border-left: 5px solid blue;
+    float: right;
+    font-style: italic;
+    background-color: lightblue;
 }
