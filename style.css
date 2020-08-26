@@ -1,6 +1,8 @@
 body {
+    color: black;
     background-color: rgb(253,251,251);
-    margin: 0px;    
+    font-family: 'Lato', sans-serif;
+    margin: 0px;        
 }
 
 .topo {
@@ -11,4 +13,26 @@ body {
     position: fixed;
     top: 0px;
     text-align: center;
+}
+
+.trybe {
+    color: green;
+}
+
+.links {
+    background-color: green;    
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.topicos {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 45px;
 }
