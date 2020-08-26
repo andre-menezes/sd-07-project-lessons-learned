@@ -1,66 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title> Lições Aprendidas - Fernando Freire</title>
-    <style>
-        * {
-             margin: 0px;
-             padding: 0px;
-        }
+    <charset="utf-8">
         
-        .tudo{
-            background-color: rgb(253, 251, 251);
-        }
-        .cabecalho{
-            background-color: rgba(32, 82, 4, 0.801);
-            font-weight: 800;
-            position: absolute;
-            display: block;
-            width: 100%;
-            text-align: center;
-            height: 60px;
-            text-decoration: underline;
-            font-size: 1.5em;
-            border-bottom: 2px solid;
-            top: 0px;
-            color: white;
-
-        }
-
-        .foto{
-            width: 200px;
-            margin:50px 10px 10px 10px;
-            position: relative;
-            border: 2px solid;
-
-        }
-
-        .lista_licoes{
-            margin: 30px;
-            line-height: 20px;
-        }
-
-        .rodape{
-         font-weight: bold;
-         background-color: rgba(32, 82, 4, 0.801;
-         width: 100%;
-         display: block;
-    
-        }
-
-        .artigo{
-            display: block;
-            width: 400px;
-            text-align: justify;
-        }
-    </style>
+    <title> Lições Aprendidas - Fernando Freire</title>
+    <link rel=stylesheet type="text/css" href="style.css">
   </head>
   <body class="tudo">
     <header id="cabecalho" class="cabecalho" >
       <h1 id="titulo"> Lições Aprendidas</h1>
-        
     </header><br>
     <br>
     <nav>
@@ -70,8 +18,10 @@
     </nav>
       <img class="foto" id="minha_foto" src="foto_fernando_freire.jpeg" alt="Foto do Fernando Freire">
     <br>
-    <h3>Lições aprendidas até o momento:</h3>
+    
     <ol id="licoes_aprendidas" class="lista_licoes"> 
+        <h2>Lições aprendidas até o momento:</h2>
+        <br>
         <li> Trabalhar com a interface Linux</li>
         <li> Navegar os arquivos e pastas através do terminal</li>
         <li> Gerenciar os arquivos através do terminal</li>
@@ -86,7 +36,7 @@
     <br>
     <br>  
     <ul id="licoes_a_aprender" class="lista_licoes"> 
-        <h3>Ainda tenho que aprender:</h3>
+        <h2>Ainda tenho que aprender:</h2>
         <br>
         <li> Paciência comigo mesmo</li>
         <li> Paciência com o próximo</li>
@@ -103,18 +53,19 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> Link para a resposta de todos os seus problemas </a></a>
         <br>
         <br>
-        <section>
+        <section class="paralelo">
         <article class="artigo">
                 <h3>O tamanho do medo</h3>
         <p class="artigo">Eu não sabia o que esperar desse curso. Assim como outras pessoas dessa turma, eu estava ansioso para começar o curso, conhecer as pessoas e finalmente poder experimentar o estilo 'mão na massa' de aprendizado. O medo não passou ainda. Ele costuma aparecer em cada conteúdo novo. Quem mudou fui eu, que aprendi a lidar melhor com esse medo, respirar fundo e me aventurar pelo conteúdo com esse mesmo medo que agora vem(bem) acompanhado de curiosidade e até senso de aventura. O tamanho do medo pode não diminuir, mas eu sou maior do que ele.    </p>
         </article>
-    </section>
+    
         <br>
         <br>
-        <aside>
+        <aside class="artigo">
             <h3> Senta que lá vem a história:</h3>
             <p>Uma vez entrei em pânico porque não conseguia digitar no terminal o comando que o professor estava ensinando, até perceber que eu estava tentando digitar na transmissão de tela dele.</p>
             </aside>
+        </section>
         <br>
         <br>
         <footer id="rodape" class="rodape">
