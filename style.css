@@ -12,3 +12,12 @@ body{
     height: 250px;
     background-color: green;
 }
+
+.lado-esquerdo{
+    float: left;
+    width: 45%;
+}
+.lado-direito{
+    float: right;
+    width: 45%;
+}
