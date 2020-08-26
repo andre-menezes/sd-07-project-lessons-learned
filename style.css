@@ -1,5 +1,11 @@
 body{
     background-color: rgb(253, 251, 251);
+    background-image: url(background.png);
+}
+#background{
+    position:absolute;
+    top: 0px;
+    margin: 0px 0px 0px 0px;
 }
 #cabecalho{
     position: fixed;
@@ -21,11 +27,7 @@ body{
     height: 40px;
     text-align: center;
 }
-
-#titulo{
-    color:whitesmoke;
-}
-#cabecalho p,h1{
+header p,header h1{
     bottom:50%;
     text-align: center;
     color: white;
@@ -34,6 +36,15 @@ body{
 .head_fix{
     margin: 160px 0px 0px 0px;
 }
-.left_list{
+.right_list{
+    float:right;
+}
+.right_container{
+    width: 150px;
+    display: inline-block;
+    margin: 25px;
+}
+aside.aside_1{
+    width: 150px;
     float: right;
 }
