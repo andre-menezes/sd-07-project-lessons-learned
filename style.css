@@ -1,18 +1,18 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   padding-left: 50px;
   background-color: rgb(0 , 109 , 119);
 }
 
 h1 {
-  font-family:'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 50px;
   color: rgb(237 , 246 , 249);
 }
@@ -28,7 +28,7 @@ h1 {
 
 nav {
   position: fixed;
-  top: 0px;
+  top: 0;
   margin-top: 133px;
   background-color: rgb(131 , 197 , 190);
   width: 100%;
@@ -66,10 +66,10 @@ article p {
 
 aside {
   padding: 50px;
-  background-color: rgb(255, 221, 210);
+  background-color: rgb(255 , 221 , 210);
   line-height: 2em;
 }
 
 footer {
-  background-color: rgb(226, 149, 120);
+  background-color: rgb(226 , 149 , 120);
 }
