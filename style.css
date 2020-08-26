@@ -4,4 +4,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: red;
+    display: block;
+    width: 100%
+}
+#apresentacao {
+    margin-top: 140px;
 }
