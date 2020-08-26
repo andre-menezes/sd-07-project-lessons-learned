@@ -13,3 +13,9 @@ body {
     background-color: red;
     width: 100%;
 }
+#minha_foto {
+    margin-top: 100px;
+}
+a {
+    margin: 2em;
+}
