@@ -15,12 +15,14 @@
 body {
     font-family: 'Baloo Tamma 2', cursive;
     color: black;
-    background-color: rgb(253, 251, 251); /* requisito 1*/
+    background-color: rgb(253, 251, 251); /* requisito 1 */
 }
+
 .interface {
     width: 900px;
     margin: -20px auto 0px auto;
 }
+
 header#cabecalho {
     position: fixed;/* requesito 2 */
     top: 0px; /* requesito 2 */
@@ -29,39 +31,49 @@ header#cabecalho {
     color: white;
     width: 880px;
 }
+
 header#cabecalho h1, h2 {
     font-family: 'Exo 2', sans-serif;
     margin: 0px;
     padding: 0px;
     line-height: 2pt;
 }
+
 header#cabecalho a {
     float: right;
 }
+
 img#minha_foto {
     margin-top: 80px;
 }
+
 div.conteiner-artigo {
     text-align: justify;
     margin: 15px;
 }
-p{
+
+p {
     display: inline-block;
 }
+
 .lado-esquerdo {
     float: left;
     width: 450px;
 }
+
 .lado-direito {
     float: right;
     width: 350px;
 }
+
 .lado-direito {
     top: 0px;
 }
+
 .licoes_aprendidas {
     margin-top: 250px;
 }
+
 footer#rodape {
     display: inline-block;
     width: 900px;
@@ -69,6 +81,7 @@ footer#rodape {
     clear: both;
     border-top: 1px solid black;
 }
+
 footer#rodape p {
     font-size: 10pt;
     margin: 0;
