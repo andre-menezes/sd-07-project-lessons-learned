@@ -73,7 +73,7 @@ color:#fff;
 }
 
 .artigo{
-    width: 100%px;
+    width: 60%;
     text-align: center;
 }
 
@@ -105,4 +105,13 @@ color:#fff;
 
 #estudo{
     text-align: justify;
+}
+
+aside{
+    position: absolutes;
+    float: right;
+    display: block;
+    width: 30%;
+    border: 2px ridge #3322ff;
+    margin-right: 30px;
 }
