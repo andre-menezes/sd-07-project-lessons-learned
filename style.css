@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -11,6 +12,24 @@ body {
     text-align: center;
     color: rgb(253, 251, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 80px;
+}
+
+nav li {
+    display: inline;
+}
+
+#minha_foto {
+    border-radius: 50%;
 }
 
 .lado-esquerdo {
