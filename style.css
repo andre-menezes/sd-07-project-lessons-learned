@@ -17,21 +17,42 @@ footer{
     background:rgb(126, 126, 126);
 }
 #cabecalho{
+    border: 1px solid #000000;
 }
 #titulo{
+    text-align: center;
     
 }
 #minha_foto{
     height: 100px;
+    border-radius: 10px;
+    padding: 1px;
 }
 #rodape{
 
 }
 .article{
+    
 }
 .caixaNav{
+    margin-bottom: 3px;
+    line-height: 20px;
+    background-color: rgb(238, 238, 238);
     margin-top: 75px;
 }
 .asideBox{
+    margin: 3px 3px;
+    position: absolute;
+    left: 66%;
+    display: inline-block;
+    width: 30%;
 
+}
+.sectionMain{
+    height: 500px;
+    display: inline-block;
+    width: 60%;
+}
+.tabela{
+    margin: 5px;
 }
