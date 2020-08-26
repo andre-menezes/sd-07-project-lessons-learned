@@ -1,85 +1,85 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-    margin: 0px;
-    padding: 0px;
+  background-color: rgb(253 , 251 , 251);
+  margin: 0px;
+  padding: 0px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    display: block;
-    background-color: rgb(29 , 133 , 62);
-    width: 100%;
-    text-align: center;
-    color: rgb(255 , 255 , 255);
-    z-index: 1;
+  position: fixed;
+  top: 0px;
+  display: block;
+  background-color: rgb(29 , 133 , 62);
+  width: 100%;
+  text-align: center;
+  color: rgb(255 , 255 , 255);
+  z-index: 1;
 }
 
 img {
-    margin-top: 100px;
-    text-align: center;
-    border: 15px solid rgb(29 , 133 , 62);
+  margin-top: 100px;
+  text-align: center;
+  border: 15px solid rgb(29 , 133 , 62);
 }
 
 #navegador {
-    margin-top: 50px;
-    position: fixed;
-    z-index: 2;
-    display: block;
-    text-align: center;
+  margin-top: 50px;
+  position: fixed;
+  z-index: 2;
+  display: block;
+  text-align: center;
 }
 
 .lado-esquerdo,.lado-direito {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    text-align: center;
-    margin-left: 40px;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 40px;
 }
 
 .artigos_e_relatos {
-    line-height: 1.5em;
-    font-style: italic;
+  line-height: 1.5em;
+  font-style: italic;
 }
 
 .subtitulos {
-    display: block;
-    background-color:rgb(29 , 133 , 62);
-    font-family: Impact, Haettenschweiler, sans-serif;
-    color: rgb(255 , 255 , 255);
-    text-align: center;
+  display: block;
+  background-color: rgb(29 , 133 , 62);
+  font-family: Impact, Haettenschweiler, sans-serif;
+  color: rgb(255 , 255 , 255);
+  text-align: center;
 }
 
 .imagem {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 #rodape {
-    background-color: rgb(29 , 133 , 62);
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: rgb(255 , 255 , 255);
-    font-style: italic;
-    font-family: monospace;
-    font-size: 0.75em;
-    text-align: center;
+  background-color: rgb(29 , 133 , 62);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: rgb(255 , 255 , 255);
+  font-style: italic;
+  font-family: monospace;
+  font-size: 0.75em;
+  text-align: center;
 }
 
 a:link,a:visited {
-    text-decoration:  none;
-    color: rgb(0 , 0 , 0);
+  text-decoration: none;
+  color: rgb(0 , 0 , 0);
 }
 
 a:hover {
-    color: rgb(255 , 255 , 255);
+  color: rgb(255 , 255 , 255);
 }
 
 .redes-sociais {
-    background-color: rgb(29 , 133 , 62);
-    margin-bottom: 0px;
-    padding-top: 10px;
-    text-align: center;
+  background-color: rgb(29 , 133 , 62);
+  margin-bottom: 0px;
+  padding-top: 10px;
+  text-align: center;
 }
