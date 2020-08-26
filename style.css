@@ -4,5 +4,9 @@ body {
 
 cabecalho {
     position: fixed;
-    top: 0;
+    top: 0px;
+}
+
+minha_foto {
+    width: 400px;
 }
