@@ -12,6 +12,7 @@
 
 /* font-family: 'Exo 2', sans-serif; */
 
+
 body {
     font-family: 'Baloo Tamma 2', cursive;
     color: black;
@@ -20,22 +21,22 @@ body {
 
 .interface {
     width: 900px;
-    margin: -20px auto 0px auto;
+    margin: -20px auto 0 auto;
 }
 
 #cabecalho {
     position: fixed;/* requesito 2 */
-    top: 0px; /* requesito 2 */
+    top: 0; /* requesito 2 */
     background-color: blue;
     border: 2px solid black;
     color: white;
     width: 880px;
 }
 
-#cabecalho h1, h2 {
+#cabecalho h1 , h2 {
     font-family: 'Exo 2', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     line-height: 2pt;
 }
 
@@ -64,10 +65,7 @@ p {
 .lado-direito {
     float: right;
     width: 350px;
-}
-
-.lado-direito {
-    top: 0px;
+    top: 0;
 }
 
 .licoes_aprendidas {
