@@ -5,19 +5,72 @@
     <meta name="viewport" content="width=device-width" />
     <title> cabecalho</title>
     <style>
+        * {
+             margin: 0px;
+             padding: 0px;
+        }
+        
         .tudo{
             background-color: rgb(253,251,151);
         }
-        #cabecalho{
-            background-color: darkblue;
+        .cabecalho{
+            background-color: rgba(32, 82, 4, 0.801);
             font-weight: 800;
             position: absolute;
-            
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 60px;
+            text-decoration: underline;
+            font-size: 3em;
+            border-bottom: 2px solid;
+
         }
+
+        .foto{
+            width: 200px;
+            margin:50px 10px 10px 10px;
+            position: relative;
+            border: 2px solid;
+
+        }
+
+        .lista_licoes{
+            margin: 30px;
+            line-height: 20px;
+        }
+
     </style>
   </head>
   <body class="tudo">
-      <h1 id="cabecalho"> Título da Página</h1>
-    <!--insira os elementos aqui-->
-  </body>
+      <h1 id="cabecalho" class="cabecalho"> Lições Aprendidas</h1>
+        <br>
+      <img class="foto" id="minha_foto" src="foto_fernando_freire.jpeg" alt="Foto do Fernando Freire">
+    <br>
+    <ol id="licoes_aprendidas" class="lista_licoes"> 
+        <h3>Lista das principais lições aprendidas até o momento:</h3>
+        <br>
+        <li> Trabalhar com a interface Linux</li>
+        <li> Navegar os arquivos e pastas através do terminal</li>
+        <li> Gerenciar os arquivos através do terminal</li>
+        <li> Estrutura básica de HTML</li>
+        <li> Valores semânticos das tags HTML</li> 
+        <li> Estilização das páginas através do CSS</li>
+        <li> Cooperação durante o desenvolvimento das atividades</li>
+        <li> Acesso e sincronização com o Github</li>
+        <li> Cooperação através do sistema de Pull Request</li>
+        <li> Desenvolvimetno de código em equipes</li>
+
+        
+        
+        
+        <footer id="rodape" class="rodape">
+            <p>Autor: Fernando Freire</p>
+            <p>Data: 26 de Agosto de 2020</p>
+        </footer>
+    </ol>
+  
+  
+  
+    </body>
 </html>
