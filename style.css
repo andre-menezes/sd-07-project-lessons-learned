@@ -6,7 +6,11 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: rgb(17, 172, 51);
+    background-color: #35b437;
+}
+
+#titulo {
+    color: #2c2c2c;
 }
 
 #minha_foto {
