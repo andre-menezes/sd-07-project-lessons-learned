@@ -1,5 +1,7 @@
 body{
-    background:rgb(253, 251, 251)
+    background:rgb(253, 251, 251);
+    margin: 0;
+    margin-top: 5px;
 }
 header{
     width: 40%;
@@ -24,7 +26,19 @@ ol{
 ul{
     display: inline-block;
 }
+article{
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
 footer{
+    margin-left: 0;
     position: fixed ;
     bottom: 0px;
+    background: black;
+    width: 100%;
+}
+footer a{
+    margin-left: 5px;
+    display: block;
 }
