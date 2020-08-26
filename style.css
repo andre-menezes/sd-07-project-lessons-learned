@@ -37,6 +37,10 @@ body{
 }
 .licoes{
     margin: auto;
+    width: 800px;
+}
+.licoes h3{
+    margin-bottom:-10px;
 }
 .contInterno{
     display: flex;
@@ -44,6 +48,7 @@ body{
 }
 .list{
     flex:1;
+    
 }
 
 .list h4{
@@ -55,3 +60,41 @@ body{
     margin-right: auto;
    
 }
+#rodape{
+    background-color:#0D0D0D;
+    color: #F2F2F2;
+    font-size: 10pt;
+   
+    padding-top: 20px;
+    margin-top:20px;
+}
+.aboute{
+    text-align: center;
+}
+.menu-rodape{
+    height: 200px;
+    text-align: center;
+}
+ .menu-rodape ul li img {
+    width: 25px;
+ }
+ .menu-rodape ul{
+     list-style: none;
+ }
+ .menu-rodape ul li{
+     padding: 10px;
+     height: 25px;
+     width: 100px;
+     display: inline-block;
+    
+ }
+ .menu-rodape ul li a{
+     line-height: 25px;
+     text-decoration:none ;
+     color: #f2f2f2;
+     
+ }
+
+ .menu-rodape ul li:hover{
+     background-color: rgba(27, 11, 247, 0.5);
+ }
