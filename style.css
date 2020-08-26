@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@200&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap');
+/* DEFAULT */
 *{
     margin:0;
     padding: 0;
@@ -5,7 +7,43 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+h1, h2{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(162, 227, 196);
+}
+section{
+    background-color: rgb(126, 141, 133)
+}
+/* END DEFAULT */
+/* CABECALHO */
 header{
     position: fixed;
     top: 0px;
+    background-color: rgb(60, 73, 63);
+    width: 100%;
+    padding: 68px;
+}
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(162, 227, 196);
+    margin-bottom: 20px;
+}
+/* MENU */
+li{
+    display: inline-block;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    color: rgb(240, 247, 244);
+    transition: .4s;
+}
+a:hover{
+    color: rgb(179, 191, 184);
+}
+/* END MENU */
+/* END CABECALHO */
+.primeira{
+    margin-top: 250px;
+    width: 800px;
 }
