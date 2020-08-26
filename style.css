@@ -79,21 +79,25 @@ nav {
 .learning li {
   list-style-type: square;
 }
+
+section {
+  display: block;
+}
 /*=== ARTICLE ===*/
 article {
   padding-left: 20px;
   text-align: left;
 }
-.about h2 {
+.lado-esquerdo h2 {
   padding-top: 15;
   padding-bottom: 5px;
 }
-.about h4 {
+.lado-esquerdo h4 {
   font-weight: 600;
   padding-top: 10px;
 }
 
-.about p {
+.lado-esquerdo p {
   width: 50%;
   padding-top: 5px;
   font-weight: 300;
@@ -103,12 +107,12 @@ aside {
   padding-left: 20px;
   text-align: left;
 }
-aside h4 {
+.lado-direito h4 {
   padding-top: 15px;
   padding-bottom: 5px;
 }
 
-aside p {
+.lado-direito p {
   padding-top: 10px;
   font-weight: 300;
   width: 50%;
