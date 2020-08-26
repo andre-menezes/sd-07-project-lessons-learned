@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(253, 251, 251);
+  margin: 0
+}
+
+#cabecalho{
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  background-color:rgb(15, 163, 107);
+  height: 100px;
+  width: 100%;
+  color: red;
+
+}
+
+.div_imagem{
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 200px
+}
+
+#minha_foto{
+  width: 98px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.titulo{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+#titulo{
+  font-size: 22px;
+  letter-spacing: 1.3em;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: inline;
+}
+
+h1{
+  margin: 0;
+}
