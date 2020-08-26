@@ -8,7 +8,8 @@ body    {
     margin-top: 150px;
     font-family: 'Raleway', 'Times New Roman', Times, sans-serif;
     font-size: 18px;
-    color: black;
+    color: rgb(31, 36, 33);
+    line-height: 25px;
 }
 
 header  {
@@ -63,13 +64,13 @@ footer  {
     padding: 0px 20px;
 }
 
-#aprendizado-esquerda   {
+.lado-esquerdo   {
     display: inline-block;
     padding-bottom: 40px;
     padding-top: 20px;
 }
 
-#aprendizado-direita    {
+.lado-direito   {
     display: inline-block;
     padding-bottom: 40px;
     padding-top: 20px;
