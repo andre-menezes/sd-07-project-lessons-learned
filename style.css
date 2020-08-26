@@ -14,10 +14,11 @@ body {
     color: black;
     background-color:  rgb(253, 251, 251); /*requisito 1*/
 }
-.interface{width: 900px;
+.interface{
+    width: 900px;
     margin: -20px auto 0px auto;
 }
-header#cabecalho{   
+header#cabecalho{
     position: fixed;/*requesito 2*/
     top: 0px; /*requesito 2*/
     background-color:  blue;
@@ -67,8 +68,7 @@ footer#rodape {
     border-top: 1px solid #606060;
 }
 footer#rodape p {
-    font-size: 10pt;
-    
+    font-size: 10pt;    
     margin: 0;
     padding: 0;
 }
