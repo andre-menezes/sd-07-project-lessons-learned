@@ -20,6 +20,12 @@ section{
     background-color: rgb(126, 141, 133);
     padding: 20px;
 }
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(240, 247, 244);
+    text-align: justify;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
 /* END DEFAULT */
 /* CABECALHO */
 header{
@@ -51,8 +57,9 @@ a:hover{
 /* END CABECALHO */
 /* SOBRE */
 .primeira{
+    margin: auto;
     margin-top: 250px;
-    margin-left: 20px;
+    margin-bottom: 30px;
     width: 800px;
     height: 380px;
 }
@@ -71,7 +78,7 @@ table{
     font-family: 'Arvo', serif;
     font-size: 1.2em;
     color: rgb(240, 247, 244);
-    margin-top: 80px;
+    margin-bottom: 10px;
 }
 th{
     background-color: rgb(179, 191, 184);
@@ -91,3 +98,14 @@ td{
 }
 /* END TABLE */
 /* END SOBRE */
+/* ARTICLE */
+article{
+    background-color: rgb(60, 73, 63);
+    padding: 20px;
+    width: 800px;
+    margin-left: 20px;
+}
+article h2{
+    background-color: rgb(126, 141, 133);
+}
+/* END ARTICLE */
