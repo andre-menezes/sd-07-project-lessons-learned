@@ -1,12 +1,11 @@
 body {
   margin: 150px auto 0 auto;
   background-color: rgb(253, 251, 251);
-
 }
 
 header#cabecalho {
   width: 100%;
-  position: fixed;  
+  position: fixed;
   top: 0px;
 
   background-color: green;
