@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
     background-color: #417cc0;
     height: 100px;
     width: 100%;
