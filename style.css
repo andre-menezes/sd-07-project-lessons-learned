@@ -6,16 +6,23 @@ body {
     border-bottom: 1px solid #DD696D;
     background-color: #3A4069;
     margin-bottom: 80px;
+    padding: 20px;
     top:0px;
     font-family: Courier, "Lucida Console", monospace; 
     color:#DD696D;
+    
 }
 
 #titulo{
-    margin-top: 0px;
+    top:0px;
+    margin-bottom: 0px;
     text-align: center;
     font-family: Courier, "Lucida Console", monospace; 
     color:white;
+    
+    background-color: #3A4069;
+    padding-bottom:5px ;
+    
 }
 
 #minha_foto{
@@ -30,11 +37,12 @@ body {
     
 }
 
-
-
 #licoes_a_aprender{
     display: inline-block;
     width: 30%;
     
 }
 
+#div_img{
+    padding: 20px;
+}
