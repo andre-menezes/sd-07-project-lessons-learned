@@ -64,7 +64,7 @@ main ul, main li, main ol {
     border: 1px solid black;
 }
 
-#artigo {
+.lado-esquerdo {
     border: 8px solid black;
     width: 500px;
     position: relative;
@@ -82,10 +82,19 @@ main ul, main li, main ol {
     background-color: lightblue;
 }
 
-#tabela {
+.lado-direito {
+    border: 8px solid black;
+    width: 500px;
+    height: 350px;
     position: absolute;
-    left: 800px;
-    bottom: -168px;
+    top: 715px;
+    left: 700px;
+}
+
+#tabela {
+    position: relative;
+    left: 50px;
+    top: 40px;
 }
 
 td, tr, th {
