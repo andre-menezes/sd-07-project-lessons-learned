@@ -37,3 +37,13 @@ body {
 .unordenate-list{
     display: inline-block;
 }
+
+#rodape{
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    padding: 10px;
+}
+
+#rodape span {
+    color: rgb(205, 205, 205);
+}
