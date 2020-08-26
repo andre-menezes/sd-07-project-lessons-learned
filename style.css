@@ -6,21 +6,41 @@
     font-family: Arial; 
   }
  /** padronizaçao global - Termina aqui **/  
-	 
+    
+ 
+  body{
+      background: rgb(253, 251, 253);
+  } 
+ 
   .principal{
-    background-color: #ccc; 
+    background-color: rgb(187, 53, 53); 
     width: 1200px;
     margin: auto;
     margin-top: 20px;
     padding: 10px;  
   }
    
+  
   header{
-    background-color: #fff;
+    /** estilizaçao **/    
+  }
+
+  #cabecalho{
+    background-color: rgb(47, 212, 25);
     width: 1200px;
     height: 200px;
   }
    
+  #minha_foto{
+
+  }
+  #licoes_aprendidas{
+  /** A lista deve possuir 10 intens **/  
+  }
+  #licoes_a_aprender{
+
+  }
+
   nav{
     background-color: #fff;
     margin-top: 10px;
@@ -45,8 +65,12 @@
     margin-left: 10px;
     margin-bottom: 10px;
   }
-   
-  footer{
+
+  
+
+  footer{}
+
+  #rodape{
     background-color:  #fff;
     width: 1200px;
     height: 60px;
