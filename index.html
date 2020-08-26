@@ -9,16 +9,19 @@
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+        <nav class="menu">
+            <a href="#">Sobre</a>
+            <a href="https://thadeucbr.github.io/" target="_blank">Contato</a>
+        </nav>
     </header>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="https://thadeucbr.github.io/" target="_blank">Contato</a></li>
-        </ul>
-    </nav>
-    <img id="minha_foto" src="thadeu.jpg" alt="foto do thadeu castelo branco sentado em uma cadeira a frente de uma parede beje olhando levemente para cima">
+    <div class="foto-wrap">
+        <img id="minha_foto" src="thadeu.jpg" alt="foto do thadeu castelo branco sentado em uma cadeira a frente de uma parede beje olhando levemente para cima">
+        <h2>Thadeu Castelo Branco Ramos</h2>
+    </div>
     <section class="listas">
-        <ol id="licoes_aprendidas">
+        
+        <ol id="licoes_aprendidas" class="lado-esquerdo">
+            <h3>Lições aprendidas</h3>
             <li>Criar pastas e arquivos pelo terminal</li>
             <li>Mover e renomear pastas e arquivos pelo terminal</li>
             <li>Deletar pastas e arquivos pelo terminal</li>
@@ -30,7 +33,8 @@
             <li>Primeiro contato com CSS</li>
             <li>Primeiro Projeto!</li>
         </ol>
-        <ul  id="licoes_a_aprender">
+        <ul  id="licoes_a_aprender" class="lado-direito">
+            <h3>Lições a aprender</h3>
             <li>Aprofundar os conhecimentos de CSS</li>
             <li>Aprender mais sobre composição de cores</li>
             <li>Aprender a fazer um menu animado</li>
@@ -64,7 +68,7 @@
         </tr>
         <tr>
             <td>Percentual de cumprimento de requisitos totaisPercentual de cumprimento de requisitos totais</td>
-            <td class="resultado">73.33%</td>
+            <td class="resultado">100.00%</td>
         </tr>
     </table>
     <footer id="rodape">
