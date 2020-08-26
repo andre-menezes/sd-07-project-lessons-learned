@@ -8,17 +8,17 @@ header {
 }
 
 .desempenho {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px 5px;
-    border: 1px darkseagreen solid;
-    padding: 5px 5px 5px 5px;
-    text-align: right;
-    font-weight: bold;
-    font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px 5px;
+  border: 1px darkseagreen solid;
+  padding: 5px 5px 5px 5px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 10px;
 }
 
 .resultado {
-    padding-left: 10px;
-    text-align: left;
-    font-weight: normal;
+  padding-left: 10px;
+  text-align: left;
+  font-weight: 300;
 }
