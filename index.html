@@ -7,14 +7,59 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="content">
-    <header id="cabecalho">
-      <h1 id="titulo">Lessons Learned</h1>
-    </header>
-    <img id="minha_foto" src="serudo.png" alt="André Serudo" width=100px>
-    <footer id="rodape">
-      <p>Desenvolvido por <a href="https://github.com/andreserudo" target="_blank">André Serudo</a></p>
-    </footer>
-  </div>
+
+  <header id="cabecalho">
+    <h1 id="titulo">Lessons Learned</h1>
+    <nav>
+      <ul>
+        <li> <a href="#secaoAprendidas">Lições Aprendidas</a> </li>
+        <li> <a href="#secaoAprender">Lições a Aprender</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <section>
+      <h2>O relato</h2>
+      <img id="minha_foto" src="serudo.png" alt="André Serudo" width=100px>
+    </section>
+
+    <section id="secaoAprendidas">
+      <h2>Lições Aprendidas</h1>
+      <ol id="licoes_aprendidas">
+        <li>Utilizar o Zoom</li>
+        <li>Utilizar o Slack</li>
+        <li>Como utilizer o Shell</li>
+        <li>Montar scripts</li>
+        <li>Utilizar o Pull Request</li>
+        <li>Boas práticas do GitHub</li>
+        <li>Diferença entre display block e inline-block</li>
+        <li>Diferença entre o span e o div</li>
+        <li>Posicionar as coisas sem o display flex</li>
+        <li>Boas práticas do Pull Request</li>
+      </ol>
+    </section>
+
+    <section id="secaoAprender" >
+      <h2>Lições a Aprender</h1>
+      <ul id="licoes_a_aprender">
+        <li>Seletores no Javascript</li>
+        <li>HtmlElement</li>
+        <li>NodeElement</li>
+        <li>Display Flex (avançado?)</li>
+        <li>Animações em CSS</li>
+        <li>React Hooks Personalizados</li>
+        <li>useEffect sem travar a máquina</li>
+        <li>NodeJs</li>
+        <li>Testes</li>
+        <li>Domain Driven Developtment</li>
+      </ul>
+    </section>
+
+  </article>
+
+  <footer id="rodape">
+    <p>Desenvolvido por <a href="https://github.com/andreserudo" target="_blank">André Serudo</a></p>
+  </footer>
+
 </body>
 </html>

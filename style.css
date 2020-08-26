@@ -6,11 +6,6 @@ body{
   background-color: rgb(253, 251, 251);
 }
 
-.content{
-  display: flex;
-  flex-direction: column;
-}
-
 #cabecalho{
   position:fixed;
   top: 0px;
@@ -18,6 +13,14 @@ body{
   background-color: rgb(246, 174, 45);
   width: 100%;
   height: 100px;
+}
+
+article{
+  margin-top: 100px;
+}
+
+#licoes_aprendidas{
+  padding-inline-start: 2rem;
 }
 
 #rodape{
