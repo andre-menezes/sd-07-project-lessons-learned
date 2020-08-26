@@ -40,20 +40,6 @@ body {
     margin-right: 30px;
 }
 
-.github-link {
-    margin-top: 81px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 5px;
-    float: right;
-    width: 70%;
-}
-
-.github-link a {
-    background-color: rgb((54, 54, 54));
-    padding-top: 20px;
-}
-
 #rodape{
     background-color: rgb(28, 28, 28);
     margin-top: 250px;
@@ -68,4 +54,11 @@ body {
 article {
     float: right;
     width: 49%;
+}
+
+.table-redes-sociais {
+    margin-top: 100px;
+    display: inline-block;
+    float: right;
+    width: 13%;
 }
