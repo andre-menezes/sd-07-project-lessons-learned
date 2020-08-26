@@ -6,6 +6,11 @@ body {
     top: 0;
     background-color: rgb(155,155,155);
 }
+
 #titulo {
     text-align: center;
+}
+
+#foto {
+    width: 150px;
 }
