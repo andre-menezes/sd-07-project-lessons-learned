@@ -2,6 +2,13 @@ body {
    background: rgb(253, 251, 251)
 }
 
+p {
+    font-size: medium;
+    color: rgb(78, 76, 76);
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header {
     position: fixed;
     top: 0px;
