@@ -23,6 +23,12 @@ nav {
     display: inline-block;
     margin-right: 20px;
     font-size: 15px;
+    
+}
+
+a {
+    color: rgb(253, 251, 251);
+    text-decoration: none;
 }
 
 #minha_foto {
@@ -36,8 +42,10 @@ nav {
 }
 
 .lado-esquerdo {
+    float: left;
     text-align: justify;
     line-height: 1.5em;
+    width: 70%;
 }
 
 .lado-direito {
@@ -47,6 +55,23 @@ nav {
     margin: 0 0 0 10px;
     border: 3px double #cb997e;
     padding: 10px;
+}
+
+table {
+    border: 3px solid #cb997e;
+    text-align: center;
+    width: 488px;
+    align-content: center;
+}
+
+td {
+    border-right: 1px solid #cb997e;
+    border-bottom: 1px solid #cb997e;
+}
+th {
+    border-right: 1px solid #cb997e;
+    border-bottom: 1px solid #cb997e;
+    width: 200px;
 }
 
 footer {
