@@ -8,9 +8,91 @@
 .cabecalho {
   position: fixed;
   top: 0px;
+  width: 100%;
+  background-color: rgb(143, 192, 169);
+}
+
+.cabecalho h1 {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(143, 192, 169);
+}
+
+.menu ul {
+  width: 100%;
+  background-color: rgb(143, 192, 169);
+  
+}
+
+.menu li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: rgb(143, 192, 169);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
 }
 
 .minha_foto img {
   width: 200px;
-  margin-top: 200px;
+  margin-top: 150px;
+}
+
+.licoes-todas {
+  width: 80%;
+}
+
+.licoes-todas ol {
+  padding: 20px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.licoes-todas ul {
+  padding: 20px;
+  width: 40%;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  padding: 5px 10px;
+  line-height: 2em;
+  text-align: justify;
+  border: 1px dashed rgb(143, 192, 169);
+}
+
+.lado-direito {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  padding: 5px 10px;
+  line-height: 2em;
+  text-align: justify;
+  border: 1px dashed rgb(143, 192, 169);
+}
+
+.volta-topo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: rgb(143, 192, 169);
+}
+
+.footer a {
+  background-color: rgb(143, 192, 169);
 }
