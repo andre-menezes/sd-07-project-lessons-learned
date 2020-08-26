@@ -5,6 +5,7 @@
 
 .tudo{
    background-color: rgb(253, 251, 251);
+   font-family: "Helvetica", serif;
 }
 .cabecalho{
    background-color: rgba(32, 82, 4, 0.801);
@@ -35,14 +36,13 @@
    line-height: 20px;
 }
 
-.rodape{}
-font-weight: bold;
-background-color: rgba(32, 82, 4, 0.801;
-width: 100%;
-display: block;
-
-}
-
+.rodape {
+    font-weight: bold;
+    background-color: rgba(32, 82, 4, 0.801;
+    display: block;
+    width: 100%;
+    
+        }
 .artigo{
 display: block;
 width: 50%;
