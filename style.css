@@ -1,3 +1,6 @@
+* {
+   
+}
 body {
     background: rgb(253, 251, 251);
     color: rgb(0, 0, 0);
@@ -5,15 +8,32 @@ body {
     font-size: medium;
     line-height: 1,2;
     text-align: justify;
+    margin: 0;
+}
+
+.image {
+    border-radius: 50%;
+    margin-top: 120px;
+    float: center;
+    padding: 15px;
+}
+
+.minha_foto {
+    float: none;
+    text-align: center;
 }
 
 .header {
     position: fixed;
-    top: 0px;
+    margin-top: 0px;
     width: 100%;
-    background: rgb(58, 82, 45);
+    background: rgb(84, 167, 39);
     text-align: center;
-    color: rgb(253, 251, 251)
+    color: rgb(253, 251, 251);
+}
+
+.page {
+    top: 
 }
 
 .button {
@@ -33,18 +53,20 @@ footer {
     text-align: center;
 }
 
-.lado-direito {
+.lado-direito, .lado-esquerdo {
     max-width: 35%;
     float: right;
     border: dotted;
     padding: 10px;
     margin: 10px;
+    display: inline-block;
 }
 
-.lado-esquerdo {
-    border: dotted;
-    max-width: 58%;
+.licoes_aprendidas, .licoes_a_aprender {
+    max-width: 25%;
+    float: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
     padding: 10px;
-    margin: 10px;
-    position: relative;
 }
