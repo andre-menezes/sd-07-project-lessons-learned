@@ -3,5 +3,6 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     margin-top: 0px;
 }
