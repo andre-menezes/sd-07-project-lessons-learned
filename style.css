@@ -38,3 +38,7 @@ body{
 #ltrybe{
     color: rgb(255, 255, 255);
 }
+
+#menu{
+  position: relative;  
+}
