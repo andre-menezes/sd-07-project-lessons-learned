@@ -58,14 +58,23 @@ article {
     padding: 5px;
 }
 
+.box {
+    height: 280px;
+    width: 100%;
+    background-color: yellow;
+    vertical-align: top;
+}
+
 .lado-esquerdo { 
-    float: left;
-    width: 60%; 
+    float:left;
+    width:60%; 
+    padding:20px;
 }
 
 .lado-direito {
-    float: right;
-    width: 30%; 
+    float:right;
+    width:30%; 
+    padding:20px;
 }
 
 h2 {
