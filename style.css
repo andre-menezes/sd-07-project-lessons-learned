@@ -17,11 +17,24 @@ body {
 .interface{width: 900px;
     margin: -20px auto 0px auto;
 }
-header#cabecalho{
+header#cabecalho{    
     position: fixed;/*requesito 2*/
     top: 0px; /*requesito 2*/
     background-color:  blue;
     border: 2px solid black;
+    color: white;
+    width: 880px;
+}
+header#cabecalho h1, h2{
+    margin: 0px;
+    padding: 0px;
+}
+header#cabecalho a{
+    float: right;
+
+}
+img#minha_foto{
+    margin-top: 110px;
 }
 footer#rodape {
     clear: both;
