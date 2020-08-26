@@ -22,7 +22,10 @@ nav ul li{
 }
 
 .lessons {
-  display: inline-block;
+  border-radius:5px;
+  margin: auto;
+  width: 380px;
+  background-color: rgb(31, 124, 22);
 }
 
 #minha_foto{
@@ -32,14 +35,19 @@ nav ul li{
   margin-top: 200px;
 }
 
+h2 {
+  text-align: center;
+}
+
 #titulo {
   color: white;
 }
 
 #licoes_aprendidas {
-  display: inline-block
+  margin-left: 25px;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-  display: inline-block  
+  display: inline-block;
 }
