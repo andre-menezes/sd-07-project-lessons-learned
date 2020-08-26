@@ -1,0 +1,39 @@
+body {
+   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    border-bottom: 1px solid #DD696D;
+    background-color: #3A4069;
+    margin-bottom: 80px;
+    top:0px;
+    font-family: Courier, "Lucida Console", monospace; 
+    color:#DD696D;
+}
+
+#titulo{
+    margin-top: 0px;
+    text-align: center;
+    font-family: Courier, "Lucida Console", monospace; 
+    color:white;
+}
+
+#minha_foto{
+    width: 200px;
+    border-radius: 30px;
+
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    width: 10%;
+    
+}
+
+
+
+#licoes_a_aprender{
+    display: inline-block;
+    width: 10%;
+    
+}
