@@ -10,7 +10,7 @@
 .cabecalho{
    background-color: rgba(32, 82, 4, 0.801);
    font-weight: 800;
-   position: absolute;
+   position: fixed;
    display: block;
    width: 100%;
    text-align: center;
