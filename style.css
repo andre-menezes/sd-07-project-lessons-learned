@@ -1,9 +1,30 @@
 
 body {
     background-color:rgb(253, 251, 251);
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
     position: fixed;
-    top:0px
+    top:0px;
+}
+
+#minha_foto {
+    margin-top: 150px;
+    border-radius: 90px;
+    width: 250px;
+}
+
+.lado-esquerdo, .lado-direito {
+    border:15px ridge;
+    width: 40%;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    width: 90px;
 }
