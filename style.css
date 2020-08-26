@@ -6,6 +6,21 @@ body {
     position: fixed;
     top: 0px;
     background-color: #417cc0;
-    height: 100px;
+    height: 200px;
     width: 100%;
+    padding-top: 20px;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.cabecalho-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 20px;
+}
+
+#corpo {
+    margin-top: 250px;
 }
