@@ -38,10 +38,28 @@ a:hover {
 }
 
 .container {
-  margin-top: 150px;
+  margin: auto;
+  padding: 200px;
 }
 
 img {
     border-radius: 10px;
 }
 
+ol {
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+    max-width: 500px;
+}
+
+aside {
+    display: inline-block;
+    max-width: 300px;
+}
