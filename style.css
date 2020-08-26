@@ -6,3 +6,7 @@ body {
     position: fixed;
     top: 0;
 }
+
+article {
+    margin: 40px 0;
+}
