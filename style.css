@@ -18,7 +18,9 @@ header{
     padding: 20px;
 }
 h1{
-    font-family: 'Londrina Solid', cursive; 
+    font-family: 'Londrina Solid', cursive;
+    font-size: 34px;
+    color: rgb(88, 88, 233);
 }
 nav {
     text-align: left;
@@ -71,6 +73,8 @@ article {
 }
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .lado-direito {
@@ -87,4 +91,5 @@ footer {
 footer p {
     padding-top: 50px;
     text-align: center;
+    font-size: 12px;
 }
