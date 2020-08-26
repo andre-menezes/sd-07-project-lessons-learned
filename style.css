@@ -9,9 +9,23 @@ body{
 .container{
     width: 768px;
     height: 1366px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #cabecalho{
     position: fixed;
     margin-top:0px;
     width: 100%;
+    border:1px solid red;
+}
+.contInterno{
+    display: flex;
+
+}
+.list{
+    flex:1;
+}
+
+.list h4{
+    margin-left: -20px;
 }
