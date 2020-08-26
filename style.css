@@ -1,0 +1,42 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tudo{
+   background-color: rgb(253,251,151);
+}
+.cabecalho{
+   background-color: rgba(32, 82, 4, 0.801);
+   font-weight: 800;
+   position: absolute;
+   display: block;
+   width: 100%;
+   text-align: center;
+   height: 60px;
+   text-decoration: underline;
+   font-size: 3em;
+   border-bottom: 2px solid;
+
+}
+
+.foto{
+   width: 200px;
+   margin:50px 10px 10px 10px;
+   position: relative;
+   border: 2px solid;
+
+}
+
+.lista_licoes{
+   margin: 30px;
+   line-height: 20px;
+}
+
+.rodape{
+font-weight: bold;
+background-color: rgba(32, 82, 4, 0.801;
+width: 100%;
+display: block;
+
+}
