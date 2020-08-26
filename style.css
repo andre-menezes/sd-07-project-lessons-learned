@@ -17,6 +17,15 @@ body{
     color: rgb(253, 251, 251) ;
 }
 
+.aprendidas{
+    float: left;
+
+}
+
+.a_aprendi{
+    float: right;
+}
+
 .navigation{
 
 
@@ -28,7 +37,7 @@ body{
 }
 
 .content{
-
+    clear: both;
 
 }
 
