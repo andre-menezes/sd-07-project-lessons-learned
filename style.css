@@ -1,14 +1,23 @@
 body{
     background-color: rgb(253, 251, 251) ;
+
 }
 
 #cabecalho{
     top: 0px;
     position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
 }
 
 #titulo{
     color:#3322ff;
+}
+
+#inf_pessoais{
+    margin-top: 150px;
 }
 
 #menu{
@@ -79,4 +88,21 @@ color:#fff;
 
 .artigo ol, .artigo ul{
     display: inline-block;
+}
+
+#rodape{
+    text-align: right;
+    border:1px solid #070303;
+    width: 100%;
+    background-color: rgb(173, 222, 255);
+}
+
+#rodape a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#estudo{
+    text-align: justify;
 }
