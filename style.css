@@ -1,12 +1,11 @@
 #titulo {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    padding: 68%;
+  padding: 68%;  
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    
+  background-color:rgb(253, 251, 251);
 }
 
