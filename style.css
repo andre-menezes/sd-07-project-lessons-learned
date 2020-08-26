@@ -28,6 +28,12 @@ ul {
     font-family: fantasy;
 }
 
+ol {
+    line-height: normal;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
 a {
     text-decoration: none;
 }
