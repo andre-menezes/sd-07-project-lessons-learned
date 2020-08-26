@@ -1,24 +1,32 @@
 body{
     background:rgb(253, 251, 251);
     margin: 0;
-    margin-top: 5px;
 }
 header{
-    width: 40%;
-    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    display: block;
+    background:green;
+    margin-bottom: 50px;
 }
 header img{
+    margin-left: 20%;
     display: inline-block;
-    width: 30%;
+    width: 10%;
 }
 header h1{
     display: inline-block;
     position: absolute;
     margin: 0px;
+    margin-left: 10px;
+    margin-top: 3.5% ;
 }
 section{
+    display: inline-block;
+    margin-top: 150px;
     margin-left: 25%;
-    margin-top: 50px;
+
 }
 ol{
     display: inline-block;
@@ -29,7 +37,7 @@ ul{
 article{
     margin-left: 25%;
     margin-right: 10%;
-    margin-top: 50px;
+ 
 }
 footer{
     margin-left: 0;
