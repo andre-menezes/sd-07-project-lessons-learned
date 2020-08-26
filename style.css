@@ -1,56 +1,53 @@
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253 , 251 , 251);
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    color: yellow;
-    font-size: larger;
-    background-color: purple;
-    width: 100%;
-    text-align: center;
+        margin-top: -100px;
+        position: fixed;
+        color: yellow;
+        font-size: larger;
+        background-color: purple;
+        width: 100%;
+        text-align: center;
 }
 
 img {
-    width: 333px;
-    margin-top: 10px;
-    border: solid red;
-    padding: 11px;
-    display: block;
+        width: 333px;
+        margin-top: 10px;
+        border: solid red;
+        padding: 11px;
+        display: block;
 }
 
 nav {
-    margin-top: 100px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
 }
 
 article {
-    line-height: 22px;
-    display: inline-block
+        line-height: 22px;
+        display: inline-block;
 }
 
 ol {
-    display: inline-block;
-    border: solid red;
-    padding: 33px;
+        display: inline-block;
+        border: solid red;
+        padding: 33px;
 }
 
 ul {
-    display: inline-block;
-    border: solid red;
-    padding: 33px;
+        display: inline-block;
+        border: solid red;
+        padding: 33px;
 }
 
 #rodape {
-    background-color: blueviolet;
+        background-color: blueviolet;
 }
 
 a {
-    color: yellow;
-    text-align: center;
-    display: block;
+        color: yellow;
+        text-align: center;
+        display: block;
 }
