@@ -6,3 +6,11 @@ body {
     position: fixed;
     top: 0px;
 }
+
+footer {
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(4, 0, 255);
+    color: rgb(253, 251, 251);
+}
