@@ -41,3 +41,23 @@ body {
     margin-left: 20px;
     margin-top: 0;
 }
+
+.ordered-list {
+    border: 3px solid rgb(0, 0, 0);
+    width: 200px;
+    float: left;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.unordered-list {
+    border: 3px solid rgb(0, 0, 0);
+    width: 200px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
