@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+main ul , main li , main ol {
+  border: 1px solid black;
+}
+
 #header-nav ul li {
   display: inline;
   margin: 15px;
@@ -60,10 +64,6 @@ body {
   top: 300px;
 }
 
-main ul, main li, main ol {
-  border: 1px solid black;
-}
-
 .lado-esquerdo {
   border: 8px solid black;
   width: 500px;
@@ -97,6 +97,6 @@ main ul, main li, main ol {
   top: 40px;
 }
 
-td, tr, th {
+td , tr , th {
   border: 1px solid black;
 }
