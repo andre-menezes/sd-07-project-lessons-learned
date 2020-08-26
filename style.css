@@ -13,16 +13,16 @@ body{
         text-align: center;
         background-color: #284E39;
         z-index: 10;
+        font-size: 20px;
 }
 #encontreme{
     display: block;
     position: relative;
     width: 900px;
     height: 120px;
-    top: 120px;
+    top: 140px;
     left: 458px;
     text-align: center;
-    border: 2px solid black;
 }
 a{
     text-decoration: none;
@@ -33,15 +33,59 @@ a{
 }
 #minha_foto{
     position: relative;
-    top: 20px;
-    width: 200px;
+    top: 25px;
 }
 #sobre_mim{
     display: inline-block;
     text-align: center;
     width: 900px;
-    height: 500px;
-    border: 2px solid black;
+    height: 200px;
     position: relative;
-    left: 253px;
+    left: 299px;
+    top: 135px;
+    border: 2px dotted green;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+    text-indent: 18px;
+}
+.lista01, .lista02{
+    display: inline-block;
+    position: relative;
+    border: 2px dotted green;
+    top: 140px;
+    left: 600px;
+    width: 300px;
+}
+
+.lado-equerdo{
+    display: inline-block;
+    float: left;
+}
+.lado-direito{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 140px;
+    right: 940px;
+    text-align: right;
+    width: 300px;
+}
+.lado-direito, .lado-direito{
+    align-items: center;
+}
+.sucesso{
+    background-color: green;
+    border: 3px dotted green;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+}
+footer{
+    position: relative;
+    padding: 0;
+    top: 40px;
 }
