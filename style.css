@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #cabecalho {
@@ -15,4 +16,27 @@ body {
 
 #minha_foto {
     width: 200px;
+    border-radius: 50%;
 }
+
+.navegacao {
+    font-size: medium;
+}
+
+p {
+    margin: 0;
+}
+
+.lado-direito, .lado-esquerdo {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+} 
+
+
+
+
