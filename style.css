@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@200&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap');
+/* Site para criar paletas de cores - https://coolors.co/ */
+/* Site para checar se seu site tem boa acessibilidadel - https://achecker.ca/checker/index.php */
 /* DEFAULT */
+html{
+    /* header não cobrir conteúdo navegando na página local pelo menu - https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ */
+    scroll-padding-top: 250px;
+}
 *{
     margin:0;
     padding: 0;
