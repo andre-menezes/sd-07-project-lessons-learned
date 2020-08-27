@@ -16,10 +16,14 @@ body {
     text-align: center;
 }
 
+nav {
+    border-bottom: 1px solid;
+}
 #minha_foto {
     margin-top: 80px;
+    border: 1px solid;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-    width: 22%;
+    width: 23%;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -42,20 +46,13 @@ body {
     margin-right: 30px;
 }
 
-#rodape{
-    background-color: rgb(28, 28, 28);
-    margin-top: 250px;
+.table-redes-sociais th {
+    border-bottom: 1px solid;
+    font: italic;
+}
+
+.table-redes-sociais tr {
     text-align: center;
-    padding: 10px;
-}
-
-#rodape span {
-    color: rgb(205, 205, 205);
-}
-
-article {
-    float: right;
-    width: 49%;
 }
 
 .table-redes-sociais {
@@ -67,19 +64,10 @@ article {
     margin-right: 5px;
 }
 
-.table-redes-sociais th {
-    border-bottom: 1px solid;
-    font: italic;
-}
-
-.table-redes-sociais tr {
-    text-align: center;
-}
-
 .section-artigo {
     display: inline-block;
     float: right;
-    width: 90%;
+    width: 95%;
 
 }
 
@@ -92,4 +80,15 @@ article {
     display: inline-block;
     float: left;
     width: 49%;
+}
+
+#rodape{
+    background-color: rgb(28, 28, 28);
+    margin-top: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+#rodape span {
+    color: rgb(205, 205, 205);
 }
