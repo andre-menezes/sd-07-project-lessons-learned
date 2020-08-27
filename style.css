@@ -66,6 +66,7 @@ table {
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
+    line-height: 20px;
 }
 
 .lado-direito {    
@@ -73,9 +74,10 @@ table {
     width: 45%;
     position: absolute;
     right: 30px;
-    top: 670px;
+    top: 690px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
+    line-height: 20px;
 }
 
 .link {
