@@ -10,13 +10,13 @@
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas na Trybe</h1>
-        <nav>
-            <a href="#apresentacao">Sobre mim</a>
-            <a href="#meu-aprendizado">Meu aprendizado na Trybe</a>
-            <a href="#licoes_aprendidas">Lições aprendidas</a>
-            <a href="#licoes_a_aprender">Lições a aprender</a>
-        </nav>
     </header>
+    <nav id="indice">
+        <a href="#apresentacao">Sobre mim</a>
+        <a href="#meu-aprendizado">Meu aprendizado na Trybe</a>
+        <a href="#licoes_aprendidas">Lições aprendidas</a>
+        <a href="#licoes_a_aprender">Lições a aprender</a>
+    </nav>
 
     <div>
         <section id="apresentacao">
@@ -35,40 +35,46 @@
         <p>Aprendi a utilizar o UNIX e realizar tarefas no terminal, salvar meus projetos usando Git e GitHub, e agora estou entrando em Frontend. Todos os dias desenvolvemos pequenos projetos para colocar em prática as novas habilidades adquiridas.</p>
         <p>Inclusive, esta página foi construída para avaliar meus aprendizados até o momento.</p>
     </article>
-    <aside>
+    <aside id="aprendizado-ativo">
         <h3>Aprendizado ativo</h3>
         <p>É uma forma de aprendizado onde o estudante está ativamente praticando o assunto estudado diariamente, além da leitura.</p>
     </aside>
     </div>
 
-    <h3>Conteúdos já estudados:</h3>
-    <ol id="licoes_aprendidas">
-        <li>UNIX & Bash</li>
-        <li>Shell Script</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Como a internet funciona</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>HTML semântico</li>
-        <li>Inspect</li>
-        <li>VSCode</li>
-    </ol>
-
-    <h3>Conteúdos que ainda vou aprender:</h2>
-    <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsivo</li>
-        <li>Testes unitários</li>        
-        <li>ES6</li>
-        <li>Jest</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-    </ul>
-
+    <div>
+        <div class="conteudos-estudados">
+            <h3>Conteúdos já estudados:</h3>
+            <ol id="licoes_aprendidas">
+                <li>UNIX & Bash</li>
+                <li>Shell Script</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Como a internet funciona</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML semântico</li>
+                <li>Inspect</li>
+                <li>VSCode</li>
+            </ol>
+        </div>
+        
+        <div class="conteudos-a-estudar">
+            <h3>Conteúdos que ainda vou aprender:</h2>
+            <ul id="licoes_a_aprender">
+                <li>JavaScript</li>
+                <li>DOM</li>
+                <li>Forms</li>
+                <li>CSS Responsivo</li>
+                <li>Testes unitários</li>        
+                <li>ES6</li>
+                <li>Jest</li>
+                <li>React</li>
+                <li>Node</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+    <br>
     <p>Caso você queira ver em mais detalhes o que foi desenvolvido por mim até o momento, acesse meu <a target="_blank" href="https://github.com/samantabelow">perfil</a> no GitHub.</p>
 
     <footer id="rodape">
