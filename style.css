@@ -36,6 +36,8 @@ body {
 }
 
 .sidebar {
+  margin-top: 80px;
+  margin-right: 20px;  
   float: right;
   width: 20%;
 }
