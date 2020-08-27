@@ -14,9 +14,11 @@ header {
   height: 70px;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 footer {
+  line-height: 25px ;
   background: rgb(126 , 126 , 126);
 }
 
@@ -35,10 +37,23 @@ footer {
 }
 
 #rodape {
-  text-align: left;
+  z-index: 0;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  color: white;
+}
+
+#licoes_aprendidas{
+  line-height: 20px;
+}
+
+#licoes_a_aprender{
+  line-height: 20px;
 }
 
 .article {
+  text-align: center;
   background-color: rgb(238 , 238 , 238);
 }
 
@@ -50,14 +65,18 @@ footer {
 }
 
 .asideBox {
+  position: relative;
   margin: 3px;
-  position: absolute;
   left: 66%;
+  top: 5px;
   display: inline-block;
   width: 30%;
 }
 
 .sectionMain {
+  top: 95px;
+  position: absolute;
+  left: 0;
   padding: 10px;
   height: 450px;
   display: inline-block;
@@ -72,5 +91,16 @@ footer {
   color: rgb(23 , 34 , 128);
   text-align: left;
   font-size: 15px;
+  font-style: italic;
+}
+.aside{
+  position: absolute;
+  margin-left: 50px;
+  top: 120px;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+#pass{
   font-style: italic;
 }
