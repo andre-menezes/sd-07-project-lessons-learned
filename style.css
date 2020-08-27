@@ -57,11 +57,11 @@ body {
     display: inline-block;
     box-sizing: border-box;
     margin-left: 15px;
-    padding: 3px;
+    padding: 5px;
     width: 400px;
     vertical-align: top;
     text-align: justify;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .lado-direito {
@@ -70,7 +70,7 @@ body {
     box-sizing: border-box;
     vertical-align: top;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.5;
     width: 18%;
     height: 290px;
     margin: 50px 200px 0px 0px;
@@ -127,6 +127,6 @@ body {
     text-align: center;    
 }
 
-h6 {
+h5 {
     padding: 25px;
 }
