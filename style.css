@@ -22,6 +22,7 @@
 body {
     color: rgb(148 , 148 , 148);
     background-color: rgb(253 , 251 , 251);
+    background-position: center;	
 }
 
 #licoes_a_aprender {
