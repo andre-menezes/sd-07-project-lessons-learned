@@ -43,7 +43,7 @@ body {
 }
 
 #minha_foto {
-    margin-top: 100px;
+    margin-top: 110px;
     border-radius: 50%;
     border: 3px solid rgb(15, 163, 107);
 }
@@ -61,12 +61,10 @@ body {
 }
 
 .lado-esquerdo {
-    #float: left;
     margin-left: 5%;
 }
 
 .lado-direito {
-    #float: right;
     margin-right: 5%;
 }
 
