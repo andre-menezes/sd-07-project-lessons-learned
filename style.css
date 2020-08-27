@@ -12,17 +12,23 @@ body {
     background-color: rgb(98,210,189);
     width: 100%;
     text-align: center;
-    border-bottom: solid 1px;
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    height: 208px;
 }
 
 #minha_foto {
     border-radius: 100%;
-    border: solid 1px;
-    width: 100px;
+    border: solid 3px;
+    width: 200px;
     display: block;
     position: relative;
     margin-left: 10px;
     margin-top: 5px;
+}
+
+.titulo {
+    text-align: center;
 }
 
 .cards {
@@ -43,4 +49,10 @@ body {
 
 .aprender {
     margin-right: 20px;
+}
+
+#rodape {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
 }
