@@ -1,6 +1,63 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+    padding: 5px 0;
+}
+ul{
+    list-style: none;
+}
+.checado{
+    text-align:right ;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px; 
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+.divisor{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+.capa {
+    height: 35%;
+    width: 100%;
+    display: table;
+    overflow: auto;
+}
 .cabecalho {
     position: fixed;
     margin: 0;
@@ -14,7 +71,9 @@ body {
     text-align: center;
 }
 .perfil{
-    margin-top: 1.0em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 #imagem1 {
     display: inline-block;
