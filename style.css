@@ -37,7 +37,7 @@ body {
 
 .sidebar {
   margin-top: 80px;
-  margin-right: 20px;  
+  margin-right: 20px;
   float: right;
   width: 20%;
 }
@@ -57,9 +57,9 @@ body {
   background-color: hsl(150 , 23% , 78%);
 }
 
-.lado-esquerdo h2{
-    margin-top: 70px;
-    margin-bottom: 25px;
+.lado-esquerdo h2 {
+  margin-top: 70px;
+  margin-bottom: 25px;
 }
 
 .aprendidas {
