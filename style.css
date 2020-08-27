@@ -31,50 +31,44 @@ body {
   border: 2px solid hsl(194 , 90% , 81%);
 }
 
-.aprendizado {
-  margin: 30px;
+.lado-esquerdo {
+  margin-top: 70px;
+  float: left;
+  width: 20%;
+  margin-bottom: 25px;
+  background-color: hsl(148 , 76% , 92%);
+}
+  
+.lado-direito {
+  margin-top: 70px;
+  float: right;
+  width: 20%;
+  margin-bottom: 25px;
+  background-color: hsl(150 , 23% , 78%);
+}
+
+.aprendidas {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 200px;
+}
+  
+.a_aprendi {
+  text-align: center;
+  margin-left: 30px;
+  width: 200px;
 }
 
 .sidebar {
   margin-top: 80px;
   margin-right: 20px;
   float: right;
-  width: 20%;
+  width: 10%;
 }
 
 .sidebar table {
   margin-top: 30px;
-}
-
-.lado-esquerdo {
-  float: left;
-  background-color: hsl(148 , 76% , 92%);
-}
-
-.lado-direito {
-  clear: both;
-  float: right;
-  background-color: hsl(150 , 23% , 78%);
-}
-
-.lado-esquerdo h2 {
-  margin-top: 70px;
-  margin-bottom: 25px;
-}
-
-.aprendidas {
-  float: left;
-  margin-left: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 200px;
-}
-
-.a_aprendi {
-  text-align: center;
-  float: left;
-  margin-left: 30px;
-  width: 200px;
 }
 
 h4 {
@@ -85,7 +79,10 @@ h3 {
   margin-top: 70px;
   margin-bottom: 25px;
 }
-
+.aprendizado {
+  margin: 30px;
+}
+  
 .content {
   text-align: center;
   width: 60%;
