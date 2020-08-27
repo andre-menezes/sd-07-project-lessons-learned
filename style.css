@@ -37,7 +37,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(73, 132, 180);
+  background-color: rgb( 73 , 132 , 180 );
   color: white;
   text-align: center;
   z-index: 10;
@@ -57,7 +57,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  background-color: rgb(73, 132, 180);
+  background-color: rgb( 73 , 132 , 180 );
   box-shadow: 0 0 50px -12px white;
   padding: 7px;
   border-radius: 20px;
