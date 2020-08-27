@@ -3,6 +3,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: unset;
 }
+
+.disciplinas{
+    position: absolute;
+    top:410px;
+    left: 650px;
+}
 .lado-esquerdo{
     position: absolute;
     top: 130px;
@@ -12,11 +18,6 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     width: 490px;
-}
-.disciplinas{
-    position: absolute;
-    top:410px;
-    left: 650px;
 }
 .lado-direito{
     position: absolute;
@@ -44,7 +45,7 @@ body{
   h4{
       position: absolute;
       margin-top:340px;
-      margin-left:10px;
+      margin-left:10px;  
   }
 
   a {
