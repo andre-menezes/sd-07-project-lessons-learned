@@ -5,19 +5,30 @@ body {
   line-height: 1.5em;
 }
 
-.centering-txt {
-  text-align: center;
+.body-width {
+  width: 80%;
+  margin: auto;
+}
+.div-table {
+  border: 2px solid rgb(119, 136, 153);
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  width: 45%;
 }
 
-.centering-stuff {
+.table-center {
+  width: 50%;
   margin: auto;
+  text-align: center;
 }
 
 .img-config {
   display: block;
+  justify-self: center;
+  margin: 135px auto auto;
   width: 30%;
   border: 3px solid rgb(119, 136, 153);
-  border-radius: 50%;
 }
 
 .lado-esquerdo {
@@ -33,13 +44,14 @@ body {
 .header-style {
   position: fixed;
   top: 0;
-  display: inline-block;
   text-align: center;
+  width: 100%;
+  background-color: rgb(24, 55, 82);
+  color: white;
 }
 
 .navstyle {
-  background-color: rgb(204, 86, 75);
-  display: inline-block;
+  text-align: center;
 }
 
 .navstyle a {
@@ -48,4 +60,11 @@ body {
   padding: 1em 2em;
   text-decoration: none;
   font-size: 20px;
+}
+
+.footer-style {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  clear: both;
 }
