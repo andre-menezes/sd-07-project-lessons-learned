@@ -16,3 +16,11 @@ h1{
   width: 200px;
   margin-top: 160px;
 }
+#tabela{
+  border:1px solid rgb(7, 6, 6);
+
+
+}
+#tabela td{
+  border:1px dashed black;
+}
