@@ -36,24 +36,24 @@ header{
 }
 #minha_foto{ 
     border: 8px solid rgb(6, 109, 170);
-    height: 48%;
-    top: 40%;
-    left: 8%;
+    height: 40%;
+    top: 45%;
+    left: 15%;
     position: absolute;
     border-radius: 20% 0% 20% 0%;
 }
 #table{
-    top: 40%;
+    top: 45%;
     left: 45%;
-    width: 40%;
-    height: 44%;
+    width: 35%;
+    height: 35%;
     padding-top: 0%;
     padding-left: 5%;
     padding-bottom: 3%;
     position: absolute;
     z-index: 2;
     text-align: left;
-    font: normal 30px Arial;
+    font: normal 25px Arial;
     color: rgb(6, 26, 64);
     border: 8px solid rgb(6, 109, 170);
     background-color: rgb(188, 205, 214);
