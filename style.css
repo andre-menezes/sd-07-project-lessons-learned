@@ -1,15 +1,15 @@
 :root {
 
-  --EerieBlack: rgb( 28, 28 , 28);
-  
+  --EerieBlack: rgb( 28 , 28 , 28);
+
   --DarkCharcoal: rgb(46 , 46 , 46);
-  
+
   --CeruleanFrost: rgb(109 , 155 , 195);
-  
+
   --BrightGray: rgb(235 , 236 , 240);
-  
+
   --Gray: rgb(190 , 190 , 190);
-  
+
 }
 
 body {
@@ -79,8 +79,7 @@ nav a:hover {
   text-align: center;
 }
 
-ol , 
-ul {
+ol , ul {
   display: inline-block;
 }
 
