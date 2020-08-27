@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(253, 251, 251) ;
+body { 
+  background-color: rgb(253, 251, 251) 
 }
 
 #cabecalho {
@@ -12,7 +12,7 @@ body {
 }
 
 #titulo {
-    color:rgb(51,34,255);
+    color: rgb(51, 34, 255);
 }
 
 #inf_pessoais {
@@ -20,8 +20,8 @@ body {
 }
 
 #menu {
-list-style:none;
-border:1px solid rgb(7,3,3);
+list-style: none;
+border: 1px solid rgb(7, 3, 3);
 width: 95%;
 display: inline-block;
 background-color: rgb(173, 222, 255);
@@ -29,26 +29,26 @@ margin-top: 0px;
 }
 
 #menu li {
-float:left;
-border-right:1px solid rgb(7,3,3);
+float: left;
+border-right: 1px solid rgb(7, 3, 3);
 }
 
 #menu li a {
-    color:black;
-    text-decoration:none;
-    padding:10px 15px;
-    display:inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 #menu li a:hover {
-background:#333;
+background: rgb(51, 51, 51);
 color: white;
 }
 
 #minha_foto {
     border-radius: 50%;
     width: 180px;
-    border: 10px groove rgb(51,34,255);
+    border: 10px groove rgb(51, 34, 255);
     position: relative;
     display: inline-block;
     float: left;
@@ -57,10 +57,10 @@ color: white;
 #meu_nome {
     display: inline-block;
     float: left;
-    margin:90px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 90px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     padding: 10px;
-    border: 10px groove rgb(51,34,255);
+    border: 10px groove rgb(51, 34, 255);
 }
 
 .tabela {
@@ -69,8 +69,8 @@ color: white;
 }
 
 .tabela td, .tabela th {
-    padding:10px;
-    border: 1px solid rgb(51,34,255);
+    padding: 10px;
+    border: 1px solid rgb(51, 34, 255);
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ color: white;
 }
 
 .artigo section h3 {
-    color: rgb(51,34,255);
+    color: rgb(51, 34, 255);
 }
 
 .artigo {
@@ -106,7 +106,7 @@ color: white;
 
 #rodape {
     text-align: right;
-    border:1px solid rgb(7,3,3);
+    border: 1px solid rgb(7, 3, 3);
     width: 100%;
     background-color: rgb(173, 222, 255);
     clear: both;
@@ -133,7 +133,7 @@ color: white;
     float: right;
     display: block;
     width: 40%;
-    border: 2px ridge rgb(51,34,255);
+    border: 2px ridge rgb(51, 34, 255);
     margin-right: 30px;
     margin-top: 20px;
 }
@@ -142,5 +142,5 @@ aside p {
     text-align: justify;
     font-size: 18px;
     padding: 0 10px;
-    line-height:20px;
+    line-height: 20px;
 }
