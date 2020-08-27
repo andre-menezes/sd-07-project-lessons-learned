@@ -21,6 +21,10 @@ body {
   margin-left: 20px;
 }
 
+a {
+  margin-left: 20px;
+}
+
 h2 {
   margin-top: 80px;
   margin-left: 20px;
@@ -39,6 +43,25 @@ h2 {
 }
 
 #licoes_a_aprender {
+  margin-top: 15px;
+  margin-left: 20px;
+  float: right;
+  width: 80%;
+}
+
+.container-dois {
+  margin-top: 30px;
+  margin-left: 20px;
+  height: auto;
+}
+
+#artigo {
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+
+#passagem {
   margin-top: 15px;
   margin-left: 20px;
   float: right;
