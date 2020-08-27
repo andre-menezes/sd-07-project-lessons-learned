@@ -7,7 +7,6 @@
   color: whitesmoke;
 }
 
-<<<<<<< HEAD
 #table {
   margin-left: 55%;
 }
@@ -15,37 +14,29 @@
 #minha_foto {
   margin-left: 3%;
   margin-bottom: 5%;
-=======
-#minha_foto {
-  margin-left: 3%;
-  margin-bottom: 3%;
->>>>>>> parent of 25b90ef... bonus complet
 }
 
 #licoes_aprendidas {
   float: right;
   border: solid;
-  padding: 1%;
+  padding: 3%;
   margin-right: 3%;
   line-height: 1.3;
+  width: 25%;
   font-family: fantasy;
-}
-
-body {
-  color: rgb(148 , 148 , 148);
-  background-color: rgb(253 , 251 , 251);
 }
 
 #licoes_a_aprender {
   float: right;
   border: solid;
-  padding: 1%;
+  width: 20%;
+  padding: 3%;
   margin-right: 3%;
 }
 
 .lado-esquerdo {
   height: 30%;
-  width: 50%;
+  width: 35%;
   border: solid;
   padding: 1%;
   margin-left: 2%;
@@ -53,9 +44,9 @@ body {
   line-height: 1.3;
 }
 
-#aside {
+.lado-direito {
   height: 30%;
-  width: 45%;
+  width: 35%;
   border: solid;
   padding: 1%;
   margin-left: 2%;
