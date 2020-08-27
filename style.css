@@ -16,7 +16,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, sans-serif;
   font-size: 14px;
 }
 
@@ -42,12 +42,12 @@ body {
   margin-top: 30px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   background-color: hsl(148 , 76% , 92%);
 }
 
-#lado-direito {
+.lado-direito {
   clear: both;
   float: left;
   background-color: hsl(150 , 23% , 78%);
@@ -81,7 +81,6 @@ h2 , h3 {
   text-align: center;
   width: 75%;
   margin-left: 20px;
-  font-family: Impact, Haettenschweiler, sans-serif;
 }
 
 .content h2 {
