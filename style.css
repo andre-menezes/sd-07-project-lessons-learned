@@ -1,12 +1,97 @@
 body {
-    background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
 }
-#cabecalho {
-    position: fixed;
-    top: 0px;
+
+/* Menu Top*/
+
+header {
+    background-color: rgb(8, 148, 148);
+    height: 60px;
+    line-height: 50px;
+
 }
-article, p, section {
+
+.menuTop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+    margin-right: 100px;
+
+}
+
+#titulo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 24px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    background-color: teal;
+    padding: 24px 15px;
+    margin-left: -1px;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+a:hover {
+    background-color: rgb(1, 78, 78);
+}
+
+/* Main */
+
+Main {
+      margin: 0 100px;
+}
+.firstArt {
+    clear: both;
+    padding-top: 60px;
+}
+img {
+    height: 300px;
+    float: left;
+}
+.artigoFoto {
+    width: 500px;
+    float: left;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+}
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    font-family: 'Alata', sans-serif;
+}
+#fotoLista div {
+    margin-left: 50px;
+    width: 250px;
+    display: inline-block;
+}
+#fotoLista {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+    text-align: justify;
+}
+
+.secondArt {
+    padding: 50px;
     border-style: solid;
-    border-color: red;
-    margin: 5px;
+    border-width: 3px;
+    border-color: rgb(1, 78, 78);
 }
+
