@@ -10,7 +10,7 @@ body{  /*primeiro requisito*/
 }
 
 #minha_foto{ /*terceiro requisito*/
-    position: relative;
+    position: absolute;
     top: 100px;
     width: 100px;
     border-radius: 20%;
@@ -18,10 +18,23 @@ body{  /*primeiro requisito*/
 
 .listas{
     position: relative;
-    top: 150px;
+    top: 200px;
     color: rgb(10, 10, 10);
 }
 footer{
-    position: absolute;
+    position: relative;
+    top: 300px;
+    color: rgb(10, 10, 10);
+}
+article{
+    position: relative;
+    top: 200px;
+    color: rgb(10, 10, 10);
+}
+
+aside{
+    position: relative;
+    top: 200px;
+    left: 150px;
     color: rgb(10, 10, 10);
 }
