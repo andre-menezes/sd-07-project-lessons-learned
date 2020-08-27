@@ -6,7 +6,7 @@ body{
 
 #cabecalho{
 
-    position: fixed /* se houver outra div essa ficara logo apos a anterios */
+    position: fixed;/* se houver outra div essa ficara logo apos a anterios */
     width: 100%;  /* ocupa 100% da largura da pagina */
     height: 80px; /* altura 80 px */
     margin: 1px;
