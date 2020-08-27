@@ -13,3 +13,19 @@ img {
     border-radius: 50%;
     border: 1px dashed black;
 }
+
+.learning {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+.ladolado {
+    clear: both;
+}
+
+.passagem {
+    float: right;
+    width: 30%;
+}
+
