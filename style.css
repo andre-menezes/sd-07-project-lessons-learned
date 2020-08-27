@@ -61,7 +61,7 @@ section#geral {
 }
 
 section#geral img#minha_foto {
-  width: 90%;
+  width: 85%;
 }
 
 section#principal {
@@ -80,16 +80,21 @@ section.lado-esquerdo caption {
   font-style: italic;
 }
 
+/* table */
+
 section.lado-esquerdo table {
   border: 1px solid black;
   border-spacing: 0px;
+  text-align: center;  
 }
 
 section.lado-esquerdo table th,
 section.lado-esquerdo table td {
   border: 1px solid black;
-  padding: 5px 10px;
+  padding: 4px 4px;
 }
+
+/* sections */
 
 section.lado-direito {
   float: right;
