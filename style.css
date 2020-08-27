@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #cabecalho {
     position: fixed;
@@ -23,7 +24,35 @@ body {
         }
 #minha_foto {
     margin-top: 200px;
+    border-radius: 100%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }  
 #rodape {
     font-size: 2px;
+}
+#Apresentação li {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
+#Apresentação a {
+    text-decoration: none;
+    color: black;
+}
+.licoes_aprendidas {
+    display: inline-block;
+    border-left: 40px solid rgb(3, 149, 168);
+    width: 30%;
+    margin: 10px;
+}
+.licoes_a_aprender {
+    display: inline-block;
+    border-left: 40px solid rgb(3, 149, 168);
+    width: 30%;
+    margin: 10px;
 }
