@@ -74,17 +74,16 @@ nav a {
     z-index: 1;
     top: 600px;
 }
-.lado_esquerdo{
-    /*display: inline-block;*/
+.lado_esquerdo_box{
+    display: inline-block;
     width: 750px;
     text-align: center;
     margin: 40px;
-    float: left;
-    /*clear: both*/
-    
+    clear: both
+#
 }
 .lado_direito{
-    /*display: inline-block;*/
+    display: inline-block;
     width: 450px;
     text-align: center;
     position: relative;
