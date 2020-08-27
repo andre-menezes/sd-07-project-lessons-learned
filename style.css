@@ -41,7 +41,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     width: 490px;
-    /*background-color:rgb(6, 90, 6)*/
 }
 
 .lado-direito {
@@ -53,7 +52,6 @@ body {
     line-height: 25px;
     padding-left: 1em;
     margin-right: 15px;
-    /* background-color:rgb(6, 90, 6)*/
 }
 
 .trybe {
@@ -103,26 +101,20 @@ nav {
     position: absolute;
     top: 450px;
     margin-left: 350px;
-    /* background-color: rgb(114, 119, 165); */
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 15px;
-    /* margin: 1px;
-    margin-left: 15px; */
 }
 
 #licoes_a_aprender {
     position: absolute;
     top: 450px;
     left: 600px;
-    /* background-color:rgb(114, 119, 165); */
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 15px;
-    /* margin: 1px;
-    margin-left: 15px; */
 }
 
 .bloco {
@@ -146,15 +138,6 @@ tr:nth-child(even) {
     left: 350px;
 }
 
-/* .tabela{
-      position: absolute;
-      top:470px;
-      left: 650px;
-      width: 500px;
-      height: 150px;
-      background-color: slategray;
-} */
-
 #rodape img {
     margin-bottom: 20px;
     margin-top: 100px;
@@ -165,7 +148,6 @@ tr:nth-child(even) {
     width: 100px;
     top: 750px;
     margin-top: 65px;
-    /* background-color:lawngreen*/
 }
 
 #cabecalho {
