@@ -47,14 +47,15 @@ body{
       color: rgb(6, 90, 6);
   }
 
-  h4{
+  .meuNome{
       position: absolute;
       margin-top:360px;
       margin-left:10px;  
+     
   }
 
   a {
-     text-decoration:none
+    text-decoration:none;
   }
   nav {
       position: absolute;
