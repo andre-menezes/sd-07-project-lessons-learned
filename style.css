@@ -1,10 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Permanent Marker, cursive;
+  font-size: 15px;
+  line-height: 1.5em;
   margin: 0;
   padding: 0;
-  line-height: 1.5em;
-  font-size: 15px;
 }
 
 .conteudo {
@@ -21,6 +21,27 @@ body {
   width: 100%;
 }
 
+#minha_foto {
+  border-radius: 50%;
+}
+
+.tabela {
+  margin: 200px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+#licoes_aprendidas {
+  width: 50%;
+  float: left;
+}
+
+#licoes_a_aprender {
+  width: 50%;
+  float: right;
+}
 .section-principal {
   display: inline-block;
 }
