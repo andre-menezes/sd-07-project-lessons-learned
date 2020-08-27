@@ -17,9 +17,29 @@
   color: black;
 }
 
-article {
-  width: 200px;
-  margin-left: 20px;
+#licoes_aprendidas {
+  text-align: center;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  text-align: center;
+  display: inline-block;
+}
+
+.secao-fundo {
+  width: 300px;
+}
+
+.secao-texto { 
+  width: 70%;  
+  text-align: center;
+}
+
+.secao-extra {
+  width: 200px;  
+  margin-left: 10px;
+  text-align: center;
 }
 
 body {
