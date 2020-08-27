@@ -4,10 +4,59 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: red;
+    background-color: #254D32;
     display: block;
-    width: 100%
+    width: 100%;
+    height: 150px;
+    border: groove;
 }
 #apresentacao {
-    margin-top: 140px;
+    margin-top: 190px;
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
 }
+
+#minha_foto {
+    display: inline-block;
+    margin-top: 180px;
+}
+
+.sobre-mim {
+    
+}
+
+img {
+    border: 8px groove #254D32;
+    width: 20%;
+}
+
+p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+h2, h3 {
+    color: #181D27; 
+}
+
+footer {
+    background-color: #3A7D44;
+    border: groove;
+    margin-top: 30px;
+}
+
+a {
+    margin-left: 0px;
+}
+footer a, p {
+    margin-left: 15px;
+}
+header h1 {
+    margin-left: 15px;
+}
+header a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
