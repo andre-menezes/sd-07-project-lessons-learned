@@ -1,45 +1,50 @@
-html    {
-    margin: 0px;
-    padding: 0px;;
+html {
+    margin: 0;
+    padding: 0;
 }
 
-body    {
+body {
     background-color: rgb(253, 251, 251);
     margin-top: 150px;
-    font-family: 'Raleway', 'Times New Roman', Times, sans-serif;
+    font-family: "Raleway", "Times New Roman", Times, sans-serif;
     font-size: 18px;
     color: rgb(31, 36, 33);
     line-height: 25px;
 }
 
-header  {
+header {
     top: 0px;
-    background-color: green;
+    background-color: rgb(27, 67, 50);
+    color: white;
     position: fixed;
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px 40px;
 }
 
 #imagem {
-    display: inline-block;
+    display: block;
     padding: 50px 30px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 #listas {
-    padding: 20px 20px;
-    background-color: rgb(27, 67, 50);
+    padding: 20px;
+    background-color: rgb(73, 160, 120);
     width: 100%;
 }
 
-#licoes_aprendidas  {
+#licoes_aprendidas {
     display: inline-block;
     width: 50%;
     padding-left: 90px;
 }
 
-#licoes_a_aprender  {
+#licoes_a_aprender {
     display: inline-block;
-    width: 40%
+    width: 40%;
 }
 
 article {
@@ -48,29 +53,28 @@ article {
     padding-right: 5px;
 }
 
-aside   {
+aside {
     width: 40%;
     float: right;
 }
 
-footer  {
+footer {
     text-align: center;
-    margin-top: 10px;
     padding: 10px;
-    clear: both;
+    width: 100%;
 }
 
-#aprendizados   {
-    padding: 0px 20px;
+#aprendizados {
+    padding: 0 20px;
 }
 
-.lado-esquerdo   {
+.lado-esquerdo {
     display: inline-block;
     padding-bottom: 40px;
     padding-top: 20px;
 }
 
-.lado-direito   {
+.lado-direito {
     display: inline-block;
     padding-bottom: 40px;
     padding-top: 20px;
@@ -80,20 +84,13 @@ footer  {
     display: inline-block;
     width: 100%;
     text-align: center;
-    background-color: rgb(27, 67, 50);
+    background-color: rgb(73, 160, 120);
     padding-bottom: 40px;
 }
 
-table,td   {
+table, td {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid white;
     padding: 5px;
-}
-
-footer  {
-    background-color: rgb(253, 251, 251);
-    padding: 5px;
-    margin: 10px 0px;
-    width: 100%
 }
