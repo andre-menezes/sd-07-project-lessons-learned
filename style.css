@@ -139,7 +139,6 @@ tr:nth-child(even) {
     margin-top: 100px;
     display: inline-block;
     position: relative;
-    padding: 0px;
     margin-left: 250px;
     width: 100px;
     top: 750px;
@@ -147,7 +146,7 @@ tr:nth-child(even) {
 }
 
 #cabecalho {
-    background-color: #323543;
+    background-color: rgb(31, 42, 68);
     position: fixed;
     top: 0px;
     height: 90px;
@@ -167,4 +166,4 @@ tr:nth-child(even) {
     left: 880px;
     width: 31%;
     height: 150px;
-}
+};
