@@ -1,5 +1,6 @@
 body {
     background: rgb(253,251,251);
+    line-height: 25px;
 }
 
 header {
@@ -15,6 +16,15 @@ img {
     padding: 2px;
     border-radius: 50%;
     border: 1px dashed black;
+}
+
+p {
+    font-family: lato;
+    font-size: 16px;
+}
+
+p, li, td, th {
+    color: #03045e;
 }
 
 .lado-esquerdo {
@@ -42,3 +52,5 @@ table, td, th {
 #rodape {
     text-align: center;
 }
+
+
