@@ -1,18 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px;
+  margin: 0;
 }
 
 #cabecalho {
-  background-color: #0fa36b;
-  margin-top: 0px;
+  background-color: green;
+  margin-top: 0;
   padding-bottom: 80px;
   position: fixed;
   width: 100%;
 }
 
 #titulo {
-  color: #fff;
+  color: white;
   text-align: center;
 }
 
@@ -26,23 +26,23 @@ h2 {
   margin-left: 20px;
 }
 
-.container { 
+.container {
   margin-top: 30px;
   margin-left: 20px;
   height: auto;
 }
 
 #licoes_aprendidas {
-  margin-top: 15px; 
-  margin-left: 20px; 
-  float: left;  
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
 }
 
 #licoes_a_aprender {
-  margin-top: 15px; 
-  margin-left: 20px;  
+  margin-top: 15px;
+  margin-left: 20px;
   float: right;
-  width: 80%; 
+  width: 80%;
 }
 
 #rodape {
