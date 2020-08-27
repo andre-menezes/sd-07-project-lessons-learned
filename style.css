@@ -25,7 +25,6 @@ body {
 }
 
 .aside-aprendizado {
-    display: inline-block;
     width: 49%;
     margin-left: 5px;
 }
@@ -60,5 +59,27 @@ article {
     margin-top: 100px;
     display: inline-block;
     float: right;
-    width: 13%;
+    width: 12%;
+    border: 1px solid;
+    margin-right: 5px;
 }
+
+.table-redes-sociais th {
+    border-bottom: 1px solid;
+    font: italic;
+}
+
+.table-redes-sociais tr {
+    text-align: center;
+}
+
+
+.section-artigo {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.section-artigo span {
+    font-weight: bold;
+}
+
