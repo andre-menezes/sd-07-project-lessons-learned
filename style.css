@@ -44,3 +44,9 @@ h2 {
   float: right;
   width: 80%; 
 }
+
+#rodape {
+  margin-left: 20px;
+  font-size: 15px;
+  clear: both;
+}
