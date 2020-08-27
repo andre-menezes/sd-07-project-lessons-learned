@@ -110,7 +110,7 @@ body {
 /***************************************section artic********************************************/
 
 
-#artigo {
+.lado-esquerdo {
     display: block;
     width: 400px;
     height: 200px;
@@ -119,7 +119,7 @@ body {
     margin-left: 100px;
 }
 
-#artigo p {
+.lado-esquerdo p {
     font-size: large;
     text-align: center;
 }
@@ -140,7 +140,7 @@ body {
     margin-top: 700px;
     font-family: 'Times New Roman', Times, serif;
 }
-aside {
+.lado-direito {
     background-color:rgb(241, 241, 241);
     width: 400px;
     height: 200px;
@@ -148,4 +148,13 @@ aside {
     text-align: center;
     margin-left: 700px;
     margin-top: -220px;
+}
+#tabela {
+    border: solid;
+    background-color: rgb(14, 131, 167);
+    margin:auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
 }
