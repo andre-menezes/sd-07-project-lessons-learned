@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+}
+
+#cabecalho {
+    max-width: 1300px;
+    background-color: green;
+    margin-top: 0;
+    padding: 30px 50px;
+}
