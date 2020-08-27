@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253 , 251 , 251); 
+    background-color: rgb(253,251,251); 
     height: 100%;
 }
 .painel_nav {
@@ -22,32 +22,32 @@ position: fixed;
     border-color: black;
 }
 .secoes1 {
-    border-color:black;
-    display:inline-block;
-    width:45%;
-    text-align:top;
+    border-color: black;
+    display: inline-block;
+    width: 45%;
+    text-align: top;
 }
 .secoes2 {
-    border-color:black;
-    display:inline-block;
+    border-top-color: black;
+    display: inline-block;
 }
 .lado-direito {
-    float:right;
+    float: right;
 }
 .lado-esquerdo {
-    float:left;
+    float: left;
 }
 #rodape {
-    width:100%;
-    display:flex;
-    justify-content:center;
-    padding:2px;
-    background-color:green;
-    color:white;
-    font-size:1em;
-    line-height:1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+    line-height: 1em;
 }
 #tabela-leo {
-    margin:10px;
-    border:aqua;
+    margin: 10px;
+    border: aqua;
 }
