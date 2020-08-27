@@ -15,17 +15,18 @@ img {
 }
 
 .learning {
-    display: block;
     float: left;
-    width: 70%;
-}
-
-.ladolado {
-    clear: both;
+    width: 65%;
+    text-align: justify;    
 }
 
 .passagem {
     float: right;
     width: 30%;
+    margin: 0px;
+    text-align: justify;
 }
 
+.ladolado {
+    display: inline-block;    
+}
