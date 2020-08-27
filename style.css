@@ -1,3 +1,8 @@
+#botao {  
+  list-style-type: none;
+  display: inline-block;
+}
+  
 #cabecalho {
   position: fixed;
   top: 0;
@@ -6,6 +11,10 @@
 #minha_foto {
   border-radius: 35%;
   width: 300px;
+}
+
+#titulo {
+  color: black  
 }
 
 body {
