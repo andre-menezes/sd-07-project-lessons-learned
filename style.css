@@ -5,8 +5,27 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(69 , 219 , 0);
+  background-color: rgb(118, 113, 149);
   width: 1900px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#cabecalho nav {
+    text-align: start;
+    background-color: rgb(13, 236, 188);
+    vertical-align: text-bottom;
+    height: 45px;
+    margin-top: 90px;
+}
+
+#cabecalho nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 9px;
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 #corpo {
@@ -18,5 +37,5 @@ p , li {
 }
 
 .licoes {
-    display: inline-block;
+  display: inline-block;
 }
