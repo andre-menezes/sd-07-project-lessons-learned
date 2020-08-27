@@ -63,6 +63,21 @@ color:#fff;
     border: 10px groove #3322ffee;
 }
 
+.tabela{
+    float: right;
+    margin-right: 40px;
+}
+
+.tabela td, .tabela th{
+    padding:10px;
+    border: 1px solid #3322ff;
+    text-align: center;
+}
+
+.tabela th{
+    background-color: rgb(173, 222, 255);
+}
+
 .artigo section{
     display: inline-block;
 }
