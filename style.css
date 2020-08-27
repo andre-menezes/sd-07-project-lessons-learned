@@ -48,17 +48,8 @@ body {
     border: 3px solid rgb(15, 163, 107);
 }
 
-.lado-esquerdo {
-    float: left;
-    margin-left: 5%;
-}
-
-.lado-direito {
-    float: right;
-    margin-right: 5%;
-}
-
 .artigos {
+    display: inline-block;
     color: rgb(253, 251, 251);
     background-color: rgb(15, 163, 107);
     width: 40%;
@@ -67,6 +58,16 @@ body {
     overflow: hidden;
     font-weight: 400;
     line-height: 18px;
+}
+
+.lado-esquerdo {
+    #float: left;
+    margin-left: 5%;
+}
+
+.lado-direito {
+    #float: right;
+    margin-right: 5%;
 }
 
 footer {
