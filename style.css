@@ -10,3 +10,8 @@ body{
     width: 100%;
     background-color: blue;
 }
+
+#minha_foto{
+    width:98px;
+    border-style: solid;
+}
