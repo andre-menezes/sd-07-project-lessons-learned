@@ -22,12 +22,15 @@ body {
 }
 
 .lado-esquerdo {
-  width: 40%;
+  float: left;
+  width: 45%;
   margin: 10px;
   padding: 10px;
 }
 
 .lado-direito {
+  float: right;
+  width: 45%;
   margin: 10px;
   padding: 10px;
 }
