@@ -1,101 +1,86 @@
-#SetColorBody {
-background-color: rgb(253,251,251);
-}
-
-#cabecalho{
-background-color:rgb(4, 169, 245);
-position: fixed;
-top:0px;
-right:0px;
-left:0px;
-height: 40px;
-}
-
-#titulo{
-color:rgb(253,251,251);
-text-align: left;
-font-family: 'alata', serif;
-margin-left:10px;
-}
-
-#titleform{
-background-color:black;
-}
-
-#minha_foto{
-border-color:black;
-margin-top:30px;
-margin-left:10px;
-display: inline-block;
-text-align: center;
-width: 200px;
-height: 200px;
-border-radius:round;
-}
-
-.foto{
-    margin:30px;
-    border: 10px;
-    border-color:black;
-    display: inline-block;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(253 , 251 , 251);
+  }
+  
+  #cabecalho {
+    background-color:rgb(94, 9, 173);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+  }
+  
+  #titulo {
+    color: white;
+    line-height: 5rem;
     text-align: center;
-    width: 200px;
-    height: 200px;
-}
-
-#licoes_a_aprender{
-
-margin-right:84px;
-display: inline-block;
-text-align: right;
-width: 300px;
-}
+    font-family: -apple-system, Roboto, sans-serif;
+    font-size: 1.8rem;
+    margin:30px;
+  }
+  #minha_foto{
+width:200px ;
+height: 200px;
+border-radius: 50%;
+margin: 10px;
+  }
 
 #licoes_aprendidas{
-margin-left:84px; 
-display: inline-block;
-text-align:left;
 width: 300px;
-}
-
-#rodape{
-    text-align:center;
-    margin: auto;
-    color:white;
-    height: 200px;
-    font-weight: bolder 18;
-    background-position: 0px 0px 0px 0px;
-    background-color: rgb(4, 169, 245);
+height: 300px;
+display:inline-block;
 
 }
+#licoes_a_aprender{
+    width: 300px;
+    height: 300px;
+    display:inline-block;
 
-#aprendizado{
+}
+
+#img{
+margin:50px;
+margin-top:200px;
+
+}
 
 
-    border-color: black;
+  .lado-esquerdo {
+    display: inline-block;
+    width: 50%;
+    border: solid 2px;
+    border-color:rgb(0,0,0);
+    margin-left:50px;
+  }
+  
+  .lado-direito {
+    display:inline-block;
+    width: 50%;
     border:solid 2px;
-    width:300px;
-    height:300px;
-    margin-left: 84px;
-    margin-top:50px;
-    
+    border-color: rgb(0,0,0);
+    margin:20px;
+    margin-left:500px;
+  }
   
-}
+  #url{
+    text-align: center;
+    color:black;
+    margin:20px;
 
-#side{
+  }
 
-    
-    
-    width:300px;
-    height:300px;
-    margin-top:30px;
-    margin-left:500px ;
-    
-  
-    
-}
-
-#urlink{
-text-align:center;
-margin:8px;
-}
+  #rodape {
+    background-color: rgb(94,9,173);
+    margin-top: 30px;
+    height: 50px;
+    color: white;
+    text-align: center;
+  }
