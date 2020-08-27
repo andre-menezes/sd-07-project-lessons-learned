@@ -23,14 +23,17 @@ footer {
 #cabecalho {
         border: 1px solid black;
 }
+
 #titulo {
         text-align: center;
 }
+
 #minha_foto {
         height: 100px;
         border-radius: 10px;
         padding: 1px;
 }
+
 #rodape {
             text-align: left;
 }
