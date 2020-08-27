@@ -1,8 +1,11 @@
+* {
+  margin: 0px;
+  border: 8px;
+  padding: 6px;
+}
+
 body {
-  background-color: rgb(253, 251, 251);
-  margin: 2px;
-  border: 2px;
-  padding: 2px;
+  background-color: rgb(253, 251, 251);  
 }
 
 section {
