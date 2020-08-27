@@ -38,4 +38,14 @@ p , li {
 
 .licoes {
   display: inline-block;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.aprendizado {
+  display: inline-block;
+  width: 700px;
+  margin-left: 180px;
+  margin-top: 80px;
+  vertical-align: top;
 }
