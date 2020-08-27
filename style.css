@@ -18,6 +18,12 @@ body{
     padding-right: 20px;
     width: 490px;
 }
+.tec{
+    display: inline-block;
+    position: absolute;
+    right: 1090px;
+    top: 550px;
+} 
 .lado-direito{
     position: absolute;
     top: 130px;
@@ -55,6 +61,13 @@ body{
       margin-top: 1px;
       margin-left: 15px;
       font-size: 20px;
+  }
+  .minhaSection{
+      position: absolute;
+      top:125px;
+      left: 800px;
+      font-size: 18px;
+      line-height: 25px;
   }
   #titulo{
       text-align: center;
@@ -104,15 +117,16 @@ body{
       margin-top: 100px;
       display: inline-block;
       position: relative;
-      padding: 100px;
-      margin-left: 100px;
+      padding: 0px;
+      margin-left: 250px;
       width: 100px;
-      top:700px;
+      top:850px;
+     /* background-color:lawngreen*/
   }
   .css {
       position: absolute;
       top:1095px;
-      left: 187px;
+      left: 230px;
      
   }
   .git{
@@ -123,5 +137,5 @@ body{
   .js{
     position: absolute;
     top:1095px;
-    left: 977px;
+    left: 910px;
   }
