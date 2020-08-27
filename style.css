@@ -1,7 +1,7 @@
 body {
   margin: 170px auto 0;
-  background-color: rgb(253,251,251);
-  font-family: "Gill Sans", 'Calibri', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Calibri, sans-serif;
   font-size: 1.2em;
 }
 
@@ -9,7 +9,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: rgb(59,171,253);
+  background-color: rgb(59, 171, 253);
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
   list-style: none;
   margin: 10px 30px;
   padding: 7px;
-  background-color: rgb(2,48,2);
+  background-color: rgb(2, 48, 2);
   border-radius: 5px;
 }
 
@@ -29,7 +29,7 @@ body {
 
 #cabecalho nav ul a {
   text-decoration: none;
-  color: rgb(255,255,255);
+  color: white;
   font-weight: 600;
 }
 
@@ -40,11 +40,12 @@ body {
 }
 
 #cabecalho h1#titulo {
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(255,255,255);
+  font-family: Ubuntu, sans-serif;
+  color: white;
 }
 
-#geral ol, #geral ul {
+#geral ol,
+#geral ul {
   line-height: 25px;
 }
 
@@ -58,7 +59,7 @@ body {
   width: 25%;
   float: left;
   text-align: center;
-  background-color: rgb(109,193,255);
+  background-color: rgb(109, 193, 255);
 }
 
 #geral img#minha_foto {
@@ -73,7 +74,7 @@ body {
   width: 46.5%;
   float: left;
   text-align: justify;
-  background-color: rgb(178,221,255);
+  background-color: rgb(178, 221, 255);
 }
 
 .lado-esquerdo caption {
@@ -82,20 +83,21 @@ body {
 }
 
 .lado-esquerdo table {
-  border: 1px solid rgb(0,0,0);
+  border: 1px solid black;
   border-spacing: 0;
   text-align: center;
 }
 
-.lado-esquerdo table th, .lado-esquerdo table td {
-  border: 1px solid rgb(0,0,0);
+.lado-esquerdo table th,
+.lado-esquerdo table td {
+  border: 1px solid black;
   padding: 4px;
 }
 
 .lado-direito {
   float: right;
   width: 25%;
-  background-color: rgb(109,193,255);
+  background-color: rgb(109, 193, 255);
 }
 
 .lado-direito aside {
