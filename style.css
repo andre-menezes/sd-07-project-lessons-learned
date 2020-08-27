@@ -33,7 +33,7 @@ body {
   margin-right: 3%;
 }
 
-#article {
+.lado_esquerdo {
   height: 30%;
   width: 50%;
   border: solid;
