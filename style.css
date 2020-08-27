@@ -1,133 +1,151 @@
-body{
-     background-color:rgb(253, 251, 251);
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     position: unset;
-     margin: auto;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(253, 251, 251);
+    position: unset;
+    margin: auto;
 }
+
 .css {
     position: absolute;
-    top:1000px;
+    top: 1000px;
     left: 230px;
-   
 }
-.git{
-  position: absolute;
-  top:1000px;
-  left: 587px;
+
+.git {
+    position: absolute;
+    top: 1000px;
+    left: 587px;
 }
-.js{
-  position: absolute;
-  top:1000px;
-  left: 910px;
+
+.js {
+    position: absolute;
+    top: 1000px;
+    left: 910px;
 }
-.tec{
+
+.tec {
     display: inline-block;
     position: absolute;
     right: 1090px;
     top: 550px;
-} 
-.lado-esquerdo{
+}
+
+.lado-esquerdo {
     display: block;
     position: absolute;
     top: 130px;
     left: 330px;
     font-size: 18px;
-    margin-top:15px;
+    margin-top: 15px;
     line-height: 25px;
     padding-left: 20px;
     padding-right: 20px;
     width: 490px;
     /*background-color:rgb(6, 90, 6)*/
 }
-.lado-direito{
+
+.lado-direito {
     position: absolute;
     top: 130px;
     left: 860px;
     font-size: 18px;
-    margin-top:15px;
+    margin-top: 15px;
     line-height: 25px;
     padding-left: 1em;
     margin-right: 15px;
-   /* background-color:rgb(6, 90, 6)*/
-}
-.trybe{
-      color: rgb(6, 90, 6);
+    /* background-color:rgb(6, 90, 6)*/
 }
 
-.meuNome{
-      position: absolute;
-      margin-top:360px;
-      margin-left:10px;  
-      margin-left: 40px;
-  }
-a {
-    text-decoration:none;
+.trybe {
+    color: rgb(6, 90, 6);
 }
-nav {
-      position: absolute;
-      bottom: 10px;
-      margin-left: 15px;
-      font-size: 20px;
-}
-.minhaSection{
-      position: absolute;
-      top:125px;
-      left: 800px;
-      font-size: 18px;
-      line-height: 25px;
-}
-#titulo{
-      text-align: center;
-      color: cornsilk;
-}
-#minha_foto {
-      position: absolute;
-      margin-top:148px;
-      margin-left: 15px;
-      width: 230px;
-      border-radius: 100%;
-}
-#licoes_aprendidas{
+
+.meuNome {
     position: absolute;
-    top:450px;
+    margin-top: 360px;
+    margin-left: 10px;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.minhaSection {
+    position: absolute;
+    top: 125px;
+    left: 800px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#titulo {
+    text-align: center;
+    color: cornsilk;
+}
+
+#minha_foto {
+    position: absolute;
+    margin-top: 148px;
+    margin-left: 15px;
+    width: 230px;
+    border-radius: 100%;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 450px;
     margin-left: 350px;
     /* background-color: rgb(114, 119, 165); */
-    padding-top:15px ;
-    padding-bottom:15px ;
-    padding-left:30px ;
-    padding-right:15px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
     /* margin: 1px;
     margin-left: 15px; */
 }
+
 #licoes_a_aprender {
     position: absolute;
-    top:450px;
-    left:600px;
+    top: 450px;
+    left: 600px;
     /* background-color:rgb(114, 119, 165); */
-    padding-top:15px ;
-    padding-bottom:15px ;
-    padding-left:30px;
-    padding-right:15px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
     /* margin: 1px;
     margin-left: 15px; */
 }
-.bloco{
-      background-color:lightgreen ;
-      border: solid black;
+
+.bloco {
+    background-color: lightgreen;
+    border: solid black;
 }
-tr:nth-child(even){
-      background-color:rgb(114, 119, 165);
+
+tr:nth-child(even) {
+    background-color: rgb(114, 119, 165);
 }
-.licoes-a-futuras{
-      position: absolute;
-      top:410px;
-      left: 600px; 
-}
-.licoes{
+
+.licoes-a-futuras {
     position: absolute;
-    top:410px;
+    top: 410px;
+    left: 600px;
+}
+
+.licoes {
+    position: absolute;
+    top: 410px;
     left: 350px;
 }
+
 /* .tabela{
       position: absolute;
       top:470px;
@@ -137,19 +155,19 @@ tr:nth-child(even){
       background-color: slategray;
 } */
 
-
-#rodape img{
-      margin-bottom: 20px;
-      margin-top: 100px;
-      display: inline-block;
-      position: relative;
-      padding: 0px;
-      margin-left: 250px;
-      width: 100px;
-      top:750px;
-      margin-top: 65px;
-     /* background-color:lawngreen*/
+#rodape img {
+    margin-bottom: 20px;
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    margin-left: 250px;
+    width: 100px;
+    top: 750px;
+    margin-top: 65px;
+    /* background-color:lawngreen*/
 }
+
 #cabecalho {
     background-color: #323543;
     position: fixed;
@@ -157,18 +175,19 @@ tr:nth-child(even){
     left: 0px;
     right: 0px;
     height: 90px;
-    z-index: 9; 
-}
-.disciplinas{
-    position: absolute;
-    top:410px;
-    left: 880px;
-}
-.sectionTable table{
-    position: absolute;
-      top:480px;
-      left: 880px;
-      width: 31%;
-      height: 150px;
+    z-index: 9;
 }
 
+.disciplinas {
+    position: absolute;
+    top: 410px;
+    left: 880px;
+}
+
+.sectionTable table {
+    position: absolute;
+    top: 480px;
+    left: 880px;
+    width: 31%;
+    height: 150px;
+}
