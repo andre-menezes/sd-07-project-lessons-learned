@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
   margin: 0;
+  font-family: 'Baloo Tamma 2', cursive;
 }
 
 #cabecalho {
   background-color: green;
   margin-top: 0;
-  padding-bottom: 80px;
+  padding-bottom: 15px;
   position: fixed;
   width: 100%;
 }
@@ -25,8 +26,13 @@ a {
   margin-left: 20px;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 h2 {
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 0;
   margin-left: 20px;
 }
 
@@ -40,6 +46,8 @@ h2 {
   margin-top: 15px;
   margin-left: 20px;
   float: left;
+  line-height: 1.5em;
+  font-size: 15px;
 }
 
 #licoes_a_aprender {
@@ -47,6 +55,8 @@ h2 {
   margin-left: 20px;
   float: right;
   width: 80%;
+  line-height: 1.5em;
+  font-size: 15px;
 }
 
 .container-dois {
@@ -55,7 +65,7 @@ h2 {
   height: auto;
 }
 
-#artigo {
+.lado-esquerdo {
   line-height: 1.5em;
   margin-top: 15px;
   margin-left: 20px;
@@ -63,7 +73,7 @@ h2 {
   float: left;
 }
 
-#passagem {
+.lado-direito {
   line-height: 1.3em;
   color: darkblue;
   margin-top: 15px;
