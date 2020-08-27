@@ -5,7 +5,10 @@ body {
 }
 
 #titulo {
+  font-size: 30px;
   font-family: monospace;
+  color: rgb(253, 251, 251);
+  line-height: 30px;
 }
 
 #cabecalho {
