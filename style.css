@@ -53,8 +53,13 @@ body {
 
 .lado-direito {
   clear: both;
-  float: left;
+  float: right;
   background-color: hsl(150 , 23% , 78%);
+}
+
+.lado-esquerdo h2{
+    margin-top: 70px;
+    margin-bottom: 25px;
 }
 
 .aprendidas {
@@ -76,7 +81,7 @@ h4 {
   margin: 5px;
 }
 
-h2 , h3 {
+h3 {
   margin-top: 70px;
   margin-bottom: 25px;
 }
