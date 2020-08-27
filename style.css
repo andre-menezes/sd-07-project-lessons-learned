@@ -1,24 +1,24 @@
 body{  /*primeiro requisito*/
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{ /*segundo requisito*/
+header{ /*segundo requisito*/
     position: fixed;
     top: 0px;
     background-color: rgb(151, 27, 27);
     color: rgb(10, 10, 10);
-    margin: auto;
+    
 }
 
 #minha_foto{ /*terceiro requisito*/
     position: absolute;
-    top: 100px;
+    top: 150px;
     width: 100px;
     border-radius: 20%;
 }
 
 .listas{
     position: relative;
-    top: 200px;
+    top: 270px;
     color: rgb(10, 10, 10);
 }
 footer{
@@ -28,13 +28,13 @@ footer{
 }
 article{
     position: relative;
-    top: 200px;
+    top: 260px;
     color: rgb(10, 10, 10);
 }
 
 aside{
     position: relative;
-    top: 200px;
+    top: 260px;
     left: 150px;
     color: rgb(10, 10, 10);
 }
