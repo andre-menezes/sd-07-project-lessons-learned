@@ -31,6 +31,7 @@ a:hover {
 
 #minha_foto {
   width: 350px;
+  border-radius: 50px;
 }
 
 #rodape {
@@ -48,6 +49,7 @@ a:hover {
 
 .social-links {
   line-height: 10px;
+  padding: 15px;
 }
 
 #skills {
@@ -80,5 +82,9 @@ a:hover {
 }
 
 #readme {
-  font-size: 250px;
+  font-size: 20px;
+}
+
+#readme a {
+  padding: 15px;
 }
