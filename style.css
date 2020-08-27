@@ -16,3 +16,10 @@ body {
         margin-top: 150px;
         width: 150px;
     }
+
+footer {
+        background-color: rgb(155, 155, 155);
+        position: fixed;
+        bottom: 0;
+    }
+    
