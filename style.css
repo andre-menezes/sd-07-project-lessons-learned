@@ -13,19 +13,19 @@ body {
 }
 
 #cabecalho nav {
-    text-align: start;
-    background-color: rgb(13, 236, 188);
-    vertical-align: text-bottom;
-    height: 45px;
-    margin-top: 90px;
+  text-align: start;
+  background-color: rgb(13, 236, 188);
+  vertical-align: text-bottom;
+  height: 45px;
+  margin-top: 90px;
 }
 
 #cabecalho nav a {
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 9px;
-    margin-right: 10px;
-    font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 9px;
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 #corpo {
