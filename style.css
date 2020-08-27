@@ -10,7 +10,11 @@ body{
 }
 
 h1{
-  font-size: 30pt;
+  font-size: 50px;
+  color:pink;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 10px;
+
 
 }
 #minha_foto{
