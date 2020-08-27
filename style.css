@@ -24,6 +24,7 @@ p{
     color: rgb(240 , 247 , 244);
     text-align: justify;
     text-shadow: 2px 2px 1px rgba(0, 0 , 0 , .2);
+    line-height: 20px;
 }
 /* END DEFAULT */
 /* CABECALHO */
