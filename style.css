@@ -5,19 +5,18 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     line-height: 1,2;
-    text-align: justify;
     margin: 0;
 }
 
-.image {
+.image /* classe de dentro*/{
     border-radius: 50%;
-    margin-top: 120px;
-    float: center;
+    margin-top: 110px;
+    float: none;
     padding: 15px;
+    text-align: center;
 }
 
-.minha_foto {
-    float: none;
+.minha_foto /* classe de fora*/ {
     text-align: center;
 }
 
@@ -47,19 +46,21 @@ footer {
     text-align: center;
 }
 
-.lado-direito, .lado-esquerdo {
-    max-width: 35%;
+.c-dickens, .jornada {
+    width: 30%;
+    height: 150px;
     border: dotted;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 1%;
     display: inline-block;
-}
-
-.licoes_aprendidas, .licoes_a_aprender {
+ }
+ 
+.licoes_aprendidas, .licoes_a_aprender, .tabela {
     max-width: 25%;
-    float: auto;
-    margin-left: 20px;
-    margin-right: 10px;
-    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
     padding: 10px;
-}
+ }
+ 
