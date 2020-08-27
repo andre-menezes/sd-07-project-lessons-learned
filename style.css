@@ -26,7 +26,21 @@ h2 {
   margin-left: 20px;
 }
 
+.container { 
+  margin-top: 30px;
+  margin-left: 20px;
+  height: auto;
+}
+
 #licoes_aprendidas {
-  margin-top: 30px; 
-  margin-left: 20px;   
+  margin-top: 15px; 
+  margin-left: 20px; 
+  float: left;  
+}
+
+#licoes_a_aprender {
+  margin-top: 15px; 
+  margin-left: 20px;  
+  float: right;
+  width: 80%; 
 }
