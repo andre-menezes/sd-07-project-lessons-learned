@@ -73,7 +73,7 @@ footer {
   width: 30%;
 }
 
-.sectionMain {
+.lado-esquerdo {
   top: 95px;
   position: absolute;
   left: 0;
@@ -94,7 +94,7 @@ footer {
   font-style: italic;
 }
 
-.aside {
+.lado-direito {
   position: absolute;
   margin-left: 50px;
   top: 120px;
