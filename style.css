@@ -7,6 +7,7 @@ body{
 #cabecalho{
 
     position: fixed;/* se houver outra div essa ficara logo apos a anterios */
+    top: 0;
     width: 100%;  /* ocupa 100% da largura da pagina */
     height: 80px; /* altura 80 px */
     margin: 1px;
@@ -22,11 +23,12 @@ body{
     text-align:center;
     color:rgb(255,255,255);
     font-size: 32px;
+
        
 }
 
 #minha_foto {
-
+    
     width: 150px;
     margin: 1px;
 
