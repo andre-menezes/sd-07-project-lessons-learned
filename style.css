@@ -4,8 +4,16 @@
   list-style: none;
 }
 
+.icones li {
+  display: inline;
+}
+
 #menu ul li {
   display: inline;
+}
+
+a {
+  margin-left: 20px;
 }
 
 #menu ul li a {
@@ -17,11 +25,11 @@
   text-decoration: none;
   list-style: none;
   color: white;
-  border-bottom: 2px solid #EA0000;
+  border-bottom: 2px solid red;
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
   margin: 0;
   padding: 0;
   font-family: 'Baloo Tamma 2', cursive;
@@ -43,10 +51,6 @@ body {
 
 #minha_foto {
   margin-top: 200px;
-  margin-left: 20px;
-}
-
-a {
   margin-left: 20px;
 }
 
@@ -112,10 +116,6 @@ h2 {
   margin: 0;
   display: inline;
   font-size: 5px;
-}
-
-.icones li {
-  display: inline;
 }
 
 .final {
