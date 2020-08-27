@@ -40,6 +40,9 @@ h4 {
     line-height: 10px;
 }
 
-
-
-
+table {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2c2c2c;
+    padding: 8px;
+}
