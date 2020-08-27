@@ -1,96 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: rgb(253 , 251 , 251);
-  }
-  
-  #cabecalho {
-    background-color:rgb(94, 9, 173);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 80px;
-  }
-  
-  #titulo {
-    color: white;
-    line-height: 10px;
-    text-align: center;
-    font-family: -apple-system, Roboto, sans-serif;
-    font-size: 1.8rem;
-    margin:30px;
-  }
-  #minha_foto{
-width:200px ;
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+body {
+background-color: rgb(253 , 251 , 251);
+}
+#cabecalho {
+background-color:rgb(94, 9, 173);
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 80px;
+}
+#titulo {
+color:rgb(253 , 251 , 251);
+line-height: 10px;
+text-align: center;
+font-family: -apple-system, Roboto, sans-serif;
+font-size: 1.8rem;
+margin: 30px;
+}
+#minha_foto {
+width: 200px ;
 height: 200px;
 border-radius: 50%;
 margin: 10px;
   }
-
-#licoes_aprendidas{
+#licoes_aprendidas {
 width: 300px;
 height: 300px;
-display:block;
- 
-margin-left:50%;
-
+display: block;
+margin-left: 50%;
 }
-#licoes_a_aprender{
-    width: 300px;
-    height: 300px;
-    display:block;
-    margin-left:50%;
+#licoes_a_aprender {
+width: 300px;
+height: 300px;
+display: block;
+margin-left: 50%;
 }
-
 #img{
-margin:50px;
-margin-top:200px;
-
+margin: 50px;
+margin-top: 200px;
 }
-
-
- .lado_esquerdo{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    border: solid 2px;
-    border-color:rgb(0,0,0);
-    margin: 20px;
-  }
-  
-  .lado_direito {
-    display:inline-block;
-    width: 300px;
-    height:300px;
-    border:solid 2px;
-    border-color: rgb(0,0,0);
-    margin:20px;
-    margin-left: 70%;
-    text-align: left;
-
-      }
-      
-
-  
-  #urlink{
-    text-align: center;
-    color:black;
-   
-
-  }
-
-  #rodape {
-    background-color: rgb(94,9,173);
-    margin-top: 30px;
-    height: 50px;
-    color: white;
-    text-align: center;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+.lado_esquerdo {
+display: inline-block;
+width: 300px;
+height: 300px;
+border: solid 2px;
+border-color:rgb(0,0,0);
+margin: 20px;
+}
+.lado_direito {
+display:inline-block;
+width: 300px;
+height: 300px;
+border: solid 2px;
+border-color: rgb(0,0,0);
+margin: 20px;    
+margin-left: 70%;
+text-align: left;
+}
+#urlink {
+text-align: center;
+color: rgb(0,0,0);
+}
+#rodape{
+background-color: rgb(94,9,173);
+margin-top: 30px;
+height: 50px;
+color: rgb(253 , 251 , 251);
+text-align: center;
+margin-left: 0px;
+margin-right: 0px;
+}
