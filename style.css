@@ -2,12 +2,10 @@
 body{
     background-color:rgb(253,251,251);
 }
-.cabecalho{
+#cabecalho{
     background-color:rgb(100,95,102);
     position: top"0px";
-    display:inline-block;
 }
-
 .minha_foto{
     width:200px;
     height:200px;
