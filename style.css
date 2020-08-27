@@ -1,12 +1,12 @@
-body{
-background-color: rgb(253 , 251 , 251); 
-height: 100%; 
+body {
+    background-color: rgb(253 , 251 , 251); 
+    height: 100%;
 }
-.painel_nav{
-margin-top: 30px;
-line-height: 30px;
+.painel_nav {
+    margin-top: 30px;
+    line-height: 30px;
 }
-#cabecalho{
+#cabecalho {
 width: 100%;
 top: 0px;
 margin-top: 0px;
@@ -14,30 +14,30 @@ padding: 0.01%;
 font-family: monospace;
 text-align: center;
 background-color: green;
-position: fixed;  
+position: fixed;
 }
-#minha-foto{
+#minha-foto {
     margin-top: 100px;
     padding: 10%;
     border-color: black;
 }
-.secoes1{
+.secoes1 {
     border-color:black;
     display:inline-block;
     width:45%;
     text-align:top;
 }
-.secoes2{
+.secoes2 {
     border-color:black;
     display:inline-block;
 }
-.lado-direito{
+.lado-direito {
     float:right;
 }
-.lado-esquerdo{
+.lado-esquerdo {
     float:left;
 }
-#rodape{
+#rodape {
     width:100%;
     display:flex;
     justify-content:center;
@@ -47,7 +47,7 @@ position: fixed;
     font-size:1em;
     line-height:1em;
 }
-#tabela-leo{
+#tabela-leo {
     margin:10px;
     border:aqua;
 }
