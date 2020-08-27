@@ -72,7 +72,8 @@ h1 {
 }
 
 .tabela {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -119,6 +120,7 @@ h1 {
 }
 
 footer {
+  border-top: 2px solid gray;
   text-align: center;
 }
 
