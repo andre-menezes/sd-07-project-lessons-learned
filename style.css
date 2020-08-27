@@ -52,6 +52,25 @@ nav {
   height: auto;
   border-radius: 100%;
 }
+/*=== TABLE ===*/
+table,
+th,
+td {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+th,
+td {
+  text-align: center;
+  padding: 15px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/*=== END TABLE ===*/
 .content {
   text-align: center;
 }
@@ -80,12 +99,10 @@ nav {
   list-style-type: square;
 }
 
-section {
-  display: block;
-}
 /*=== ARTICLE ===*/
 article {
-  padding-left: 20px;
+  width: 55%;
+  display: inline-block;
   text-align: left;
 }
 .lado-esquerdo h3 {
@@ -99,25 +116,27 @@ article {
 }
 
 .lado-esquerdo p {
-  width: 50%;
   padding-top: 5px;
   font-weight: 300;
+  line-height: 20px;
 }
 /*=== ASIDE ===*/
 aside {
+  width: 40%;
   padding-left: 20px;
+  display: inline-block;
   text-align: left;
 }
 .lado-direito h4 {
-  padding-top: 35px;
   padding-bottom: 5px;
 }
 
 .lado-direito p {
   padding-top: 10px;
+  padding-bottom: 30px;
   font-weight: 300;
-  width: 50%;
 }
+
 /*=== FOOTER ===*/
 footer {
   text-align: center;
@@ -127,4 +146,7 @@ footer {
   padding: 20px;
   position: relative;
   margin-top: 20px;
+}
+footer p {
+  color: #0fa36b;
 }
