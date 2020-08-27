@@ -1,3 +1,54 @@
-body{
+@font-face {
+    src: url(TheHistoriaDemo.ttf);
+    font-family: The Historia Demo;
+}
+
+body {
     background-color: rgb(253, 251, 251);
+    width: 1366;
+    height: 768;
+} 
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: ;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    right: 10px;   
+}
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#minha_foto {
+    width: 250px;
+    border-radius: 50%;
+}
+
+section {
+    position: relative;
+    top: 100px;
+    width: 250px;
+}
+
+section a {
+    position: relative;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: The Historia Demo;
+    font-size: 3rem; 
+    background: linear-gradient(to top right, #FFD201, #C801FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
