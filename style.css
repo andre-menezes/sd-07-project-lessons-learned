@@ -12,7 +12,7 @@ body {
 }
 
 #titulo {
-  color: rgb(51, 34, 255);
+  color: rgb(51 , 34 , 255);
 }
 
 #inf_pessoais {
@@ -21,20 +21,20 @@ body {
 
 #menu {
   list-style: none;
-  border: 1px solid rgb(7, 3, 3);
+  border: 1px solid rgb(7 , 3 , 3);
   width: 95%;
   display: inline-block;
-  background-color: rgb(173, 222, 255);
-  margin-top: 0px;
+  background-color: rgb(173 , 222 , 255);
+  margin-top: 0;
 }
 
 .artigo li {
-    margin: 5px;
-  }
+  margin: 5px;
+}
 
 #menu li {
   float: left;
-  border-right: 1px solid rgb(7, 3, 3);
+  border-right: 1px solid rgb(7 , 3 , 3);
 }
 
 #rodape a {
@@ -51,14 +51,14 @@ body {
 }
 
 #menu li a:hover {
-  background: rgb(51, 51, 51);
+  background: rgb(51 , 51 , 51);
   color: white;
 }
 
 #minha_foto {
   border-radius: 50%;
   width: 180px;
-  border: 10px groove rgb(51, 34, 255);
+  border: 10px groove rgb(51 , 34 , 255);
   position: relative;
   display: inline-block;
   float: left;
@@ -70,7 +70,7 @@ body {
   margin: 90px;
   font-family: Arial, sans-serif;
   padding: 10px;
-  border: 10px groove rgb(51, 34, 255);
+  border: 10px groove rgb(51 , 34 , 255);
 }
 
 .tabela {
@@ -80,12 +80,12 @@ body {
 
 .tabela td , .tabela th {
   padding: 10px;
-  border: 1px solid rgb(51, 34, 255);
+  border: 1px solid rgb(51 , 34 , 255);
   text-align: center;
 }
 
 .tabela th {
-  background-color: rgb(173, 222, 255);
+  background-color: rgb(173 , 222 , 255);
 }
 
 .artigo section {
@@ -93,7 +93,7 @@ body {
 }
 
 .artigo section h3 {
-  color: rgb(51, 34, 255);
+  color: rgb(51 , 34 , 255);
 }
 
 .artigo {
@@ -112,9 +112,9 @@ body {
 
 #rodape {
   text-align: right;
-  border: 1px solid rgb(7, 3, 3);
+  border: 1px solid rgb(7 , 3 , 3);
   width: 100%;
-  background-color: rgb(173, 222, 255);
+  background-color: rgb(173 , 222 , 255);
   clear: both;
 }
 
@@ -141,7 +141,7 @@ aside p {
   float: right;
   display: block;
   width: 40%;
-  border: 2px ridge rgb(51, 34, 255);
+  border: 2px ridge rgb(51 , 34 , 255);
   margin-right: 30px;
   margin-top: 20px;
 }
