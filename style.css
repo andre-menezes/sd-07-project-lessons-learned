@@ -17,6 +17,7 @@
   border: solid;
   padding: 1%;
   margin-right: 3%;
+  line-height: 1.3;
   font-family: fantasy;
 }
 
@@ -39,6 +40,7 @@ body {
   padding: 1%;
   margin-left: 2%;
   font-family: fantasy;
+  line-height: 1.3;
 }
 
 #aside {
