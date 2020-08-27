@@ -85,6 +85,22 @@ header p {
   color: rgb(253 , 251 , 251);
 }
 
+.alinhado-ao-centro {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  width: 45%;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.lado-direito {
+  width: 45%;
+  float: right;
+  padding-bottom: 40px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -101,4 +117,5 @@ header p {
 #minha_foto {
   margin-top: 80px;
   width: 150px;
+  border-radius: 25%;
 }
