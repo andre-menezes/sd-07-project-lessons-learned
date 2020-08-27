@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,600;1,200&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-/*=== HEADER ===*/
+/* === HEADER === */
 
 header {
   top: 0;
@@ -38,7 +39,7 @@ nav {
 
 .navbar a {
   display: inline-block;
-  color: #f2f2f2;
+  color: rgb(242, 242, 242);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 14px;
@@ -49,7 +50,7 @@ nav {
   padding-left: 100px;
 }
 
-/*=== CONTENT ===*/
+/* === CONTENT === */
 
 .image-content img {
   display: block;
@@ -59,11 +60,9 @@ nav {
   border-radius: 100%;
 }
 
-/*=== TABLE ===*/
+/* === TABLE === */
 
-table,
-th,
-td {
+table, th, td {
   margin-top: 30px;
   border: 1px solid #ddd;
   border-collapse: collapse;
@@ -71,17 +70,16 @@ td {
   margin-right: auto;
 }
 
-th,
-td {
+th, td {
   text-align: center;
   padding: 15px;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: rgb(242, 242, 242);
 }
 
-/*=== END TABLE ===*/
+/* === END TABLE === */
 
 .content {
   text-align: center;
@@ -117,7 +115,7 @@ tr:nth-child(even) {
   list-style-type: square;
 }
 
-/*=== ARTICLE ===*/
+/* === ARTICLE === */
 
 .lado-esquerdo {
   width: 45%;
@@ -144,7 +142,7 @@ tr:nth-child(even) {
   line-height: 20px;
 }
 
-/*=== ASIDE ===*/
+/* === ASIDE === */
 
 .lado-direito {
   width: 40%;
@@ -164,7 +162,7 @@ tr:nth-child(even) {
   font-weight: 300;
 }
 
-/*=== FOOTER ===*/
+/* === FOOTER === */
 
 footer {
   text-align: center;
@@ -177,5 +175,5 @@ footer {
 }
 
 footer p {
-  color: #0fa36b;
+  color: rgb(15, 163, 107);
 }
