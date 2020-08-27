@@ -82,12 +82,14 @@ p{
     left: 40px;
 }
 footer{
+    font: bold;
+    font-size: larger;
     position: relative;
     padding: 0;
     top: 40px;
     z-index: 2;
 }
-.fig-fundo{
+.imagem{
     width: 1366px;
     height: 100px;
     background-color: #284E39;
@@ -99,5 +101,5 @@ footer{
     color: white;
     right: 10px;
     bottom: 20px;
-    border-radius: 50% 20% 50%;
+    border-radius: 30% 0 30%;
 }
