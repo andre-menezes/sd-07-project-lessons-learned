@@ -7,7 +7,7 @@
 body{
     background-color: rgb(253 , 251 , 251);
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Ubuntu Mono', monospace;
     color: rgb(162 , 227 , 196);
 }
@@ -43,13 +43,13 @@ h1{
 li{
     display: inline-block;
 }
-a{
+header a{
     font-family: 'Ubuntu', sans-serif;
     margin: 5px;
     color: rgb(240 , 247 , 244);
     transition: .4s;
 }
-a:hover{
+header a:hover{
     color: rgb(179 , 191 , 184);
 }
 /* END MENU */
@@ -179,5 +179,44 @@ aside h2{
 /* FOOTER */
 footer{
     box-shadow: 0px -5px 10px rgba(0, 0 , 0 , .2);
+    background-color: rgb(240 , 247 , 244);
+    padding: 20px;
+    text-align: center;
+}
+footer h4{
+    background-color: rgb(60 , 73 , 63);
+    text-align: center;
+    margin-bottom: 30px;
+}
+em{
+    color: rgb(240 , 247 , 244);
+}
+h5{
+    font-family: 'Ubuntu Mono', monospace;
+}
+footer a{
+    margin: 30px 50px;
+    display: inline-block;
+    color: rgb(126 , 141 , 133);
+    font-family: 'Ubuntu', sans-serif;
+    transition: .6s;
+}
+footer a:hover{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+footer a img{
+    width: 20px;
+    margin: 0;
+    margin-right: 5px;
+}
+footer address.icones{
+    margin: 0 auto;
+    width: 500px;
+    padding: 0;
+    background-color: rgb(60 , 73 , 63);
+}
+.icones a{
+    margin: 0;
 }
 /* END FOOTER */
