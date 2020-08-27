@@ -4,24 +4,24 @@ body {
 }
 
 #cabecalho {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	margin: 0;
-	background-color: rgb(1 , 14 , 68);
-	color: rgb(253 , 251 , 251);
-	text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(1 , 14 , 68);
+  color: rgb(253 , 251 , 251);
+  text-align: center;
 }
 
 nav {
-	margin-top: 70px;
-	font-size: large;
-	width: 100%;
-	background-color: rgb(10 , 59 , 92);
-	color: rgb(253 , 251 , 251);
-	padding: 5px;
-	display: inline-block;
-	text-align: center;
+  margin-top: 70px;
+  font-size: large;
+  width: 100%;
+  background-color: rgb(10 , 59 , 92);
+  color: rgb(253 , 251 , 251);
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 li {
@@ -29,123 +29,123 @@ li {
 }
 
 nav li {
-	display: inline-block;
-	padding: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
 img {
-	width: 300px;
-	border-radius: 20px;
-	display: block;
-	margin-right: 0;
-	border: 2px solid rgb(1 , 14 , 68);
+  width: 300px;
+  border-radius: 20px;
+  display: block;
+  margin-right: 0;
+border: 2px solid rgb(1 , 14 , 68);
 }
 
 .listas {
-	padding: 10px;
-	line-height: 150%;
-	font-size: large;
-	color: rgb(1 , 14 , 68);
-	margin-left: 20px;
+  padding: 10px;
+  line-height: 150%;
+  font-size: large;
+  color: rgb(1 , 14 , 68);
+  margin-left: 20px;
 }
 
 .listas h2 {
-	border: 2px solid rgb(1 , 14 , 68);
-	border-radius: 10px;
-	width: 50%;
-	text-align: center;
-	height: 30px;
-	padding: 10px;
+  border: 2px solid rgb(1 , 14 , 68);
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  height: 30px;
+  padding: 10px;
 }
 
 .texto {
-	line-height: 120%;
-	font-size: medium;
-	color: rgb(1 , 14 , 68);
-	background-color: rgb(253 , 251 , 251);
-	margin-top: 40px;
+  line-height: 120%;
+  font-size: medium;
+  color: rgb(1 , 14 , 68);
+  background-color: rgb(253 , 251 , 251);
+margin-top: 40px;
 }
 
 .lado-esquerdo {
-	display: inline-block;
-	width: 65%;
-	text-align: justify;
-	vertical-align: middle;
-	border: 2px solid  rgb(1 , 14 , 68);
-	padding: 20px;
-	height: 220px;
-	margin-left: 10px;
+  display: inline-block;
+  width: 65%;
+  text-align: justify;
+  vertical-align: middle;
+  border: 2px solid  rgb(1 , 14 , 68);
+  padding: 20px;
+  height: 220px;
+  margin-left: 10px;
 }
 
 .lado-direito {
-	display: inline-block;
-	width: 25%;
-	text-align: justify;
-	vertical-align: middle;
-	border: 2px solid  rgb(1 , 14 , 68);
-	padding: 20px;
-	margin-left: 10px;
-	height: 220px;
+  display: inline-block;
+  width: 25%;
+  text-align: justify;
+  vertical-align: middle;
+  border: 2px solid  rgb(1 , 14 , 68);
+  padding: 20px;
+  margin-left: 10px;
+  height: 220px;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .bloco-float a {
-	display: block;
-	font-size: large;
-	text-align: center;
-	background-color: rgb(1 , 14 , 68);
-	color: rgb(253 , 251 , 251);
-	padding: 20px;
-	border-radius: 10px;
-	width: 150px;
-	margin: 20px 60px;
+  display: block;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(1 , 14 , 68);
+  color: rgb(253 , 251 , 251);
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  margin: 20px 60px;
 }
 
 .bloco-float {
-	float: right;
-	display: block;
-	width: 300px;
-	text-align: center;
-	align-content: auto;
-	margin-top: 10px;
-	font-weight:700;
+  float: right;
+  display: block;
+  width: 300px;
+  text-align: center;
+  align-content: auto;
+  margin-top: 10px;
+  font-weight: 700;
 }
 
 .bloco-float h2 {
-	text-align: center;
-	color: rgb(1 , 14 , 68);
+  text-align: center;
+  color: rgb(1 , 14 , 68);
 }
 
 table {
-	border: 2px solid  rgb(1 , 14 , 68);
-	text-align: center;
-	margin-top: 20px;
-	padding: 10px;
+  border: 2px solid  rgb(1 , 14 , 68);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 td {
-	border: 1px solid rgb(1 , 14 , 68);
-	padding: 5px;
-	width: 300px;
+  border: 1px solid rgb(1 , 14 , 68);
+  padding: 5px;
+  width: 300px;
 }
 
 .table {
-	margin: auto;
-	font-size: large;
-	width: 50%;
+  margin: auto;
+  font-size: large;
+  width: 50%;
 }
 
 .table h2 {
-	border: 2px solid rgb(1 , 14 , 68);
-	border-radius: 10px;
-	width: 50%;
-	text-align: center;
-	height: 30px;
-	margin: auto;
-	margin-top: 40px;
-	padding: 10px;
+  border: 2px solid rgb(1 , 14 , 68);
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
 }
