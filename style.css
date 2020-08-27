@@ -36,14 +36,16 @@ margin: 10px;
 #licoes_aprendidas{
 width: 300px;
 height: 300px;
-display:inline-block;
+display:block;
+ 
+margin-left:50%;
 
 }
 #licoes_a_aprender{
     width: 300px;
     height: 300px;
-    display:inline-block;
-
+    display:block;
+    margin-left:50%;
 }
 
 #img{
@@ -53,21 +55,23 @@ margin-top:200px;
 }
 
 
-  #aprendizado{
+ .lado_esquerdo{
     display: inline-block;
-    width: 50%;
+    width: 300px;
+    height: 300px;
     border: solid 2px;
     border-color:rgb(0,0,0);
-    margin-left:50px;
+    margin: 20px;
   }
   
-  #aside {
+  .lado_direito {
     display:inline-block;
-    width: 200px;
-    height:200px;
+    width: 300px;
+    height:300px;
     border:solid 2px;
     border-color: rgb(0,0,0);
     margin:20px;
+    margin-left: 70%;
     text-align: left;
 
       }
@@ -77,7 +81,7 @@ margin-top:200px;
   #urlink{
     text-align: center;
     color:black;
-    margin:20px;
+   
 
   }
 
