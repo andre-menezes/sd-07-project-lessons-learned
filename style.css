@@ -43,20 +43,20 @@ th , td {
 
 .listas {
   margin-top: 20px;
-  
+
   /* display: inline-block; */
 }
 
 ol {
   margin: 40px;
   display: inline-block;
-  
+
   /* background: red; */
 }
 
 .aprender {
   display: inline-block;
-  
+
   /* background: blue; */
 }
 
