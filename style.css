@@ -4,7 +4,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   position: fixed;
   color: yellow;
   font-size: larger;
