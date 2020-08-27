@@ -57,17 +57,36 @@ section {
 }
 
 .card {
-    background-color: rgb(17, 153, 170);
+    background-color: rgb(17, 153, 170); 
     border-radius: 10px;
     text-align: center;
+    padding: 18px;
 }
 
-.aprendidas {
+.left {
     margin-left: 20px;
 }
 
-.aprender {
+.right {
     margin-right: 20px;
+}
+
+.cards2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.card2 {
+    background-color: rgb(17, 153, 170);
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+}
+
+.card2 p {
+    text-align: justify;
 }
 
 #rodape {
