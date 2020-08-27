@@ -2,16 +2,103 @@ body{
     background-color: rgb(253,251,251);
 }
 header{
+    z-index: 2;
     background-color: rgb(33, 33, 77);
     color: rgb(253,251,251);
-    font: normal 20pt Arial;
-    margin: 0;
-    padding: 2% 2% 2% 2%;
+    font: normal 100% Arial;
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
     position: fixed;
     top: 0px;
 }
-#minha-foto{ 
+#top_links{
+    background-color: rgb(52, 98, 136);
+    margin-top:2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    position: fixed;
+}
+.toplinks{
+    text-decoration: none;
+    font: normal 30px Arial;
+    color: rgb(253,251,251);
+}   
+#minha_foto{ 
+    border: 8px solid rgb(33, 33, 77);
     width: 20%;
-    padding-left: 6%;
-    padding-top: 15%;   
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    border-radius: 20% 0% 20% 0%;
+}
+#my_name{
+    top: 80%;
+    left: 12%;
+    position: absolute;  
+    font: bold 25px Arial;
+    color: rgb(33, 33, 77);
+}
+#my_learning{
+    top: 30%;
+    left: 35%;
+    margin-right: 5%;
+    text-align: justify;
+    position: absolute; 
+    font: normal 20px Arial;
+    color: rgb(33, 33, 77);
+    padding: 3% 4% 3% 6%;
+    line-height: 2em; 
+    z-index: 1; 
+}
+#licoes_aprendidas{
+    top: 100%;
+    left: 10%;
+    position: absolute; 
+    font: normal 20px Arial;
+    background-color: rgb(49, 121, 79);
+    color: rgb(253,251,251);
+    padding: 3% 4% 3% 6%;
+    line-height: 2em; 
+    border-radius: 20% 0% 20% 0%;  
+}
+#licoes_a_aprender{
+    top: 100%;
+    left: 60%;
+    position: absolute; 
+    font: normal 20px Arial;
+    background-color: rgb(121, 49, 49);
+    color: rgb(253,251,251);
+    padding: 3% 4% 3% 6%; 
+    line-height: 2em; 
+    border-radius: 20% 0% 20% 0%; 
+}
+#curiosity{
+    top: 200%;
+    left: 35%;
+    width: 20%;
+    text-align: left;
+    position: absolute; 
+    font: normal 20px Arial;
+    background-color: rgb(52, 98, 136);
+    color: rgb(253,251,251);
+    padding: 3% 4% 3% 6%; 
+    line-height: 2em; 
+    border-radius: 20% 0% 20% 0%; 
+}
+#rodape{
+    width: 100%;
+    top: 265%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+    font: normal 30px Arial;
+    text-align: center;
+    background-color: rgb(52, 98, 136);
+    color: rgb(253,251,251);
 }
