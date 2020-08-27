@@ -38,8 +38,9 @@ p , li {
 
 .licoes {
   display: inline-block;
-  margin-left: 200px;
+  margin-left: 130px;
   margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .aprendizado {
@@ -47,10 +48,29 @@ p , li {
   width: 700px;
   margin-left: 180px;
   margin-top: 80px;
+  margin-bottom: 80px;
   vertical-align: top;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
-    background-color: rgb(118 , 113 , 149);
-    padding: 20px;
+  background-color: rgb(118 , 113 , 149);
+  padding: 20px;
+  color: rgb(253 , 251 , 251);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(13 , 236 , 188);
+}
+
+#apresentacao {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 290px;
+}
+
+#minha_foto {
+    max-width: 200px;
+    border-radius: 20% 0 0 20%;
 }
