@@ -18,7 +18,7 @@ header {
 }
 
 footer {
-  line-height: 25px ;
+  line-height: 25px;
   background: rgb(126 , 126 , 126);
 }
 
@@ -44,11 +44,11 @@ footer {
   color: white;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   line-height: 20px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   line-height: 20px;
 }
 
@@ -93,7 +93,8 @@ footer {
   font-size: 15px;
   font-style: italic;
 }
-.aside{
+
+.aside {
   position: absolute;
   margin-left: 50px;
   top: 120px;
@@ -101,6 +102,7 @@ footer {
   width: 25%;
   text-align: center;
 }
-#pass{
+
+#pass {
   font-style: italic;
 }
