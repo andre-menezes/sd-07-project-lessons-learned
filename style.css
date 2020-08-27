@@ -21,10 +21,9 @@ body {
 }
 
 footer a {
-    text-decoration: none;
-    color: rgb(13 , 236 , 188);
-  }
-  
+  text-decoration: none;
+  color: rgb(13 , 236 , 188);
+}
 
 #cabecalho nav a {
   display: inline-block;
