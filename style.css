@@ -102,6 +102,10 @@ ul {
   margin-bottom: 15px;
 }
 
+.tabela{
+    text-align: center;
+}
+
 #rodape {
   clear: both;
   background-color: hsl(165 , 93% , 73%);
