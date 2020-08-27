@@ -11,7 +11,7 @@ body {
 }
 
 #cabecalho {
-  margin: 0px;
+  top: 0px;
   padding: 0px;
   position: fixed;
   right: 0;
@@ -27,6 +27,12 @@ body {
   font-size: 35px;
 }
 
+h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
 .navigation {
   background-color: rgb(41, 98, 126);
   padding: 0 30px;
@@ -38,7 +44,7 @@ body {
   margin-right: 20px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font: bolder;
+  font-weight: bolder;
   font-size: larger;
   padding: 3px;
 }
@@ -49,7 +55,7 @@ content {
 }
 
 img {
-  margin-top: 120px;
+  margin-top: 130px;
   margin-left: 500px;
   margin-bottom: 10px;
   padding: 5px;
