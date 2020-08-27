@@ -46,14 +46,17 @@ body {
 }
 
 table, th, td{
-    border: 1px solid black;  
+    border: 1px solid black; 
+}
+
+th {
+    padding: 10px;
 }
 
 table {
     margin-bottom: 50px;
     position: relative;
-    left: 450px;
-    
+    left: 450px;    
 }
 
 .lado-esquerdo {
@@ -61,6 +64,8 @@ table {
     width: 45%;
     margin-bottom: 10px;
     text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
 }
 
 .lado-direito {    
@@ -69,10 +74,12 @@ table {
     position: absolute;
     right: 30px;
     top: 670px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
 }
 
 .link {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30px;
 }
 
@@ -87,4 +94,5 @@ table {
 #rodape {
     text-align: center;
     color: brown;
+    margin-bottom: 10px;
 }
