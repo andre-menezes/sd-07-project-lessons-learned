@@ -21,11 +21,14 @@ header h1{
     margin: 0px;
     margin-left: 10px;
     margin-top: 3.5% ;
+    
 }
 .licoes{
     display: inline-block;
     margin-top: 150px;
     margin-left: 25%;
+    color: rgb(58, 69, 88);
+    line-height: 1.6;
 
 }
 .licoes ol{
@@ -45,10 +48,14 @@ article{
     margin-bottom: 10px;
 }
 .citacoes{
+    font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 12px;
     width: 50%;
     display: inline-block;
+}
+p{
+    color: rgb(58, 69, 88);
 }
 footer{
     margin-left: 0;
@@ -58,11 +65,13 @@ footer{
     width: 100%;
 }
 aside{
+    color: rgb(58, 69, 88);
     position: fixed;
     margin-top: 150px;
     margin-left: 45px;
-    border: solid 1px;
+    border: solid 1px black;
     padding: 15px;
+    
 }
 footer a{
     margin-left: 5px;
