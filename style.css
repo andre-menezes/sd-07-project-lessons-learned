@@ -37,8 +37,9 @@ header h1{
 .licoes ul{
     display: inline-block;
 }
-article{
-    margin-left: 25%;
+.lado-direito{
+    width: 20%;
+    margin-left: 70%;
     margin-right: 10%;
  
 }
@@ -64,7 +65,7 @@ footer{
     background: black;
     width: 100%;
 }
-aside{
+.lado-esquerdo{
     color: rgb(58, 69, 88);
     position: fixed;
     margin-top: 150px;
