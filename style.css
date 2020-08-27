@@ -16,11 +16,11 @@ body{
 .aside{
     margin-right: 6px;
 }
-.licoes_aprendidas{
+.lado-esquerdo{
     float:right;
     width: 50%;
 }
-.licoes_a_aprender{
+.lado-direito{
     float:left;
     width: 50%;
 }
