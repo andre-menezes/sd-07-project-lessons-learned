@@ -1,10 +1,12 @@
 * {
   font-family: monospace;
 }
+
 body {
             margin: 0;
             background-color: rgb(253 , 251 , 251);
 }
+
 header {
             box-sizing: border-box;
             background-color: rgb(126 , 126 , 126);
@@ -13,9 +15,11 @@ header {
             position: fixed;
             top: 0;
 }
+
 footer {
             background: rgb(126 , 126 , 126);
 }
+
 #cabecalho {
             border: 1px solid black;
 }
@@ -30,15 +34,18 @@ footer {
 #rodape {
             text-align: left;
 }
+
 .article {
             background-color: rgb(238 , 238 , 238);
 }
+
 .caixaNav {
             margin-bottom: 3px;
             line-height: 20px;
             background-color: rgb(238 , 238 , 238);
             margin-top: 75px;
 }
+
 .asideBox {
             margin: 3px;
             position: absolute;
@@ -46,15 +53,18 @@ footer {
             display: inline-block;
             width: 30%;
 }
+
 .sectionMain {
             padding: 10px;
             height: 300px;
             display: inline-block;
             width: 60%;
 }
+
 .tabela {
         margin: 5px;
 }
+
 .tituloLista {
             text-align: left;
             font-size: 15px;
