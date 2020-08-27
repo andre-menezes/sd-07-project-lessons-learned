@@ -4,14 +4,15 @@ html {
 
 #cabecalho{
     background-color: green;
-    position: relative;
+    position:fixed;
     top: 0px;
+    width: 100%;
 }
 
 #titulo {
     color: white;
     text-align: center;
-    padding: 20px
+    padding: 10px
 }
 
 #linkedin{
@@ -20,7 +21,7 @@ html {
 }
 
 #minha_foto{
-    margin-top: 10px;
+    margin-top: 125px;
     max-width: 200px;
     max-height: 200px;
     width: auto;
@@ -30,6 +31,11 @@ html {
 #licoes_aprendidas{
     font-size: medium;
 }
+
+h2 {
+    border
+}
+
 
 
 
