@@ -10,6 +10,11 @@ body{
     font-size: 18px;
     line-height: 25px;
 }
+.disciplinas{
+    position: absolute;
+    top:510px;
+    left: 548px;
+}
 .asideSection{
     position: absolute;
     top: 360px;
