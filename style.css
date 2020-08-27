@@ -1,35 +1,35 @@
 body{
-    background-color: rgb(253, 251,251); 
-    height: 100%; 
+    background-color:rgb(253 , 251 , 251); 
+    height:100%; 
 }
 .painel_nav{
-    margin-top: 30px;
-    line-height: 30px;
+    margin-top:30px;
+    line-height:30px;
 }
 #cabecalho{
-    width: 100%;
-    top: 0px;
-    margin-top: 0px;
-    padding: 0.01%;
-    font-family: monospace;
-    text-align: center;
-    background-color: green;
-    position: fixed;  
+    width:100%;
+    top:0px;
+    margin-top:0px;
+    padding:0.01%;
+    font-family:monospace;
+    text-align:center;
+    background-color:green;
+    position:fixed;  
 }
 #minha-foto{
-    margin-top: 100px;
+    margin-top:100px;
     padding:10%;
-    border-color: black;
+    border-color:black;
 }
 .secoes1{
-    border-color: black;
-    display: inline-block;
-    width: 45%;
-    text-align: top;
+    border-color:black;
+    display:inline-block;
+    width:45%;
+    text-align:top;
 }
 .secoes2{
-    border-color: black;
-    display: inline-block;
+    border-color:black;
+    display:inline-block;
 }
 .lado-direito{
     float:right;
@@ -38,16 +38,16 @@ body{
     float:left;
 }
 #rodape{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    background-color: green;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:2px;
+    background-color:green;
     color:white;
-    font-size: 1em;
-    line-height: 1em;
+    font-size:1em;
+    line-height:1em;
 }
 #tabela-leo{
-    margin: 10px;
+    margin:10px;
     border:aqua;
 }
