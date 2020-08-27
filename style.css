@@ -23,7 +23,6 @@ nav {
     display: inline-block;
     margin-right: 20px;
     font-size: 15px;
-    
 }
 
 a {
@@ -31,9 +30,19 @@ a {
     text-decoration: none;
 }
 
-#minha_foto {
-    width: 200px;
+a:hover {
+    background-color: rgb(253, 251, 251);
+    color: #ddbea9;
 }
+
+#minha_foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #cb997e;
+    margin: 10px;
+}
+
 
 .lista {
     display: inline-block;
