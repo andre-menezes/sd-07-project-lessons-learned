@@ -4,7 +4,7 @@ body{
 }
 #cabecalho{
     background-color:rgb(100,95,102);
-    position: top"0px";
+    top:0;
 }
 .minha_foto{
     width:200px;
