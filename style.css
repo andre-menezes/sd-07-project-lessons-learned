@@ -2,7 +2,62 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+.header{
+    background-color: rgb(23, 49, 21);
     position: fixed;
     top: 0px;
+    right: 0px;
+    left: 0px;
+    padding-bottom: 40px;
+
+    color: rgb(253, 251, 251);
+}
+
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.header nav {
+    margin-left: 90%;
+}
+
+.header nav a {
+    text-decoration: none;
+}
+
+.header img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: translate(-10px, -10px)
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 30px var(--cor-neon));
+    }
+}
+
+.header img {
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+.logo-letters {
+    --cor-neon: rgb(71, 188, 47);
+}
+
+.logo-chilli {
+    --cor-neon: rgb(224, 13, 13);
+}
+
+.presentation {
+    margin-top: 200px;
+}
+
+.presentation img {
+    border-radius: 50%;
 }
