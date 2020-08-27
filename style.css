@@ -26,8 +26,16 @@ body{
     padding:10%;
     border-color: black;
 }
+.secoes1{
+    border-color: black;
+    display: inline-block;
+    width: 45%;
+    text-align: top;
 
-.sections{
+}
+
+
+.secoes2{
     border-color: black;
     display: inline-block;
 }
@@ -56,6 +64,4 @@ body{
     border:aqua;
 }
 
-#artigo1_leo{    
-    margin-bottom: 20px;
-}
+
