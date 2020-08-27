@@ -27,6 +27,8 @@ body {
 
 .minha_foto {
   margin: 35px;
+  padding: 5px;
+  border: 2px solid hsl(194 , 90% , 81%);
 }
 
 .aprendizado {
