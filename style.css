@@ -94,11 +94,29 @@ body {
 .click {
     text-align: center;
 }
-/* .curso {
-    border: 1px solid black; 
-    border-spacing: 43px;   
-    margin-left: 10px; 
-    text-align: center;   */
+
+.conteudo {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* border: 1px solid black; */
+}
+
+.curso {
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;     
+    display: block;   
+    padding-left: 80px;
+}
+ 
+.curso td {
+    border: 1px solid black;
+}
+ 
+.curso th {
+    border: 1px solid black;
+    background: #F0FFF0;
+}
 
 .fim {
     color: white;
