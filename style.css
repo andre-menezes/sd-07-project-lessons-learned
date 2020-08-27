@@ -1,5 +1,6 @@
 body{
   background:rgb(253, 251, 251);
+  padding-left: 20px;
 }
 #cabecalho{
   top: 0px;
@@ -18,6 +19,8 @@ h1{
 }
 #tabela{
   border:1px solid rgb(7, 6, 6);
+  margin: 20px;
+
 
 
 }
