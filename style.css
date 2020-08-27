@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -10,22 +10,242 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color: green;
+  background-color: #061539;
+  width: 100%;
+  text-align: center;
+  z-index: 20;
+}
+
+#titulo {
+  color: #aeb9d3;
+  padding: 20px 0px;
+}
+
+.navegacao {
+  color: #aeb9d3;
+  background-color: #162955;
+  padding: 5px 0px;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav_botoes {
+  border: 2px solid #7887ab;
+  padding: 5px 5%;
+}
+
+.nav_botoes a {
+  color: #ced4e4;
+  text-decoration: none;
+}
+
+.nav_botoes:hover, .nav_botoes a:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid #061539;
+}
+
+.nav1 {
+  display: inline-block;
+  margin-right: 20%;
+}
+
+.nav2 {
+  display: inline-block;
+}
+
+.apresentacao {
+  position: relative;
+  top: 80px;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.meu_perfil2 {
+  display: inline-block;
+  margin: 0px 0px;
+  margin-right: 50px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.meu-nome {
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.art2 h1,
+.art2 h3 {
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
   width: 100%;
 }
 
 #minha_foto {
-  width: 200px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #061539;
 }
 
-#minhas_listas {
-  color: blue;
-  margin: 30px;
+.meu_perfil2 a {
+  background-color: #061539;
+  color: #aeb9d3;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  padding: 5px 10px;
 }
 
-table, th, td  {
-  border: 1px solid black;
+.meu_perfil2 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.art2 {
+  display: inline-block;
+  width: 30%;
+  text-align: justify;
+  color: #061539;
+  font-weight: bolder;
+  font-style: italic;
+  position: relative;
+  bottom: 30px;
+  line-height: 20px;
+  font-size: 18px;
+
+}
+
+hr.linha1 {
+  margin-top: 200px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #061539;
+}
+
+.listas {
+  color: #061539;
+  margin: 0px 0px;
+  text-align: center;
+  background:#ced4e4;
+  padding: 50px 0px;
+}
+
+.listas h2 {
+  margin: 20px;
+}
+
+.listas li {
+  text-align: justify;
+  line-height: 25px;
+}
+
+.lado-esquerdo {
+  margin: 20px 50px;
+  display: inline-block;
+  width: 300px;
+}
+
+.lado-direito {
+  margin: 20px 50px;
+  display: inline-block;
+  width: 300px;
+}
+
+hr.linha2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #061539;
+}
+
+.ultima-sessao {
+  background-color:#7887ab;
+  color: #ced4e4;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+#art1 {
+  display: inline-block;
+  width: 350px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
+#meu_perfil1 {
+  display: inline-block;
+  margin-left: 10px;
+} 
+
+#art1 p{
+  text-align: justify;
+
+  background-color: #061539;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+#meu_perfil1 table {
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+#meu_perfil1 table {
+  background-color: #061539;
+  color: #aeb9d3;
+}
+
+table,
+th,
+td {
+  border: 1px solid #7887ab;
   border-collapse: collapse;
   padding: 15px;
   border-spacing: 5px;
+}
+
+table a {
+  color: #aeb9d3;
+}
+
+table a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+th {
+  color: white;
+}
+
+tr td {
+  background-color: #162955;
+}
+
+
+hr.linha3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #061539;
+}
+
+
+#rodape {
+  background-color: #061539;
+  padding: 30px;
+  text-align: center;
+  color: #aeb9d3;
 }
