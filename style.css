@@ -3,24 +3,29 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: unset;
 }
-.myArticle{
+.lado-esquerdo{
     position: absolute;
-    top: 206px;
-    left: 260px;
+    top: 130px;
+    left: 250px;
     font-size: 18px;
     line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 490px;
 }
 .disciplinas{
     position: absolute;
-    top:510px;
-    left: 548px;
+    top:410px;
+    left: 650px;
 }
-.asideSection{
+.lado-direito{
     position: absolute;
-    top: 360px;
-    left: 20px;
+    top: 130px;
+    left: 800px;
     font-size: 18px;
     line-height: 25px;
+    padding-left: 1em;
+    margin-right: 15px;
 }
 #cabecalho {
     background-color: rgb(11, 116, 67);
@@ -64,7 +69,7 @@ body{
   }
   #licoes_aprendidas{
       position: absolute;
-      top:550px;
+      top:450px;
       margin-left: 10px;
   }
   tr:nth-child(even){
@@ -72,25 +77,25 @@ body{
   }
   .licoes-a-futuras{
       position: absolute;
-      top:510px;
+      top:410px;
       left: 270px;
   }
   .licoes{
     position: absolute;
-    top:510px;
+    top:410px;
     left: 40px;
   }
   .tabela{
       position: absolute;
-      top:570px;
-      left: 550px;
+      top:470px;
+      left: 650px;
       width: 600px;
       height: 150px;
       background-color: slategray;
   }
   #licoes_a_aprender {
       position: absolute;
-      top:550px;
+      top:450px;
       left:250px;
   }
 
