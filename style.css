@@ -56,20 +56,24 @@ h2 {
 }
 
 #artigo {
+  line-height: 1.5em;
   margin-top: 15px;
   margin-left: 20px;
   float: left;
 }
 
 #passagem {
+  line-height: 1.3em;
+  color: darkblue;
   margin-top: 15px;
   margin-left: 20px;
   float: right;
-  width: 80%;
+  width: 55%;
 }
 
 #rodape {
-  margin-left: 20px;
+  margin-left: 35px;
   font-size: 15px;
+  color: gray;
   clear: both;
 }
