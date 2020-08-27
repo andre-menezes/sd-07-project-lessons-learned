@@ -1,6 +1,6 @@
 body {
-  background-color:rgb(253, 251, 251);
-  font-family: 'Permanent Marker', cursive;
+  background-color: rgb(253, 251, 251);
+  font-family: Permanent Marker, cursive;
   margin: 0;
   padding: 0;
   line-height: 1.5em;
@@ -10,6 +10,7 @@ body {
 .conteudo {
   margin-top: 200px;
 }
+
 #titulo {
   font-size: 1.5em;
 }
@@ -21,12 +22,14 @@ body {
 }
 
 .section-principal {
-  display:inline-block;
+  display: inline-block;
 }
+
 .lado-esquerdo {
   width: 48%;
-  float:left;
+  float: left;
 }
+
 .lado-direito {
   width: 48%;
   float: right;
