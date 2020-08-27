@@ -11,8 +11,6 @@ body{
   background-color:rgb(15, 163, 107);
   height: 100px;
   width: 100%;
-  color: red;
-
 }
 
 .div_imagem{
@@ -25,14 +23,16 @@ body{
 #minha_foto{
   width: 98px;
   border-style: solid;
-  border-width: 1px;
-  border-color: white;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 .titulo{
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Courier New', Courier, monospace;
   font-size: 50px;
+  margin: 0;
 }
 
 #titulo{
@@ -45,6 +45,64 @@ body{
   display: inline;
 }
 
-h1{
-  margin: 0;
+.conteudo{
+  margin-top: 120px;
+}
+
+.listas{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.box_licoes{
+  margin: 20px 50px;
+  display: inline-block;
+  width: 400px;
+  height: 210px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(221, 221, 221);
+  color: rgb(96, 96, 96);
+  text-align: left;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.box_licoes:hover{
+  color: rgb(255, 255, 255);
+  border-color: rgb(12, 138, 89);
+}
+
+.box_licoes:hover  .efeito{
+  background-color: rgb(15, 163, 107);
+  border-radius: 450px;
+  width: 900px;
+  height: 900px;
+  top: -500px;
+  right: -400px;
+  transition: .15s;
+  ;
+}
+
+#licoes_aprendidas{
+  position: absolute;
+}
+
+#licoes_a_aprender{
+  position: absolute;
+}
+
+.efeito{
+  border-radius: 30px;
+  background-color: rgb(15, 163, 107);
+  width: 60px;
+  height: 60px;
+  float: right;
+  position: relative;
+  top: -35px;
+  right: -30px;
+  transition: .5s;
 }
