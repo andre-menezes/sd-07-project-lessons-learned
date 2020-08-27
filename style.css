@@ -73,13 +73,21 @@ article {
     text-align: center;
 }
 
-
 .section-artigo {
-    margin-left: 5px;
+    margin-left: 10px;
     display: inline-block;
+    float: right;
+    width: 49%;
+
 }
 
 .section-artigo span {
     font-weight: bold;
 }
 
+.article-artigo {
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    width: 49%;
+}
