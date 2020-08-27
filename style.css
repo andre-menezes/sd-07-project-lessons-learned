@@ -1,3 +1,18 @@
+@font-face {
+  src: url("/Turma07-Projetos/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+  font-family: 'open sans';
+}
+
+@font-face {
+  src: url("/Turma07-Projetos/fonts/Concert_One/ConcertOne-Regular.ttf");
+  font-family: 'concert';
+}
+
+@font-face {
+  src: url('/Turma07-Projetos/fonts/Lora/Lora-Italic-VariableFont_wght.ttf');
+  font-family: 'lora';
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +21,8 @@
 body {
   color: red;
   background-color: rgb(253, 251, 251);
+  font-family: 'open sans', sans-serif;
+  font-weight: bolder;
 }
 
 #cabecalho {
@@ -33,6 +50,7 @@ body {
 .nav_botoes {
   border: 2px solid #7887ab;
   padding: 5px 5%;
+  font-family: 'lora', sans-serif;
 }
 
 .nav_botoes a {
@@ -40,7 +58,8 @@ body {
   text-decoration: none;
 }
 
-.nav_botoes:hover, .nav_botoes a:hover {
+.nav_botoes:hover,
+.nav_botoes a:hover {
   background-color: black;
   color: white;
   border: 2px solid #061539;
@@ -76,9 +95,15 @@ body {
   margin-top: 200px;
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'concert', sans-serif;
+  line-height: 25px;
 }
 
-.art2 h1,
+.art2 p {
+  font-family: 'lora', sans-serif;
+}
+
+.art2 h2,
 .art2 h3 {
   color: black;
   margin-bottom: 10px;
@@ -117,7 +142,6 @@ body {
   bottom: 30px;
   line-height: 20px;
   font-size: 18px;
-
 }
 
 hr.linha1 {
@@ -132,12 +156,15 @@ hr.linha1 {
   color: #061539;
   margin: 0px 0px;
   text-align: center;
-  background:#ced4e4;
+  background: #ced4e4;
   padding: 50px 0px;
+  font-family: 'lora', sans-serif;
 }
 
 .listas h2 {
-  margin: 20px;
+  margin: 30px;
+  font-family: 'concert', sans-serif;
+  font-size: 30px;
 }
 
 .listas li {
@@ -148,13 +175,13 @@ hr.linha1 {
 .lado-esquerdo {
   margin: 20px 50px;
   display: inline-block;
-  width: 300px;
+  width: 350px;
 }
 
 .lado-direito {
   margin: 20px 50px;
   display: inline-block;
-  width: 300px;
+  width: 350px;
 }
 
 hr.linha2 {
@@ -167,10 +194,11 @@ hr.linha2 {
 }
 
 .ultima-sessao {
-  background-color:#7887ab;
+  background-color: #7887ab;
   color: #ced4e4;
   padding: 80px 0px;
   text-align: center;
+  font-family: 'lora', sans-serif;
 }
 
 #art1 {
@@ -179,15 +207,14 @@ hr.linha2 {
   margin-right: 10px;
   margin-left: 20px;
   margin-bottom: 20px;
-
 }
 
 #meu_perfil1 {
   display: inline-block;
   margin-left: 10px;
-} 
+}
 
-#art1 p{
+#art1 p {
   text-align: justify;
 
   background-color: #061539;
@@ -198,7 +225,6 @@ hr.linha2 {
 #meu_perfil1 table {
   margin-right: 20px;
   margin-left: 20px;
-
 }
 
 #meu_perfil1 table {
@@ -232,7 +258,6 @@ tr td {
   background-color: #162955;
 }
 
-
 hr.linha3 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -241,7 +266,6 @@ hr.linha3 {
   margin-right: auto;
   border: 1px solid #061539;
 }
-
 
 #rodape {
   background-color: #061539;
