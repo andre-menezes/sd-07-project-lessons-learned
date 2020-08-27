@@ -81,6 +81,10 @@ body{
       width: 230px;
       
   }
+  .bloco{
+      background-color:lightgreen ;
+      border: solid black;
+  }
   #licoes_aprendidas{
       position: absolute;
       top:450px;
