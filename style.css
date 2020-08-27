@@ -5,39 +5,38 @@
     padding: 0;
 }
 body{
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
 }
-h1, h2{
+h1, h2, h3{
     font-family: 'Ubuntu Mono', monospace;
-    color: rgb(162, 227, 196);
+    color: rgb(162 , 227 , 196);
 }
 h2{
     text-align: center;
     margin-bottom: 10px;
-    background-color: rgb(60, 73, 63);
+    background-color: rgb(60 , 73 , 63);
 }
-section{
-    background-color: rgb(126, 141, 133);
+section, article, aside{
     padding: 20px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    color: rgb(240, 247, 244);
+    color: rgb(240 , 247 , 244);
     text-align: justify;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    text-shadow: 2px 2px 1px rgba(0, 0 , 0 , .2);
 }
 /* END DEFAULT */
 /* CABECALHO */
 header{
     position: fixed;
     top: 0px;
-    background-color: rgb(60, 73, 63);
+    background-color: rgb(60 , 73 , 63);
     width: 100%;
     padding: 68px;
 }
 h1{
     font-family: 'Ubuntu Mono', monospace;
-    color: rgb(162, 227, 196);
+    color: rgb(162 , 227 , 196);
     margin-bottom: 20px;
 }
 /* MENU */
@@ -47,11 +46,11 @@ li{
 a{
     font-family: 'Ubuntu', sans-serif;
     margin: 5px;
-    color: rgb(240, 247, 244);
+    color: rgb(240 , 247 , 244);
     transition: .4s;
 }
 a:hover{
-    color: rgb(179, 191, 184);
+    color: rgb(179 , 191 , 184);
 }
 /* END MENU */
 /* END CABECALHO */
@@ -62,6 +61,7 @@ a:hover{
     margin-bottom: 30px;
     width: 800px;
     height: 380px;
+    background-color: rgb(126 , 141 , 133);
 }
 .primeira h2{
     width: 860px;
@@ -77,35 +77,107 @@ img{
 table{
     font-family: 'Arvo', serif;
     font-size: 1.2em;
-    color: rgb(240, 247, 244);
+    color: rgb(240 , 247 , 244);
     margin-bottom: 10px;
 }
 th{
-    background-color: rgb(179, 191, 184);
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+    background-color: rgb(179 , 191 , 184);
+    text-shadow: 2px 2px 1px rgba(0 , 0 , 0 , .2);
 }
 td{
     text-align: center;
-    background-color: rgb(60, 73, 63);
-    color: rgb(162, 227, 196);
+    background-color: rgb(60, 73 , 63);
+    color: rgb(162 , 227 , 196);
     border-radius: 20% 0;
     padding: 10px;
 }
 .main-td{
     text-align: left;
-    color: rgb(126, 141, 133);
-    background-color: rgb(240, 247, 244);
+    color: rgb(126 , 141 , 133);
+    background-color: rgb(240 , 247 , 244);
 }
 /* END TABLE */
 /* END SOBRE */
 /* ARTICLE */
 article{
-    background-color: rgb(60, 73, 63);
-    padding: 20px;
+    background-color: rgb(60 , 73 , 63);
     width: 800px;
     margin-left: 20px;
+    float: left;
 }
 article h2{
-    background-color: rgb(126, 141, 133);
+    background-color: rgb(126 , 141 , 133);
 }
 /* END ARTICLE */
+/* ASIDE */
+aside{
+    background-color: rgb(126 , 141 , 133);
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+aside h2{
+    width: 360px;
+    margin-bottom: ;
+    margin-left: -30px;
+    border-radius: 0 0 5% 5%;
+}
+/* END ASIDE */
+/* LISTAS */
+.listas{
+    padding: 20px 0;
+    clear: both;
+    width: 100%;
+    background-color: rgb(179 , 191 , 184);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.listas h3{
+    margin-left: -30px;
+    width: 360px;
+    border-radius: 0 0 5% 5%;
+    background-color: rgb(60 , 73 , 63);
+    margin-bottom: 20px;
+}
+.listas ul, .listas ol{
+    display: inline-block;
+    margin: 20px 100px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0 , 0 , 0 , .2);
+}
+.listas ul li{
+    background-color: rgb(240 , 247 , 244);
+    color: rgb(126 , 141 , 133);
+    transition: .4s;
+}
+.listas ul li:hover{
+    background-color: rgb(60 , 73 , 63);
+    color: rgb(179 , 191 , 184);
+}
+.listas ol li{
+    background-color: rgb(60 , 73 , 63);
+    color: rgb(179 , 191 , 184);
+    transition: .4s;
+}
+.listas ol li:hover{
+    background-color: rgb(240 , 247 , 244);
+    color: rgb(126 , 141 , 133);
+}
+.listas li{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: .4s;
+}
+.listas li:hover{
+    font-size: 1.5rem;
+}
+/* END LISTAS */
+/* FOOTER */
+footer{
+    box-shadow: 0px -5px 10px rgba(0, 0 , 0 , .2);
+}
+/* END FOOTER */
