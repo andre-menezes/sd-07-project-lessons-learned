@@ -1,95 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Roboto&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
-header{
-    position: fixed;
-    top: 0;
-    background-color: rgb(164, 164, 231);
-    width: 100vw;
-    height: 15%;
-    text-align: center;
-    padding: 20px;
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgb(164, 164, 231);
+  width: 100vw;
+  height: 15%;
+  text-align: center;
+  padding: 20px;
 }
-h1{
-    font-family: 'Londrina Solid', cursive;
-    font-size: 34px;
-    color: rgb(88, 88, 233);
+
+h1 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 34px;
+  color: rgb(88, 88, 233);
 }
+
 nav {
-    text-align: left;
-    margin: 1.5% 2%;    
+  text-align: left;
+  margin: 1.5% 2%;    
 }
 
-th,
-td{
-    border-bottom: 1px solid black;
-    padding: 4px 20px;
-    width: 25%;
+th, td {
+  border-bottom: 1px solid black;
+  padding: 4px 20px;
+  width: 25%;
 }
 
 .picture {
-    display: block;
-    margin-top: 10%;
+  display: block;
+  margin-top: 10%;
 }
 
 .listas {
-    margin-top: 20px;
-    /* display: inline-block; */
+  margin-top: 20px;
+  /* display: inline-block; */
 }
-ol{
-    margin: 40px;
-    display: inline-block;
-    /* background: red; */
+
+ol {
+  margin: 40px;
+  display: inline-block;
+  /* background: red; */
 }
+
 .aprender {
-    /* background: blue; */
-    display: inline-block;
+  /* background: blue; */
+  display: inline-block;
 }
 
 table {
-    border: 1px solid rgb(15, 14, 14);
-    /* background: green; */
-    display: inline-block;
-    margin-left: 100px;
-    height: 200px;
-    width: 400px;
+  border: 1px solid rgb(15, 14, 14);
+  /* background: green; */
+  display: inline-block;
+  margin-left: 100px;
+  height: 200px;
+  width: 400px;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 45%;
-    margin-left: 40px;
-   
+  float: left;
+  width: 45%;
+  margin-left: 40px;   
 }
+
 article {
-    text-align: justify;
+  text-align: justify;
 }
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .lado-direito {
-    display:block;
-    float: right;
-    width: 50%;
+  display:block;
+  float: right;
+  width: 50%;
 }
 
 footer {
-    clear: both;
-    
-    
+  clear: both;  
 }
+
 footer p {
-    padding-top: 50px;
-    text-align: center;
-    font-size: 12px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 12px;
 }
