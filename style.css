@@ -12,6 +12,8 @@ body {
   margin: 0;
   font-family: "Red Rose", cursive;
   color: var(--DarkCharcoal);
+  font-size: 16px;
+  line-height: 1.8em;
 }
 
 #cabecalho {
@@ -73,7 +75,7 @@ ul {
   /* background-color: green; */
 }
 
-.principal {
+.lado-esquerdo {
   border-radius: 10px;
   text-align: justify;
   max-width: 60%;
@@ -84,7 +86,7 @@ ul {
   vertical-align: top;
 }
 
-.lateral {
+.lado-direito {
   border-radius: 10px;
   text-align: justify;
   max-width: 30%;
