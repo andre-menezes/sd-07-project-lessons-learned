@@ -10,14 +10,15 @@ body {
     margin: -8px;
     margin-top: -25px;
     height: 150px;
-    top: 0px;
-    position: fixed; 
-    width: 1366px;  
+    top: 0px; 
+    width: 1366px;
+    position: fixed;  
 }
 #titulo {
     color:white;
     text-align: center;
     line-height: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /***********************************section list*************************************************/
 #minha_foto {
@@ -25,6 +26,34 @@ body {
     display: block;
     padding-top: 100px;
     
+}
+/*************************************navegator******************************************************/
+
+#navegator {
+    background-color: rgb(6, 104, 104);
+    margin-top: -50px;
+}
+
+#navegator ul {
+     padding-left: 900px;
+}
+#navegator nav li {
+    display:inline;
+    list-style: none;
+    margin-left: 50px;
+    
+       
+}
+#navegator nav li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font: 100;
+    font-size: 12pt;
+    margin: 10px;
+    text-transform: uppercase;   
+}
+#navegator nav li a:hover {
+    color: rgb(17, 160, 196);
 }
 
 .lista-1 {
@@ -51,6 +80,7 @@ body {
     padding: 1px;
     color: white;
     text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .lista-2 {
     display: block;
@@ -79,7 +109,43 @@ body {
 }
 /***************************************section artic********************************************/
 
-section#artigo {
+
+#artigo {
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
+#artigo p {
+    font-size: large;
+    text-align: center;
+}
+
+
+
+/**********************rodape************/
+
+#rodape {
+    display: block;
     background-color: rgb(0, 128, 122);
-    width: 100%;
+    margin: -8px;
+    height: 150px;
+    width: 1336px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    margin-top: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside {
+    background-color:rgb(241, 241, 241);
+    width: 400px;
+    height: 200px;
+    font-size: large;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: -220px;
 }
