@@ -186,7 +186,7 @@ Você deve criar um site que com uma série de informações a respeito do que v
 - A página deve possuir um elemento `aside`
 
 - A página deve possuir um elemento `footer`
-
+  
 ### 11 - Seu site deve passar sem problemas na verificação de semântica do site achecker
 
 ## Requisitos Bônus:
