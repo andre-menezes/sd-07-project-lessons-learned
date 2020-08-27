@@ -20,6 +20,12 @@ body {
   margin-top: 90px;
 }
 
+footer a {
+    text-decoration: none;
+    color: rgb(13 , 236 , 188);
+  }
+  
+
 #cabecalho nav a {
   display: inline-block;
   text-decoration: none;
@@ -59,18 +65,13 @@ footer {
   color: rgb(253 , 251 , 251);
 }
 
-footer a {
-    text-decoration: none;
-    color: rgb(13 , 236 , 188);
-}
-
 #apresentacao {
-    display: flex;
-    margin-left: 50px;
-    margin-top: 290px;
+  display: flex;
+  margin-left: 125px;
+  margin-top: 310px;
 }
 
 #minha_foto {
-    max-width: 200px;
-    border-radius: 20% 0 0 20%;
+  max-width: 200px;
+  border-radius: 20% 0 0 20%;
 }
