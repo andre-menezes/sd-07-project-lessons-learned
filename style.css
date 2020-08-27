@@ -1,16 +1,15 @@
 :root {
-  /* CSS HEX */
-  --EerieBlack: #1c1c1c;
-  --DarkCharcoal: #2e2e2e;
-  --CeruleanFrost: #6d9bc3;
-  --BrightGray: #ebecf0;
-  --Gray: #bebebe;
+  --EerieBlack: rgb( 28, 28 , 28) ;
+  --DarkCharcoal: rgb(46 , 46 , 46) ;
+  --CeruleanFrost: rgb(109 , 155 , 195) ;
+  --BrightGray: rgb(235 , 236 , 240) ;
+  --Gray: rgb(190 , 190 , 190) ;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   margin: 0;
-  font-family: "Red Rose", cursive;
+  font-family: 'Red Rose', cursive;
   color: var(--DarkCharcoal);
   font-size: 16px;
   line-height: 1.8em;
@@ -29,15 +28,18 @@ body {
   background-color: var(--CeruleanFrost);
   width: 100%;
 }
+
 #minha_foto {
-  margin: 120px 10px 10px 10px;
+  margin: 120px 10px 10px;
   border-radius: 20px;
 }
+
 nav a {
   margin: 2em;
   color: var(--BrightGray);
   text-decoration: none;
 }
+
 nav a:hover {
   color: var(--DarkCharcoal);
 }
@@ -46,33 +48,32 @@ nav a:hover {
   display: inline-block;
   vertical-align: middle;
 }
+
 .presentation {
   text-align: justify;
   width: 70%;
   margin: auto;
 }
-.presentation::after {
-  content: "";
+.presentation:after {
+  content: '';
   display: inline-block;
   width: 100%;
   height: 0;
 }
 .licoes {
   max-width: 60%;
-  /* background-color:red; */
   display: inline-block;
   vertical-align: middle;
-  margin: 120px 30px 10px 30px;
+  margin: 120px 30px 10px;
 }
 
 .licoes h2 {
   text-align: center;
 }
 
-ol,
+ol ,
 ul {
   display: inline-block;
-  /* background-color: green; */
 }
 
 .lado-esquerdo {
@@ -98,6 +99,6 @@ ul {
 
 footer {
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
   width: 100%;
 }
