@@ -1,11 +1,33 @@
+body {
+  background-color:rgb(253, 251, 251);
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+
+.conteudo {
+  margin-top: 200px;
+}
 #titulo {
-  padding: 68%;  
+  font-size: 1.5em;
+}
+
+#cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-body {
-  background-color:rgb(253, 251, 251);
+.section-principal {
+  display:inline-block;
 }
-
+.lado-esquerdo {
+  width: 48%;
+  float:left;
+}
+.lado-direito {
+  width: 48%;
+  float: right;
+}
