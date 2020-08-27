@@ -5,6 +5,7 @@
 
 body{
   background-color: rgb(253, 251, 251);
+  color: rgb(93, 87, 107);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -22,8 +23,8 @@ p{
   background-color: rgb(246, 174, 45);
   width: 100%;
 
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 #cabecalho h1{
@@ -36,9 +37,14 @@ p{
 }
 
 #cabecalho ul li{
-    display: inline-block;
-    background-color: rgb(93, 87, 107);
-    padding: .5rem;
+  display: inline-block;
+  background-color: rgb(93, 87, 107);
+  padding: .5rem;
+  cursor: pointer;
+}
+
+#cabecalho ul li:first-child{
+  margin-right: 3.5rem;
 }
 
 #cabecalho a {
@@ -47,43 +53,105 @@ p{
   text-decoration: none;
 }
 
-#relato{
-  margin-top: 115px;
+.content{
+  display: inline-block;
+  padding: .2rem .5rem;
+  width: 100%;
+  margin-top: 9.5rem;
 }
 
-.licoes{
-  margin: 2rem auto;
+.content #relato{
+  width: 100%;
+  text-align: center;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender{
-  padding-inline-start: 2rem;
+.content #relato h2{
+  font-size: 38px;
+  margin-bottom: .4rem;
 }
 
-.licoes .lado-esquerdo,
-.licoes .lado-direito{
+.content #relato img{
+  width: 300px;
+}
+
+.content #relato p{
+  width: 300px;
   display: inline-block;
 }
 
-.licoes .lado-direito{
-  margin-left: 2rem;
-}
-
-.conteudoFuturo{
+.content .licoes{
+  width: 100%;
+  text-align: center;
   margin: 2rem auto;
 }
 
-.conteudoFuturo #tabelaConteudo{
-  border-collapse: collapse;
+.content #licoes_aprendidas,
+.content #licoes_a_aprender{
+  padding-inline-start: 2rem;
 }
 
-.conteudoFuturo #tabelaConteudo td{
+.content #licoes_aprendidas h2,
+.content #licoes_a_aprender h2{
+  text-align: initial;
+}
+
+.content #licoes_aprendidas li,
+.content #licoes_a_aprender li{
+  text-align: initial;
+}
+
+.content #licoes_aprendidas li:first-child,
+.content #licoes_a_aprender li:first-child{
+  margin-top: .3rem;
+}
+
+.content .licoes .lado-esquerdo,
+.content .licoes .lado-direito{
+  display: inline-block;
+}
+
+.content .licoes .lado-direito{
+  margin-left: 2rem;
+}
+
+.content .conteudoFuturo{
+  width: 100%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.content .conteudoFuturo p{
+  margin-bottom: .4rem;
+}
+
+.content .conteudoFuturo #tabelaConteudo{
+  border-collapse: collapse;
+  display: inline;
+}
+
+.content .conteudoFuturo #tabelaConteudo td{
   border: 1px solid black;
   padding: .4rem;
 }
 
+.content .extra{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content .extra aside{
+  width: 450px;
+  display: inline-block;
+}
+
 #rodape{
   background-color: rgb(251, 218, 157);
-
   text-align: center;
+  padding: .2rem;
+}
+
+#rodape a{
+  text-decoration: none;
+  font-weight: bold;
 }
