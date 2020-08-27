@@ -106,3 +106,23 @@ body{
   right: -30px;
   transition: .5s;
 }
+
+#rodape{
+  display: inline-block;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.icones{
+  margin: auto;
+  display: inline;
+
+}
+
+.icone{
+  margin: 25px;
+  width: 50px;
+}
