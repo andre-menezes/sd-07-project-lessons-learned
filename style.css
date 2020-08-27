@@ -76,7 +76,7 @@ h2 , h3 , h4 {
   text-align: center;
   width: 75%;
   margin-left: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
 }
 
 .content h2 {
@@ -91,7 +91,7 @@ ul {
 
 #rodape {
   clear: both;
-  background-color: hsl(165, 93%, 73%);
+  background-color: hsl(165 , 93% , 73%);
   color: rgb(253 , 251 , 251);
   margin-top: 10px;
   padding: 10px;
