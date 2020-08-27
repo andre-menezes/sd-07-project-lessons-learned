@@ -1,8 +1,9 @@
 body{
     background-color: rgb(253,251,251);
 }
+/* HEADER CONTENDO UMA BARRA AZUL COM O TÍTULO: MY JOURNEY INTO FULL STACK*/
 header{
-    z-index: 2;
+    z-index: 3;
     background-color: rgb(6, 26, 64);
     color: rgb(253,251,251);
     font: normal 100% Arial;
@@ -11,9 +12,11 @@ header{
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
+    /*Requisitos*/
     position: fixed;
     top: 0px;
 }
+/* BARRA DE LINKS CONTINDA NO HEADER E FIXA ABAIXO DA BARRA DE TÍTULO */
 #top_links{
     background-color: rgb(6, 109, 170);
     margin-top:2%;
@@ -30,39 +33,52 @@ header{
     text-decoration: none;
     font: normal 20px Arial;
     color: rgb(253,251,251);
-}   
+}
 #minha_foto{ 
-    border: 8px solid rgb(6, 26, 64);
-    width: 20%;
+    border: 8px solid rgb(6, 109, 170);
+    height: 48%;
     top: 40%;
-    left: 10%;
+    left: 8%;
     position: absolute;
     border-radius: 20% 0% 20% 0%;
 }
-#my_name{
-    top: 80%;
-    left: 12%;
-    position: absolute;  
-    font: bold 25px Arial;
+#table{
+    top: 40%;
+    left: 45%;
+    width: 40%;
+    height: 44%;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    font: normal 30px Arial;
     color: rgb(6, 26, 64);
+    border: 8px solid rgb(6, 109, 170);
+    background-color: rgb(188, 205, 214);
+    border-radius: 20% 0% 20% 0%;
+}
+.main_content{
+    display: inline-block;
+    top: 100%;
+    margin-left: 3%;
 }
 #my_learning{
-    top: 30%;
-    left: 35%;
-    margin-right: 10%;
+    
+    width: 35%;
     text-align: justify;
     position: absolute; 
     font: normal 20px Arial;
     color: rgb(6, 26, 64);
-    padding: 3% 4% 3% 6%;
     line-height: 2em; 
     z-index: 1; 
 }
 #licoes_aprendidas{
     top: 100%;
-    left: 10%;
+    left: 40%;
     position: absolute; 
-    font: normal 20px Arial;
+    font: normal 15px Arial;
     background-color: rgb(35, 88, 57);
     color: rgb(253,251,251);
     padding: 3% 4% 3% 6%;
@@ -71,9 +87,9 @@ header{
 }
 #licoes_a_aprender{
     top: 100%;
-    left: 60%;
+    left: 74%;
     position: absolute; 
-    font: normal 20px Arial;
+    font: normal 15px Arial;
     background-color: rgb(121, 49, 49);
     color: rgb(253,251,251);
     padding: 3% 4% 3% 6%; 
@@ -81,7 +97,7 @@ header{
     border-radius: 20% 0% 20% 0%; 
 }
 #curiosity{
-    top: 200%;
+    top: 180%;
     left: 35%;
     width: 20%;
     text-align: justify;
@@ -96,7 +112,7 @@ header{
 #rodape{
     width: 100%;
     height: 10%;
-    top: 265%;
+    top: 240%;
     padding-bottom: 1%;
     position: absolute;
     font: normal 30px Arial;
