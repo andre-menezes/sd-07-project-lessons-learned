@@ -1,25 +1,25 @@
 body{
-    background-color:rgb(253 , 251 , 251); 
-    height:100%; 
+background-color: rgb(253 , 251 , 251); 
+height: 100%; 
 }
 .painel_nav{
-    margin-top:30px;
-    line-height:30px;
+margin-top: 30px;
+line-height: 30px;
 }
 #cabecalho{
-    width:100%;
-    top:0px;
-    margin-top:0px;
-    padding:0.01%;
-    font-family:monospace;
-    text-align:center;
-    background-color:green;
-    position:fixed;  
+width: 100%;
+top: 0px;
+margin-top: 0px;
+padding: 0.01%;
+font-family: monospace;
+text-align: center;
+background-color: green;
+position: fixed;  
 }
 #minha-foto{
-    margin-top:100px;
-    padding:10%;
-    border-color:black;
+    margin-top: 100px;
+    padding: 10%;
+    border-color: black;
 }
 .secoes1{
     border-color:black;
