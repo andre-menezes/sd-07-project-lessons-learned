@@ -44,8 +44,7 @@ h1#titulo {
   color: white;
 }
 
-#geral ol,
-#geral ul {
+#geral ol, #geral ul {
   line-height: 25px;
 }
 
@@ -88,8 +87,7 @@ h1#titulo {
   text-align: center;
 }
 
-.lado-esquerdo table th,
-.lado-esquerdo table td {
+.lado-esquerdo table th, .lado-esquerdo table td {
   border: 1px solid black;
   padding: 4px;
 }
