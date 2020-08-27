@@ -20,11 +20,30 @@ body {
 #minha_foto {
     border-radius: 100%;
     border: solid 3px;
-    width: 200px;
-    display: block;
-    position: relative;
+    width: 207px;
+    display: inline-block;
+    position: fixed;
     margin-left: 10px;
-    margin-top: 5px;
+    left: 0;
+    top: 0;
+}
+
+#titulo {
+    display: inline-block;
+    position: relative;
+    line-height: 170px;
+}
+
+#cabecalho a img {
+    width: 50px;
+    position: fixed;
+    margin-right: 24px;
+    right: 0;
+    top: 75px;
+}
+
+section {
+    margin-top: 250px;
 }
 
 .titulo {
