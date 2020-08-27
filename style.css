@@ -30,8 +30,9 @@ nav {
 
 .aside-aprendizado {
     display: inline-block;
-    width: 49%;
+    width: 25%;
     margin-left: 5px;
+    margin-right: 5px;
     float: right;
 }
 
@@ -72,9 +73,16 @@ nav {
     margin-left: 10px;
     display: inline-block;
     float: left;
-    width: 49%;
+    width: 30%;
 }
 
+.section-artigo {
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+    width: 35%;
+    margin-right: 50px;
+}
 #rodape{
     background-color: rgb(28, 28, 28);
     margin-top: 250px;
