@@ -1,8 +1,8 @@
-#botao {  
+#botao {
   list-style-type: none;
   display: inline-block;
 }
-  
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@
 }
 
 #titulo {
-  color: black  
+  color: black;
 }
 
 body {
