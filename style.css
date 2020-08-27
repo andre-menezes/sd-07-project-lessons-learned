@@ -4,26 +4,24 @@ body {
 rgb(253 , 251 , 251);
 }
 #cabecalho {
+    position: fixed;
     top:0;   
-}
-#titulo {
-    color:green;
 }
 .minha_foto {
     width:200px;
     height:200px;
 }
-.artigo {
+.lado-esquerdo {
     margin-right: 6px;
+    float:left;
 }
-.aside {
+.lado-direito {
     margin-right: 6px;
+    float:right;
 }
 .licoes_aprendidas {
-    float:right;
     width: 50%;
 }
 .licoes_a_aprender {
-    float:left;
     width: 50%;
 }
