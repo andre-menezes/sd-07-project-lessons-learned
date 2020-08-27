@@ -38,6 +38,7 @@ header h1{
     display: inline-block;
 }
 .lado-direito{
+    float: right;
     width: 20%;
     margin-left: 70%;
     margin-right: 10%;
@@ -66,6 +67,7 @@ footer{
     width: 100%;
 }
 .lado-esquerdo{
+    float: left;
     color: rgb(58, 69, 88);
     position: fixed;
     margin-top: 150px;
