@@ -47,6 +47,7 @@ p , li {
   margin-left: 130px;
   margin-top: 50px;
   font-family: 'Courier New', Courier, monospace;
+  line-height: 30px;
 }
 
 .aprendizado {
@@ -57,6 +58,7 @@ p , li {
   margin-bottom: 80px;
   vertical-align: top;
   font-family: 'Courier New', Courier, monospace;
+  line-height: 30px;
 }
 
 footer {
