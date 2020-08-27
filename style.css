@@ -1,118 +1,109 @@
 body {
-  margin: 170px auto 0 auto;
-  background-color: rgb(253, 251, 251);
-
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 170px auto 0;
+  background-color: rgb(253,251,251);
+  font-family: "Gill Sans", 'Calibri', sans-serif;
   font-size: 1.2em;
 }
 
-header#cabecalho {
+#cabecalho {
   width: 100%;
   position: fixed;
-  top: 0px;
-
-  background-color: #3babfd;
-
+  top: 0;
+  background-color: rgb(59,171,253);
   text-align: center;
 }
 
-header#cabecalho nav ul li {
+#cabecalho nav ul li {
   display: inline;
   list-style: none;
   margin: 10px 30px;
   padding: 7px;
-  background-color: rgb(2, 48, 2);
+  background-color: rgb(2,48,2);
   border-radius: 5px;
 }
 
-header#cabecalho nav ul a {
+#rodape a {
   text-decoration: none;
-  color: white;
+  color: green;
+}
+
+#cabecalho nav ul a {
+  text-decoration: none;
+  color: rgb(255,255,255);
   font-weight: 600;
 }
 
-div.cabecalho {
+.cabecalho {
   display: block;
   width: 100%;
   clear: both;
 }
 
-header#cabecalho h1#titulo {
-  font-family: "Ubuntu", sans-serif;
-  color: white;
+#cabecalho h1#titulo {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255,255,255);
 }
 
-section#geral ol,
-section#geral ul {
+#geral ol, #geral ul {
   line-height: 25px;
 }
 
-div#corpo {
+#corpo {
   width: 90%;
   margin: auto;
   padding: 5px 30px;
 }
 
-section#geral {
+#geral {
   width: 25%;
   float: left;
   text-align: center;
-  background-color: #6dc1ff;
+  background-color: rgb(109,193,255);
 }
 
-section#geral img#minha_foto {
+#geral img#minha_foto {
   width: 85%;
 }
 
-section#principal {
+#principal {
   padding: 0 20px;
 }
 
-section.lado-esquerdo {
+.lado-esquerdo {
   width: 46.5%;
   float: left;
   text-align: justify;
-  background-color: #b2ddff;
+  background-color: rgb(178,221,255);
 }
 
-section.lado-esquerdo caption {
+.lado-esquerdo caption {
   margin-bottom: 10px;
   font-style: italic;
 }
 
-/* table */
-
-section.lado-esquerdo table {
-  border: 1px solid black;
-  border-spacing: 0px;
-  text-align: center;  
+.lado-esquerdo table {
+  border: 1px solid rgb(0,0,0);
+  border-spacing: 0;
+  text-align: center;
 }
 
-section.lado-esquerdo table th,
-section.lado-esquerdo table td {
-  border: 1px solid black;
-  padding: 4px 4px;
+.lado-esquerdo table th, .lado-esquerdo table td {
+  border: 1px solid rgb(0,0,0);
+  padding: 4px;
 }
 
-/* sections */
-
-section.lado-direito {
+.lado-direito {
   float: right;
   width: 25%;
-  background-color: #6dc1ff;
+  background-color: rgb(109,193,255);
 }
 
-section.lado-direito aside {
+.lado-direito aside {
   padding: 10px;
   text-align: center;
 }
 
-footer#rodape {
+#rodape {
   clear: both;
   text-align: center;
-}
-
-footer#rodape a {
-  text-decoration: none;
-  color: green;
 }
