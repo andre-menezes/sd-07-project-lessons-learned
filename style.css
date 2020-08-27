@@ -4,7 +4,7 @@ body{
 }
 #cabecalho{
     background-color:rgb(100,95,102);
-    top:0;
+    top:0;    
 }
 .minha_foto{
     width:200px;
@@ -18,7 +18,9 @@ body{
 }
 .licoes_aprendidas{
     float:right;
+    width: 50%;
 }
 .licoes_a_aprender{
     float:left;
+    width: 50%;
 }
