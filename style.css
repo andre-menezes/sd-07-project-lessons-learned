@@ -38,7 +38,7 @@ img {
   border-radius: 20px;
   display: block;
   margin-right: 0;
-border: 2px solid rgb(1 , 14 , 68);
+  border: 2px solid rgb(1 , 14 , 68);
 }
 
 .listas {
@@ -63,7 +63,7 @@ border: 2px solid rgb(1 , 14 , 68);
   font-size: medium;
   color: rgb(1 , 14 , 68);
   background-color: rgb(253 , 251 , 251);
-margin-top: 40px;
+  margin-top: 40px;
 }
 
 .lado-esquerdo {
