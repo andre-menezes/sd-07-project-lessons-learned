@@ -6,13 +6,13 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: rgb(164, 164, 231);
+  background-color: rgb(164 , 164 , 231);
   width: 100vw;
   height: 15%;
   text-align: center;
@@ -20,17 +20,17 @@ header {
 }
 
 h1 {
-  font-family: 'Londrina Solid', cursive;
+  font-family: Londrina Solid, cursive;
   font-size: 34px;
-  color: rgb(88, 88, 233);
+  color: rgb(88 , 88 , 233);
 }
 
 nav {
   text-align: left;
-  margin: 1.5% 2%;    
+  margin: 1.5% 2%;
 }
 
-th, td {
+th , td {
   border-bottom: 1px solid black;
   padding: 4px 20px;
   width: 25%;
@@ -43,33 +43,37 @@ th, td {
 
 .listas {
   margin-top: 20px;
+  
   /* display: inline-block; */
 }
 
 ol {
   margin: 40px;
   display: inline-block;
+  
   /* background: red; */
 }
 
 .aprender {
-  /* background: blue; */
   display: inline-block;
+  
+  /* background: blue; */
 }
 
 table {
-  border: 1px solid rgb(15, 14, 14);
-  /* background: green; */
+  border: 1px solid rgb(15 , 14 , 14);
   display: inline-block;
   margin-left: 100px;
   height: 200px;
   width: 400px;
+
+  /* background: green; */
 }
 
 .lado-esquerdo {
   float: left;
   width: 45%;
-  margin-left: 40px;   
+  margin-left: 40px;
 }
 
 article {
@@ -77,19 +81,19 @@ article {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 24px;
 }
 
 .lado-direito {
-  display:block;
+  display: block;
   float: right;
   width: 50%;
 }
 
 footer {
-  clear: both;  
+  clear: both;
 }
 
 footer p {
