@@ -7,7 +7,6 @@ body {
   font: 500 20px Archive;
   line-height: 28px;
   color: rgb(253, 251, 251);
-  /* text-align: center; */
 }
 
 header {
@@ -48,7 +47,15 @@ a:hover {
   max-width: 1080px;
   background-color: rgb(70, 70, 70);
   overflow: auto;
-  /* display: flex; */
+}
+
+.img {
+  background-color: rgb(112, 112, 112);
+  border: 3px solid rgb(253, 251, 251);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 220px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -92,7 +99,6 @@ ul {
   padding: 30px;
   overflow: auto;
   text-align: justify;
-  /* float: left; */
 }
 
 .lado-direito {
@@ -107,5 +113,4 @@ ul {
   padding: 30px;
   overflow: auto;
   text-align: justify;
-  /* float: right; */
 }
