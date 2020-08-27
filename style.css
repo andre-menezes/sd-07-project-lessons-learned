@@ -145,7 +145,6 @@ footer p {
   padding-left: 15px;
   padding-bottom: 20px;
 }
-
 .lado-esquerdo h3 {
   font-size: 25px;
   padding-top: 15px;
@@ -165,14 +164,13 @@ footer p {
 
 /* === ASIDE === */
 
-.lado-direito {
+.lado-direito{
   width: 40%;
   padding-top: 80px;
   padding-right: 50px;
   float: right;
   text-align: left;
 }
-
 .lado-direito h4 {
   padding-bottom: 5px;
 }
