@@ -56,6 +56,7 @@ nav {
     width: 12%;
     border: 1px solid;
     margin-right: 5px;
+    
 }
 
 #subtitulo {
@@ -78,7 +79,7 @@ nav {
 
 .aside-direito {
     float: right;
-    margin-top: 180px;
+    margin-top: 120px;
     font-style: italic;
     width: 15%;
     margin-left: 35px;
