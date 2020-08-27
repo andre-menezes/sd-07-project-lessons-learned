@@ -1,85 +1,84 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Source Sans Pro', 'sans-serif';
-    color: rgb(33, 33, 33);
-    line-height: 25px;
+  background-color: rgb(253, 251, 251);
+  font-family: "Source Sans Pro", "sans-serif";
+  color: rgb(33, 33, 33);
+  line-height: 25px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
 }
 
 a:hover {
-    background-color: rgb(253, 251, 251);
-    color: rgb(102, 191, 191);
+  background-color: rgb(253, 251, 251);
+  color: rgb(102, 191, 191);
 }
 
 #cabecalho {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(102, 191, 191);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(102, 191, 191);
 }
 
 #cabecalho h1 {
-    text-align: center;
-    color: rgb(253, 251, 251);
+  text-align: center;
+  color: rgb(253, 251, 251);
 }
 
 #minha_foto {
-    width: 350px;
+  width: 350px;
 }
 
 #rodape {
-    position: relative;
-    width: 100%;
-    background-color: rgb(102, 191, 191);
-    color: rgb(253, 251, 251);
-    padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  background-color: rgb(102, 191, 191);
+  color: rgb(253, 251, 251);
+  padding: 10px 20px;
 }
 
 #rodape ul li {
-    padding: 10px;
-    list-style-type: none;
+  padding: 10px;
+  list-style-type: none;
 }
 
 .social-links {
-    line-height: 10px;
-
+  line-height: 10px;
 }
 
 #skills {
-    border: 2px dashed rgb(33, 33, 33);
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
+  border: 2px dashed rgb(33, 33, 33);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
 }
 
 #skills tr th {
-    padding-bottom: 7px;
+  padding-bottom: 7px;
 }
 
 #content {
-    margin: 20px 10px;
+  margin: 20px 10px;
 }
 
 .lado-esquerdo {
-    float: left;
-    max-width: 40%;
-    text-align: justify;
+  float: left;
+  max-width: 40%;
+  text-align: justify;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
 #h3-skills {
-    clear: both;
+  clear: both;
 }
 
 #readme {
-    font-size: 250px;
+  font-size: 250px;
 }
