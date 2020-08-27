@@ -20,7 +20,7 @@
   
   #titulo {
     color: white;
-    line-height: 5rem;
+    line-height: 10px;
     text-align: center;
     font-family: -apple-system, Roboto, sans-serif;
     font-size: 1.8rem;
@@ -53,7 +53,7 @@ margin-top:200px;
 }
 
 
-  .lado-esquerdo {
+  #aprendizado{
     display: inline-block;
     width: 50%;
     border: solid 2px;
@@ -61,16 +61,20 @@ margin-top:200px;
     margin-left:50px;
   }
   
-  .lado-direito {
+  #aside {
     display:inline-block;
-    width: 50%;
+    width: 200px;
+    height:200px;
     border:solid 2px;
     border-color: rgb(0,0,0);
     margin:20px;
-    margin-left:500px;
-  }
+    text-align: left;
+
+      }
+      
+
   
-  #url{
+  #urlink{
     text-align: center;
     color:black;
     margin:20px;
@@ -83,4 +87,6 @@ margin-top:200px;
     height: 50px;
     color: white;
     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
   }
