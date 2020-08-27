@@ -78,7 +78,10 @@ img {
   display: inline-block;
 }
 
-h2 , 
+h2 {
+  margin-bottom: 10px;
+}
+
 h3 {
   margin-bottom: 10px;
 }
