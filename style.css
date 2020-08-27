@@ -59,6 +59,7 @@ h2 {
   line-height: 1.5em;
   margin-top: 15px;
   margin-left: 20px;
+  margin-bottom: 100px;
   float: left;
 }
 
@@ -67,13 +68,23 @@ h2 {
   color: darkblue;
   margin-top: 15px;
   margin-left: 20px;
+  margin-bottom: 100px;
   float: right;
   width: 55%;
 }
 
 #rodape {
-  margin-left: 35px;
-  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  font-size: 5px;
+}
+
+.icones li {
+  display: inline;
+}
+
+.final {
+  margin-left: 635px;
   color: gray;
-  clear: both;
 }
