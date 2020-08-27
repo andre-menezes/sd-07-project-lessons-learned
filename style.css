@@ -1,0 +1,53 @@
+body{ 
+
+    background-color: rgb(253 ,251 ,251);
+}
+.cabecalho{
+    width: 100%;
+    background-color: rgb(40, 100,40);
+    top:0px;
+    position: fixed;
+    text-align: center;
+    color: aliceblue;
+}
+
+#menu_nav{
+    text-align: center;
+}
+
+#menu_nav ul{
+    margin:0px;
+    background-color: rgb(9, 10, 51);
+    list-style: none;
+}
+
+#menu_nav ul li{
+    display: inline;
+
+}
+
+#menu_nav ul li a{
+
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu_nav ul li a:hover{
+color: black;
+h1{
+    color: aliceblue;
+}
+.alinhamento{
+    float: right;
+}
+
+#minha_foto{
+    text-align: center;
+
+}
+
+#foto_nome{
+    margin: 100px;
+    
+}
