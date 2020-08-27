@@ -71,9 +71,17 @@ body {
     word-spacing: 15px;
     font-weight: 200;
 }
+
 .lists {
-    margin: 50px 0;
-    height: 335px;
+    margin: 50px 0px;
+    height: 400px;
+}
+
+.lists h2 {
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin-left: 50px;
+    text-decoration: underline;
 }
 
 .lessons-learned {
@@ -106,12 +114,25 @@ body {
     background-color: rgb(229, 236, 233);
 }
 
+.articles h2 {
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
 .articles h4 {
     text-transform: uppercase;
 }
 
 .articles article h4 {
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+.articles article h5 {
+    font-style: italic;
+    margin: 0;
+    font-weight: normal;
 }
 
 .articles article p {
@@ -127,6 +148,8 @@ body {
     border: 3px solid rgb(84, 110, 95);
     background-color: rgb(253, 251, 251);
     box-shadow: 5px 5px 5px rgb(84, 110, 95);
+    border-radius: 10px;
+    position: static;
 }
 
 .articles aside p {
