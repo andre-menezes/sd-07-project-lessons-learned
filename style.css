@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-body {
+body { 
     background: rgb(253 , 251 , 251);
-    font-family:    Roboto, sans-serif;
+    font-family:  Roboto,  sans-serif;
     font-size:  18px;
     margin: 0;
     padding:    0;
@@ -10,7 +10,6 @@ body {
 
 .container {
     width:  100%;
-    max-width:  1200px;
     margin: auto;
 }
 
@@ -65,37 +64,115 @@ body {
 /* .barra end */
 
 
-/* .minha_aprendizagem */
-
-.minha_aprendizagem {
-    color:  rgb(17 , 16 , 16);
-}
-
-.minha_aprendizagem .lado-esquerdo {
-    width:  70%;
+.licoes {
+    margin-top: 120px;
     background: rgb(185 , 221 , 226);
-    float:  left;
+    border-bottom: 3px solid rgb(16 , 51 , 48);
+    padding: 20px 0;
 }
 
-.minha_aprendizagem .lado-direito {
-    float:  right;
-    width:  30%;
-    background: rgb(217 , 231 , 179);
-}
-
-.minha_aprendizagem .minha_aprendizagem_header {
+.licoes h2{
+    width: 100%;
     text-align: center;
+    color: rgb(17 , 16 , 16);
 }
 
-.minha_aprendizagem .minha_aprendizagem_header img {
+.licoes table {
+    width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+    background: rgb(16 , 51 , 48);
+    border-radius: 10px;
+}
+
+.licoes table tr th {
+    border-bottom: 1px solid gray;
+    color: whitesmoke;
+    padding: 5px 0;
+}
+.licoes table tr th + th,  .licoes table tr td + td{
+    border-left: 1px solid gray;
+}
+.licoes table tr td {
+    color: whitesmoke;
+}
+/* .my_articles */
+
+.my_articles {
+    background-color: rgb(185 , 221 , 226);
+    color:  rgb(17 , 16 , 16);
+    padding: 10px 10vw;
+    float: left;
+}
+.my_articles h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(17 , 16 , 16);
+}
+
+.my_articles .lado-esquerdo {
+    width:  80%;
+    float:  left;
+    text-indent: 50px;
+}
+
+.my_articles .lado-esquerdo p{
+    margin: 0 20px 0 10px;
+    padding: 10px;
+    text-align: justify;
+    font-style: italic;
+    border-top: 3px solid rgb(16 , 51 , 48);
+}
+
+.my_articles .lado-direito p {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    border-top: 3px solid rgb(16 , 51 , 48);
+}
+
+.my_articles .lado-direito {
+    float:  right;
+    width:  20%;
+    background: nter;
+    background: rgb(16 , 51 , 48);
+    border-radius: 10px;
+    color:  whitesmoke;
+}
+
+.my_articles .my_article_header {
+    text-align: right;
+    padding: 0 30px;
+}
+
+.my_articles .my_article_header img {
     width:  min(10vw , 15vh);
     border-radius:  50%;
 }
 
 
-/* .minha_aprendizagem end */
+/* .my_article end */
 
 footer {
     clear:  both;
-    font-family:    Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(16 , 51 , 48);
+    text-align: center;
+    color: whitesmoke;
+    height: 150px;
+}
+
+footer p {
+    padding: 10px 0;
+}
+footer p:first-child{
+    padding-top: 20px;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
 }
