@@ -13,12 +13,12 @@ body{
     width: 100%;
     top: 0px;
     margin-top: 0px;
-    padding: 0.5%;
+    padding: 0.01%;
     font-family: monospace;
     text-align: center;
     background-color: green;
     position: fixed;
-    font-size:3em;
+    font-size: 20px;
 }
 
 #minha-foto{
@@ -31,24 +31,21 @@ body{
     border-color: black;
     display: inline-block;
 }
-.direita{
+.lado-direito{
     float:right;
 }
 
-.esquerda{
-    float:right;
-}
-.esquerda{
+.lado-esquerdo{
     float:left;
 }
+
 
 #rodape{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 2px;
     background-color: green;
-    position: botton;
     color:white;
     font-size: 1em;
     line-height: 1em;
