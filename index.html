@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" media="all" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap"
+      rel="stylesheet"
+      media="all"
+    />
     <title>Lições aprendidas na Trybe</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="cabecalho">
-        <h1 id="titulo">Lições aprendidas na Trybe</h1>
-        <nav>
-            <a href="#minha_foto">Foto</a>
-            <a href="#licoes_aprendidas">Lições aprendidas</a>
-            <a href="#licoes_a_aprender">Lições a aprender</a>
-        </nav>
-   </header> 
-   <main>
-        <section>
-            <img id="minha_foto" src="/images/minha_foto.jpg" alt="Foto do rosto do Júlio">
-        </section>
-        <section>
-            <h2>Lições</h2>
-            <ol id="licoes_aprendidas">
-                <li>Unix e Bash</li>
-                <li>Shell Script</li>
-                <li>Funcionamento da Internet</li>
-                <li>Git e GitHub</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Web Semântico</li>
-                <li>Soft Skills</li>
-                <li>Slack</li>
-                <li>Zoom</li>
-            </ol>
+      <h1 id="titulo">Lições aprendidas na Trybe</h1>
+      <nav>
+        <a href="#minha_foto">Foto</a>
+        <a href="#licoes_aprendidas">Lições aprendidas</a>
+        <a href="#licoes_a_aprender">Lições a aprender</a>
+      </nav>
+    </header>
+    <main>
+      <section class="presentation">
+        <div class="foto">
+          <img
+            id="minha_foto"
+            src="/images/minha_foto.jpg"
+            alt="Foto do rosto do Júlio"
+          />
+        </div>
+        <div class="licoes">
+          <h2>Lições</h2>
+          <ol id="licoes_aprendidas">
+            <li>Unix e Bash</li>
+            <li>Shell Script</li>
+            <li>Funcionamento da Internet</li>
+            <li>Git e GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Web Semântico</li>
+            <li>Soft Skills</li>
+            <li>Slack</li>
+            <li>Zoom</li>
+          </ol>
 
-            <ul id="licoes_a_aprender">
-                <li>Objetos e funções</li>
-                <li>Lógica de Programação</li>
-                <li>Algoritmos</li>
-                <li>Array</li>
-                <li>For loop</li>
-                <li>DOM e seletores</li>
-                <li>CSS Flexbox</li>
-                <li>CSS Responsivo</li>
-                <li>Mobile First</li>
-                <li>Bibliotecas</li>
-            </ul>
-        </section>
-        <article>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus tristique tincidunt. Mauris purus leo, fermentum sed pharetra ut, tincidunt non dolor. Sed non luctus felis, eget molestie magna. In ac commodo nibh. Sed accumsan purus id nibh egestas, vel aliquet urna molestie. Donec gravida et nisi ac aliquam. Proin id odio odio. Curabitur quis eros vel velit aliquet ornare vel sed neque. Nulla ut metus sapien. Etiam congue est quis nisi ultricies, pellentesque ullamcorper purus massa nunc.
-       </article>
-       <aside>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus sem est, a sodales lorem lacinia nec. Maecenas euismod metus eget enim congue, quis ultrices est accumsan. Integer diam efficitur.
-       </aside>
-   </main>
-       <footer id="rodape">
-           Desenvolvido por Júlio Kauer como estudante da <a href="https://www.betrybe.com/" target="_blank" rel="noopener noreferrer">Trybe</a>
-       </footer>
-</body>
+          <ul id="licoes_a_aprender">
+            <li>Objetos e funções</li>
+            <li>Lógica de Programação</li>
+            <li>Algoritmos</li>
+            <li>Array</li>
+            <li>For loop</li>
+            <li>DOM e seletores</li>
+            <li>CSS Flexbox</li>
+            <li>CSS Responsivo</li>
+            <li>Mobile First</li>
+            <li>Bibliotecas</li>
+          </ul>
+        </div>
+      </section>
+      <article class="principal">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus
+        tristique tincidunt. Mauris purus leo, fermentum sed pharetra ut,
+        tincidunt non dolor. Sed non luctus felis, eget molestie magna. In ac
+        commodo nibh. Sed accumsan purus id nibh egestas, vel aliquet urna
+        molestie. Donec gravida et nisi ac aliquam. Proin id odio odio.
+        Curabitur quis eros vel velit aliquet ornare vel sed neque. Nulla ut
+        metus sapien. Etiam congue est quis nisi ultricies, pellentesque
+        ullamcorper purus massa nunc.
+      </article>
+      <aside class="lateral">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus
+        sem est, a sodales lorem lacinia nec. Maecenas euismod metus eget enim
+        congue, quis ultrices est accumsan. Integer diam efficitur.
+      </aside>
+    </main>
+    <footer id="rodape">
+      Desenvolvido por Júlio Kauer como estudante da
+      <a
+        href="https://www.betrybe.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Trybe</a
+      >
+    </footer>
+  </body>
 </html>

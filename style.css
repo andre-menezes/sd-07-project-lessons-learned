@@ -1,21 +1,101 @@
+:root {
+  /* CSS HEX */
+  --EerieBlack: #1c1c1c;
+  --DarkCharcoal: #2e2e2e;
+  --CeruleanFrost: #6d9bc3;
+  --BrightGray: #ebecf0;
+  --Gray: #bebebe;
+}
+
 body {
-    background-color: rgb(253, 251, 251);
-    margin:0;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: "Red Rose", cursive;
+  color: var(--DarkCharcoal);
 }
 
 #cabecalho {
-    position: fixed;
-    background-color: red;
-    width: 100%;
+  position: fixed;
+  background-color: var(--CeruleanFrost);
+  color: var(--BrightGray);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 #rodape {
-    background-color: red;
-    width: 100%;
+  background-color: var(--CeruleanFrost);
+  width: 100%;
 }
 #minha_foto {
-    margin-top: 100px;
+  margin: 120px 10px 10px 10px;
+  border-radius: 20px;
 }
-a {
-    margin: 2em;
+nav a {
+  margin: 2em;
+  color: var(--BrightGray);
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--DarkCharcoal);
+}
+
+.foto {
+  display: inline-block;
+  vertical-align: middle;
+}
+.presentation {
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+}
+.presentation::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+.licoes {
+  max-width: 60%;
+  /* background-color:red; */
+  display: inline-block;
+  vertical-align: middle;
+  margin: 120px 30px 10px 30px;
+}
+
+.licoes h2 {
+  text-align: center;
+}
+
+ol,
+ul {
+  display: inline-block;
+  /* background-color: green; */
+}
+
+.principal {
+  border-radius: 10px;
+  text-align: justify;
+  max-width: 60%;
+  background-color: var(--BrightGray);
+  margin: 1em;
+  padding: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lateral {
+  border-radius: 10px;
+  text-align: justify;
+  max-width: 30%;
+  background-color: var(--BrightGray);
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  width: 100%;
 }
