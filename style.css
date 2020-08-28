@@ -6,9 +6,17 @@ body {
  #cabecalho {
      background-color: #053c63;
      top: 0px;
+     margin: 0px;
+     position: fixed;
+     width: 99%;
+     
  }
 
  #titulo {
      color: rgb(253, 251, 251);
      text-align: center;
+ }
+
+ #minha_foto {
+    padding-top: 90px;
  }
