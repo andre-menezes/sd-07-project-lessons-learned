@@ -14,7 +14,11 @@ article{
   line-height: 1.8;
   font-size: 12px;
 }
-
+.main_container_main{
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+}
 /**** header ****/
 
 .main-cabecalho{
@@ -42,7 +46,17 @@ article{
 .main_pefil{
   max-width: 1366px;
   width: 100%;
-  background-color: grey;
+  background-color:rgb(217,136,89);
   margin: auto;
   margin-top: 60px;
+}
+.lado-esquerdo{
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+.lado-direito{
+  float: right;
+  display: inline-block;
+  width: 50%;
 }
