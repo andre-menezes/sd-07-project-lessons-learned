@@ -132,6 +132,13 @@ footer{
     color:white;
     font-weight: bold;
     text-align: center;
-
+}
+table{
+    width: 100%;
+}
+tr,th,td{
+    border: 1px solid black;
+    color:rgb(79, 79, 79);
+    font-size: 18px;    
 }
 
