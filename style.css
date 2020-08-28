@@ -1,7 +1,9 @@
 * {
     margin: 0px;
 }
-
+body {
+  background-color: rgb(253, 251, 251);
+}
 #cabecalho {
     max-width: 1300px;
     background-color: green;
