@@ -3,30 +3,78 @@
     font-family: The Historia Demo;
 }
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(253, 251, 251);
-    width: 1366;
-    height: 768;
-} 
+/* 
+width: 1366;
+height: 768; 
+*/
+}
 
-.nav ul {
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.nav_links {
     list-style: none;
 }
 
-.nav ul li a {
-    text-decoration: none;
-    color: ;
-    font-weight: lighter;
-    font-size: 25px;
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px ;
+}
+
+.nav_links li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover { /* mudar pra gradiante eventualmente */
+    color: #0088a9; 
+}
+
+button {
+    padding: 9px 25px;
+    margin-left: 25psssx;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
-    right: 10px;   
+    right: 30px;
 }
+
 #titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
 }
 
 #minha_foto {
@@ -34,21 +82,39 @@ body {
     border-radius: 50%;
 }
 
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;    
+}
+
 section {
-    position: relative;
-    top: 100px;
-    width: 250px;
+    
 }
 
 section a {
-    position: relative;
     display: block;
     text-align: center;
     text-decoration: none;
     margin-top: 10px;
     font-family: The Historia Demo;
+    letter-spacing: 2px;
     font-size: 3rem; 
     background: linear-gradient(to top right, #FFD201, #C801FF);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+#licoes_aprendidas {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+#licoes_a_aprender {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+ }
