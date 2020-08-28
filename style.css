@@ -20,3 +20,8 @@ body {
  #minha_foto {
     padding-top: 90px;
  }
+
+ #rodape {
+     position: fixed;
+     bottom: 0px;
+ }
