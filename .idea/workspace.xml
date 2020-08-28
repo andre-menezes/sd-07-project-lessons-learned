@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="031d4527-0180-44c5-a517-d9e892931af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sd-07-project-lessons-learned.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sd-07-project-lessons-learned.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -47,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/run/media/pizorno/94BEA012BE9FEACE/xampp/htdocs/html5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598548918079</updated>
       <workItem from="1598548920333" duration="757000" />
-      <workItem from="1598615268944" duration="2765000" />
+      <workItem from="1598615268944" duration="4430000" />
     </task>
     <servers />
   </component>
@@ -90,6 +93,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="747" y="279" key="FileChooserDialogImpl" timestamp="1598619024175">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="747" y="279" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1598619024175" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1598549465588">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
