@@ -1,5 +1,5 @@
 body {
-  color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 h2 {
@@ -26,6 +26,7 @@ p {
 #cabecalho {
   position: fixed;
   top: 0;
+  text-align: center;
 }
 
 #minha_foto {
@@ -35,6 +36,7 @@ p {
 
 #titulo {
   color: black;
+  text-align: center;
 }
 
 .titulo-licoes-aprendidas {
@@ -69,7 +71,7 @@ p {
 }
 
 .secao-extra {
-  width: 200px;
+  width: 300px;
   margin-left: 10px;
   text-align: center;
 }
