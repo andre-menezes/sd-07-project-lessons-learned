@@ -14,7 +14,7 @@ header {
   padding-bottom: 2%;
   text-align: center;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 /* BARRA DE LINKS CONTINDA NO HEADER E FIXA ABAIXO DA BARRA DE TÍTULO */
@@ -34,7 +34,7 @@ header {
 .toplinks {
   text-decoration: none;
   font: normal normal normal 20px Arial, sans-serif;
-  color: rgb(253 ,251 ,251);
+  color: rgb(253 , 251 , 251);
 }
 
 #minha_foto {
@@ -64,9 +64,8 @@ header {
   border-radius: 20% 0%;
 }
 
-.main_content {
+.lado-esquerdo {
   display: inline-block;
-  top: 100%;
   margin-left: 3%;
 }
 
@@ -79,6 +78,7 @@ header {
   color: rgb(6 , 26 , 64);
   line-height: 2em;
   z-index: 1;
+  top: 100%;
 }
 
 /* LISTA ENUMERADA LICOES APRENDIDAS */
@@ -88,7 +88,7 @@ header {
   position: absolute;
   font: normal normal normal 15px Arial, sans-serif;
   background-color: rgb(35 , 88 , 57);
-  color: rgb(253,251,251);
+  color: rgb(253 , 251 , 251);
   padding: 3% 4% 3% 6%;
   line-height: 2em;
   border-radius: 20% 0%;
