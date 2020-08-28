@@ -1,3 +1,14 @@
 body {
     background-color: rgb(253, 251, 251);
+
 }
+
+ #cabecalho {
+     background-color: #053c63;
+     top: 0px;
+ }
+
+ #titulo {
+     color: rgb(253, 251, 251);
+     text-align: center;
+ }
