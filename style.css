@@ -173,11 +173,28 @@ article p{
   color: rgb(58, 69, 88);
 }
 
-table{
-  margin: auto;
-  padding: 4px;
+#tabela {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
   width: 800px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rb(192, 192, 192);
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#tabela td, #tabela th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(15, 163, 107);
+  color: white;
 }
