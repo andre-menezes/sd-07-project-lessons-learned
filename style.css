@@ -11,6 +11,7 @@ header {
     height: 60px;
     line-height: 50px;
     top: 0;
+    position: fixed
 }
 
 .menuTop {
@@ -122,4 +123,11 @@ table {
     color: white;
     text-align: center;
     background-color: rgb(124, 142, 172);
+}
+
+.lado-direito {
+    float: right;
+}
+.lado-esquerdo {
+    float: left;
 }
