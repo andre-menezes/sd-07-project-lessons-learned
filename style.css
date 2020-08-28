@@ -1,3 +1,23 @@
+body {
+  color: rgb(253 , 251 , 251);
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+li {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
 #botao {
   list-style-type: none;
   display: inline-block;
@@ -17,18 +37,29 @@
   color: black;
 }
 
-#licoes_aprendidas {
+.titulo-licoes-aprendidas {
   text-align: center;
   display: inline-block;
 }
 
-#licoes_a_aprender {
+.titulo-licoes_a_aprender {
   text-align: center;
   display: inline-block;
 }
 
+.licoes-meio {
+  float: left;
+  display: inline-block;
+}
+
+.licoes-direito {
+  margin-left: 50px;
+  display: inline-block;
+}
 .secao-fundo {
   width: 300px;
+  float: left;
+  display: inline-block;
 }
 
 .secao-texto {
@@ -40,24 +71,4 @@
   width: 200px;
   margin-left: 10px;
   text-align: center;
-}
-
-body {
-  color: rgb(253 , 251 , 251);
-}
-
-h2 {
-  color: black;
-}
-
-h3 {
-  color: black;
-}
-
-li {
-  color: black;
-}
-
-p {
-  color: black;
 }
