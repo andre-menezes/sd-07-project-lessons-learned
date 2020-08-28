@@ -44,7 +44,11 @@
       <option name="presentableId" value="Default" />
       <updated>1598467544788</updated>
       <workItem from="1598467545972" duration="12187000" />
+<<<<<<< HEAD
       <workItem from="1598532222151" duration="19362000" />
+=======
+      <workItem from="1598532222151" duration="15886000" />
+>>>>>>> parent of 65415af... modificando atributos das fontes
     </task>
     <servers />
   </component>
