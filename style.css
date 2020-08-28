@@ -1,68 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-body{
+body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
-#cabecalho{
+#cabecalho {
   border-bottom-style: solid;
   border-bottom-width: 8px;
-  border-bottom-color: rgb(0, 51, 51);
+  border-bottom: rgb(0, 51, 51);
   margin: 0;
   padding: 10px;
   position: fixed;
-  top: 0px;
-  background-color:rgb(15, 163, 107);
+  top: 0;
+  background-color: rgb(15, 163, 107);
   height: 100px;
   width: 100%;
   z-index: 1;
 }
 
-.div_imagem{
+.div_imagem {
   float: left;
   height: 100px;
   width: 100px;
-  margin-right: 200px
+  margin-right: 200px;
 }
 
-#minha_foto{
+#minha_foto {
   width: 98px;
   border-style: solid;
   border-width: 2px;
-  border-color: rgb(255, 255, 255);
+  border-color: white;
   border-radius: 50px;
 }
 
-.titulo{
-  color: rgb(255, 255, 255);
-  font-family: 'Courier New', Courier, monospace;
+.titulo {
+  color: white;
+  font-family: Courier New, Courier, monospace;
   font-size: 50px;
   margin: 0;
 }
 
-#titulo{
+#titulo {
   font-size: 22px;
   letter-spacing: 1.3em;
-  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  font-family: Times New Roman, Times, serif, Geneva, Tahoma, sans-serif;
   font-style: italic;
   border-top-style: solid;
   border-top-width: 1px;
   display: inline;
 }
 
-.conteudo{
+.conteudo {
   margin-top: 120px;
 }
 
-.listas{
+.listas {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
 
-.box_licoes{
+.box_licoes {
   margin: 20px 50px;
   display: inline-block;
   width: 400px;
@@ -78,31 +78,12 @@ body{
   overflow: hidden;
 }
 
-.box_licoes:hover{
-  color: rgb(255, 255, 255);
+.box_licoes:hover {
+  color: white;
   border-color: rgb(12, 138, 89);
 }
 
-.box_licoes:hover  .efeito{
-  background-color: rgb(15, 163, 107);
-  border-radius: 450px;
-  width: 900px;
-  height: 900px;
-  top: -500px;
-  right: -400px;
-  transition: .15s;
-  ;
-}
-
-#licoes_aprendidas{
-  position: absolute;
-}
-
-#licoes_a_aprender{
-  position: absolute;
-}
-
-.efeito{
+.efeito {
   border-radius: 30px;
   background-color: rgb(15, 163, 107);
   width: 60px;
@@ -111,85 +92,107 @@ body{
   position: relative;
   top: -35px;
   right: -30px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-#rodape{
+.box_licoes:hover  .efeito {
+  background-color: rgb(15, 163, 107);
+  border-radius: 450px;
+  width: 900px;
+  height: 900px;
+  top: -500px;
+  right: -400px;
+  transition: 0.15s;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+}
+
+#rodape {
   display: inline-block;
   background-color: rgb(51, 51, 51);
-  color: rgb(255, 255, 255);
+  color: white;
   width: 100%;
   height: 100px;
   text-align: center;
 }
 
-.icones{
+.icones {
   margin: auto;
   display: inline;
 
 }
 
-.icone{
+.icone {
   margin: 25px;
   width: 50px;
 }
 
-section{
+section {
   display: inline-block;
   margin: auto;
 }
 
-.artigos{
+.artigos {
   width: 100%;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   margin: 40px;
   text-align: left;
   color: rgb(58, 69, 88);
 
 }
 
-.lado-direito{
+.lado-direito {
   border-radius: 8px;
   background-color: rgb(0, 51, 51);
-  color: rgb(255, 255, 255);
+  color: white;
   float: right;
   width: 300px;
   margin: 40px;
   padding: 25px;
 }
 
-aside p{
+aside p {
   font-style: italic;
   line-height: 2em;
 }
 
-article h2{
+article h2 {
   color: rgb(0, 51, 51);
 }
 
-article p{
+article p {
   color: rgb(58, 69, 88);
 }
 
 #tabela {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 800px;
   margin: auto;
   margin-bottom: 40px;
 }
 
-#tabela td, #tabela th {
-  border: 1px solid #ddd;
+#tabela td , #tabela th {
+  border: 1px solid rgb(221, 221, 221);
   padding: 8px;
 
 }
 
-#tabela tr:nth-child(even){background-color: #f2f2f2;}
+#tabela tr:nth-child(even) {
+  background-color: rgb(242, 242, 242);
+}
 
-#tabela tr:hover {background-color: #ddd;}
+#tabela tr:hover {
+  background-color: rgb(221, 221, 221);
+}
 
 #tabela th {
   padding-top: 12px;
