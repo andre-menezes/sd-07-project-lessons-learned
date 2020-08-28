@@ -1,105 +1,123 @@
 body{
-    background-color: rgb(253,251,251);
-    width: 1366px;
+    margin: 0;
+    width: 1366;
     height: 768;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(253, 251, 251);
+    color:black;
+    font-size: medium;
+    line-height: 1;
 
 }
-#cabecalho{
-        position: fixed;
-        top:0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        background-color: #284E39;
-        z-index: 10;
-        font-size: 20px;
+header{
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8%;
 }
-#encontreme{
-    display: block;
-    position: relative;
-    width: 900px;
-    height: 120px;
-    top: 140px;
-    left: 458px;
-    text-align: left;
-}
-a{
-    text-decoration: none;
-    padding: 10spx 20px;
-    border: 2px dotted green;
-    background-color: #D2EAE7;
+#titulo{
     font-size: 30px;
+    
+}
+nav{
+    background-color: crimson;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top:8%;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+article{
+    background-color:rgb(253, 251, 251)
+    float: left;
+    position: fixed;
+    width: 72%;
+    height: 70%;
+    top: 13%;
+
+}
+section{
+    text-indent: 20px;
+    
+}
+section ol, ul{
+    position: relative;
+    bottom: 45px;
+    list-style: none;
+}
+section ol{
+    display: inline-block;
+    float: left;
+    left: 10%;
+}
+section ul{
+    display: inline-block;
+    float: right;
+    right: 10%;
+}
+aside{
+    background-color: yellow;
+    float: right;
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    height: 42%;
+    right: 0;
+    top: 13%;
+
 }
 #minha_foto{
     position: relative;
-    top: 25px;
+    top: 10px;
 }
-#sobre_mim{
-    display: inline-block;
-    text-align: center;
-    width: 900px;
-    height: 200px;
-    position: relative;
-    left: 299px;
-    top: 135px;
-}
-p{
-    text-align: justify;
-    padding: 20px;
-    text-indent: 18px;
-}
-.lista01, .lista02{
-    display: inline-block;
-    position: relative;
-    top: 140px;
-    left: 700px;
-    width: 300px;
-    z-index: 3;
-}
+.lateral-02{
+    background-color: yellow;
+    position: fixed;
+    top: 53%;
 
-.lado-equerdo{
-    display: inline-block;
-    float: left;
-}
-.lado-direito{
-    display: inline-block;
-    float: right;
-    position: relative;
-    top: 140px;
-    right: 940px;
-    text-align: right;
-    width: 300px;
-}
-.lado-direito, .lado-direito{
-    align-items: center;
-}
-.sucesso{
-    text-align: center;
-    width: 300px;
-    position: relative;
-    bottom: 70px;
-    left: 40px;
 }
 footer{
-    font: bold;
-    font-size: larger;
-    position: relative;
-    padding: 0;
-    top: 40px;
-    z-index: 2;
+    background-color: crimson;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 }
-.imagem{
-    width: 1366px;
-    height: 100px;
-    background-color: #284E39;
-    z-index: 1;
+#artigo h2{
+    font-size: 22px;
+    margin-top: 0;
+    height: 27px;
+}
+p{
+    display:block;
+    text-align: justify;
+    width: 100%;
+    bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contato{
+    display: inline-block;
+    vertical-align: top;
+}
+a{
+    border: 5px dotted white;
+    padding: 5px;
+    margin: 12px;
     position: relative;
-    bottom: 10px;
-    border: 0;
-    padding: 0;
+    display: inline-block;
+    background-color: tomato;
+    text-decoration: none;
+    font-size:large;
+    bottom: 25px;
+    font-weight: bold;
     color: white;
-    right: 10px;
-    bottom: 20px;
-    border-radius: 30% 0 30%;
 }
