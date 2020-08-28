@@ -33,7 +33,7 @@ nav{
 table{
     width: 100%;
 }
-article{
+.lado-esquerdo{
     background-color:rgb(253, 251, 251)
     float: left;
     position: fixed;
