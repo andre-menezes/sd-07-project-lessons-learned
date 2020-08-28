@@ -1,23 +1,21 @@
-body {
-    background-color: rgb(253, 251, 251)
-}
-div{
-    display: inline
+body {background-color: rgb(253, 251, 251);}
+div {
+display: inline-block;
 }
 #cabecalho {
-    top: 0px;
-    background-color: aqua;
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 80px;
-    display: block;
+top: 0;
+background-color: aqua;
+position: fixed;
+left: 0;
+right: 0;
+height: 80px;
+display: block;
 }
 #titulo {
-    text-align: center;
+text-align: center;
 }
 #minha_foto {
-    max-width: 200px;
+max-width: 200px;
 }
 #licoes_aprendidas {
 
@@ -26,5 +24,5 @@ div{
 
 }
 #rodape {
-    padding-left: 1100px;
+padding-left: 1100px;
 }
