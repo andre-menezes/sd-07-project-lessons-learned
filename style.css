@@ -1,29 +1,30 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 /* HEADER CONTENDO UMA BARRA AZUL COM O TÍTULO: MY JOURNEY INTO FULL STACK */
 header {
   z-index: 3;
-  background-color: rgb(6, 26, 64);
-  color: rgb(253,251,251);
-  font: normal 100% Arial;
+  background-color: rgb(6 , 26 , 64);
+  color: rgb(253 , 251 , 251);
+  font: normal normal normal 100% Arial, sans-serif;
   width: 100%;
   margin-bottom: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
   position: fixed;
+  top: 0px;
 }
 
 /* BARRA DE LINKS CONTINDA NO HEADER E FIXA ABAIXO DA BARRA DE TÍTULO */
 #top_links {
-  background-color: rgb(6, 109, 170);
-  margin-top:2%;
+  background-color: rgb(6 , 109 , 170);
+  margin-top: 2%;
   padding-top: 2%;
   padding-bottom: 1%;
   word-spacing: 5px;
-  font: normal 20px Arial;
+  font: normal 20px Arial, sans-serif;
   width: 100%;
   height: 5%;
   text-align: center;
@@ -32,12 +33,12 @@ header {
 
 .toplinks {
   text-decoration: none;
-  font: normal 20px Arial;
-  color: rgb(253,251,251);
+  font: normal normal normal 20px Arial, sans-serif;
+  color: rgb(253 ,251 ,251);
 }
 
-#minha_foto { 
-  border: 8px solid rgb(6, 109, 170);
+#minha_foto {
+  border: 8px solid rgb(6 , 109 , 170);
   height: 40%;
   top: 45%;
   left: 15%;
@@ -56,10 +57,10 @@ header {
   position: absolute;
   z-index: 2;
   text-align: left;
-  font: normal 25px Arial;
+  font: normal normal normal 25px Arial, sans-serif;
   color: rgb(6, 26, 64);
-  border: 8px solid rgb(6, 109, 170);
-  background-color: rgb(188, 205, 214);
+  border: 8px solid rgb(6 , 109 , 170);
+  background-color: rgb(188 , 205 , 214);
   border-radius: 20% 0%;
 }
 
@@ -69,38 +70,38 @@ header {
   margin-left: 3%;
 }
 
-/* ARTIGO MEU APRENDIZADO */ 
+/* ARTIGO MEU APRENDIZADO */
 #my_learning {
   width: 35%;
   text-align: justify;
   position: absolute;
-  font: normal 20px Arial;
-  color: rgb(6, 26, 64);
+  font: normal normal normal 20px Arial, sans-serif;
+  color: rgb(6 , 26 , 64);
   line-height: 2em;
   z-index: 1;
 }
 
-/* LISTA ENUMERADA LICOES APRENDIDAS */ 
+/* LISTA ENUMERADA LICOES APRENDIDAS */
 #licoes_aprendidas {
   top: 100%;
   left: 40%;
   position: absolute;
-  font: normal 15px Arial;
-  background-color: rgb(35, 88, 57);
+  font: normal normal normal 15px Arial, sans-serif;
+  background-color: rgb(35 , 88 , 57);
   color: rgb(253,251,251);
   padding: 3% 4% 3% 6%;
   line-height: 2em;
   border-radius: 20% 0%;
 }
 
-/* LISTA NAO NUMERADA LICOES A APRENDER */ 
+/* LISTA NAO NUMERADA LICOES A APRENDER */
 #licoes_a_aprender {
   top: 100%;
   left: 74%;
   position: absolute;
-  font: normal 15px Arial;
-  background-color: rgb(121, 49, 49);
-  color: rgb(253,251,251);
+  font: normal normal normal 15px Arial, sans-serif;
+  background-color: rgb(121 , 49 , 49);
+  color: rgb(253 , 251 , 251);
   padding: 3% 4% 3% 6%;
   line-height: 2em;
   border-radius: 20% 0%;
@@ -112,13 +113,14 @@ header {
   width: 20%;
   text-align: justify;
   position: absolute;
-  font: normal 20px Arial;
-  background-color: rgb(172, 92, 0);
-  color: rgb(253,251,251);
+  font: normal normal normal 20px Arial, sans-serif;
+  background-color: rgb(172 , 92 , 0);
+  color: rgb(253 , 251 , 251);
   padding: 3% 4% 3% 6%;
   line-height: 2em;
   border-radius: 20% 0%;
 }
+
 /* FOOTER */
 #rodape {
   width: 100%;
@@ -126,8 +128,8 @@ header {
   top: 240%;
   padding-bottom: 3%;
   position: absolute;
-  font: normal 18px Arial;
+  font: normal normal normal 18px Arial, sans-serif;
   text-align: center;
-  background-color: rgb(6, 109, 170);
-  color: rgb(253,251,251);
+  background-color: rgb(6 , 109 , 170);
+  color: rgb(253 , 251 , 251);
 }
