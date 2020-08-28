@@ -19,29 +19,63 @@ body {
 }
 #licoes_aprendidas {
   font: sans-serif;
+  width: 35%;
+  display: inline-block;
 }
 #licoes_a_aprender {
   font: sans-serif;
+  width: 35%;
   list-style: square;
+  display: inline-block;
 }
 #rodape {
   background-color: rgb(235, 177, 102);
   width: 100%;
-  padding: 15px;    
+  padding: 15px; 
+  text-align: center;   
 }
 #artigo {
-  font: sans-serif;
-  width: 50%;
-  border-block-end-width: 10px;
+  align-content: top;
+  width: 70%;
+  border-block-end-width: 30px;
+  object-position: 30px;
+  display: inline-block;
 }
-nav {
+#navegacao {
   width: 100%;
-}
+  background-attachment: fixed;
+  top: 80px;
+ }
 figcaption {
   font: italic smaller sans-serif;
   padding: 2px;
   text-align: center;
   width: 120px;
 }
-
-
+#secao {
+  width: 70%;
+  text-align:top;
+  display: inline-block;
+}
+#secaoarticle {
+  width: 35%;
+  text-align:justify;
+  font-style: italic sans-serif;
+  display: inline-block;
+}
+#listanav {
+  background-color: rgb(235, 177, 102);
+  width: 100%;
+  padding: 5px;
+  list-style-type: none;
+}
+.navli {
+  display: inline-block;  
+  text-align: right;
+  height: 6px;
+  margin-left: 40px;
+}
+#adec {
+  text-decoration:none; 
+  text-decoration-color: black;
+}  
