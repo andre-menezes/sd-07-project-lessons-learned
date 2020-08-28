@@ -50,6 +50,10 @@ section {
     text-align: center;
 }
 
+.titulo h2{
+    font-size: 28px;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,6 +65,10 @@ section {
     border-radius: 10px;
     text-align: center;
     padding: 18px;
+}
+
+li {
+    font-size: 18px;
 }
 
 .left {
@@ -93,4 +101,8 @@ section {
     margin-top: 100px;
     text-align: center;
     font-weight: bold;
+    height: 150px;
+    background-color: rgb(98,210,189);
+    line-height: 150px;
+    border-top: 3px solid;
 }
