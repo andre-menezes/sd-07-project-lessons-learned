@@ -39,6 +39,12 @@ body{
   margin: auto;
   margin-top: 60px;
 }
+.main-perfil ol{
+  display: inline-block;
+}
+.main_pefil ul{
+  display: inline-block;
+}
 .lado-esquerdo{
   float: left;
   display: inline-block;
