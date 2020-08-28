@@ -104,9 +104,9 @@ article{
 aside{
     width: 33%;
     position: relative;   
-    margin-top: 3px;
     float: left;
     margin-top:101px;
+    margin-bottom: 30px;
     margin-left: 3%;
 }
 aside h1, article h1{
@@ -132,6 +132,7 @@ footer{
     color:white;
     font-weight: bold;
     text-align: center;
+   
 }
 table{
     width: 100%;
@@ -140,5 +141,8 @@ tr,th,td{
     border: 1px solid black;
     color:rgb(79, 79, 79);
     font-size: 18px;    
+}
+.piada{
+    text-decoration-line: underline;
 }
 
