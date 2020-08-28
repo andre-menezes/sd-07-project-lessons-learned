@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 body{
   background-color: rgb(253, 251, 251);
-  margin: 0
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho{
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-bottom-color: rgb(0, 51, 51);
   margin: 0;
   padding: 10px;
   position: fixed;
@@ -11,6 +17,7 @@ body{
   background-color:rgb(15, 163, 107);
   height: 100px;
   width: 100%;
+  z-index: 1;
 }
 
 .div_imagem{
@@ -125,4 +132,42 @@ body{
 .icone{
   margin: 25px;
   width: 50px;
+}
+
+section{
+  display: inline-block;
+  margin: auto;
+}
+
+.artigos{
+  width: 100%;
+}
+
+.artigo_individual{
+  margin: 40px;
+  text-align: left;
+
+
+}
+
+aside{
+  border-radius: 8px;
+  background-color: rgb(0, 51, 51);
+  color: rgb(255, 255, 255);
+  float: right;
+  width: 300px;
+  margin: 40px;
+  padding: 25px;
+}
+
+aside p{
+  font-style: italic;
+}
+
+article h2{
+  color: rgb(0, 51, 51);
+}
+
+article p{
+  color: rgb(58, 69, 88);
 }
