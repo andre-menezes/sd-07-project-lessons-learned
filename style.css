@@ -146,7 +146,7 @@ section{
 .lado-esquerdo{
   margin: 40px;
   text-align: left;
-
+  color: rgb(58, 69, 88);
 
 }
 
@@ -171,4 +171,13 @@ article h2{
 
 article p{
   color: rgb(58, 69, 88);
+}
+
+table{
+  margin: auto;
+  padding: 4px;
+  width: 800px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rb(192, 192, 192);
 }
