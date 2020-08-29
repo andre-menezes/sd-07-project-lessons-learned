@@ -32,18 +32,20 @@ body { background-color: rgb(253, 251, 251);
 .aprendizados { display: inline-block;
     width: 45%;
     margin-top: 120px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
     margin-left: 80px; 
     text-align: center; }
 
 .nome {font-size: 32px; }
 
-#licoes_aprendidas { display: inline-block; 
-    float: left;
-    margin-left: 90px; }
+#licoes_aprendidas { display: inline-block;
+    float: inline-start;
+    margin-left: 90px;
+    text-align: center; }
 
-#licoes_a_aprender { display: inline-block; 
-    margin-left: 205px; }
+#licoes_a_aprender { display: inline-block;
+    margin-left: 180px;
+    text-align: center; }
 
 .pagina-github { text-align: center;
     margin-top: 50px;
