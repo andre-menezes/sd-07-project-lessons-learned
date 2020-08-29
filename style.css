@@ -1,6 +1,7 @@
 body {
     background: rgb(253, 251, 251);
     margin: 0px;
+    font-family: poppins;
 }
 
 #cabecalho {
@@ -12,11 +13,17 @@ body {
 
 #titulo {
     text-align: center;
+    font-family: poppins;
+    color: rgb(253, 251, 251);
+    float: left;
+    margin-left: 128px;
 }
 
 .navigation {
-    margin: 0 auto;
+    margin-right: 128px;
     text-align: center;
+    float: right;
+    padding-top: 16px;
 }
 
 .navigation li {
@@ -26,4 +33,8 @@ body {
 
 .home {
     margin-top: 160px;
+}
+
+table {
+    text-align: center;
 }
