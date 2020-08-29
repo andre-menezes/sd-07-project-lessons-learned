@@ -167,7 +167,7 @@ h3 {
   color:rgb(255, 255,  255);
 }
 
-.conteudosection {
+#conteudosection {
   position:absolute;
   height:150px;
   margin-top:20px;
