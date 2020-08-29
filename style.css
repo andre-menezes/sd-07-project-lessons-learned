@@ -1,3 +1,11 @@
 body {
-    background: #FDFBFB;
+    background: rgb(253, 251, 251);
+    margin: 0px;
+}
+
+#cabecalho {
+    background: rgba(190, 9, 9, 0.349);
+    top: 0px;
+    position: fixed;
+    width: 100%;
 }
