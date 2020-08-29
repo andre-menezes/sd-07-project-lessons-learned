@@ -136,12 +136,13 @@ h3 {
   position:absolute;
   float:right;
   width:600px;
-  height:230px;
+  height:210px;
   line-height:20px;
   text-align:center;
   font-size:18px;
   top:140px;
   right:10px;
+  padding-top: 20px;
   background-color:rgb(255, 228, 196);
   border:5px ridge rgb(216, 191, 216);
   border-top:10px ridge rgb(216, 191, 216);
@@ -165,18 +166,6 @@ h3 {
   background-color:rgb(85,107,47);
   border-radius:15px;
   color:rgb(255, 255,  255);
-}
-
-#conteudosection {
-  position:absolute;
-  height:150px;
-  margin-top:20px;
-  padding-left:30px;
-  padding-right:20px;
-  text-align:center;
-  font-family:'montserra';
-  font-size:18px;
-  line-height:18px;
 }
 
 hr {
