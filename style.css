@@ -73,12 +73,12 @@ p , li {
   padding: 40px;
 }
 
-.tabelas {
+.lado-esquerdo {
   display: inline-block;
   margin-right: 60px;
 }
 
-.nota {
+.lado-direito {
   display: block;
   float: right;
   background-color: grey;
