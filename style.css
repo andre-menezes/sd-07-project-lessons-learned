@@ -1,21 +1,21 @@
-body { background-color:rgb(253, 251, 251); }
+ body { background-color: rgba(253 , 251 , 251); }
 * { margin: 0px; }
 #cabecalho {
-    position:sticky;
+    position: sticky;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(0 , 0 , 0 , 0.74);
     height: 4em;
     margin: 0px;
 }
-.textClass a, p {
-    text-align: center;
-    padding: 10px;
-    font: 20px Arial, sans-serif; 
+    .textClass a, p {
+        text-align: center;
+        padding: 10px;
+        font: 20px Arial, sans-serif;
 }
-.titleClass h1, h2, #cabecalho, #titulo { 
+.titleClass h1, h2, #cabecalho, #titulo {
     text-align: center;
     font-size: bold;
-    padding:1 0px;
+    padding: 10px;
 }
 .listClass h2 ,h4 ,p {
     text-align: left;
@@ -25,11 +25,11 @@ body { background-color:rgb(253, 251, 251); }
     width: 30%;
     border: 20px; }
 #logoGithub {
-    width:10%; }
+    width: 10%; }
 #minha_foto {
-    position:relative;
-    left:32%;
-    display:inline-block;
-    width:10%; }
+    position: relative;
+    left: 32%;
+    display: inline-block;
+    width: 10%; }
 #rodape {
-    background-color:rgba(0, 0, 0, 0.74); }
+    background-color: rgba(0,  0 , 0 , 0.74); }
