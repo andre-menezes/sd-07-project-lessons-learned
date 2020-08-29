@@ -3,8 +3,9 @@
 
 body { background-color: rgb(253, 251, 251);}
 
-#licoes_aprendidas { float: left; }
+#licoes_aprendidas { display: inline-block; 
+    float: left;
+    margin-left: 180px; }
 
-#licoes_a_aprender { float: right; }
-
-aside {  }
+#licoes_a_aprender { display: inline-block; 
+    margin-left: 180px; }
