@@ -1,5 +1,11 @@
 body {
+  margin: 0;
   background-color: rgb( 253 , 251 , 251 );
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Oswald, sans-serif;
 }
 
 .main-header {
@@ -11,8 +17,40 @@ body {
   text-align: center;
 }
 
+.main-content {
+  width: 100%;
+  margin: 0;
+  margin-top: 150px;
+}
+
+section.articles {
+  width: 100%;
+  height: auto;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.lado-direito {
+  margin-top: 20px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+aside {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .profile-picture {
-  margin-top: 100px;
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 15px;
+  float: left;
 }
 
 nav div {
@@ -24,23 +62,53 @@ nav div {
 }
 
 nav div a {
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
   float: left;
   display: block;
-  color: rgb( 253 , 251 , 251 );
+  color: rgb( 177 , 238 , 142 );
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 300ms;
 }
 
 nav div a:hover {
-  background-color: rgb( 102 , 116 , 105 );
+  background-color: rgb( 161 , 185 , 166 );
+  color: rgb( 21 , 92 , 0 );
 }
 
 nav div a:visited {
+  color: rgb( 177 , 238 , 142 );
+}
+
+nav div a:visited:hover {
+  color: rgb( 21 , 92 , 0 );
+}
+
+.lessons-list {
+  text-align: center;
   color: rgb( 253 , 251 , 251 );
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-stretch: expanded;
+
+}
+
+table {
+  background-color: rgb( 45 , 94 , 15 );
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+  border-radius: 10px;
 }
 
 footer {
+  background-color: rgb( 45 , 94 , 15 );
+  color: rgb( 177 , 238 , 142 );
+  padding: 1px;
+  margin-top: 80px;
   margin-bottom: 0;
   text-align: center;
 }
