@@ -1,78 +1,284 @@
-
 /** padronizaçao global -Começa aqui **/
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial; 
-  }
- /** padronizaçao global - Termina aqui **/  
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/** padronizaçao global - Termina aqui **/
+
+
+.principal {
+ 
+  background: rgb(253, 251, 253);
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+header {
+ 
+  width: 1200px;
+  height: 100px;
+}
+
+nav {
+  
+  margin-top: 25px;
+  width: 1200px;
+  height: 50px;
+
+}
+
+
+
+.menu{
+      
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #0fa36b;
+  
+}
+
+.menu h1{
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #222;
+  text-decoration:none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: .1em;
+ 
+}
+
+
+
+section {
+  background-color: rgb(253, 251, 253);
+  margin-top: 10px;
+  width: 900px;
+  height: 500px;
+  float: left;
+  position: relative;
+}
+
+
+.primeira{
+position: relative;
+}
+
+.avatar-item {
+ 
+  
+
+  display: relative;
+ 
+}
+
+
+.avatar-item  img {
+ 
+  width: 160px;
+  height: auto ;
+ 
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 5px solid #0fa36b;
+  display: block;
+  padding:3px;
+  margin: 20px;
+}
+
+
+
+.avatar-item  div {
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+}
+
+.avatar-item  div strong{
+  font:  Archivo;
+}
+ /* 700 2.4rem 
+   color: var(--color-text-title);
+}
+
+.avatar-item div span{
+  font-size: 1.6em;
+  
+  margin-top: 0.4em;
+}
+
+.avatar-item > p {
+  padding: 0 2em;
+  font-size: 1.6em;
+  line-height: 2.8em;
+}
+
+*/
+
+.licao h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #0fa36b;
+
+}
+
+.lado-esquerdo {
+  width:  40%;
+  float:  left;
+  text-indent: 50px;
+  margin: auto;
+  padding: 20px;
+}
+
+.lado-esquerdo p{
+  margin: 0 20px 0 10px;
+  padding: 10px;
+  text-align: justify;
+  font-style: italic;
+  border-top: 3px solid rgb(16 , 51 , 48);
+}
+
+.lado-esquerdo ol{
+  list-style-type: decimal;
+}
+
+ .lado-direito {
+  float:  right;
+  width:  40%;
+  margin: auto;
+  padding: 20px;
+     
+  
+}
+
+.lado-direito p {
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  
+  
+}
+
+.lado-direito ul {
+  list-style-type: disc;
+}
+
+
+
+
+
+aside {
+ /* background-color: #fff;*/
+  width: 290px;
+  margin-top: 10px;
+  height: 500px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.modulo {
+  background-color: rgb(219, 222, 233);
+  width: 80%;
+  height: 30%;
+
+  align-content: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.modulo:hover{
+  background-color: #0fa36b;
+}
+
+footer {
+  background: #0fa36b;
+  width: 1200px;
+  height: 60px;
+  clear: both;
+}
+
+.tabela{
+  position: relative;
+  display: inline-block;
+ 
+ 
+}
+
+
+
+
+
+table.tab {
+  border-collapse: separate;
+  width: 90%;
+  padding: 10px;
+  margin:30px;
+  
+}
+  
+ 
+  caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 200%;
+
     
- 
-  body{
-      background: rgb(253, 251, 253);
-  } 
- 
-  .principal{
-    background-color: rgb(187, 53, 53); 
-    width: 1200px;
-    margin: auto;
-    margin-top: 20px;
-    padding: 10px;  
-  }
-   
-  
-  header{
-    /** estilizaçao **/    
-  }
+    border-bottom: .2em solid #0fa36b;
 
-  #cabecalho{
-    background-color: rgb(47, 212, 25);
-    width: 1200px;
-    height: 200px;
-  }
-   
-  #minha_foto{
+    margin-bottom: .5em;
+    }
+    
+table.tab th{
+ background: #0fa36b;
 
-  }
-  #licoes_aprendidas{
-  /** A lista deve possuir 10 intens **/  
-  }
-  #licoes_a_aprender{
+}
 
-  }
+table.tab 
 
-  nav{
-    background-color: #fff;
-    margin-top: 10px;
-    width: 1200px;
-    height: 50px;
-  }
-   
-  section{
-    background-color: #fff;
-    margin-top: 10px;
-    width: 900px;
-    height: 500px;
-    float: left;
-  }
-   
-  aside{
-    background-color: #fff;
-    width: 290px;
-    margin-top: 10px;
-    height: 500px;
-     float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
+table.tab th, td ,tr{ 
 
-  
+  border: solid #0fa36b;
 
-  footer{}
+  border-width: 3px;
+  border-style: dashed;
+}
 
-  #rodape{
-    background-color:  #fff;
-    width: 1200px;
-    height: 60px;
-    clear:  both;
-  }
+
+
+table.tab tr:hover {
+  background-color: #0fa36b;
+}
