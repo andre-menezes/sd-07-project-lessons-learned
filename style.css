@@ -55,7 +55,7 @@ p {
   width: 500px;
   text-align: center;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block;
   vertical-align: top;
   margin-top: 110px;
@@ -68,7 +68,7 @@ p {
 
 .bloco-texto {
   padding: 15px 60px;
-  border-top: 1px solid gray ;
+  border-top: 1px solid gray;
   font-size: 20px;
 }
 
@@ -121,7 +121,7 @@ p {
 }
 
 .secao-extra {
-  width: 200px;
+  width: 250px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
