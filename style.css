@@ -3,7 +3,8 @@ body { background-color : rgb(253 , 251 , 251);
   font-size : 25px; }
 
 #cabecalho { background-color : cornflowerblue;
-  border-radius : 2%; }
+  border-radius : 2%;
+  top: 0px; }
 
 .citacao { font-family : Bad Script , sans-serif;
   margin-left : 7px;
@@ -18,9 +19,10 @@ body { background-color : rgb(253 , 251 , 251);
   margin-left : 310px;
   font-size : 15px; }
 
-#titulo { text-align : center;
+.titulo2 { text-align : center;
   margin-top : 40px;
-  margin-bottom : 50px; }
+  margin-bottom : 50px;
+  font-size: 50px; }
 
 #minha_foto { border-radius : 100%;
   height : 500px;
@@ -39,11 +41,11 @@ body { background-color : rgb(253 , 251 , 251);
 
 #licoes_aprendidas { display : inline-block;
   float : inline-start;
-  margin-left : 90px;
+  margin-left : 110px;
   text-align : center; }
 
 #licoes_a_aprender { display : inline-block;
-  margin-left : 180px;
+  margin-left : 210px;
   text-align : center; }
 
 .pagina-github { text-align : center;
