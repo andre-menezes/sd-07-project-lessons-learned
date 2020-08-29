@@ -6,27 +6,23 @@ background-color: rgba(0 , 0 , 0 , 0.74);
     height: 4em;
 }
 
-.textClass a , p {
-text-align: center;
+.textClass a , p {text-align: center;
 padding: 10px;
 font: 20px Arial, sans-serif;
 }
 
-.titleClass h1 , h2 , #cabecalho , #titulo {
-text-align: center;
+.titleClass h1 , h2 , #cabecalho , #titulo {text-align: center;
 font-size: bold;
 padding: 10px;
 }
 
-.listClass h2 , h4 , p {
-text-align: left;
+.listClass h2 , h4 , p {text-align: left;
 padding: 20px;
 }
 
-#asiMeuSite {
-float: right;
-width: 30%;
-border: 20px;
+#asiMeuSite {float: right;
+  width: 30%;
+  border: 20px;
 }
 
 #logoGithub {
@@ -36,7 +32,7 @@ width: 10%;
 #minha_foto { position: relative;
                     left: 32%;
                         display: inline-block;
-                             width: 10%;
+                            width: 10%;
 
 }
 
