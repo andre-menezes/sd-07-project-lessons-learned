@@ -11,21 +11,34 @@
 /** padronizaçao global - Termina aqui   **/
 
 
+body{
 
+background-color:rgb(253, 251, 253);
+background: rgb(253, 251, 253);
+padding-top: 120px;
+
+}
 
 .principal {
  
   background: rgb(253, 251, 253);
   width: 1200px;
   margin: auto;
-  margin-top: 20px;
-  padding: 10px;
+  
+  
 }
 
 header {
  
   width: 1200px;
   height: 100px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  margin: 0px;
+  margin-top: 40%;
+  
+
 }
 
 nav {
@@ -33,17 +46,17 @@ nav {
   margin-top: 25px;
   width: 1200px;
   height: 50px;
-
+  
 }
 
 
 
 .menu{
       
-  margin-top: 2rem;
+  margin-top: 0;
   margin-bottom: 2rem;
   background: #0fa36b;
-  
+ 
 }
 
 .menu h1{
@@ -143,6 +156,30 @@ position: relative;
 usar para organizar o texto
 */
 
+
+
+
+blockquote {
+  width:90%;
+  font:arial;
+  line-height:1.4em;
+  color:#333;
+  border-left:2px solid silver;
+  border-right:2px solid silver;
+  background:#EEE;
+  margin:10px;
+  padding:0 10px;
+  }
+
+
+.licao .lado-direito .lado-esquerdo{
+
+
+  margin:10px;
+  padding:0 10px;
+
+}
+
 .licao h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -155,7 +192,7 @@ usar para organizar o texto
   float:  left;
   text-indent: 50px;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 .lado-esquerdo p{
@@ -174,7 +211,7 @@ usar para organizar o texto
   float:  right;
   width:  40%;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
      
   
 }
@@ -203,18 +240,19 @@ aside {
   float: left;
   margin-left: 10px;
   margin-bottom: 10px;
+
 }
 
 .modulo {
   background-color: rgb(219, 222, 233);
   width: 80%;
-  height: 30%;
+  height: 25%;
 
   align-content: center;
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-bottom: 15px;
-  margin-top: 0px;
+  margin-top: 20px;
 
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -289,12 +327,6 @@ footer {
 .direitos{
 margin: auto;
 padding: 20px;
-float: left;
-}
-.logo-checker{
-  margin: auto;
-  padding: 20px;
-  float:right;
 
 }
 
