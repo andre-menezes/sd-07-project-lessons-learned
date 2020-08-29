@@ -1,25 +1,18 @@
 /** padronizaçao global -Começa aqui **/
+
 * {
   margin: 0px;
   padding: 0px;
   font-family: Arial;
 }
 
-ul,
-ol,
-li {
-  list-style: none;
-}
 
-/** padronizaçao global - Termina aqui **/
+
+/** padronizaçao global - Termina aqui   **/
 
 
 
-body{
 
-  background: rgb(253, 251, 253);
-
-}
 .principal {
  
   background: rgb(253, 251, 253);
@@ -63,6 +56,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  list-style: none;
   
 }
 
@@ -77,6 +71,8 @@ nav {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: .1em;
+  
+   
  
 }
 
@@ -144,7 +140,7 @@ position: relative;
   font-size: 1.6em;
   line-height: 2.8em;
 }
-
+usar para organizar o texto
 */
 
 .licao h2 {
@@ -230,12 +226,6 @@ aside {
   background-color: #0fa36b;
 }
 
-footer {
-  background: #0fa36b;
-  width: 1200px;
-  height: 60px;
-  clear: both;
-}
 
 .tabela{
   position: relative;
@@ -243,9 +233,6 @@ footer {
  
  
 }
-
-
-
 
 
 table.tab {
@@ -257,7 +244,7 @@ table.tab {
 }
   
  
-  caption {
+caption {
     text-align: left;
     font-weight: bold;
     font-size: 200%;
@@ -288,3 +275,26 @@ table.tab th, td ,tr{
 table.tab tr:hover {
   background-color: #0fa36b;
 }
+
+
+footer {
+  background: #0fa36b;
+  width: 1200px;
+  height: 60px;
+  clear: both;
+}
+
+
+
+.direitos{
+margin: auto;
+padding: 20px;
+float: left;
+}
+.logo-checker{
+  margin: auto;
+  padding: 20px;
+  float:right;
+
+}
+
