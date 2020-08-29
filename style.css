@@ -1,6 +1,9 @@
 
 #cabeçalho { top: 0px; }
 
+#minha_foto { border-radius: 100%;
+    height: 500px; }
+
 body { background-color: rgb(253, 251, 251);}
 
 #licoes_aprendidas { display: inline-block; 
