@@ -37,15 +37,23 @@ ol{
 h3{
     text-align: center;
 }
-#principal{
+#navegador{
     padding-top: 200px;
+    height: 10px;
+    text-align: center;
+    width: 100%;
+}
+#principal{
+    padding-top: 210px;
     height: 320px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    
 }
 #artigo{
     margin: 15px;
+    
 }
 #rodape{
     height: 150px;
@@ -53,4 +61,5 @@ h3{
     background-color: burlywood;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
