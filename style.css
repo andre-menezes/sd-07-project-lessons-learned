@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  
 }
 
 h2 {
@@ -18,7 +19,7 @@ p {
   color: black;
 }
 
-#botao {
+.botao {
   list-style-type: none;
   display: inline-block;
 }
@@ -26,37 +27,83 @@ p {
 #cabecalho {
   position: fixed;
   top: 0;
-  text-align: center;
+  right: 20%;
+  float:right;
+  background-color: white;
 }
 
 #minha_foto {
   border-radius: 35%;
   width: 250px;
+  margin-left: 70px;
+  padding: 0;
 }
 
 #titulo {
   color: black;
   text-align: center;
+  float: right;
+}
+
+#rodape {
+  width: 700px;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.apresentacao {
+  width: 500px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 110px;
+}
+
+.bloco-topo {
+  background-color: black;
+  color: black;
+}
+
+.bloco-texto {
+  padding: 15px 60px;
+  border-top: 1px solid gray ;
+  font-size: 20px;
+}
+
+.bloco-final {
+  width: 700px;
+  text-align: center;
+  margin-left: 60px;
 }
 
 .titulo-licoes-aprendidas {
   text-align: center;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .titulo-licoes_a_aprender {
-  text-align: center;
+  text-align: right;
   display: inline-block;
+  vertical-align: top;
+  padding: 0 15px;
 }
 
-.licoes-meio {
+.licoes-esquerdo {
+  width: 300px;
   float: left;
   display: inline-block;
+  padding: 15px 0;
+  margin-left: 100px;
 }
 
 .licoes-direito {
-  margin-left: 50px;
+  width: 300px;
   display: inline-block;
+  padding: 15px 0;
 }
 
 .secao-fundo {
@@ -66,12 +113,19 @@ p {
 }
 
 .secao-texto {
-  width: 70%;
+  width: 250px;
   text-align: center;
+  display: inline-block;
+  padding: 10px 60px;
+  margin-left: 60px;
+  font-size: 20px;
 }
 
 .secao-extra {
-  width: 300px;
-  margin-left: 10px;
+  width: 200px;
   text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 50px;
+  font-size: 20px;
 }

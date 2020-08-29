@@ -10,78 +10,92 @@
   <body>
     <!--Cabeçalho-->
     <header>
-      <nav id="cabecalho">
-        <h1 id="titulo">Nome da barra</h1>
-        <ul>
-          <li id="botao"><a href="">botão 1</a></li>
-          <li id="botao"><a href="">botão 2</a></li>
-          <li id="botao"><a href="">botão 3</a></li>
-        </ul>
-      </nav>
-      <img id="minha_foto" src="imagem/rsz_me.jpg" alt="Foto da Lorena sorrindo">
+      <section class="bloco-topo">        
+        <nav id="cabecalho">
+          <h1 id="titulo">Menu de Navegação</h1>
+          <ul>
+            <li class="botao"><a href="#licoes">Lições</a></li>
+            <li class="botao"><a href="#trybe">Trybe</a></li>
+            <li class="botao"><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
+    <section>
+      <img id="minha_foto" src="imagem/rsz_me.jpg" alt="Foto da Lorena sorrindo">
+      <section class="apresentacao">
+        Oi, meu nome é Lorena, sou estudante de Desenvolvimento de Software na
+        Trybe. Seja muito bem-vindo(a) ao meu primeiro projeto!
+      </section>
+    </section>   
     <!--Conteúdo-->
     <section>
-      <article>
-        <section class="secao-fundo">
-          <section class="secao-texto">
-            <h2>Meu aprendizado na Trybe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
-            </p>
+      <section class="bloco-texto">
+        <article>
+          <section class="secao-fundo">            
           </section>
+        </article>
+        <section class="licoes-esquerdo" id="licoes">
+          <h2 class="titulo-licoes-aprendidas">Lições Aprendidas</h2>
+          <ol id="licoes_aprendidas">
+            <li>Shell Script</li>
+            <li>Unix & Bash</li>
+            <li>Git & GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Escuta ativa</li>
+            <li>Oratória</li>
+            <li>Relações Interpessoais</li>
+          </ol>
         </section>
-      </article>
-      <section class="licoes-meio">
-        <h2 class="titulo-licoes-aprendidas">Lições Aprendidas</h2>
-        <ol id="licoes_aprendidas">
-          <li>Shell Script</li>
-          <li>Unix & Bash</li>
-          <li>Git & GitHub</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Escuta ativa</li>
-          <li>Oratória</li>
-          <li>Relações Interpessoais</li>
-        </ol>
+        <section class="licoes-direito">
+          <h2 class="titulo-licoes_a_aprender">Lições a Aprender</h2>
+          <ul id="licoes_a_aprender">
+            <li>Bibliotecas JavaScript</li>
+            <li>Frameworks CSS</li>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>Banco de dados SQL</li>
+            <li>Tratamento de dados</li>
+            <li>Segurança de redes de computadores</li>
+            <li>Metodologias ágeis</li>
+            <li>Raciocínio Lógico</li>
+            <li>Gerenciamento de Tempo</li>
+          </ul>
+        </section>
       </section>
-      <section class="licoes-direito">
-        <h2 class="titulo-licoes_a_aprender">Lições a Aprender</h2>
-        <ul id="licoes_a_aprender">
-          <li>Bibliotecas JavaScript</li>
-          <li>Frameworks CSS</li>
-          <li>React</li>
-          <li>NodeJS</li>
-          <li>Banco de dados SQL</li>
-          <li>Tratamento de dados</li>
-          <li>Segurança de redes de computadores</li>
-          <li>Metodologias ágeis</li>
-          <li>Raciocínio Lógico</li>
-          <li>Gerenciamento de Tempo</li>
-        </ul>
-      </section>
-      <aside class="secao-extra">
-        <h2>Minha experiência na Trybe (até o momento)</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+
+      <section class="secao-texto" id="trybe">
+        <h2>Meu aprendizado na Trybe</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris.
-        </p>
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur.
+      </section>
+
+      <aside class="secao-extra">
+        <h2>Minha experiência na Trybe</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris.        
       </aside>
+      <br>
+      <br>
+      <br>
       <footer id="rodape">
         <p>Conteúdo compilado por: Lorena Góes</p>
-        <p>Postado em:</p>>
+        <p>Postado em: 29/08/2020</p>
+      </footer>
+    
+      <!--Rodapé-->
+      <footer class="bloco-final" id="contato">
+        <p>Para maiores informações:</p>
+        <a href="https://github.com/loren-gt" target="_blank" rel="noopener">Meu GitHub</a>
+        <p>Esse site foi resultado do meu primeiro projeto para a Trybe, feito com muito empenho e dedicação</p>
       </footer>
     </section>
-    <!--Rodapé-->
-    <footer>
-      <p>Para maiores informações:</p>
-      <a href="https://github.com/loren-gt" target="_blank" rel="noopener">Meu GitHub</a>
-      <p>Esse site foi meu primeiro projeto para a Trybe, feito com amor e dedicação</p>
-    </footer>
   </body>
 </html>
