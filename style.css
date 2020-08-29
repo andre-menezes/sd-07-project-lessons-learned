@@ -2,7 +2,7 @@ body { background-color: rgba(253 , 251 , 251);
 }
 
 #cabecalho {position: fixed;
-    float: top;
+    top : 0px;
     background-color: rgba(0 , 0 , 0 , 0.74);
     height: 4em;
 }
@@ -29,7 +29,6 @@ float: right;
 width: 30%;
 border: 20px;
 }
-
 #logoGithub {
 width: 10%;
 }
@@ -42,5 +41,5 @@ width: 10%;
 }
 
 #rodape {
-background-color: rgba(0 ,  0 , 0 , 0.74);
+background-color: rgba(0 , 0 , 0 , 0.74);
 }
