@@ -3,6 +3,11 @@
 
 body { background-color: rgb(253, 251, 251);}
 
+#titulo {
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 50px; }
+
 #minha_foto { border-radius: 100%;
     height: 500px;
     display: inline-block;
