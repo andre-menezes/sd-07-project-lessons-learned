@@ -37,7 +37,7 @@ body {
 #rodape {
   background-color: rgb(235, 177, 102);
   width: 100%;
-  padding: 15px; 
+  padding: 15px 0px; 
   text-align: center;   
 }
 
@@ -53,11 +53,11 @@ body {
   width: 100%;
   background-attachment: fixed;
   top: 80px;
- }
+}
 
 figcaption {
   font: italic smaller sans-serif;
-  padding: 2px;
+  padding: 0px 2px;
   text-align: center;
   width: 120px;
 }
@@ -73,6 +73,7 @@ figcaption {
   text-align: justify;
   font-style: italic sans-serif;
   display: inline-block;
+  padding: 20px 20px ;
 }
 
 #listanav {
@@ -92,4 +93,23 @@ figcaption {
 #adec {
   text-decoration: none; 
   text-decoration-color: black;
-}  
+}
+
+h3{
+  text-align: center;
+}
+
+aside{
+  display: inline-block;
+  align-content: right;
+  width: 30%;
+}
+
+#icon{
+  height: 30px;
+}
+
+table{
+  display: inline-block;
+  text-align: right;
+}
