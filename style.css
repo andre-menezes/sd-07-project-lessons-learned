@@ -24,4 +24,6 @@ body {
     margin-left: 16px;
 }
 
-h1 {}
+.home {
+    margin-top: 160px;
+}
