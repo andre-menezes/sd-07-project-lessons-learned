@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/0cedb5bf34.js" crossorigin="anonymous"></script>
+        
     </head>
     <body>
+
         <!-- CABEÇALHO -->
         <header id="cabecalho" class="header-style">
             <h1 id="titulo" >Lições aprendidas - Trybe</h1> 
@@ -24,16 +25,21 @@
         <section id="profile-content">
             <div class="profile">
                 <img src="profile.jpg" alt="Minha foto do perfil" id="minha_foto">
-                <h3>André Menezes</h3>
+                <h2>André Menezes</h2>
+            </div>
+            <div class="socials">
+                <a href="https://www.github.com/andre-menezes" target="_blank"><i class="fab fa-github-alt"></i></a>
+                <a href="https://www.linkedin.com/in/andre-smenezes/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </section>
 
         <!-- LISTAS -->
         <section id="list-content" class="lists">
             <h2 id="lessons">Lições:</h2>
+
             <!-- Lista ordenada - Lições aprendidas -->
             <div class="lessons-learned">
-                <h4>Lições aprendidas:</h4>
+                <h3>Lições aprendidas:</h3>
                 <ol id="licoes_aprendidas" class="ordered-list">
                     <li>Unix</li>
                     <li>Git</li>
@@ -66,14 +72,15 @@
             </div>
         </section>
 
+        <!-- SEÇÃO ARTIGOS -->
         <section id="article" class="articles">
             
-            <aside>
-                <h4>A Trybe</h4>
+            <aside id="lado-direito">
+                <h3>A Trybe</h3>
                 <p>A Trybe faz a gente vestir a camisa e colocar a mão na massa. Todo o suporte realizado pela equipe de profissionais qualificados contribuem para o melhor aprendizado e ainda podemos compartilhar nosso conhecimento e tirar dúvidas com os demais alunos das outras turmas.</p>
             </aside>
             <h2>Artigos:</h2>
-            <article>
+            <article id="lado-esquerdo">
                 <h4>Um pouco sobre mim</h4>
                 <h5>criado por André Menezes em <time pubdate>26/08/2020</time></h5>
                 <p>Olá, meu nome é André Menezes, tenho 33 anos, sou casado com a Evelyn e papai da Sophia Antonella.  Nascido em Botucatu/SP, atualmente moro em Torre de Pedra/SP.</p>
@@ -89,8 +96,7 @@
             
         </section>
         
-        <!-- <a href="https://www.github.com/andre-menezes" target="_blank"><i class="fab fa-github-alt"></i></a>
-        <a href="https://www.linkedin.com/in/andre-smenezes/" target="_blank"><i class="fab fa-linkedin-in"></i></a> -->
+        
 
         
         <footer id="rodape" class="footer-content">
