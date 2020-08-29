@@ -107,45 +107,45 @@ body {
 }
 /* Até aqui está tudo pronto */
 
-.articles {
+.artigos {
     float: left;
     width: 100%;
     background-color: rgb(229, 236, 233);
 }
 
-.articles article {
+.artigos article {
     float: left;
     width: 750px;
     padding: 30px 50px;
     background-color: rgb(229, 236, 233);
 }
 
-.articles h2 {
+.artigos h2 {
     text-transform: uppercase;
     font-size: 20pt;
     margin-left: 50px;
     text-decoration: underline;
 }
 
-.articles h3 {
+.artigos h3 {
     text-transform: uppercase;
 }
 
-.articles article h4 {
+.artigos article h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.articles article h5 {
+.artigos article h5 {
     font-style: italic;
     margin: 0;
     font-weight: normal;
 }
 
-.articles article p {
+.artigos article p {
     text-align: justify;    
 }
 
-.articles aside {
+.artigos aside {
     float: right;
     width: 400px;
     padding: 0px 20px;
@@ -158,7 +158,7 @@ body {
     position: static;
 }
 
-.articles aside p {
+.artigos aside p {
     text-align: justify;    
 }
 
