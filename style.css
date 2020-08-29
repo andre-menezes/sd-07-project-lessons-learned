@@ -1,7 +1,7 @@
 
-#cabeçalho { top: 0px; }
-
 body { background-color: rgb(253, 251, 251);}
+
+.citacao { font-family: 'Bad Script', sans-serif; }
 
 #titulo {
     text-align: center; 
@@ -27,3 +27,5 @@ body { background-color: rgb(253, 251, 251);}
 
 #licoes_a_aprender { display: inline-block; 
     margin-left: 250px; }
+
+#rodape { text-align: end; }
