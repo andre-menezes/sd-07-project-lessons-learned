@@ -9,3 +9,19 @@ body {
     position: fixed;
     width: 100%;
 }
+
+#titulo {
+    text-align: center;
+}
+
+.navigation {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+h1 {}
