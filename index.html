@@ -8,67 +8,61 @@
     </head>
 <body>
     <header id="cabecalho">
-        <h1 id="titulo">O que aprendi na Trybe</h1>
-        <p>Ainda estou no começo do caminho, mas já posso afirmar que venho aprendendo muito. Estou utilizando linux agora, não de um jeito amador clicando em tudo. Agora sou #Terminal#OhMyZshVampirinho. Me orgulho muito disso e estou a cada dia mais ansioso para aprender mais. Então vamos lá, veja a seguir o que estou aprendendo.</p>
-        <img id="minha_foto" src="minhafoto.jpg" alt="Minha foto de perfil, uma pessoa muito linda" >
+        <h1 class="titleClass">O que aprendi na Trybe</h1>
     </header>
 
-    <article id= "artVaDiretoAoAssunto">
-        <nav id="menu">
+    <p class="textClass">Ainda estou no começo do caminho, mas já posso afirmar que venho aprendendo muito. Estou utilizando linux agora, não de um jeito amador clicando em tudo. Agora sou #Terminal#OhMyZshVampirinho. Me orgulho muito disso e estou a cada dia mais ansioso para aprender mais. Então vamos lá, veja a seguir o que estou aprendendo.</p>
+
+    <article class="titleClass">
+        <h4>Vá direto ao assunto:</h4>
+        <nav>
             <ul>
-                <li><a class="menu" href="#cabecalho">Inicio</a></li>
-                <li><a class="menu" href="#artMeuAprendizado">Oque aprendi</a></li>
-                <li><a class="menu" href="#artLicoesAAprender">Lições que pretendo aprender</a></li>
-                <li><a class="menu" href="#fooRodape">Links</a></li>
+                <li><a href="#cabecalho">Inicio</a></li>
+                <li><a href="#artMeuAprendizado">Oque aprendi</a></li>
+                <li><a href="#artLicoesAAprender">Lições que pretendo aprender</a></li>
+                <li><a href="#fooRodape">Links</a></li>
             </ul>
         </nav>
     </article>
 
     <article id="artMeuAprendizado">
         <section id="secMeuAprendizado">
-        <h2>O que aprendi</h2>
-        <p>Por onde começar?... Podem ter sido apenas 16 dias mas são muitas coisas. A Trybe todos os dias supera as expectativa.Hoje em dia até esqueci como fazer uma pasta utilizando a interface gráfica, sou #Terminal. Sem falar no meu terminal, ele está muito bonito. Olha uma foto:#ClaroQueVouFalarDoMeuLindoTerminal!</p>
-        <figure>
-            <img id="fotoDoTerminal" src="fotoDoTerminal" alt="Foto do meu Terminal Bonito" >
-        </figure>
-        </section>
-
-       <section id="seClistaDasLiçõesAprendidas">
-        <Header>
-            <h2>Uma lista do que eu já aprendi</h2>
-            <p>Ok.. vc veio aqui para ver a lista.. Segue abaixo a lista do que aprendi.</p>
-        </Header>
-        <ol id="licoes_aprendidas">
-            <li>Comandos Terminal</li>
-            <li>Shell Script</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Java Script</li>
-            <li>Noções de como funciona a internet</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Inteligencia emocional</li>
-            <li>criatividade</li>
-        </ol>
+        <h2 class="titleClass">O que aprendi</h2>
+        <p class="textClass">Por onde começar?... Podem ter sido apenas 16 dias mas são muitas coisas. A Trybe todos os dias supera as expectativa.Hoje em dia até esqueci como fazer uma pasta utilizando a interface gráfica, sou #Terminal. Sem falar no meu terminal, ele está muito bonito. Olha uma foto:#ClaroQueVouFalarDoMeuLindoTerminal!</p>
+        <img id="fotoDoTerminal" src="fotoDoTerminal.jpg" alt="Foto do meu Terminal Bonito" >
         </section>
 
         <aside id="asiMeuSite">
-            <h3>Meu site</h3>
-            <p>
-                Umas das outras coisas da hora que aprendi é fazer meu próprio site. Lá estou publicando tudo que me identifico
-                e venho aprendendo. Já tem uma pagina sobre viagens entre outras coisas muito interessantes. Para mim!
-            </p>
+            <h3 class="titleClass">Meu site</h3>
+            <p class="textClass">Umas das outras coisas da hora que aprendi é fazer meu próprio site. Lá estou publicando tudo que me identifico e venho aprendendo. Já tem uma pagina sobre viagens entre outras coisas muito interessantes. Para mim!</p>
         </aside>
+
+       <section class="listClass">
+            <h2>Uma lista do que eu já aprendi</h2>
+            <ol id="licoes_aprendidas">
+                <li>Comandos Terminal</li>
+                <li>Shell Script</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Noções de como funciona a internet</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Inteligencia emocional</li>
+                <li>criatividade</li>
+            </ol>
+        </section>
+
     </article>
 
-    <article id="artLicoesAAprender">
+    <article class="listClass">
         <header>
             <h2>Lições que quero aprender</h2>
-            <p>Já estou aprendendo muito e vejo que ainda tenho muito à aprender. Então segue uma lista de metas para os proximos meses.</p>
+            <p>á estou aprendendo muito e vejo que ainda tenho muito à aprender. Então segue uma lista de metas para os proximos meses.</p>
         </header>
         <ul id="licoes_a_aprender">
             <li>Empatia</li>
-            <li>React</li>
+            <li >React</li>
             <li>Shell Script</li>
             <li>SQL</li>
             <li>Frameworks</li>
@@ -81,15 +75,16 @@
     </article>
 
     <footer id="fooRodape">
-        <section id="secLinks">
-            <h3>Meu site em construção</h3>
-            <a href="https://jr3564.github.io/Site/"  target="_blank" >
-                <img id="logoFoto" src="minhaFoto" alt="Minha foto de logo">
-            </a>
-            <h3>Meu repositório<3></3>
-            <a href="https://github.com/Jr3564?tab=repositories"  target="_blank" >
-                <img id="logoGithub" src="imagens/GitHub.png" alt="Logo do GitHub">
-            </a>
+        <section>
+            <header>
+                <h2 class="titleClass">Links uteis...</h2>
+                <p class="textClass">Enfim. Se tiver curiosidades sobre meu portfolio ou site, segue os links abaixo.</p>
+            </header>
+            <h4 class="titleClass">Meu site em construção</h4>
+            <a href="https://jr3564.github.io/Site/"  target="_blank" >Meu site</a>
+            <h4 class="titleClass">Meu repositório</h4>
+            <a href="https://github.com/Jr3564?tab=repositories"  target="_blank" ><img id="logoGithub" src="GitHub.png" alt="Logo do GitHub"></a>
+            <img id="minha_foto" src="minhafoto.jpg" alt="Minha foto">
         </section>
     </footer>
 </body>

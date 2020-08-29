@@ -1,38 +1,31 @@
-.menu  
-{
-    list-style-type:none;
-    display:inline;
-}
-*
-{
-    padding:0px;
-    margin:0px;
-    border:0px;
-}
-body
-{
-/* 1 - O corpo da página deve possuir uma cor de fundo específica
-- Possuir cor de fundo: rgb(253, 251, 251)*/
-    background-color:rgb(253, 251, 251);
-}
-#cabecalho
-{   
-    display:block;
-    /*- 2 - O elemento com o id `cabecalho` deve ser fixo no topo da página,
-     com a propriedade top tendo `0px`
-    */
-    position:fixed ;
+body{background-color:rgb(253, 251, 251);}
+*{ margin:0px;}
+#cabecalho{
+    position:sticky;
     top:0px;
-    background-color:rgb(69, 69, 69);
-    margin:0px;
-    height:6em;
-}
-#minha_foto
-{  
-    position:absolute;
-    width:10%;
-}   
-#titulo
-{
+    background-color:rgba(0, 0, 0, 0.74);
+    height:4em;
+    margin:0px;}
+.textClass a,p{
     text-align:center;
-}
+    padding:10px;}
+.titleClass h1,h2,h4,#cabecalho{
+    text-align:center;
+    font-size:bold;
+    padding:10px;}
+.listClass h2,h4,p{
+    text-align:left;
+    padding:20px;}
+#asiMeuSite{
+    float:right;
+    width:30%;
+    border:20px;}
+#logoGithub{
+    width:10%;}
+#minha_foto{
+    position:relative;
+    left:32%;
+    display:inline-block;
+    width:10%;}
+#fooRodape{
+    background-color:rgba(0, 0, 0, 0.74);}

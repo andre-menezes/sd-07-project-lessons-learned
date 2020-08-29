@@ -137,7 +137,7 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 - O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag `h1`
 
-### 3 - A página deve possuir uma foto sua
+### 3 - A página deve possuir uma foto sua 
 
 - A foto deve ser inserida utilizando uma tag `img` com o ID "minha_foto"
 
