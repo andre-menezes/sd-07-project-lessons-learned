@@ -1,6 +1,7 @@
 
 body { background-color: rgb(253, 251, 251);
-    font-family: 'Thasadith', serif; }
+    font-family: 'Thasadith', serif;
+    font-size: 25px; }
 
 #cabecalho { background-color: cornflowerblue;
     border-radius: 2%; }
@@ -8,13 +9,14 @@ body { background-color: rgb(253, 251, 251);
 .citacao { font-family: 'Bad Script', sans-serif;
     margin-left: 7px; 
     line-height: 20px;
-    padding: 0.3em;}
+    padding: 0.3em;
+    font-size: 20px; }
 
 .citacao-2-linha { margin-left: 15px;}
 
 .citacao-nome { font-family: 'Thasadith', serif;
-    margin-left: 250px;
-    font-size: 12px; }
+    margin-left: 310px;
+    font-size: 15px; }
 
 #titulo {
     text-align: center; 
