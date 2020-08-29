@@ -6,9 +6,31 @@ body {
     position: fixed;
     top: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
 }
 
 #minha_foto {
     margin-top: 50px;
     border-radius: 50%;
+}
+
+.header-content {
+    max-width: 100%;
+    margin-left: 75px;
+  }
+
+#titulo {
+    line-height: 55px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+#licoes_a_aprender {
+    float: rigth;
+    border: 10px;
+}
+
+nav {
+    display: inline-block;
 }
