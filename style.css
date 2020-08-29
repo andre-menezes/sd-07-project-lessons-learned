@@ -80,16 +80,13 @@ button:hover {
 #minha_foto {
     width: 250px;
     border-radius: 50%;
+    box-shadow: 0 1px 15px rgba(32, 32, 32, 0.5);
 }
 
 .container {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;    
-}
-
-section {
-    
 }
 
 section a {
@@ -103,6 +100,7 @@ section a {
     background: linear-gradient(to top right, #FFD201, #C801FF);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.2);
 }
 
 
@@ -110,6 +108,7 @@ section a {
    position: relative;
    top: 50%;
    transform: translateY(-50%);
+   line-height: .7cm;
 }
 
 #licoes_a_aprender {
@@ -117,4 +116,36 @@ section a {
     top: 50%;
     transform: translateY(-50%);
     list-style: none;
+    line-height: .7cm;
  }
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(32, 32, 32, 0.3);
+    background: #fafafa;
+    text-align: left;
+    margin: 25px;
+}
+
+th, td {
+    padding: 12px 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+th {
+    background:rgba(0, 136, 169, 1);
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid rgba(0, 136, 169, 1);
+}
