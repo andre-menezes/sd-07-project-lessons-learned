@@ -49,4 +49,5 @@ body { background-color: rgb(253, 251, 251);
 
 .link-pagina-github { font-size: 27px; }
 
-#rodape { text-align: end; }
+#rodape { text-align: end; 
+    font-size: 16px; }
