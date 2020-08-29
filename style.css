@@ -3,6 +3,25 @@ body {
   margin: 0;
 }
 
+/* Home_animation */
+.home_animation {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  z-index: 100;
+  text-align: center;
+}
+
+.home_animation span {
+  font-size: 100px;
+  font-family: 'Alegreya SC', serif;
+}
+
+.home_animation svg {
+  width: 100%;
+  height: 100%;
+}
+
 /* Cabeçalho */
 header {
   position: fixed;
@@ -10,7 +29,8 @@ header {
   width: 100%;
   height: 90px;
   text-align: center;
-  background-color: rgb(97 , 145 , 105);
+  background-color: black;
+  color: white;
 }
 
 nav {
