@@ -5,10 +5,10 @@ outline: 0;
 box-sizing: border-box;
 }
 body {
-background-color: rgb(253 , 251 , 251);
+background-color: rgb(253,251,251);
 }
 #cabecalho{
-background-color:rgb(94, 9, 173);
+background-color:rgb(94,9,173);
 position: fixed;
 top: 0;
 right: 0;
@@ -74,7 +74,7 @@ line-height: 2px;
 background-color: rgb(94,9,173);
 margin-top: 30px;
 height: 50px;
-color: rgb(253 , 251 , 251);
+color: rgb(253,251,251);
 text-align: center;
 margin-left: 0px;
 margin-right: 0px;
