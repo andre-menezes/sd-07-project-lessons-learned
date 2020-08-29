@@ -50,7 +50,7 @@ border: solid 2px;
 border-color:rgb(0,0,0);
 margin-left: 30px;
 margin-bottom: 30px;
-display: inline-block;
+float: left;
 margin-top:50px;
 }
 .lado-direito{
@@ -61,7 +61,7 @@ border-color: rgb(0,0,0);
 margin-left: 30px;
 margin-bottom: 30px;
 margin-top:50px;
-display: inline-block;
+display: right;
 }
 #urlink{
 text-align: center;
