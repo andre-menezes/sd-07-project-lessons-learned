@@ -14,6 +14,12 @@ li {
 /** padronizaçao global - Termina aqui **/
 
 
+
+body{
+
+  background: rgb(253, 251, 253);
+
+}
 .principal {
  
   background: rgb(253, 251, 253);
