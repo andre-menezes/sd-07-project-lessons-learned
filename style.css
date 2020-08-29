@@ -40,9 +40,11 @@ body { background-color: rgb(253, 251, 251);
 
 #licoes_aprendidas { display: inline-block; 
     float: left;
-    margin-left: 150px; }
+    margin-left: 130px; }
 
 #licoes_a_aprender { display: inline-block; 
-    margin-left: 250px; }
+    margin-left: 205px; }
+
+.pagina-github { text-align: center; }
 
 #rodape { text-align: end; }
