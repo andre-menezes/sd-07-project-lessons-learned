@@ -4,6 +4,8 @@
 }
 body{
   background-color: rgb(253,251,251);
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 .main_container_main{
   max-width: 1366px;
