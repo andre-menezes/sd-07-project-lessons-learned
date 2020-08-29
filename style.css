@@ -1,6 +1,10 @@
- body { background-color: rgba(253 , 251 , 251); }
- 
-* { margin: 0px; }
+ body { 
+     background-color: rgba(253 , 251 , 251);
+}
+
+* { 
+    margin: 0px; 
+}
 
 #cabecalho {
     position: sticky;
@@ -24,21 +28,27 @@
 
 .listClass h2 , h4 , p {
     text-align: left;
-    padding: 20px; }
+    padding: 20px; 
+}
 
 #asiMeuSite {
     float: right;
     width: 30%;
-    border: 20px; }
+    border: 20px; 
+}
 
 #logoGithub {
-    width: 10%; }
+    width: 10%; 
+}
 
 #minha_foto {
     position: relative;
     left: 32%;
     display: inline-block;
-    width: 10%; }
+    width: 10%; 
+}
 
-#rodape {
-    background-color: rgba(0,  0 , 0 , 0.74); }
+#rodape 
+{
+    background-color: rgba(0,  0 , 0 , 0.74); 
+}
