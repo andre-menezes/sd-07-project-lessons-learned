@@ -46,12 +46,16 @@ body{
   float: left;
   display: inline-block;
   width: 50%;
+  padding: 20px;
+  border-right: 1px solid blue;
 
 }
 .lado-direito{
   float: left;
   display: inline-block;
   width: 50%;
+  padding: 20px;
+  border-left: 1px solid blue;
 }
 .main_rodape{
   width: 100%;
