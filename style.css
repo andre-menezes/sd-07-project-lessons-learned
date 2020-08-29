@@ -1,31 +1,39 @@
-body{background-color:rgb(253, 251, 251);}
-*{ margin:0px;}
-#cabecalho{
+body { background-color:rgb(253, 251, 251); }
+* { margin:0px; }
+#cabecalho {
     position:sticky;
     top:0px;
     background-color:rgba(0, 0, 0, 0.74);
     height:4em;
-    margin:0px;}
-.textClass a,p{
+    margin:0px;
+}
+.textClass a,p {
     text-align:center;
-    padding:10px;}
-.titleClass h1,h2,h4,#cabecalho{
+    padding:10px;
+}
+.titleClass h1,h2,#cabecalho,#titulo { 
     text-align:center;
     font-size:bold;
-    padding:10px;}
-.listClass h2,h4,p{
+    padding:10px;
+}
+.listClass h2,h4,p {
     text-align:left;
-    padding:20px;}
-#asiMeuSite{
+    padding:20px;
+}
+#asiMeuSite {
     float:right;
     width:30%;
-    border:20px;}
-#logoGithub{
-    width:10%;}
-#minha_foto{
+    border:20px;
+}
+#logoGithub {
+    width:10%;
+}
+#minha_foto {
     position:relative;
     left:32%;
     display:inline-block;
-    width:10%;}
-#fooRodape{
-    background-color:rgba(0, 0, 0, 0.74);}
+    width:10%;
+}
+#rodape {
+    background-color:rgba(0, 0, 0, 0.74);
+}
