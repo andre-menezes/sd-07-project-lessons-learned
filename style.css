@@ -1,16 +1,16 @@
 @font-face {
   src: url("/Turma07-Projetos/fonts/Open_Sans/OpenSans-SemiBold.ttf");
-  font-family: 'open sans';
+  font-family: "open sans";
 }
 
 @font-face {
   src: url("/Turma07-Projetos/fonts/Concert_One/ConcertOne-Regular.ttf");
-  font-family: 'concert';
+  font-family: "concert";
 }
 
 @font-face {
-  src: url('/Turma07-Projetos/fonts/Lora/Lora-Italic-VariableFont_wght.ttf');
-  font-family: 'lora';
+  src: url("/Turma07-Projetos/fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
+  font-family: "lora";
 }
 
 * {
@@ -21,7 +21,7 @@
 body {
   color: red;
   background-color: rgb(253, 251, 251);
-  font-family: 'open sans', sans-serif;
+  font-family: "open sans", sans-serif;
   font-weight: bolder;
 }
 
@@ -50,7 +50,7 @@ body {
 .nav_botoes {
   border: 2px solid #7887ab;
   padding: 5px 5%;
-  font-family: 'lora', sans-serif;
+  font-family: "lora", sans-serif;
 }
 
 .nav_botoes a {
@@ -95,12 +95,12 @@ body {
   margin-top: 200px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'concert', sans-serif;
+  font-family: "concert", sans-serif;
   line-height: 25px;
 }
 
 .art2 p {
-  font-family: 'lora', sans-serif;
+  font-family: "lora", sans-serif;
 }
 
 .art2 h2,
@@ -156,14 +156,14 @@ hr.linha1 {
   color: #061539;
   margin: 0px 0px;
   text-align: center;
-  background: #ced4e4;
+  background: rgb(253, 251, 251);
   padding: 50px 0px;
-  font-family: 'lora', sans-serif;
+  font-family: "lora", sans-serif;
 }
 
 .listas h2 {
   margin: 30px;
-  font-family: 'concert', sans-serif;
+  font-family: "concert", sans-serif;
   font-size: 30px;
 }
 
@@ -194,11 +194,11 @@ hr.linha2 {
 }
 
 .ultima-sessao {
-  background-color: #7887ab;
+  background-color: rgb(253, 251, 251);
   color: #ced4e4;
   padding: 80px 0px;
   text-align: center;
-  font-family: 'lora', sans-serif;
+  font-family: "lora", sans-serif;
 }
 
 #art1 {
