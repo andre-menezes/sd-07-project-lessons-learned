@@ -2,6 +2,9 @@
 body { background-color: rgb(253, 251, 251);
     font-family: 'Thasadith', serif; }
 
+#cabecalho { background-color: cornflowerblue;
+    border-radius: 2%; }
+
 .citacao { font-family: 'Bad Script', sans-serif; }
 
 #titulo {
