@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  
 }
 
 h2 {
@@ -28,7 +27,7 @@ p {
   position: fixed;
   top: 0;
   right: 20%;
-  float:right;
+  float: right;
   background-color: white;
 }
 
