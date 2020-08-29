@@ -45,9 +45,17 @@ body { background-color: rgb(253, 251, 251);
 #licoes_a_aprender { display: inline-block; 
     margin-left: 205px; }
 
-.pagina-github { text-align: center; }
+.pagina-github { text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px; }
 
-.link-pagina-github { font-size: 27px; }
+.link-pagina-github { font-size: 23px; }
+
+aside { text-align: center;
+    margin: 100px 200px 70px 200px; }
+
+.destaque { font-size: 27px; }
 
 #rodape { text-align: end; 
     font-size: 16px; }
