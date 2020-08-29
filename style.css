@@ -9,7 +9,8 @@ body { background-color : rgb(253 , 251 , 251);
   margin-left : 7px;
   line-height : 20px;
   padding : 0.3em;
-  font-size : 20px; }
+  font-size : 20px;
+  color: white; }
 
 .citacao-2-linha { margin-left : 15px;}
 
