@@ -1,22 +1,22 @@
-body { background-color:rgb(253, 251, 251); }
+body { background-color:rgb(253,251,251); }
 * { margin:0px; }
 #cabecalho {
     position:sticky;
     top:0px;
-    background-color:rgba(0, 0, 0, 0.74);
+    background-color:rgba(0,0,0,0.74);
     height:4em;
     margin:0px;
 }
-.textClass a,p {
+.textClass a , p {
     text-align:center;
     padding:10px;
 }
-.titleClass h1,h2,#cabecalho,#titulo { 
+.titleClass h1 , h2 , #cabecalho , #titulo { 
     text-align:center;
     font-size:bold;
     padding:10px;
 }
-.listClass h2,h4,p {
+.listClass h2 , h4 , p {
     text-align:left;
     padding:20px;
 }
@@ -35,5 +35,5 @@ body { background-color:rgb(253, 251, 251); }
     width:10%;
 }
 #rodape {
-    background-color:rgba(0, 0, 0, 0.74);
+    background-color:rgba(0,0,0,0.74);
 }
