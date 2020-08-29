@@ -4,7 +4,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 , h2 , h3 , h4 , h5 , h6 {
   font-family: Oswald, sans-serif;
 }
 
@@ -20,18 +20,18 @@ h1, h2, h3, h4, h5, h6 {
 .main-content {
   width: 100%;
   margin: 0;
-  margin-top: 150px;
+  margin-top: 140px;
 }
 
-section.articles {
+section .articles {
   width: 100%;
-  height: auto;
 }
 
 .lado-esquerdo {
   width: 50%;
   display: inline-block;
   margin-left: 10px;
+  vertical-align: 60px;
 }
 
 .lado-direito {
