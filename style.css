@@ -79,6 +79,11 @@ ul a {
     padding: 5%;
 }
 
+.artigo {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
 .lado-direito {
     float: left;
     padding-top: 5%;
@@ -89,6 +94,17 @@ ul a {
     margin-left: 25px;
 }
 
+.lista2 {
+    padding-bottom: 35px;
+}
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: rgba(29, 11, 21, 1) solid 2px;
+    text-align: center;
+    padding: 10px;
+}
 .contatos-rodape {
     display: inline-block;    
 }
