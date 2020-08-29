@@ -1,89 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+    <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" type="text/css" href="style.css">
-
         <title>Oque eu aprendi</title>
     </head>
 <body>
-    <!--### 10  - Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles
-
-                - A página deve possuir um elemento `article`
-
-                - A página deve possuir um elemento `header`
-
-                - A página deve possuir um elemento `nav`
-
-                - A página deve possuir um elemento `section`
-
-                - A página deve possuir um elemento `aside`
-
-                - A página deve possuir um elemento `footer`-->
-    <!--- 2- A barra deve possuir o ID "cabecalho"-->
     <header id="cabecalho">
-
-        <!--- 2- O título deve estar dentro da barra e possuir o ID "titulo",
-             além de ser uma tag `h1`-->
         <h1 id="titulo">O que aprendi na Trybe</h1>
-
-        <p>
-            
-
-        </p>
-
-<!--3 - A página deve possuir uma foto sua . A foto deve ser inserida utilizando 
-uma tag `img` com o ID "minha_foto"-->
+        <p>Ainda estou no começo do caminho, mas já posso afirmar que venho aprendendo muito. Estou utilizando linux agora, não de um jeito amador clicando em tudo. Agora sou #Terminal#OhMyZshVampirinho. Me orgulho muito disso e estou a cada dia mais ansioso para aprender mais. Então vamos lá, veja a seguir o que estou aprendendo.</p>
         <img id="minha_foto" src="minhafoto.jpg" alt="Minha foto de perfil, uma pessoa muito linda" >
-    
     </header>
-    <article id= "vaDiretoAoAssunto">
+
+    <article id= "artVaDiretoAoAssunto">
         <nav id="menu">
             <ul>
-                <li>
-                    <a class="menu" href="#cabecalho">Inicio</a>
-                </li>
-                <li>
-                    <a class="menu" href="#meuAprendizado">Meu aprendizado</a>
-                </li>
-                <li>
-                    <a class="menu" href="#licoesAprendidas">Lições que aprendi</a>
-                </li>
-                <li>
-                    <a class="menu" href="#licoesAAprender"> Lições que pretendo aprender</a>
-                </li>
-                <li>
-                    <a class="menu" href="#rodape">Contato e links</a>
-                </li>
+                <li><a class="menu" href="#cabecalho">Inicio</a></li>
+                <li><a class="menu" href="#artMeuAprendizado">Oque aprendi</a></li>
+                <li><a class="menu" href="#artLicoesAAprender">Lições que pretendo aprender</a></li>
+                <li><a class="menu" href="#fooRodape">Links</a></li>
             </ul>
         </nav>
     </article>
 
-    <!-- 8 - Crie um artigo sobre seu aprendizado
-
-        - A `tag` `article` devem ser utilizadas
-        - O artigo deve ter mais de 300 letras e menos de 600
-    -->
-    <article id="meuAprendizado">
-
-        <h2>meu aprendizado 300 a 600</h2>
-
+    <article id="artMeuAprendizado">
+        <section id="secMeuAprendizado">
+        <h2>O que aprendi</h2>
         <p>
-
-            Nesse pouco tempo que estive na Trybe aprendi diversos assuntos, não apenas sobre desenvolvimento,
-            geralmente os conteúdos vão além do proposto. Como SoftSkills, que é uma palavra que descobri na trybe.
-            Trata-se das habilidades intrapessoais, porque só programar não é o suficiente para ter sucesso na carreira.
-            É necessário uma boa comunicação, a colaboração,criatividade, o pensamento critico e a inteligencia emocional.
-            O conteúdo da Trybe sempre supera as expectativas.
-
+            Por onde começar?... Podem ter sido apenas 16 dias mas são muitas coisas. A Trybe todos os dias supera as expectativa.
+            Hoje em dia até esqueci como fazer uma pasta utilizando a interface gráfica, sou #Terminal. Sem falar no meu terminal, 
+            ele está muito bonito. Olha uma foto:
+            #ClaroQueVouFalarDoMeuLindoTerminal!
         </p>
-        
-        <!-- 4 - A página deve possuir uma lista de lições aprendidas
-        A lista deve ser numerada e possuir o ID "licoes_aprendidas"
-            - A lista deve possuir 10 itens
-        -->
+        <figure>
+            <img id="fotoDoTerminal" src="fotoDoTerminal" alt="Foto do meu Terminal Bonito" >
+        </figure>
+        </section>
+
+       <section id="seClistaDasLiçõesAprendidas">
+        <Header>
+            <h2>Uma lista do que eu já aprendi</h2>
+            <p>Ok.. vc veio aqui para ver a lista.. Segue abaixo a lista do que aprendi.</p>
+        </Header>
         <ol id="licoes_aprendidas">
             <li>Comandos Terminal</li>
             <li>Shell Script</li>
@@ -96,24 +55,22 @@ uma tag `img` com o ID "minha_foto"-->
             <li>Inteligencia emocional</li>
             <li>criatividade</li>
         </ol>
+        </section>
 
-        <!--9- Crie uma seção que conta uma passagem sobre seu aprendizado
-             - A `tag` `aside` deve ser utilizada
-             - A seção deve ter mais que 100 letras e menos que 300-->
-        <aside>
-            <h3>Em 100 a 300</h3>
+        <aside id="asiMeuSite">
+            <h3>Meu site</h3>
             <p>
-                Uma das coisas interessantes que aprendi, e gostei muito, é fazer além do meu portfólio, meu próprio site.
-                Que por acaso ainda está em construção, mas tenho várias ideias que estarão disponíveis em breve. 
+                Umas das outras coisas da hora que aprendi é fazer meu próprio site. Lá estou publicando tudo que me identifico
+                e venho aprendendo. Já tem uma pagina sobre viagens entre outras coisas muito interessantes. Para mim!
             </p>
         </aside>
     </article>
 
-    <!--5 - A página deve possuir uma lista de lições que ainda deseja aprender-->
-    <article id="licoesAAprender">
-        <h2>Lições que quero aprender</h2>
-        <!---5 - A lista **não** deve ser numerada e deve possuir o ID "licoes_a_aprender"
-            -5 - A lista deve possuir 10 itens-->
+    <article id="artLicoesAAprender">
+        <header>
+            <h2>Lições que quero aprender</h2>
+            <p>Já estou aprendendo muito e vejo que ainda tenho muito à aprender. Então segue uma lista de metas para os proximos meses.</p>
+        </header>
         <ul id="licoes_a_aprender">
             <li>Empatia</li>
             <li>React</li>
@@ -128,12 +85,8 @@ uma tag `img` com o ID "minha_foto"-->
         </ul>
     </article>
 
-    <!--6 - A página deve possuir um rodapé
-    - O rodapé deve utilizar a tag `footer` e possuir o ID "rodape"-->
-    <footer id="rodape">
-        <!--### 7 - A página deve possuir pelo menos um link externo
-            - A configuração desse link deve ser feita para abrir em uma nova aba do navegador-->
-        <section id="links">
+    <footer id="fooRodape">
+        <section id="secLinks">
             <h3>Meu site em construção</h3>
             <a href="https://jr3564.github.io/Site/"  target="_blank" >
                 <img id="logoFoto" src="minhaFoto" alt="Minha foto de logo">
