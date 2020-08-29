@@ -39,7 +39,7 @@ header {
   z-index:2;
 }
 
-#linkstyle {
+.linkstyle {
   display:inline-block;
   margin:15px 30px;
 }
