@@ -4,6 +4,14 @@ body {
     font-family: poppins;
 }
 
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 16px
+}
+
 #cabecalho {
     background: rgba(190, 9, 9, 0.349);
     top: 0px;
@@ -33,6 +41,26 @@ body {
 
 .home {
     margin-top: 160px;
+    margin-left: 110px;
+    display: inline-block;
+}
+
+.home div {
+    float: left;
+}
+
+#minha_foto {
+    width: 450px;
+    float: right;
+    top: 264px;
+}
+
+#apresentacao {
+    width: 50%;
+}
+
+.curso-trybe {
+    margin-top: 15px;
 }
 
 table {
