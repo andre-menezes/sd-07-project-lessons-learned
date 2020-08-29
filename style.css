@@ -1,34 +1,55 @@
+
+.menu  
+{
+ 
+    list-style-type: none;
+    display : inline;
+}
+
+*
+{
+
+    padding : 0px ;
+    margin : 0px ;
+    border : 0px ;
+
+}
+
 body
 {
-
+/* 1 - O corpo da página deve possuir uma cor de fundo específica
+- Possuir cor de fundo: rgb(253, 251, 251)*/
     background-color: rgb(253, 251, 251) ;
-    margin : 0px ;
-
+ 
 }
+
 #cabecalho
 {   
+    display: block;
 
-    padding-top: 0px ;
+    /*- 2 - O elemento com o id `cabecalho` deve ser fixo no topo da página,
+     com a propriedade top tendo `0px`
+    */
+    position : fixed ;
+    top : 0px ;
+
+    background-color : rgb(69, 69, 69) ;
+    margin : 0px ;
+    height : 6em ;
 
 }
 
-#cabecalho #titulo, p
-{
-
-
-}
-#titulo{}
 #minha_foto
 {
    
-
+    position : absolute ;
     width : 10% ;
 
 }   
-#menu
+#titulo
 {
 
-    
+    text-align: center;
 
 }
 #licoesAprendidas{}
