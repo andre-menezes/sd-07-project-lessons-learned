@@ -6,10 +6,13 @@ body {
     position: fixed;
     top: 0px;
     text-align: center;
+    background-color: rgb(15, 163, 107);
+    width: 100%;
 }
 
 #minha_foto {
     width: 400px;
+    border-radius: 50%;
 }
 
 .link {
