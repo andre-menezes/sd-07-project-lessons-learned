@@ -7,7 +7,13 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 10px;
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 55px;
+    padding-left: 15%;
+    text-align: justify;
+    padding-right: 15%;
 }
+ /* Cabeçalho fixo com título */
 
 .cabecalho-fixo {
     width: 100%;
@@ -15,24 +21,68 @@ body {
     left: 0px;
     padding: 2px;
     font-family: monospace;
-    color: bisque;
-    background-color: rgb(40, 102, 40);
+    color: black;
+    background-color: rgba(240, 235, 188, 1);
     position: fixed;
-    text-align: center;
-
 }
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 nav li {
-    margin-top: 45px;
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
+    /*text-decoration: none;*/
+    float: right;
+    list-style-type: none;
+  /*  text-align: left; */
+   /* padding: 2px;*/
+    /*border-bottom: 10px;*/
 }
 
-.foto-nome {
-    margin-top: 45px;
+ul a {
+    text-decoration: none;
 }
+/*.links{
+    text-decoration: none;
+    list-style: none;
+}*/
+
+.foto-nome {
+    background-color: #ecaf91;
+    display: inline-block;
+    padding: 5%;
+    font-size: 25px;
+    color: rgba(29, 11, 21, 1);
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.foto {
+   /* margin-top: 45px;*/
+    /*float: right; */
+}
+
+.nome {
+   margin-top: 10px;
+}
+
+.bloco-texto {
+    /*margin-top: 45px;*/
+    margin-right: 20%;
+    margin: 15px;
+   /* padding-top: 8%;*/
+    border: rgba(29, 11, 21, 1) solid 2px;
+    padding: 5%;
+}
+
 
 .lista1 {
     margin-left: 25px;
+}
+
+.contatos-rodape {
+    display: inline-block;    
 }
