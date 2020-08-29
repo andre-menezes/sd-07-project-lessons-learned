@@ -132,7 +132,7 @@ h3 {
   text-align:center;    
 }
 
-.meuaprendizado1 {
+.lado-direito {
   position:absolute;
   float:right;
   width:340px;
@@ -150,7 +150,7 @@ h3 {
   color:rgb(128, 128, 128); 
 } 
 
-.meuaprendizado {
+.lado-esquerdo {
   position:absolute;
   float:left;
   width:350px;
