@@ -43,7 +43,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin: 50px;
 margin-top: 200px;
 }
-.lado_esquerdo{
+.lado-esquerdo{
 width: 300px;
 height: 300px;
 border: solid 2px;
@@ -53,7 +53,7 @@ margin-bottom: 30px;
 display: inline-block;
 margin-top:50px;
 }
-.lado_direito{
+.lado-direito{
 width: 200px;
 height: 300px;
 border: solid 2px;
