@@ -7,14 +7,25 @@ body {
 .home_animation {
   position: relative;
   background-color: black;
-  height: 100vh;
-  z-index: 100;
+  height: 90vh;
+  z-index: 1;
   text-align: center;
 }
 
+.box {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+}
+
 .home_animation span {
-  font-size: 100px;
-  font-family: 'Alegreya SC', serif;
+  z-index: 100;
+  display: none;
+  opacity: 0;
+  position: relative;
+  color: yellow;
+  font-size: 80px;
+  font-family: "Alegreya SC", serif;
 }
 
 .home_animation svg {

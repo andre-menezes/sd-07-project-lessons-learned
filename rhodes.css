@@ -1,93 +1,82 @@
 /* Estátua */
+
 /* Lado Esquerdo */
-.pira {
-  fill: orange;
-  animation: desabamento-esq 10s forwards;
-}
-.batata_perna-esq {
-  fill: white;
-}
-.pe-esq {
-  fill: white;
-}
-.braco-esq {
-  fill: white;
-  animation: desabamento-esq 10s forwards;
-}
-.ante_braco-esq {
-  fill: white;
-  animation: desabamento-esq 9s forwards;
-}
-.coxa-esq {
-  fill: white;
-  animation: desabamento-esq 4s forwards;
+.home_animation:hover > svg > .cai-primeiro {
+  animation: caindo 3s forwards;
 }
 
-/* Lado Direito */
-.peito {
-  fill: white;
-  animation: desabamento-esq 8s forwards;
+.home_animation:hover > svg > .cai-segundo {
+  animation: caindo 5s forwards;
 }
-.batata_perna-dir {
-  fill: white;
-  animation: desabamento-dir 9s forwards;
+
+.home_animation:hover > svg > .cai-terceiro {
+  animation: caindo 7s forwards;
 }
-.pe-dir {
-  fill: white;
+
+.home_animation:hover > svg > .cai-quarto {
+  animation: caindo 10s forwards;
 }
-.coxa-dir {
-  fill: white;
-  animation: desabamento-dir 8s forwards;
+
+.home_animation:hover > svg > .cai-quinto {
+  animation: caindo 12s forwards;
 }
 
 /* Cabeça */
-.cabeca {
-  position: fixed;
+
+.pelvis {
   fill: white;
+  stroke: rgb(102 , 102 , 102);
 }
+
 .rosto {
   fill: white;
-  stroke: rgb(102, 102, 102);
+  stroke: rgb(102 , 102 , 102);
 }
+
 .olho-esq {
-  fill: rgb(102, 102, 102);
+  fill: rgb(102 , 102 , 102);
 }
+
 .cabelo {
-  stroke: rgb(102, 102, 102);
+  stroke: rgb(102 , 102 , 102);
   fill: white;
 }
+
 .olho-dir {
-  fill: rgb(102, 102, 102);
+  fill: rgb(102 , 102 , 102);
 }
+
 .base {
   position: relative;
   z-index: 100;
-  fill: rgb(102, 102, 102);
-  stroke: 2px rgb(66, 66, 66);
+  fill: rgb(102 , 102 , 102);
+  stroke: 2px rgb(66 , 66 , 66);
 }
-.pelvis {
-  stroke: rgb(102, 102, 102);
-  fill: white;
-  animation: desabamento-dir 10s forwards;
-}
-.braco-dir {
-  fill: white;
-  animation: desabamento-dir 10s forwards;
-}
+
 .stroke-rosto {
-  stroke: rgb(102, 102, 102);
+  stroke: rgb(102 , 102 , 102);
 }
 
-
-@keyframes desabamento-esq {
-  60%{
-    transform: rotate(-50deg);
-    fill: rgb(194, 194, 194);
+@keyframes caindo {
+  100% {
+    transform: translateY(80%);
+    fill: rgb(114, 114, 114);
   }
 }
-@keyframes desabamento-dir {
-  60%{
-    transform: rotate(50deg);
-    fill: rgb(194, 194, 194);
+
+.home_animation:hover > span {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  display: inline;
+  animation: text 3s forwards;
+}
+
+@keyframes text {
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
