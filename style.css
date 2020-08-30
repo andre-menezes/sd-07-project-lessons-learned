@@ -36,6 +36,13 @@ body {
   font-family: sans-serif;
 }
 
+.nav_botoes:hover ,
+.nav_botoes a:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(0 , 0 , 53);
+}
+
 table a {
   color: rgb(187 , 207 , 224);
 }
@@ -62,13 +69,6 @@ table a:hover {
 .nav_botoes a {
   color: rgb(187 , 207 , 224);
   text-decoration: none;
-}
-
-.nav_botoes:hover ,
-.nav_botoes a:hover {
-  background-color: black;
-  color: white;
-  border: 2px solid rgb(0 , 0 , 53);
 }
 
 .nav1 {
@@ -106,10 +106,10 @@ table a:hover {
   font-family: sans-serif;
 }
 
-.art2 h2 , 
+.art2 h2 ,
 .art2 h3 {
   color: black;
-  margin: 10px 0 10px;
+  margin: 10px 0;
   width: 100%;
 }
 
@@ -203,8 +203,8 @@ hr.linha2 {
   font-weight: 700;
 }
 
-table , 
-th , 
+table ,
+th ,
 td {
   border: 1px solid rgb(187 , 207 , 224);
   border-collapse: collapse;
