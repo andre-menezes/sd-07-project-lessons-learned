@@ -138,29 +138,43 @@ main div {
 }
 
 .experiencias h1 {
-  padding-bottom: 15px;
+
   font-size: 24px;
 }
 
-.experiencias p svg {
-  width: 50px;
-  margin-right: 16px;
-}
+
+
 
 .experiencias p {
   width: 700px;
-  padding: 0px 0 30px;
+  padding: 60px 0 30px;
   margin: 0 auto;
   /* background-color: blue; */
   line-height: 25px;
 
 }
 
-.experiencias svg {
+
+.quotes-svg {
   width: 70px;
   height: 70px;
-  margin-top: 40px;
+  margin: 0 auto 0px 200px;
+
+
+
 }
+
+.rocket-svg {
+  width: 70px;
+  height: 70px;
+  margin: 15px auto;
+
+
+
+
+
+}
+
 
 
 
@@ -201,7 +215,17 @@ main div {
   padding: 30px 0;
 }
 
+.table {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: aqua;
+  text-align: center;
 
+}
+
+.table table {
+  display: inline;
+}
 
 
 
