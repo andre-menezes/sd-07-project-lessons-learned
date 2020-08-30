@@ -27,7 +27,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color: #061539;
+  background-color: blue;
   width: 100%;
   text-align: center;
   z-index: 20;
@@ -37,6 +37,7 @@ body {
 #titulo {
   color: #aeb9d3;
   padding: 20px 0px;
+  top: 0px;
 }
 
 .navegacao {
@@ -46,12 +47,14 @@ body {
   width: 100%;
   font-weight: bold;
   text-transform: uppercase;
+  top: 0px;
 }
 
 .nav_botoes {
   border: 2px solid #7887ab;
   padding: 5px 5%;
   font-family: "lora", sans-serif;
+  top: 0px;
 }
 
 .nav_botoes a {
@@ -63,7 +66,7 @@ body {
 .nav_botoes a:hover {
   background-color: black;
   color: white;
-  border: 2px solid #061539;
+  border: 2px solid blue;
 }
 
 .nav1 {
@@ -115,11 +118,11 @@ body {
 #minha_foto {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid #061539;
+  border: 2px solid blue;
 }
 
 .meu_perfil2 a {
-  background-color: #061539;
+  background-color: blue;
   color: #aeb9d3;
   text-decoration: none;
   position: relative;
@@ -136,7 +139,7 @@ body {
   display: inline-block;
   width: 30%;
   text-align: justify;
-  color: #061539;
+  color: blue;
   font-weight: bolder;
   font-style: italic;
   position: relative;
@@ -150,11 +153,11 @@ hr.linha1 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #061539;
+  border: 1px solid #blue;
 }
 
 .listas {
-  color: #061539;
+  color: blue;
   margin: 0px 0px;
   text-align: center;
   background: rgb(253, 251, 251);
@@ -191,7 +194,7 @@ hr.linha2 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #061539;
+  border: 1px solid blue;
 }
 
 .ultima-sessao {
@@ -217,7 +220,7 @@ hr.linha2 {
 
 #art1 p {
   text-align: justify;
-  background-color: #061539;
+  background-color: blue;
   padding: 20px;
   font-weight: bolder;
 }
@@ -228,7 +231,7 @@ hr.linha2 {
 }
 
 #meu_perfil1 table {
-  background-color: #061539;
+  background-color: blue;
   color: #aeb9d3;
 }
 
@@ -264,11 +267,11 @@ hr.linha3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #061539;
+  border: 1px solid blue;
 }
 
 #rodape {
-  background-color: #061539;
+  background-color: blue;
   padding: 30px;
   text-align: center;
   color: #aeb9d3;
