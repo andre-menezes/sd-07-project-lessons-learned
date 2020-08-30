@@ -4,9 +4,11 @@ body { background-color : rgb(253 , 251 , 251);
 
 #cabecalho { background-color : cornflowerblue;
   border-radius : 2%;
-  top: 0px; }
+  position: fixed;
+  position: relative;
+  top: 0; }
 
-.citacao { font-family : Bad Script , sans-serif;
+#titulo { font-family : Bad Script , sans-serif;
   margin-left : 7px;
   line-height : 20px;
   padding : 0.3em;
@@ -22,7 +24,7 @@ body { background-color : rgb(253 , 251 , 251);
 .titulo2 { text-align : center;
   margin-top : 40px;
   margin-bottom : 50px;
-  font-size: 50px; }
+  font-size: 55px; }
 
 #minha_foto { border-radius : 100%;
   height : 500px;
@@ -45,7 +47,7 @@ body { background-color : rgb(253 , 251 , 251);
   text-align : center; }
 
 #licoes_a_aprender { display : inline-block;
-  margin-left : 210px;
+  margin-left : 200px;
   text-align : center; }
 
 .pagina-github { text-align : center;
