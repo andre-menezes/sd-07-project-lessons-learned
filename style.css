@@ -30,7 +30,7 @@ p, li, td, th {
 .lado-esquerdo {
     float: left;
     width: 67%;
-    text-align: justify;    
+    text-align: justify;
 }
 
 .lado-direito {
@@ -41,16 +41,14 @@ p, li, td, th {
 }
 
 .ladolado {
-    display: inline-block;    
+    display: inline-block;
 }
 
 table, td, th {
     border: 1px solid black;
-    text-align: center;    
+    text-align: center;
 }
 
 #rodape {
     text-align: center;
 }
-
-
