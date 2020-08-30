@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Arial, Helvetica, sans-serif 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #titulo {
@@ -136,8 +136,8 @@ h3 {
   right: 20px;
   padding-top: 80px;
   background-color: rgb(255, 228, 196);
-  border:5px ridge rgb(216, 191, 216);
-  border-top:10px ridge rgb(216, 191, 216);
+  border: 5px ridge rgb(216, 191, 216);
+  border-top: 10px ridge rgb(216, 191, 216);
   border-radius: 5px;
   color: rgb(128, 128, 128);
 }
@@ -152,10 +152,7 @@ h3 {
   line-height: 30px;
   top: 140px;
   left: 550px;
-  padding-top: 90px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 90px 20px 10px 20px;
   background-color: rgb(85, 107, 47);
   border-radius: 15px;
   color: rgb(255, 255, 255);
@@ -177,7 +174,7 @@ hr {
 
 #contato {
   position: absolute;
-  background-color: rgb(165, 161, 76);
+  background-color: rgba(165, 161, 76, 0.5);
   height: 170px;
   width: 570px;
   top: 615px;
@@ -188,6 +185,7 @@ hr {
   padding-bottom: 10px;
   border-radius: 10px;
 }
+
 .imglocal {
   position: relative;
   top: 15px;
@@ -205,7 +203,7 @@ hr {
 
 #sobre {
   position: absolute;
-  background-color: rgb(165, 161, 76);
+  background-color: rgba(165, 161, 76,  0.5);
   height: 147px;
   width: 570px;
   top: 615px;
