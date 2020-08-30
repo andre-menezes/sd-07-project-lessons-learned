@@ -110,6 +110,7 @@ position: relative;
   
 
   display: relative;
+  
  
 }
 
@@ -137,24 +138,25 @@ position: relative;
 
 .avatar-item  div strong{
   font:  Archivo;
-}
- /* 700 2.4rem 
-   color: var(--color-text-title);
+  color: var(--color-text-title);
 }
 
+   
+
+
 .avatar-item div span{
-  font-size: 1.6em;
+  font-size: 10px;
   
   margin-top: 0.4em;
 }
 
 .avatar-item > p {
   padding: 0 2em;
-  font-size: 1.6em;
+  font-size: 10px;
   line-height: 2.8em;
 }
-usar para organizar o texto
-*/
+
+
 
 
 
@@ -169,6 +171,7 @@ blockquote {
   background:#EEE;
   margin:10px;
   padding:0 10px;
+  text-align:justify ;
   }
 
 
