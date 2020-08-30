@@ -1,8 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   display: block;
+}
+
+#minha_foto {
+  border: 5px ridge;
+  margin-top: 145px;
 }
 
 header {
@@ -13,6 +19,9 @@ header {
   position: fixed;
 }
 
+#jornada {
+  clear: both;
+}
 spam {
   color: blue;
   font-weight: bold;
