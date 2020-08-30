@@ -13,7 +13,6 @@ body {
 
 #cabecalho h2 {
   color: aliceblue;
-  padding-top: 0px;
   margin-left: 40px;
   margin-bottom: 50px;
   height: 10px;
@@ -77,24 +76,24 @@ table {
 .lado-direito {
   margin-left: 20px;
   width: 45%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 2px;
   line-height: 20px;
   float: right;
 }
 
-.link {
+#link {
   margin-top: 30px;
   margin-left: 30px;
   clear: both;
 }
 
-.link a {
+#link a {
   background-color: brown;
   border: 2px solid rgb(1 , 10 , 4);
   text-decoration: none;
   color: aliceblue;
-  padding: 8px 8px;
+  padding: 8px 8px 8px;
 }
     
 
