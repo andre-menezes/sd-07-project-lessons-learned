@@ -25,6 +25,7 @@ body {
   /* background-color: rgb(131, 226, 43); */
   background-image: url(/cool-background_main.png);
   background-size: cover;
+  border-bottom: 3px solid rgba(165, 42, 42, 0.281);
   margin: 0 auto;
   text-align: center;
   padding: 10px;
@@ -40,6 +41,8 @@ body {
 main {
   background-image: url(/cool-background_main.png);
   background-size: cover;
+  border-bottom: 2px solid rgba(165, 42, 42, 0.281);
+
 
 }
 
@@ -167,11 +170,7 @@ main div {
 .rocket-svg {
   width: 70px;
   height: 70px;
-  margin: 15px auto;
-
-
-
-
+  margin: 30px auto;
 
 }
 
@@ -184,7 +183,7 @@ main div {
   margin: 0px auto;
   /* background-color: yellow; */
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 60px;
 
 
@@ -218,13 +217,18 @@ main div {
 .table {
   max-width: 1170px;
   margin: 0 auto;
-  background-color: aqua;
+
   text-align: center;
 
 }
 
 .table table {
   display: inline;
+}
+
+.table svg {
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -234,6 +238,7 @@ main div {
   padding: 20px 0;
   background-image: url(/cool-background_main.png);
   background-size: cover;
+  border-top: 2px solid rgba(165, 42, 42, 0.281);
 }
 
 #rodape div {
