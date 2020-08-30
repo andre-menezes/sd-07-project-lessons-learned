@@ -2,13 +2,13 @@ body { background-color: rgba(253 , 251 , 251);
 }
 
 #cabecalho {position: sticky;
-            background-color: rgba(0 , 0 , 0 , 0.74);
-            height: 4em;
-            }
+  background-color: rgba(0 , 0 , 0 , 0.74);
+   height: 4em;
+}
 
 .textClass a , p {text-align: center;
-padding: 10px;
-font: 20px Arial, sans-serif;
+  padding: 10px;
+   font: 20px Arial, sans-serif;
 }
 
 .titleClass h1 , h2 , #cabecalho , #titulo {text-align: center;
