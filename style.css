@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
   line-height: 25px;
 }
 
@@ -24,7 +24,7 @@ p {
 }
 
 p , li , td , th {
-  color: #05408d;
+  color: rgb(52, 39, 177);
 }
 
 .lado-esquerdo {
