@@ -1,12 +1,12 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  margin: 0px;
+  margin: 0;
   font-size: large;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: rgb(42 , 110 , 39);
   width: 100%;
   border: 3px solid black;
