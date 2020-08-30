@@ -36,7 +36,7 @@ body {
   font-family: sans-serif;
 }
 
-.nav_botoes:hover ,
+.nav_botoes:hover , 
 .nav_botoes a:hover {
   background-color: black;
   color: white;
@@ -106,7 +106,7 @@ table a:hover {
   font-family: sans-serif;
 }
 
-.art2 h2 ,
+.art2 h2 , 
 .art2 h3 {
   color: black;
   margin: 10px 0;
@@ -132,7 +132,7 @@ table a:hover {
   font-size: 18px;
 }
 
-hr.linha1 {
+.linha1 {
   margin: auto;
   margin-top: 200px;
   width: 70%;
@@ -171,7 +171,7 @@ hr.linha1 {
   width: 350px;
 }
 
-hr.linha2 {
+.linha2 {
   width: 70%;
   margin: auto;
   border: 1px solid rgb(0 , 0 , 53);
@@ -203,8 +203,8 @@ hr.linha2 {
   font-weight: 700;
 }
 
-table ,
-th ,
+table , 
+th , 
 td {
   border: 1px solid rgb(187 , 207 , 224);
   border-collapse: collapse;
@@ -226,7 +226,7 @@ tr td {
   background-color: rgb(12 , 25 , 85);
 }
 
-hr.linha3 {
+.linha3 {
   margin: auto;
   width: 70%;
   border: 1px solid rgb(0 , 0 , 53);
