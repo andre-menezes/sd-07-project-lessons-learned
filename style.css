@@ -16,3 +16,21 @@ body {
     width: 100px;
     height: 100px;
 }
+
+#licoes_aprendidas {
+    background-color: darkgreen;
+    display: block;
+    overflow: auto;
+}
+
+li strong {
+    font-size: 1.4em;
+}
+
+.subtext {
+    background-color: skyblue;
+    font-size: 0.8em;
+    font-style: italic;
+    position: relative;
+    left: 5%;
+}
