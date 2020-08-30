@@ -2,40 +2,44 @@
   margin: 0;
   border: 8px;
   padding: 6px;
-  font-family: Arial,Helvetica,sans-serif;
-  color: rgb(100,100,100);  
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 100, 100);
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
 }
 
 h1 {
-  font: Calibri;
+  font-family: Calibri, sans-serif;
   font-size: 4em;
-  font-weight: 500;  
+  font-weight: 500;
+  
   line-height: 1.5em;
-  color: rgb(0,100,100);
+  color: rgb(0, 100, 100);
 }
 
 h2 {
-  font: 'Helvetica Neue';
+  font-family: Helvetica Neue, sans-serif;
   font-size: 2em;
-  font-weight: 700;  
+  font-weight: 700;
+
   color: rgb(0,100,100);
 }
 
 h3 {
-  font: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 1.5em;
-  font-weight: 600;  
-  color: rgb(0,100,100);
+  font-weight: 600;
+
+  color: rgb(0, 100, 100);
 }
 
-p, table, td, tr,li {
-  font: Arial;
+p ,table ,td ,tr ,li {
+  font-family: Arial, sans-serif;
   font-size: 1em;
-  font-weight: 400;  
+  font-weight: 400;
+
 }
 
 td {
@@ -44,7 +48,7 @@ td {
 
 .thisParagraph {
   width: 150px;
-  color: rgb(0,100,100)
+  color: rgb(0, 100, 100);
 }
 
 section {
@@ -59,8 +63,8 @@ nav {
 }
 
 nav li {
-  background-color: rgb(155,155,155);
-  color: rgb(253,251,251);
+  background-color: rgb(155, 155, 155);
+  color: rgb(253, 251, 251);
   font-size: large;
   display: inline-block;
   width: 31%;
@@ -76,17 +80,17 @@ article {
   float: left;
 }
 
-footer {
+footer {  
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: rgb(155,155,155); 
-  padding: 0 100px;
   width: 100%;
+  background-color: rgb(155, 155, 155);
+  
 }
 
 footer p {
-  color: rgb(253,251,251);
+  color: rgb(253, 251, 251);
 }
 
 table {
@@ -99,7 +103,7 @@ td {
 }
 
 header p {
-  color: rgb(253,251,251);
+  color: rgb(253, 251, 251);
 }
 
 .mySoftSkills {
@@ -126,7 +130,7 @@ header p {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(155,155,155);
+  background-color: rgb(155, 155, 155);
   padding: 0 100px;
   width: 100%;
 }
