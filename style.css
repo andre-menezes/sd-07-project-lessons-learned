@@ -7,7 +7,7 @@ body {
 .home_animation {
   position: relative;
   background-color: black;
-  height: 90vh;
+  height: 100vh;
   z-index: 1;
   text-align: center;
 }
@@ -31,6 +31,24 @@ body {
 .home_animation svg {
   width: 100%;
   height: 100%;
+}
+
+.home_animation table {
+  opacity: 0;
+  font-size: 2em;
+  position: absolute;
+  top: 60vh;
+  left: 8vw;
+}
+
+.construction-line {
+  font-family: monospace;
+  color: white;
+}
+
+.destruction-line {
+  font-family: 'Permanent Marker', cursive;
+  color: red;
 }
 
 /* Cabeçalho */

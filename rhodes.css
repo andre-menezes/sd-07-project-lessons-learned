@@ -1,10 +1,18 @@
 /* Estátua */
 
 /* Lado Esquerdo */
+.home_animation:hover > table {
+  animation: table 2s forwards;
+}
+@keyframes table {
+  to {
+    opacity: 1;
+  }
+}
+
 .home_animation:hover > svg > .cai-primeiro {
   animation: caindo 3s forwards;
 }
-
 .home_animation:hover > svg > .cai-segundo {
   animation: caindo 5s forwards;
 }
@@ -71,7 +79,6 @@
   display: inline;
   animation: text 3s forwards;
 }
-
 @keyframes text {
   10% {
     opacity: 0;
