@@ -14,30 +14,26 @@ body {
   width: 100%;
   text-align: center;
   z-index: 20;
-  top: 0px;
 }
 
 #titulo {
   color: rgb(187 , 207 , 224);
-  padding: 20px 0px;
-  top: 0px;
+  padding-top: 20px;
 }
 
 .navegacao {
   color: rgb(187 , 207 , 224);
   background-color: rgb(12 , 0 , 78);
-  padding: 5px 0px;
+  padding-top: 5px;
   width: 100%;
   font-weight: 700;
   text-transform: uppercase;
-  top: 0px;
 }
 
 .nav_botoes {
   border: 2px solid rgb(187 , 207 , 224);
   padding: 5px 5%;
   font-family: sans-serif;
-  top: 0px;
 }
 
 .nav_botoes a {
@@ -71,7 +67,7 @@ body {
 
 .meu_perfil2 {
   display: inline-block;
-  margin: 0px 50px 0px 20px;
+  margin: 0 50px 0 20px;
   position: relative;
   bottom: 40px;
 }
@@ -136,10 +132,10 @@ hr.linha1 {
 
 .listas {
   color: rgb(0 , 0 , 53);
-  margin: 0px 0px;
+  margin: 0;
   text-align: center;
   background: rgb(253 , 251 , 251);
-  padding: 50px 0px;
+  padding-top: 50px;
   font-family: sans-serif;
 }
 
@@ -169,13 +165,13 @@ hr.linha1 {
 hr.linha2 {
   width: 70%;
   margin: auto;
-  border: 1px solid rgb(0, 0, 53);
+  border: 1px solid rgb(0 , 0 , 53);
 }
 
 .ultima-sessao {
   background-color: rgb(253 , 251 , 251);
   color: rgb(187 , 207 , 224);
-  padding: 80px 0px;
+  padding: 80px;
   text-align: center;
   font-family: sans-serif;
 }
