@@ -1,41 +1,38 @@
 body {
-  margin: 0px;
-  background-color: rgb(253 , 251 , 251);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(253 , 251 , 251); 
 }
-
 #cabecalho {
   position: fixed;
   background-color: cornflowerblue;
   width: 100%;
   z-index: 1;
-  height: 175px;
+  height: 175px; 
 }
-
 #cabecalho h2 {
   color: aliceblue;
   margin-left: 40px;
   margin-bottom: 50px;
-  height: 10px;
+  height: 10px; 
 }
-
 #cabecalho a {
   text-decoration: none;
   font-size: 20px;
-  color: cornsilk;
+  color: cornsilk; 
 }
-
 #cabecalho li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 10px; 
 }
-
 #titulo {
   text-align: center;
   padding-top: 10px;
   color: aliceblue;
-  height: 20px;
+  height: 20px; 
 }
-
 #minha_foto {
   width: 150px;
   height: 200px;
@@ -44,23 +41,20 @@ body {
   margin-bottom: 15px;
   margin-left: 20px;
   position: relative;
-  left: 560px;
+  left: 560px; 
 }
-
-table ,th ,td {
-  border: 1px solid black;
+th, td {
+  border: 1px solid black; 
 }
-
 th {
-  padding: 10px;
+  padding: 10px; 
 }
-
 table {
+  border: 1px solid black;  
   margin-bottom: 50px;
   position: relative;
-  left: 450px;
+  left: 450px; 
 }
-
 .lado-esquerdo {
   margin-left: 30px;
   width: 45%;
@@ -69,34 +63,30 @@ table {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   letter-spacing: 2px;
   line-height: 20px;
-  float: left;
+  float: left; 
 }
-
 .lado-direito {
   margin-left: 20px;
   width: 45%;
-  font-family: "Cambria", 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Times New Roman', serif;
   letter-spacing: 2px;
   line-height: 20px;
-  float: right;
+  float: right; 
 }
-
 #link {
   margin-top: 30px;
   margin-left: 30px;
-  clear: both;
+  clear: both; 
 }
-
 #link a {
   background-color: brown;
   border: 2px solid rgb(1 , 10 , 4);
   text-decoration: none;
   color: aliceblue;
-  padding: 8px 8px 8px 8px;
-}    
-
+  padding: 8px 8px 8px 8px; 
+}
 #rodape {
   text-align: center;
   color: brown;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
