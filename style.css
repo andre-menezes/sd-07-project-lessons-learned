@@ -48,12 +48,16 @@ body {
     border: 3px solid rgb(15, 163, 107);
 }
 
+ .listas {
+    display: inline-block;
+    width: 50%;
+}
+
 .artigos {
     display: inline-block;
     color: rgb(253, 251, 251);
     background-color: rgb(15, 163, 107);
-    width: 40%;
-    height: 150px;
+    height: 100px;
     padding: 20px;
     overflow: hidden;
     font-weight: 400;
@@ -61,10 +65,12 @@ body {
 }
 
 .lado-esquerdo {
+    width: 55%;
     margin-left: 5%;
 }
 
 .lado-direito {
+    width: 25%;
     margin-right: 5%;
 }
 
