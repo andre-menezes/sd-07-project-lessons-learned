@@ -1,7 +1,8 @@
 body { background-color: rgba(253 , 251 , 251);
 }
 
-#cabecalho {position: sticky;
+#cabecalho {position: fixed;
+  float : top;
   background-color: rgba(0 , 0 , 0 , 0.74);
   height: 4em;
 }
