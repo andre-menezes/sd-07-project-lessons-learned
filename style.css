@@ -34,12 +34,18 @@ body {
     line-height: 170px;
 }
 
-#cabecalho a img {
+ #cabecalho  nav a img {
     width: 50px;
-    position: fixed;
-    margin-right: 24px;
-    right: 0;
-    top: 75px;
+} 
+
+#cabecalho nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    gap: 30px;
 }
 
 section {
