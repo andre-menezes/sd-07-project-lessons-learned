@@ -19,7 +19,6 @@
 }
 
 body {
-  color: red;
   background-color: rgb(253, 251, 251);
   font-family: "open sans", sans-serif;
   font-weight: bolder;
@@ -27,7 +26,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  background-color: blue;
+  background-color: rgb(0, 0, 53);
   width: 100%;
   text-align: center;
   z-index: 20;
@@ -35,14 +34,14 @@ body {
 }
 
 #titulo {
-  color: #aeb9d3;
+  color: rgb(187, 207, 224);
   padding: 20px 0px;
   top: 0px;
 }
 
 .navegacao {
-  color: #aeb9d3;
-  background-color: #162955;
+  color: rgb(187, 207, 224);
+  background-color: rgb(12, 0, 78);
   padding: 5px 0px;
   width: 100%;
   font-weight: bold;
@@ -51,14 +50,14 @@ body {
 }
 
 .nav_botoes {
-  border: 2px solid #7887ab;
+  border: 2px solid rgb(187, 207, 224);
   padding: 5px 5%;
   font-family: "lora", sans-serif;
   top: 0px;
 }
 
 .nav_botoes a {
-  color: #ced4e4;
+  color: rgb(187, 207, 224);
   text-decoration: none;
 }
 
@@ -66,7 +65,7 @@ body {
 .nav_botoes a:hover {
   background-color: black;
   color: white;
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 0, 53);
 }
 
 .nav1 {
@@ -118,12 +117,12 @@ body {
 #minha_foto {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 0, 53);
 }
 
 .meu_perfil2 a {
-  background-color: blue;
-  color: #aeb9d3;
+  background-color: rgb(0, 0, 53);
+  color: rgb(187, 207, 224);
   text-decoration: none;
   position: relative;
   top: 10px;
@@ -139,7 +138,7 @@ body {
   display: inline-block;
   width: 30%;
   text-align: justify;
-  color: blue;
+  color: rgb(0, 0, 53);
   font-weight: bolder;
   font-style: italic;
   position: relative;
@@ -153,11 +152,11 @@ hr.linha1 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 53);
 }
 
 .listas {
-  color: blue;
+  color: rgb(0, 0, 53);
   margin: 0px 0px;
   text-align: center;
   background: rgb(253, 251, 251);
@@ -194,12 +193,12 @@ hr.linha2 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 53);
 }
 
 .ultima-sessao {
   background-color: rgb(253, 251, 251);
-  color: #ced4e4;
+  color: rgb(187, 207, 224);
   padding: 80px 0px;
   text-align: center;
   font-family: "lora", sans-serif;
@@ -220,7 +219,7 @@ hr.linha2 {
 
 #art1 p {
   text-align: justify;
-  background-color: blue;
+  background-color: rgb(0, 0, 53);
   padding: 20px;
   font-weight: bolder;
 }
@@ -231,21 +230,21 @@ hr.linha2 {
 }
 
 #meu_perfil1 table {
-  background-color: blue;
-  color: #aeb9d3;
+  background-color: rgb(0, 0, 53);
+  color: rgb(187, 207, 224);
 }
 
 table,
 th,
 td {
-  border: 1px solid #7887ab;
+  border: 1px solid rgb(187, 207, 224);
   border-collapse: collapse;
   padding: 15px;
   border-spacing: 5px;
 }
 
 table a {
-  color: #aeb9d3;
+  color: rgb(187, 207, 224);
 }
 
 table a:hover {
@@ -258,7 +257,7 @@ th {
 }
 
 tr td {
-  background-color: #162955;
+  background-color: rgb(12, 25, 85);
 }
 
 hr.linha3 {
@@ -267,12 +266,12 @@ hr.linha3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 53);
 }
 
 #rodape {
-  background-color: blue;
+  background-color: rgb(0, 0, 53);
   padding: 30px;
   text-align: center;
-  color: #aeb9d3;
+  color: rgb(187, 207, 224);
 }
