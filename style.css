@@ -1,5 +1,5 @@
 body {
-  background: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   line-height: 25px;
 }
 
@@ -19,7 +19,7 @@ img {
 }
 
 p {
-  font-family: 'lato', sans-serif;
+  font-family: lato, sans-serif;
   font-size: 16px;
 }
 
