@@ -9,6 +9,7 @@ body {
 }
 
 #cabecalho {
+	color: white;
   position: fixed;
   background-color: rgb(0 , 0 , 53);
   width: 100%;
@@ -18,7 +19,6 @@ body {
 
 #titulo {
 	padding-top: 20px;
-	color: white;
 }
 
 .navegacao {
