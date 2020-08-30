@@ -18,7 +18,7 @@ body {
   width: 30%;
 }
 
-.home_animation span {
+.colosso {
   z-index: 100;
   display: none;
   opacity: 0;
@@ -33,20 +33,23 @@ body {
   height: 100%;
 }
 
-.home_animation table {
-  opacity: 0;
-  font-size: 2em;
-  position: absolute;
-  top: 60vh;
-  left: 8vw;
-}
-
 .construction-line {
+  text-align: left;
+  position: absolute;
+  font-size: 1.8em;
+  left: 25%;
+  top: 22%;
   font-family: monospace;
   color: white;
 }
 
 .destruction-line {
+  display: inline-block;
+  position: absolute;
+  opacity: 0;
+  font-size: 3em;
+  top: 50%;
+  left: 25%;
   font-family: 'Permanent Marker', cursive;
   color: red;
 }

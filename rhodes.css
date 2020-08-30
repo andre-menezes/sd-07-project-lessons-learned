@@ -1,15 +1,9 @@
 /* Estátua */
 
 /* Lado Esquerdo */
-.home_animation:hover > table {
-  animation: table 2s forwards;
+.home_animation:hover > .destruction-line {
+  animation: text 10s forwards;
 }
-@keyframes table {
-  to {
-    opacity: 1;
-  }
-}
-
 .home_animation:hover > svg > .cai-primeiro {
   animation: caindo 3s forwards;
 }
@@ -72,7 +66,7 @@
   }
 }
 
-.home_animation:hover > span {
+.home_animation:hover > .colosso {
   position: absolute;
   left: 25%;
   top: 30%;
