@@ -9,15 +9,15 @@ body {
   height: 80px;
   border-bottom-width: 50px;
   background-color: rgb(235, 177, 102);
-  font-family: Verdana, sans-serif;
-  text-align: center;
+  
 }
 
 #titulo {
   text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
-#minha_foto { 
+#minha_foto {
   max-width: 227px;
   max-height: 172px;
   border-radius: 15%;
@@ -67,7 +67,8 @@ figcaption {
 
 #secao {
   width: 70%;
-  vertical-align: top;
+  border-block-end-width: 30px;
+  object-position: 30px;
   display: inline-block;
 }
 
