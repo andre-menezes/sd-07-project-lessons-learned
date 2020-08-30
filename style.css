@@ -203,8 +203,8 @@ hr.linha2 {
   font-weight: 700;
 }
 
-table ,
-th ,
+table , 
+th , 
 td {
   border: 1px solid rgb(187 , 207 , 224);
   border-collapse: collapse;
