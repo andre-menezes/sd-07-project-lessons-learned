@@ -18,11 +18,24 @@ text-align: center;
 max-width: 200px;
 }
 #licoes_aprendidas {
-
+    display: block;
+    float: left;
 }
 #licoes_a_aprender {
-
+display: block;
+float: right;
 }
 #rodape {
-padding-left: 1100px;
+padding-right: 1100px;      
+}
+.lado-esquerdo {
+float: left;
+max-width: 800px;
+text-align: justify;
+}
+.lado-direito {
+float: right;
+max-width: 300px;
+text-align: justify;
+padding-right: 50px;
 }
