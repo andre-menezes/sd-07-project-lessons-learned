@@ -48,11 +48,12 @@ body {
   left: 560px;
 }
 
-th ,td {
+td {
   border: 1px solid black;
 }
 
 th {
+  border: 1px solid black;
   padding: 10px;
 }
 
@@ -77,7 +78,7 @@ table {
 .lado-direito {
   margin-left: 20px;
   width: 45%;
-  font-family: "Times New Roman", 'Ancient Runes', serif;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 2px;
   line-height: 20px;
   float: right;
@@ -94,7 +95,10 @@ table {
   border: 2px solid rgb(1 , 10 , 4);
   text-decoration: none;
   color: aliceblue;
-  padding: 8px 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #rodape {
