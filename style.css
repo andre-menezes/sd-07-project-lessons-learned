@@ -10,8 +10,8 @@ body {
     font-family: 'Anonymous Pro', monospace;
     padding-top: 55px;
     padding-left: 15%;
-    text-align: justify;
     padding-right: 15%;
+    text-align: justify;
 }
  /* Cabeçalho fixo com título */
 
@@ -19,8 +19,8 @@ body {
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 2px;
-    font-family: monospace;
+    padding: 4px;
+    font-family: 'Anonymous Pro', monospace;
     color: black;
     background-color: rgba(240, 235, 188, 1);
     position: fixed;
@@ -32,33 +32,23 @@ h1 {
     line-height: 30px;
 }
 
-
 nav li {
-    /*text-decoration: none;*/
     float: right;
-    list-style-type: none;
-  /*  text-align: left; */
-   /* padding: 2px;*/
-    /*border-bottom: 10px;*/
 }
-
-ul a {
-    text-decoration: none;
-}
-/*.links{
-    text-decoration: none;
-    list-style: none;
-}*/
 
 .foto-nome {
-    background-color: #ecaf91;
-    display: inline-block;
+    background-color: rgb(236, 175, 145);
     padding: 5%;
-    font-size: 25px;
+    font-size: 22px;
     color: rgba(29, 11, 21, 1);
     font-family: 'Courier New', Courier, monospace;
     width: 70%;
     margin-left: 15px;
+}
+
+.bloco-nav {
+    float: right;
+    width: 30%;
 }
 
 .foto {
@@ -84,10 +74,17 @@ ul a {
     padding-bottom: 15px;
 }
 
-.lado-direito {
+.lado-esquerdo {
+    width: 60%;
     float: left;
     padding-top: 5%;
     padding-bottom: 6%;
+}
+.lado-direito {
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    width: 35%;
 }
 
 .lista1 {
@@ -96,6 +93,7 @@ ul a {
 
 .lista2 {
     padding-bottom: 35px;
+    clear: both;
 }
 
 table {
@@ -106,5 +104,13 @@ table {
     padding: 10px;
 }
 .contatos-rodape {
-    display: inline-block;    
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.botoes {
+    text-decoration: none;
+    color: black;
 }
