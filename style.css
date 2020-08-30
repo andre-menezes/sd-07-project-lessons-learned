@@ -1,200 +1,192 @@
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-  background-color:rgb(253, 251, 251);
-  font-family:'Montserrat';
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif 
 }
 
 #titulo {
-  font-size:42px;
-  font-family:monospace, sans-serif;
+  font-size: 42px;
+  font-family: monospace, sans-serif;
 }
 
 #cabecalho {
-  position:fixed;
-  left:0;
-  top:0;
-  height:100px;
-  width:100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
 }
 
 .center {
-  max-width:1100px;
-  margin:0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 header {
-  position:fixed;
-  left:0;
-  top:0;
-  width:100%;
-  height:100px;
-  padding:9px;
-  text-align:center;
-  background-color:rgb(165, 161, 76);
-  z-index:2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 9px;
+  text-align: center;
+  background-color: rgb(165, 161, 76);
+  z-index: 2;
 }
 
 .linkstyle {
-  display:inline-block;
-  margin:15px 30px;
+  display: inline-block;
+  margin: 15px 30px;
 }
 
 a {
-  text-decoration:none;
-  color:rgb(0, 128, 0);
-  font-size:15px;
+  text-decoration: none;
+  color: rgb(0, 128, 0);
+  font-size: 15px;
 }
 
 h1 {
-  text-align:center;
-  margin-top:15px;
-  margin-bottom:15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #minha_foto {
-  position:absolute;
-  height:380px;
-  top:10px;
-  margin-left:40px;
-  border-radius:25%;
+  position: absolute;
+  height: 380px;
+  top: 10px;
+  margin-left: 40px;
+  border-radius: 25%;
 }
 
 .caixa {
-  position:absolute;
-  height:400px;
-  width:300px;
-  left:10px;
-  top:140px;
-  background-color:rgb(255, 228, 196);
-  border-radius:15%;
-  z-index:1;
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  left: 10px;
+  top: 140px;
+  background-color: rgb(255, 228, 196);
+  border-radius: 15%;
+  z-index: 1;
 }
 
 .descricao {
   position: absolute;
-  top:540px;  
-  left:24px;
-  color:rgb(128, 128, 128);
-  text-align:center;
-  text-decoration:none;
+  top: 540px;
+  left: 24px;
+  color: rgb(128, 128, 128);
+  text-align: center;
+  text-decoration: none;
 }
 
 .setuplista1 {
-  position:absolute;
-  width:180px;
-  height:210px;
-  left:350px;
-  top:130px;
-  padding-top:10px;
-  text-align:center;
-  color:rgb(0, 100, 0);
+  position: absolute;
+  width: 180px;
+  height: 210px;
+  left: 350px;
+  top: 130px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(0, 100, 0);
 }
 
 .setuplista2 {
-  position:absolute;
-  width:180px;
-  height:210px;
-  left:350px;
-  top:340px;
-  font-family:'Montserra';
-  padding-top:10px;
-  text-align:center;
-  color:rgb(0, 100, 0);
+  position: absolute;
+  width: 180px;
+  height: 210px;
+  left: 350px;
+  top: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(0, 100, 0);
 }
 
 #licoes_aprendidas {
-  font-family:'Montserra';
-  text-align:center;
-  color:rgb(0, 100, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(0, 100, 0);
 }
 
 #licoes_a_aprender {
-  font-family:'Montserra';
-  text-align:center;
-  color:rgb(0, 100, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(0, 100, 0);
 }
 
 h3 {
-  text-align:center;
-  color:rgb(0, 128, 0);
-}
-
-.conteudo {
-  height:1000px;
-  color:rgb(128, 128, 128);
-  width:380px;
-  margin-left:55px;
-  text-align:center;    
+  text-align: center;
+  color: rgb(0, 128, 0);
 }
 
 .lado-direito {
-  position:absolute;
-  float:right;
-  width:340px;
-  height:350px;
-  line-height:20px;
-  text-align:center;
-  font-size:18px;
-  top:140px;
-  right:20px;
+  position: absolute;
+  float: right;
+  width: 340px;
+  height: 350px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 18px;
+  top: 140px;
+  right: 20px;
   padding-top: 80px;
-  background-color:rgb(255, 228, 196);
+  background-color: rgb(255, 228, 196);
   border:5px ridge rgb(216, 191, 216);
   border-top:10px ridge rgb(216, 191, 216);
-  border-radius:5px;
-  color:rgb(128, 128, 128); 
-} 
+  border-radius: 5px;
+  color: rgb(128, 128, 128);
+}
 
 .lado-esquerdo {
-  position:absolute;
-  float:left;
-  width:350px;
-  height:345px;
-  text-align:center;
-  font-size:18px;
-  line-height:30px;
-  top:140px;
+  position: absolute;
+  float: left;
+  width: 350px;
+  height: 345px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  top: 140px;
   left: 550px;
-  padding-top:90px;
-  padding-right:20px;
-  padding-bottom:10px;
-  padding-left:20px;
-  background-color:rgb(85,107,47);
-  border-radius:15px;
-  color:rgb(255, 255,  255);
+  padding-top: 90px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: rgb(85, 107, 47);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
 }
 
 hr {
-  width:100%;
-  margin-top:570px;
-  height:5px;
-  color:rgb(85, 107, 47);
+  width: 100%;
+  margin-top: 570px;
+  height: 5px;
+  color: rgb(85, 107, 47);
 }
 
 #rodape {
-  width:100%;
-  height:250px;
-  top:590px;
-  background-color:rgb(0, 128, 0);
+  width: 100%;
+  height: 250px;
+  top: 590px;
+  background-color: rgb(0, 128, 0);
 }
 
 #contato {
-  position:absolute;
-  background-color:rgb(165, 161, 76);
-  height:170px;
-  width:570px;
-  top:615px;
-  left:40px;
-  color:rgb(0,0,0);
-  text-align:center;
-  padding-top:30px;
-  padding-bottom:10px;
-  border-radius:10px;
+  position: absolute;
+  background-color: rgb(165, 161, 76);
+  height: 170px;
+  width: 570px;
+  top: 615px;
+  left: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 .imglocal {
   position: relative;
@@ -202,7 +194,6 @@ hr {
   text-align: center;
   z-index: 1;
 }
- 
 
 .imglocal1 {
   position: relative;
@@ -213,15 +204,15 @@ hr {
 }
 
 #sobre {
-  position:absolute;
-  background-color:rgb(165, 161, 76);
-  height:147px;
-  width:570px;
-  top:615px;
-  right:40px;
-  color:rgb(0,0,0);
-  text-align:center;
-  padding-top:40px;
-  padding-bottom:25px;
-  border-radius:10px;
+  position: absolute;
+  background-color: rgb(165, 161, 76);
+  height: 147px;
+  width: 570px;
+  top: 615px;
+  right: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  border-radius: 10px;
 }
