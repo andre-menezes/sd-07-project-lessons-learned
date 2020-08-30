@@ -1,6 +1,7 @@
     body {
   background-color:rgb(253, 251, 251);
   font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
 }
      #titulo {
       color:black;
@@ -26,4 +27,21 @@
           display:block;
           width:400px;
           border:double;
+      }
+
+      #licoes_a_aprender {
+        display:inline-block;
+        border:solid;
+        width:400px;
+        padding: 20px;
+      }
+
+      #licoes_aprendidas {
+        border:solid;
+        width:400px;
+        padding: 40px;
+      }
+
+      .lado_lado {
+       
       }
