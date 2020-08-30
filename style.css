@@ -9,5 +9,10 @@ body {
 }
 
 #titulo {
-    
+    color: red;
+}
+
+#minha_foto {
+    width: 100px;
+    height: 100px;
 }
