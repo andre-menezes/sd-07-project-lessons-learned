@@ -1,6 +1,7 @@
 body {background-color: rgb(253, 251, 251);}
 div {
 display: inline-block;
+line-height: 20px;
 }
 #cabecalho {
 top: 0;
@@ -38,4 +39,12 @@ float: right;
 max-width: 300px;
 text-align: justify;
 padding-right: 50px;
+border: 100px;
+border-width: 50px;
+}
+.Link {
+    text-align: left;
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
 }
