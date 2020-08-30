@@ -31,7 +31,6 @@
 }
 
 .rosto {
-  fill: white;
   stroke: rgb(102 , 102 , 102);
 }
 
@@ -51,7 +50,7 @@
 .base {
   position: relative;
   z-index: 100;
-  fill: rgb(102 , 102 , 102);
+  fill: rgb(150, 150, 150);
   stroke: 2px rgb(66 , 66 , 66);
 }
 

@@ -6,7 +6,9 @@ body {
 /* Home_animation */
 .home_animation {
   position: relative;
-  background-color: black;
+  background-image: url(/rhodes.jpg);
+  background-size: 145%;
+  background-position: center;
   height: 100vh;
   z-index: 1;
   text-align: center;
@@ -51,7 +53,6 @@ body {
   top: 50%;
   left: 25%;
   font-family: 'Permanent Marker', cursive;
-  color: red;
 }
 
 /* Cabeçalho */
