@@ -10,7 +10,7 @@ body {
   background-size: 145%;
   background-position: center;
   height: 100vh;
-  z-index: 1;
+  z-index: 4;
   text-align: center;
 }
 
@@ -57,6 +57,7 @@ body {
 
 /* Cabeçalho */
 header {
+  z-index: 3;
   position: fixed;
   top: 0;
   width: 100%;
@@ -87,16 +88,101 @@ nav a {
 
 /* Minha-Foto */
 .perfil {
-  padding: 15px;
-  margin-top: 109px;
+  padding: 30px;
+  text-align: center;
+  width: 40%;
+}
+
+.div_foto {
+  position: relative;
+  margin: auto;
+  height: 13rem;
+  width: 10rem;
+  animation: arrastar-foto 2s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes arrastar-foto {
+  to {
+    transform: translateX(-100px);
+  }
+}
+
+.moldura {
+  filter: saturate(0.8);
+  position: relative;
+  top: -70%;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
 }
 
 #minha_foto {
-  margin: 15px;
+  filter: saturate(0.8);
+  position: relative;
+  top: 25%;
+  border-radius: 50%;
+  height: 70%;
+  width: 80%;
+  animation: foto-perfil 2s forwards;
 }
 
+@keyframes foto-perfil {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.perfil span {
+  font-size: 2em;
+  width: 10%;
+  z-index: 0;
+  position: relative;
+  left: 5rem;
+  top: -8rem;
+  margin: auto;
+  font-family: monospace;
+  animation: arrastar-nome 2s forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+
+.perfil h2 {
+  font-size: 1em;
+  width: 90%;
+  z-index: 0;
+  position: relative;
+  left: -35%;
+  margin: auto;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  animation: arrastar-nome 2s forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@keyframes arrastar-nome {
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(50%);
+  }
+}
 .icon-github {
+  position: relative;
   height: 50px;
+  top: 8px;
+  margin-right: 1vw;
 }
 
 /* Lições */
