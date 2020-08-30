@@ -17,7 +17,8 @@ body {
 }
 
 #titulo {
-  padding-top: 20px;
+	padding-top: 20px;
+	color: white;
 }
 
 .navegacao {
