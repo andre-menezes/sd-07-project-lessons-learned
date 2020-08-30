@@ -18,7 +18,6 @@ body {
 }
 
 #licoes_aprendidas {
-    background-color: darkgreen;
     display: block;
     overflow: auto;
 }
@@ -28,9 +27,17 @@ li strong {
 }
 
 .subtext {
-    background-color: skyblue;
     font-size: 0.8em;
     font-style: italic;
     position: relative;
     left: 5%;
+}
+
+#licoes_a_aprender {
+    display: block;
+    overflow: auto;
+}
+
+#rodape {
+    background-color: aqua;
 }
