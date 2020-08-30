@@ -69,7 +69,7 @@ body {
 
 .nav1 {
   display: inline-block;
-  margin-right: 20%;
+  margin: 0 20% 0 0;
 }
 
 .nav2 {
@@ -81,22 +81,19 @@ body {
   top: 80px;
   padding: 0;
   text-align: center;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 .meu_perfil2 {
   display: inline-block;
-  margin: 0px 0px;
-  margin-right: 50px;
-  margin-left: 20px;
+  margin: 0px 50px 0px 20px;
   position: relative;
   bottom: 40px;
 }
 
 .meu-nome {
-  margin-top: 200px;
+  margin: 200px 0 20px 0;
   text-align: center;
-  margin-bottom: 20px;
   font-family: sans-serif;
   line-height: 25px;
 }
@@ -108,8 +105,7 @@ body {
 .art2 h2,
 .art2 h3 {
   color: black;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
   width: 100%;
 }
 
@@ -147,10 +143,9 @@ body {
 }
 
 hr.linha1 {
+  margin: auto;
   margin-top: 200px;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid rgb(0 , 0 , 53);
 }
 
@@ -187,8 +182,6 @@ hr.linha1 {
 }
 
 hr.linha2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   width: 70%;
   margin: auto;
   border: 1px solid rgb(0, 0, 53);
@@ -205,9 +198,7 @@ hr.linha2 {
 #art1 {
   display: inline-block;
   width: 350px;
-  margin-right: 10px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px 20px;
 }
 
 #meu_perfil1 {
@@ -223,8 +214,7 @@ hr.linha2 {
 }
 
 #meu_perfil1 table {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 #meu_perfil1 table {
@@ -259,11 +249,8 @@ tr td {
 }
 
 hr.linha3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: auto;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid rgb(0 , 0 , 53);
 }
 
