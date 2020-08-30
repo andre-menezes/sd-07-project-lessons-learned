@@ -5,8 +5,8 @@ body { background-color : rgb(253 , 251 , 251);
 #cabecalho { background-color : cornflowerblue;
   border-radius : 2%;
   position: fixed;
-  position: relative;
-  top: 0; }
+  top: 0;
+  width: 100%; }
 
 #titulo { font-family : Bad Script , sans-serif;
   margin-left : 7px;
@@ -22,7 +22,7 @@ body { background-color : rgb(253 , 251 , 251);
   font-size : 15px; }
 
 .titulo2 { text-align : center;
-  margin-top : 40px;
+  margin-top : 150px;
   margin-bottom : 50px;
   font-size: 55px; }
 
