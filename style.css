@@ -38,6 +38,14 @@ nav {
     display: inline-block;
     margin-right: 30px;
 }
+ 
+.table-redes-sociais {
+    margin-top: 100px;
+    float: right;
+    width: 12%;
+    border: 1px solid;
+    margin-right: 15px;
+}
 
 .table-redes-sociais th {
     border-bottom: 1px solid;
@@ -47,15 +55,6 @@ nav {
 
 .table-redes-sociais tr {
     text-align: center;
-}
- 
-.table-redes-sociais {
-    margin-top: 100px;
-    float: right;
-    width: 12%;
-    border: 1px solid;
-    margin-right: 15px;
-
 }
 
 #subtitulo {
