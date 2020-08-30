@@ -66,15 +66,23 @@ header {
   color: white;
 }
 
+header h1 {
+  display: inline-block;
+}
+
 nav {
+  display: inline-block;
   margin: 0;
-  background-color: rgb(135 , 163 , 137);
   font-size: 1.5em;
 }
 
 nav li {
   list-style: none;
   display: inline-block;
+}
+
+nav a {
+  color: white;
 }
 
 /* Minha-Foto */
