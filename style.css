@@ -3,7 +3,6 @@
   border: 8px;
   padding: 6px;
   font-family: Arial, Helvetica, sans-serif;
-  /* color: rgb(100, 100, 100); */
 }
 
 body {
@@ -32,19 +31,24 @@ h3 {
   color: rgb(0 ,100 ,100);
 }
 
-p ,table ,td ,tr ,li {
+p table td tr li {
   font-family: Arial, sans-serif;
   font-size: 1em;
   font-weight: 400;
 }
 
-td {
-  background-color: rgb(235 ,235 ,235);
+table {
+  padding: 10px;
+  width: 100%;
 }
 
-.thisParagraph {
-  width: 150px;
-  color: rgb(0 ,100 ,100);
+td {
+  background-color: rgb(235 ,235 ,235);
+  width: 20%;
+}
+
+header p {
+  color: rgb(253, 251, 251);
 }
 
 section {
@@ -88,19 +92,6 @@ footer p {
   color: rgb(253 ,251 ,251);
 }
 
-table {
-  padding: 10px;
-  width: 100%;
-}
-
-td {
-  width: 20%;
-}
-
-header p {
-  color: rgb(253 ,251 ,251);
-}
-
 .mySoftSkills {
   clear: both;
 }
@@ -119,6 +110,11 @@ header p {
   width: 45%;
   float: right;
   padding-bottom: 40px;
+}
+
+.thisParagraph {
+  width: 150px;
+  color: rgb(0 ,100 ,100);
 }
 
 #cabecalho {
