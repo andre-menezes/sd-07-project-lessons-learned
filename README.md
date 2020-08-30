@@ -125,7 +125,7 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 ## Requisitos do projeto
 
-### 1 - O corpo da página deve possuir uma cor de fundo específica
+######## 1 - O corpo da página deve possuir uma cor de fundo específica
 
 - Possuir cor de fundo: rgb(253, 251, 251)
 
