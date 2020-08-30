@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Montserrat", "sans-serif"
 }
 
 #cabecalho {
@@ -10,7 +11,7 @@ body {
 }
 
 .containerHeader {
-  padding:20px 30px;
+  padding: 2px 30px;
   margin:auto;
   text-align: center;
   background: rgb(31, 124, 22)
@@ -18,29 +19,39 @@ body {
 
 nav ul li{
   display:inline-block;
-
+  margin-right: 30px;
 }
 
 .lessons {
   border-radius:5px;
   margin: auto;
-  width: 380px;
+  margin-top: 30px;
+  width: 425px;
   background-color: rgb(31, 124, 22);
+  box-shadow: 3px 3px 5px black;
 }
 
 #minha_foto{
   display:block;
   border-radius:50%;
   margin:auto;
-  margin-top: 200px;
+  margin-top: 120px;
+  box-shadow: 3px 3px 5px rgb(31, 124, 22);
+}
+
+section ul {
+  margin-right:px;
 }
 
 h2 {
+  padding:10px;
   margin-top: 20px; 
   text-align: center;
 }
 
 #titulo {
+  margin-left: 45px;
+  font-size: 25px;
   color: white;
 }
 
@@ -54,23 +65,60 @@ h2 {
 }
 
 .lado-direito {
-  margin-top:113px;
-  margin-right:250px;
+  margin-top:85px;
+  margin-right:350px;
   float: right;
   width: 13%;
   background-color: rgb(31, 124, 22);
   border-radius: 5px;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
 }
 
 .lado-esquerdo {
-  display: inline-block;
+  float: left;
   width: 30%;
-  margin-top: 100px;
-  margin-left: 325px;
+  margin-top: 50px;
+  margin-left: 270px;
   background-color: rgb(31, 124, 22);
   border-radius:5px;
-  padding: 10px;
-  text-align:center
+  padding: 7px;
+  text-align:center;
+  box-shadow: 3px 3px 5px black
+} 
+
+table{
+  width: 40%;
+  margin-top: 420px;
+  margin-left: 350px;
+  box-shadow: 3px 3px 5px black;
+}
+
+th {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+td:hover {
+  background-color: rgb(197, 249, 253);
+}
+
+a {
+  text-decoration: none
+}
+
+tr{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 150px
 }
