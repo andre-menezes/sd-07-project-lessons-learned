@@ -19,14 +19,14 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: "open sans", sans-serif;
   font-weight: bolder;
 }
 
 #cabecalho {
   position: fixed;
-  background-color: rgb(0, 0, 53);
+  background-color: rgb(0 , 0 , 53);
   width: 100%;
   text-align: center;
   z-index: 20;
@@ -34,7 +34,7 @@ body {
 }
 
 #titulo {
-  color: rgb(187, 207, 224);
+  color: rgb(187 , 207 , 224);
   padding: 20px 0px;
   top: 0px;
 }
