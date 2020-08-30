@@ -29,11 +29,13 @@ body { background-color: rgba(253 , 251 , 251);
   width: 10%;
 }
 
-#minha_foto { position: relative;
-  left: 32%;
-  display: inline-block;
+#minha_foto {
+
   width: 10%;
 }
 
 #rodape { background-color: rgba(0 , 0 , 0 , 0.74);
+}
+
+table , th , td {text-align: center;
 }
