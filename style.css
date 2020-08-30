@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 50%;
+    background-color: #3FBF9D;
+}
+
+#titulo{
+   text-align: center;
+}
+
+#conteudo {
+    margin-top: 80px;
+}
+
+#img {
+    position: relative;
+    
+
+}
