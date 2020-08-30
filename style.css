@@ -17,6 +17,7 @@ body {
   margin-left: 40px;
   margin-bottom: 50px;
   height: 10px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #cabecalho a {
@@ -28,6 +29,7 @@ body {
 #cabecalho li {
   display: inline;
   margin-right: 10px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #titulo {
@@ -35,6 +37,7 @@ body {
   padding-top: 10px;
   color: aliceblue;
   height: 20px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #minha_foto {
@@ -50,11 +53,13 @@ body {
 
 td {
   border: 1px solid black;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 th {
   border: 1px solid black;
   padding: 10px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 table {
@@ -69,7 +74,7 @@ table {
   width: 45%;
   margin-bottom: 10px;
   text-align: justify;
-  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   letter-spacing: 2px;
   line-height: 20px;
   float: left;
@@ -78,7 +83,7 @@ table {
 .lado-direito {
   margin-left: 20px;
   width: 45%;
-  font-family: "Franklin Gothic Medium", 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   letter-spacing: 2px;
   line-height: 20px;
   float: right;
@@ -95,11 +100,13 @@ table {
   border: 2px solid rgb(1 , 10 , 4);
   text-decoration: none;
   color: aliceblue;
-  padding-top: 7px 8px 7px 8px;
+  padding: 7px 8px 7px 8px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #rodape {
   text-align: center;
   color: brown;
   margin-bottom: 10px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
