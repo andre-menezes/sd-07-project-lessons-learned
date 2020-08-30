@@ -7,15 +7,20 @@ body {
   top: 0px;
   width: 100%;
   height: 80px;
+  border-bottom-width: 50px;
   background-color: rgb(235, 177, 102);
   font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+#titulo {
   text-align: center;
 }
 
 #minha_foto { 
   max-width: 227px;
   max-height: 172px;
-  border-radius: 15% 15%;
+  border-radius: 15%;
 }
 
 #licoes_aprendidas {
@@ -104,9 +109,9 @@ h3 {
 
 #barra_aside { 
   display: inline-block;
-  width: 30%;
   background-color: rgb(192, 190, 183);
   text-size-adjust: 30%;
+  text-orientation: sideways-right;
 }
 
 #icon {
