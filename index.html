@@ -10,21 +10,32 @@
 
 <body>
 
-  <div id="cabecalho" class="header">
-    <h1>Lessons Learned</h1>
-  </div>
+  <header id="cabecalho" class="header">
+    <h1 id="titulo">Lessons Learned</h1>
+    <nav class="nav-header">
+      <ul>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="info">    
+  <section class="info">    
     <div class="my-picture">
       <img id="minha-foto" src="images/minha_foto.jpg" alt="Celso Oliva Aparecido's photo"/> 
     </div>
-    <div class="meu-aprendizado">
+    <article class="meu-aprendizado">
       <p>
-
+        Foram dias intensos na Trybe desde o início. Caso me falassem que há apenas 3 semanas iniciamos nossa jornada... O salto no meu conhecimento em UNIX, Shell Script, Bases da Internet, HTML e CSS foi incomensurável e realmente sinto que houve uma aceleração de meses devido a atmosfera excelente que encontramos na <a class=meu-aprendizado-link" href="http://betrybe.com">Trybe</a>
       </p>
-    </div>
-    <div class="exemplo-aprendizado">
-    </div>
+    </article>
+    <aside class="exemplo-aprendizado">
+      <h2>Float</h2>
+      <p>
+        O uso do float é indicado quando queremos que o elemento [floated] seja envolvido por outros elementos. Adquirindo um outro contexto. O overflow no container garante recálculo do tamanho contexto considerando o floated
+      </p>
+    </aside>
     <div class="lessons-learned">
       <ol id="licoes_aprendidas" class="learned-list">
         <li class="learned-item"></li>
@@ -53,11 +64,11 @@
         <li class="wish-item"></li>
       </ul>
     </div>
-  </div>
+  </section>
 
-  <div id="rodape" class="footer">
-
-  </div>
+  <footer id="rodape" class="footer">
+    <a href="http://github.com/celsodevelop" target="_blank">Celso Oliva Aparecido Tryber 2020 </a>
+  </footer>
 
 </body>
 </html>
