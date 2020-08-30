@@ -6,7 +6,6 @@ body{
     position: fixed;
     width: 100%;
     top: 0px;
-    margin-bottom: 50%;
     background-color: #3FBF9D;
 }
 
@@ -15,13 +14,21 @@ body{
 }
 
 #conteudo {
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 #img {
-    position: relative;
+    
 }
 
 #rodape {
     margin-top: 50px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+ul li{
+    margin-right: 50px;
 }
