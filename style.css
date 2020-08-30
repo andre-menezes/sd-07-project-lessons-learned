@@ -19,9 +19,8 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: "open sans", sans-serif;
-  font-weight: bolder;
+  background-color: rgb(253 , 251 , 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -40,24 +39,24 @@ body {
 }
 
 .navegacao {
-  color: rgb(187, 207, 224);
-  background-color: rgb(12, 0, 78);
+  color: rgb(187 , 207 , 224);
+  background-color: rgb(12 , 0 , 78);
   padding: 5px 0px;
   width: 100%;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   top: 0px;
 }
 
 .nav_botoes {
-  border: 2px solid rgb(187, 207, 224);
+  border: 2px solid rgb(187 , 207 , 224);
   padding: 5px 5%;
-  font-family: "lora", sans-serif;
+  font-family: sans-serif;
   top: 0px;
 }
 
 .nav_botoes a {
-  color: rgb(187, 207, 224);
+  color: rgb(187 , 207 , 224);
   text-decoration: none;
 }
 
@@ -65,7 +64,7 @@ body {
 .nav_botoes a:hover {
   background-color: black;
   color: white;
-  border: 2px solid rgb(0, 0, 53);
+  border: 2px solid rgb(0 , 0 , 53);
 }
 
 .nav1 {
@@ -98,12 +97,12 @@ body {
   margin-top: 200px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: "concert", sans-serif;
+  font-family: sans-serif;
   line-height: 25px;
 }
 
 .art2 p {
-  font-family: "lora", sans-serif;
+  font-family: sans-serif;
 }
 
 .art2 h2,
@@ -117,12 +116,12 @@ body {
 #minha_foto {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid rgb(0, 0, 53);
+  border: 2px solid rgb(0 , 0 , 53);
 }
 
 .meu_perfil2 a {
-  background-color: rgb(0, 0, 53);
-  color: rgb(187, 207, 224);
+  background-color: rgb(0 , 0 , 53);
+  color: rgb(187 , 207 , 224);
   text-decoration: none;
   position: relative;
   top: 10px;
@@ -138,8 +137,8 @@ body {
   display: inline-block;
   width: 30%;
   text-align: justify;
-  color: rgb(0, 0, 53);
-  font-weight: bolder;
+  color: rgb(0 , 0 , 53);
+  font-weight: 700;
   font-style: italic;
   position: relative;
   bottom: 30px;
@@ -152,21 +151,21 @@ hr.linha1 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(0, 0, 53);
+  border: 1px solid rgb(0 , 0 , 53);
 }
 
 .listas {
-  color: rgb(0, 0, 53);
+  color: rgb(0 , 0 , 53);
   margin: 0px 0px;
   text-align: center;
-  background: rgb(253, 251, 251);
+  background: rgb(253 , 251 , 251);
   padding: 50px 0px;
-  font-family: "lora", sans-serif;
+  font-family: sans-serif;
 }
 
 .listas h2 {
   margin: 30px;
-  font-family: "concert", sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
 }
 
@@ -191,17 +190,16 @@ hr.linha2 {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border: 1px solid rgb(0, 0, 53);
 }
 
 .ultima-sessao {
-  background-color: rgb(253, 251, 251);
-  color: rgb(187, 207, 224);
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(187 , 207 , 224);
   padding: 80px 0px;
   text-align: center;
-  font-family: "lora", sans-serif;
+  font-family: sans-serif;
 }
 
 #art1 {
@@ -219,9 +217,9 @@ hr.linha2 {
 
 #art1 p {
   text-align: justify;
-  background-color: rgb(0, 0, 53);
+  background-color: rgb(0 , 0 , 53);
   padding: 20px;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 #meu_perfil1 table {
@@ -230,26 +228,26 @@ hr.linha2 {
 }
 
 #meu_perfil1 table {
-  background-color: rgb(0, 0, 53);
-  color: rgb(187, 207, 224);
+  background-color: rgb(0 , 0 , 53);
+  color: rgb(187 , 207 , 224);
 }
 
 table,
 th,
 td {
-  border: 1px solid rgb(187, 207, 224);
+  border: 1px solid rgb(187 , 207 , 224);
   border-collapse: collapse;
   padding: 15px;
   border-spacing: 5px;
 }
 
 table a {
-  color: rgb(187, 207, 224);
+  color: rgb(187 , 207 , 224);
 }
 
 table a:hover {
   color: black;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 th {
@@ -257,7 +255,7 @@ th {
 }
 
 tr td {
-  background-color: rgb(12, 25, 85);
+  background-color: rgb(12 , 25 , 85);
 }
 
 hr.linha3 {
@@ -266,12 +264,12 @@ hr.linha3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(0, 0, 53);
+  border: 1px solid rgb(0 , 0 , 53);
 }
 
 #rodape {
-  background-color: rgb(0, 0, 53);
+  background-color: rgb(0 , 0 , 53);
   padding: 30px;
   text-align: center;
-  color: rgb(187, 207, 224);
+  color: rgb(187 , 207 , 224);
 }
