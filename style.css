@@ -49,12 +49,12 @@ body {
   display: inline-block;
 }
 
-  .lado-direito a , .listas a {
-text-shadow: 3px 1px rgb(59 , 206 , 172);
-font-weight: 800;
-font-size: 40px;
-font-family: sans-serif;
-line-height: 2px;
+.lado-direito a , .listas a {
+    text-shadow: 3px 1px rgb(59 , 206 , 172);
+    font-weight: 800;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 2px;
 }
 
 .listas ul {
