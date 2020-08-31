@@ -100,6 +100,7 @@ figcaption {
   list-style-type: none;
   text-align: right;
   display: inline-block;
+  vertical-align: top;
 }
 
 .navli { 
@@ -112,11 +113,13 @@ figcaption {
 
 #adec {
   text-decoration: none; 
-  text-decoration-color: black;
+  text-anchor: black;
 }
 
 h3 {
   text-align: center;
+  text-align: justify;
+  font-style: italic;
 }
 
 #barra_aside { 
