@@ -17,6 +17,7 @@ body {
     margin-top: 80px;
     border: 7px solid seagreen;
     padding: 5px;
+    float: left;
 }
 
 .alinhamento {
@@ -41,4 +42,11 @@ body {
 
 .fix {
     clear: both;
+}
+
+#tabela {
+    border: 5px solid seagreen;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 80px;
 }
