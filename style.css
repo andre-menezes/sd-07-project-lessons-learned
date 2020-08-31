@@ -1,9 +1,8 @@
-
-body {
-    background: rgb(253, 251, 251);
-}
-
-#cabecalho{
-    position: fixed;
-
-}
+#cabecalho {
+    background-color: rgb(10, 126, 81);
+    color: white;
+  }
+  
+  .title-container {
+    padding: 10px 30px 0;
+  }
