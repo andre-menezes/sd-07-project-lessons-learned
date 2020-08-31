@@ -8,10 +8,6 @@ body {
   text-align: center;
 }
 
-h2 {
-  display: inline-block;
-}
-
 #cabecalho {
   position: fixed;
   top: 0px;
@@ -74,14 +70,18 @@ figcaption {
   width: 35%;
   vertical-align: top;
   display: inline-block;
-  align:left;  
+  box-align:left; 
+  text-align: left;
+  font-family: sans-serif; 
 }
 
 #secaoright {
   width: 35%;
   vertical-align: top;
   display: inline-block; 
-  align:right; 
+  box-align:right; 
+  text-align: left;
+  font-family: sans-serif;
 }
 
 #secaoarticle {
