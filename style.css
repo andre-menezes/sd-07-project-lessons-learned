@@ -1,14 +1,28 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", 'Ancient Runes', sans-serif;
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
     text-align: center;
+    font-size: 18px;
     background-color: rgb(15, 163, 107);
     width: 100%;
+}
+
+p {
+    line-height: 20px;
+}
+
+#rodape {
+    color: rgb(253, 251, 251);
+    background-color: black;
+    height: 50px;
+    padding: 3px;
+    text-align: left;
+    font-size: 18px;
 }
 
 #minha_foto {
@@ -26,6 +40,13 @@ body {
 
 .link {
     text-decoration: none;
+    color: rgb(253, 251, 251);
+    background-color:  rgb(15, 163, 107);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 800px;
+    margin-top: -210px;
+    position: absolute;
 }
 
 .float {
@@ -45,8 +66,9 @@ body {
 }
 
 #tabela {
-    border: 5px solid seagreen;
+    border: 3px solid seagreen;
     text-align: center;
     margin-top: 180px;
     margin-left: 80px;
+    padding: 7px;
 }
