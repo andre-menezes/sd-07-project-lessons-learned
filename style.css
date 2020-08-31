@@ -58,6 +58,8 @@ tbody{
     background-color:#a8dadc;
     color:#f1faee;
     font-family:"Times New Roman", Times, serif;
+    font-size: 20px;
+    letter-spacing: inherit;
 }
 nav{
     text-align:end;
