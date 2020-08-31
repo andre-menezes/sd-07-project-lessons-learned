@@ -39,6 +39,7 @@
     #menu ul li {
         padding: 10px 10px;
         display: inline-block;
+        background-color: rgb(253 , 251 , 251);        
     }
     #menu ul li a {
         text-decoration: none;
