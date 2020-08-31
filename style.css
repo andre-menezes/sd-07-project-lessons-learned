@@ -49,8 +49,7 @@ body {
   display: inline-block;
 }
 
-.listas a ,
-  .lado-direito a {
+  .lado-direito a , .listas a{
   line-height: 2px;
   text-shadow: 3px 1px rgb(59 , 206 , 172);
   font-weight: 800;
