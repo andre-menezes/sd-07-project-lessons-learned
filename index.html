@@ -2,24 +2,26 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto Lições Aprendidas</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     </head>
-    <header class="cabecalho">
-        <h1 id= "titulo">Lições Aprendidas - Trybe!</h1>
-    </header>
-    <nav id= "menu">
-        <ul>
-            <li class= "menu"><a href="#perfil">Quem Eu Sou</a></li>
-            <li class= "menu"><a href="#redes-sociais">Redes Sociais</a></li>
-            <li class= "menu"><a href="#contato">Contato</a></li>
-            <li class= "menu"><a href="#conhecimentos">Conhecimentos</a></li>
-            <li class= "menu"><a href="#projetos-atuais">Projetos Atuais</a></li>
-            <li class= "menu"><a href="#experiencia-de-aprendizado">Experiẽncia de Aprendizado</a></li>
-        </ul>
-    </nav>
     <body>
-        <section id= "perfil">
+        <header id="cabecalho">
+            <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
+        </header>
+        <nav id= "menu">
+            <ul>
+                <li class="menu"><a href="#perfil">Quem Eu Sou</a></li>
+                <li class="menu"><a href="#redes-sociais">Redes Sociais</a></li>
+                <li class="menu"><a href="#contato">Contato</a></li>
+                <li class="menu"><a href="#conhecimentos">Conhecimentos</a></li>
+                <li class="menu"><a href="#projetos-atuais">Projetos Atuais</a></li>
+                <li class="menu"><a href="#experiencia-de-aprendizado">Experiẽncia de Aprendizado</a></li>
+            </ul>
+        </nav>
+        <hr class="divisorias"/> 
+        <section id="perfil">
             <h2>Isabella Paz</h2>
             <img id="minha_foto" src="minha-foto.jpg" alt="Minha Foto" width="200px">
         </section>
@@ -36,42 +38,50 @@
                 <li>Email Alternativo: bellapaz.iorp@gmail.com</li>
             </ul>
         </section>
-        <section id= "conhecimentos";>
+        <hr class="divisorias"/> 
+        <section id="conhecimentos">
             <h2>Conhecimentos</h2>
-            <div class="licoes">
-                <h3>Lições Aprendidas</h2>
-                <ol id= "licoes_aprendidas">
-                    <li>Fazer um dual boot</li>
-                    <li>Utilizar o sistema operacional Linux</li>                    
-                    <li>Unix & Bash</li>
-                    <li>Shell Script</li>
-                    <li>Git & Git Hub</li>
-                    <li>Terminal e o VSCode como<br>
-                        ferramentas de trabalho</li>
-                    <li>Zoom e Slack como ferramentas<br>
-                        profissionais de interação</li>
-                    <li>Funcionamento da Internet</li>
-                    <li>HTML & CSS</li>
-                    <li>Desenvolver as soft skils</li>
-                </ol>
-            </div>
-            <div class= "licoes">
-                <h3>Lições A Aprender</h2>
-                <ul id= "licoes_a_aprender">
-                    <li>Javascript</li>
-                    <li>Back-end vs.+& Front-end</li>
-                    <li>Metodologias Ágeis</li>
-                    <li>React & Redux</li>
-                    <li>Bancos de dados & NoSQL</li>
-                    <li>NodeJS</li>
-                    <li>Arquitetura, deploy e testes</li>
-                    <li>A ciência da computação</li>
-                    <li>Python</li>
-                    <li>Programação orientada a objetos</li>
-                </ul>
-            </div>
+            <table class="licoes">
+                <tr>
+                    <th><h3>Lições Aprendidas</h2></th>
+                    <th><h3>Lições A Aprender</h2></th>
+                </tr>
+                <tr>
+                    <th>
+                        <ol id="licoes_aprendidas">
+                            <li>Fazer um dual boot</li>
+                            <li>Utilizar o sistema operacional Linux</li>                    
+                            <li>Unix & Bash</li>
+                            <li>Shell Script</li>
+                            <li>Git & Git Hub</li>
+                            <li>Terminal e o VSCode como<br>
+                                ferramentas de trabalho</li>
+                            <li>Zoom e Slack como ferramentas<br>
+                                profissionais de interação</li>
+                            <li>Funcionamento da Internet</li>
+                            <li>HTML & CSS</li>
+                            <li>Desenvolver as soft skils</li>
+                        </ol>
+                    </th>
+                    <th>
+                        <ul id="licoes_a_aprender">
+                            <li>Javascript</li>
+                            <li>Back-end vs.+& Front-end</li>
+                            <li>Metodologias Ágeis</li>
+                            <li>React & Redux</li>
+                            <li>Bancos de dados & NoSQL</li>
+                            <li>NodeJS</li>
+                            <li>Arquitetura, deploy e testes</li>
+                            <li>A ciência da computação</li>
+                            <li>Python</li>
+                            <li>Programação orientada a objetos</li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
         </section>
-        <section id= "projetos-atuais">
+        <hr class="divisorias"/> 
+        <section id="projetos-atuais">
             <h2>Projetos Atuais</h2>
             <div class="projetos">
                 <h3>Principais</h3>
@@ -89,24 +99,26 @@
                         <li>Bootcamp dos Ganhadores Startup Way</li>
                         <li>Khanpeonato</li>
                         <li>Curso Competências profissionais, emocionais e tecnológicas para tempos de mudança - PUC</li>
-                    </ul>                               
+                    </ul>
+            </div>
         </section>
-        <article id= "experiencia-de-aprendizado">
+        <hr class="divisorias"/> 
+        <article class="lado-esquerdo">
             <h2>Experiência de Aprendizado</h2>
-            <p>Estudar… Quando eu era criança, amava estudar. Minhas matérias prediletas eram artes e matemática. Eu sempre tive um pé em exatas e o outro em humanas. Sonhava em ser cantora ou atriz, mas também queria ser professora. Quando eu ainda morava no interior, em Ribeirão-Pe era comum eu me dispor a ensinar na minha casa disciplinas de exatas para os colegas que tinham dificuldade em aprender. Ensinar sempre foi algo que me trouxe satisfação.</p>
-            <p>Em 2009 vim pra Recife pra finalizar o meu Ensino Médio e assim ingressar em uma Universidade pública. Em um longo e talvez eterno embate em mim de humanas versus exatas, meu lado que gosta de buscar soluções e fazer planejamentos prevaleceu e eu entrei para o curso de Engenharia de Produção na UFPE.</p>
             <p>Desde o meio da minha faculdade fui de amor para ódio completo por estudar. Foi um sacrifício mental enorme tanto pra conseguir terminar a faculdade, como para fazer minha pós em Ciência dos Dados e Analytics. Tudo ao meu redor me desencorajava: o método de ensino e estrutura engessada das universidades, os professores alheios aos alunos, o mercado enfraquecido de engenharia.</p>
-            <p>Sinto como se algo dentro de mim tivesse mudado desde que entrei na Trybe. Eu estou mais produtiva do que nunca! E voltei a amar estudar! Coisa que imaginei que nunca seria realidade novamente. O modelo de ensino da Trybe faz com que eu tire o melhor de mim todos os dias e fique feliz por isso, embora cansada. E todo dia é repleto de novos aprendizados, tanto diretos – através dos materiais fornecidos – como por meios indiretos – através do uso de novas plataformas e da interação com os colegas, com as meninas do Elas Codam e com instrutores.</p>
+            <p>Mas desde que entrei na Trybe sinto como se algo dentro de mim tivesse mudado. Eu estou mais produtiva do que nunca! E voltei a amar estudar! Coisa que imaginei que nunca seria realidade novamente. O modelo de ensino da Trybe faz com que eu tire o melhor de mim todos os dias e fique feliz por isso, embora cansada. E todo dia é repleto de novos aprendizados, tanto diretos – através dos materiais fornecidos – como por meios indiretos – através do uso de novas plataformas e da interação com os colegas, com as meninas do Elas Codam e com instrutores.</p>
             <p>O mais legal é que na Trybe estou desenvolvendo não só minhas hard skils para desenvolvimento web, mas também as soft skills necessárias para que eu seja uma profissional que saiba se comunicar e agir de maneira apropriada em qualquer que seja o contexto no qual uma ação ou decisão deva ser realizada. E por falar em soft skils, cada dia vejo que o buraco é mais fundo do que eu imaginava kkkkk. Em contrapartida vi que há uma quantidade enorme de possibilidades diferentes de desenvolvê-las e estou me interessando cada vez mais pelo assunto.</p>
             <p>Quando olho pra duas semanas atrás nem acredito que aprendi tanta coisa em tão pouco tempo. Pra mim é algo surreal imaginar que, matematicamente – com um modelo de previsibilidade bem fraco, mas ok, hahah – no fim do curso saberei mais de 20x do que sei hoje. Não consigo dimensionar mentalmente essa quantidade de conhecimento. Parece um sonho e eu estou super feliz de saber que isso é algo possível pra mim.</p>
             <p>Claro que não é uma jornada fácil e muitas vezes me vejo arrancando os cabelos, chorando ou e me autocriticando por não corresponder ao nível máximo de excelência. É que eu tenho esse problema quase que incorrigível de querer que tudo seja ou saia perfeito ou pelo menos o mais perfeito que eu possa conseguir com o que tenho dentro da cabeça e nas mãos. Ainda bem que toda a equipe da Trybe, menos o Lucas (tô brincando! Kkk), são super receptivos e sempre nos incentivam a buscar superar os desafios ao invés de se deixar abater diante das dificuldades.</p>
         </article>
-        <aside class= "conteudo";>
+        <aside class="lado-direito">
             <h3>Elas Codam</h3>
-            <p>O Elas Codam, nosso grupo de mulheres dev da Trybe. Também me ajuda bastante a não perder a fé em mim. Ainda é um grupo que tá iniciando, então a estrutura organizacional e os macro projetos ainda não estão muito bem delineados. Mas tá sendo incrível fazer parte de uma comunidade feminina com a qual tenho tanto em comum. É encorajador, um suporte, conforta e inclusive muitas vezes me tranquiliza. Além de que estou tendo a oportunidade de conhecer a jornada, experiência e rotina de trabalho de mulheres maravilhosas que já atuam na área de T.I.. Não só mulheres dev, como também de outras profissões do campo de tecnologia. Inclusive me surpreendi por, mesmo o curso da Trybe não contemplando Data Science, através dele estou tendo contato com várias mulheres que trabalham na área de ciência dos dados, que é o meu objetivo profissional fim pós formação na Trybe. Como falei no meu vídeo e na minha entrevista pra Trybe: “Eu quero ser uma Unicorn Data Scientists”. Eu sei que é um sonho alto, mas nada é impossível, as vezes é só uma questão de não ter sido feito ainda.</p>
+            <p>O grupo de mulheres dev da Trybe. Também me ajuda bastante a não perder a fé em mim. Tá sendo incrível fazer parte de uma comunidade feminina com a qual tenho tanto em comum. É encorajador, um suporte, conforta e muitas vezes me tranquiliza.</p>
+            <p>Além de me dar a oportunidade de conhecer a jornada, experiência e rotina de trabalho de mulheres maravilhosas que já atuam na área de T.I. não só como dev, como em outras profissões do campo de tecnologia. Inclusive mulheres que trabalham na área de ciência dos dados, que é o meu objetivo profissional pós formação na Trybe. Eu quero ser uma Unicorn Data Scientists. Eu sei que é um sonho alto, mas acredito que muitas vezes o parecer impossível é só uma questão de perspectiva.</p>
         </aside>
+        <br>
+        <footer id="rodape">
+            Direitos autorais: Isabella Paz & Trybe.
+        </footer> 
     </body>
-    <footer id="rodape">
-        Direitos autorais: Isabella Paz & Trybe
-    </footer> 
 </html>
