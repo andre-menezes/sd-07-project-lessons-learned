@@ -15,3 +15,8 @@ body{
     width:98px;
     border-style: solid;
 }
+
+#licoes_aprendidas{
+ display: inline-block;
+ margin-right: 30px;
+}
