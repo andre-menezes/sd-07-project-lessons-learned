@@ -7,7 +7,6 @@ body {
   border-top-right-radius: 30px;
   background-color: rgb(59 , 206 , 172);
   position: fixed;
-  top: 0px;
 }
 
 #titulo {
@@ -49,7 +48,7 @@ body {
 .lado-direito a {
   line-height: 2px;
   text-shadow: 3px 1px rgb(59 , 206 , 172);
-  font-weight: bold;
+  font-weight: 800;
   font-size: 40px;
   font-family: sans-serif;
 }
