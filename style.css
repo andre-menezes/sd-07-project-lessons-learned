@@ -1,67 +1,37 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb( 253, 251, 251);
 }
-.img-github{
+.img-github {
     height: 150px;
     width: 132px;
 	background-size: contain;
 	color: transparent;
     -webkit-color: transparent;    
 }
-.img-linkedin{
+.img-linkedin {
     height: 150px;
     width: 132px;
 	background-size: contain;
 	color: transparent;
     -webkit-color: transparent;    
 }
-.secao{
+.secao { 
 	width: 960px;
 	margin: 0 auto;
 	overflow: auto;
     padding: 5px 0;
 }
-ul{
+ul {
     list-style: none;
 }
 .checado{
-    text-align:right ;
+    text-align: right ;
 }
-.coluna{
+.coluna {
 	padding: 0 10px;
 	float: left;
 }
-.col3{
-	width: 220px;
-}
-.col4{
-	width: 300px;
-}
-.col5{
-	width: 380px; 
-}
-.col6{
-	width: 460px;
-}
-.col7{
-	width: 540px;
-}
-.col8{
-	width: 620px;
-}
-.col9{
-	width: 700px;
-}
-.col10{
-	width: 780px;
-}
-.col11{
-	width: 860px;
-}
-.col12{
-	width: 940px;
-}
-.divisor{
+.divisor {
     height: 100px;
     width: 100%;
     display: inline-block;
@@ -78,15 +48,15 @@ ul{
     top: 0px;
     width: 100%;
     height: 80px;
-    background-color: rgb(40px, 102px, 40px);
+    background-color: rgb( 100, 251, 40);
     text-align: center;
 }
-.perfil{
+.perfil {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
 }
-#imagem1 {
+#minha_foto {
     display: inline-block;
     height: 200px;
     width: 180px;
