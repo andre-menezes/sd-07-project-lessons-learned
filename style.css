@@ -1,17 +1,17 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
   opacity: 60%;
   border-top-right-radius: 30px;
-  background-color: rgb(59, 206, 172);
+  background-color: rgb(59 , 206 , 172);
   position: fixed;
   top: 0px;
 }
 
 #titulo {
-  color: rgba(255, 255, 255, 0.781);
+  color: rgba(255 , 255 , 255 , 0.781);
   text-align-last: center;
   margin: 10px;
   font-family: sans-serif;
@@ -19,7 +19,7 @@ body {
 
 #cabecalho nav li {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.781);
+  color: rgba(255 , 255 , 255 , 0.781);
   margin: 10px;
   font-family: sans-serif;
 }
@@ -28,7 +28,7 @@ body {
   float: left;
   margin-top: 150px;
   border: 5px white solid;
-  box-shadow: 50px 10px rgb(59, 206, 172);
+  box-shadow: 50px 10px rgb(59 , 206 , 172);
   object-fit: cover;
   border-radius: 50%;
   width: 22.5em;
@@ -45,10 +45,10 @@ body {
   display: inline-block;
 }
 
-.listas a,
+.listas a ,
 .lado-direito a {
   line-height: 2px;
-  text-shadow: 3px 1px rgb(59, 206, 172);
+  text-shadow: 3px 1px rgb(59 , 206 , 172);
   font-weight: bold;
   font-size: 40px;
   font-family: sans-serif;
@@ -96,7 +96,7 @@ body {
   margin-top: 50px;
   width: 150px;
   text-align: center;
-  background-color: rgb(59, 206, 172);
+  background-color: rgb(59 , 206 , 172);
   border-top-left-radius: 30%;
   border-bottom-right-radius: 30%;
   padding: 20px;
