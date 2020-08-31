@@ -9,6 +9,8 @@ a {
   text-decoration: none;
   color: inherit;
   text-align: center;
+  padding: 5px;
+  margin: 3px;
 }
 
 a:hover {
@@ -30,21 +32,27 @@ a:hover {
 }
 
 #minha_foto {
-  width: 350px;
-  border-radius: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-top: 80px;
 }
 
 #rodape {
-  position: relative;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
+  max-width: 100%;
   background-color: rgb(102, 191, 191);
   color: rgb(253, 251, 251);
   padding: 10px 20px;
+  text-align: center;
 }
 
 #rodape ul li {
   padding: 10px;
   list-style-type: none;
+  display: inline-block;
 }
 
 .social-links {
@@ -71,10 +79,18 @@ a:hover {
   float: left;
   max-width: 40%;
   text-align: justify;
+  position: absolute;
+  top: 264px;
+  right: 650px;
+  border: 2px solid rgb(33, 33, 33);
+  padding: 5px 15px;
 }
 
 .lado-direito {
   float: right;
+  position: absolute;
+  top: 90px;
+  right: 260px;
 }
 
 #h3-skills {
