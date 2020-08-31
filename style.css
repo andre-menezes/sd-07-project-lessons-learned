@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5em;
@@ -9,8 +9,9 @@ body {
   width: 80%;
   margin: auto;
 }
+
 .div-table {
-  border: 2px solid rgb(119, 136, 153);
+  border: 2px solid rgb(119 , 136 , 153);
   margin-left: 2%;
   margin-right: 2%;
   display: inline-block;
@@ -28,7 +29,7 @@ body {
   justify-self: center;
   margin: 135px auto auto;
   width: 30%;
-  border: 3px solid rgb(119, 136, 153);
+  border: 3px solid rgb(119 , 136 , 153);
 }
 
 .lado-esquerdo {
@@ -46,7 +47,7 @@ body {
   top: 0;
   text-align: center;
   width: 100%;
-  background-color: rgb(24, 55, 82);
+  background-color: rgb(24 , 55 , 82);
   color: white;
 }
 
