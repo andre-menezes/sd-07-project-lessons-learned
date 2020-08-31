@@ -15,10 +15,11 @@ body {
     padding: 10px
 }
 
-#link_externo{
-    color: white;
+#link{
+    color: green;
     margin-left: 10px ;
 }
+
 
 #minha_foto{
     margin-top: 125px;
@@ -36,10 +37,21 @@ h2 {
     text-decoration: underline;
 }
 
+h3{
+    text-decoration: underline;
+}
+
+table{
+    background-color:mediumseagreen;
+}
+
+
 #rodape {
     font: italic 15px arial;
     color: white;
     background-color: green;
     padding: 3px 3px 3px 3px;
+    margin-top: 20px;
 }
+
 
