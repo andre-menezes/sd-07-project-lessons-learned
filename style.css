@@ -1,66 +1,68 @@
-body{
-background-color:rgb(253, 251, 251);
-font-family: "Robot";
+body {
+        background-color: rgb(253, 251, 251);
+        font-family: "Robot", sans-serif;
 }
 
-#cabecalho{
-    width:100vw;
-    background-color:#1d3557;
-    position:fixed;
-    height:12vh;
-    text-align:center ;
-    top:0;
-    left:0;
+#cabecalho {
+        width: 100vw;
+        background-color: #1d3557;
+        position: fixed;
+        height: 12vh;
+        text-align: center;
+        top: 0;
+        left: 0;
 }
-#imagem{
-    width:200px;
-    margin:auto;
+#imagem {
+        width: 200px;
+        margin: auto;
 }
-#minha_foto{
-    border-radius:50%;
-    width:200px;
-    margin-top:100px;
+#minha_foto {
+        border-radius: 50%;
+        width: 200px;
+        margin-top: 100px;
 }
-section{
-    margin-bottom:70px;
-}
-
-#licoes_aprendidas{
-    float:left;
-    width:15%;
+section {
+       margin-bottom: 70px;
 }
 
-#licoes_a_aprender{
-    padding-top:1.3%;
+#licoes_aprendidas {
+        float: left;
+        width: 15%;
 }
-.lado-esquerdo{
-    width:40%;
-    margin-bottom:50px;
+
+#licoes_a_aprender {
+       padding-top: 1.3%;
 }
-.lado-direito{
-    padding:30px;
-    margin:15px;
-    float:right;
-    width:200px;
+.lado-esquerdo {
+        width: 40%;
+        margin-bottom: 50px;
 }
-table{
-    margin:auto;
-    border:1px dotted #e63946;
+.lado-direito {
+        padding: 30px;
+        margin: 15px;
+        float: right;
+        width: 200px;
 }
-thead{
-    background-color:#457b9d;
-    color:white;
+table {
+        margin: auto;
+        border: 1px dotted #e63946;
 }
-tbody{
-    text-align:center;
+thead {
+        background-color: #457b9d;
+        color: white;
 }
-#rodape{
-    background-color:#a8dadc;
-    color:#f1faee;
-    font-family:"Times New Roman", Times, serif;
-    font-size: 20px;
-    letter-spacing: inherit;
+tbody {
+        text-align: center;
 }
-nav{
-    text-align:end;
+#rodape {
+        background-color: #a8dadc;
+        color: #f1faee;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        letter-spacing: inherit;
+        font-style: italic;
+        font-weight: lighter;
+}
+nav {
+        text-align: end;
 }
