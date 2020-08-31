@@ -4,11 +4,22 @@ body {
 
 #cabecalho {
   display: block;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 #minha_foto {
   border: 5px ridge;
-  margin-top: 145px;
+  margin-top: 140px;
+  display: block;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
 }
 
 header {
@@ -19,9 +30,6 @@ header {
   position: fixed;
 }
 
-#jornada {
-  clear: both;
-}
 spam {
   color: blue;
   font-weight: bold;
