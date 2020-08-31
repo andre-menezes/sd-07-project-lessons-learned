@@ -9,11 +9,11 @@ header {
   display: block;
   width: 100%;
   margin: 0;
-  background: rgb(231, 12, 12);
+  background: rgb(231 , 12 , 12);
 }
 
 .enlaces {
-  background: rgb(194, 192, 97);
+  background: rgb(194 , 192 , 97);
 }
 
 #titulo {
