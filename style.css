@@ -59,12 +59,22 @@ p , li , td , th {
 }
 
 .listas {
-  display: inline-block;
+  display: block;
 }
 
 table , td , th {
-  border: 1px solid black;
+  border: 2px solid black;
   text-align: center;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+td , th {
+  padding: 5px;
 }
 
 #rodape {
