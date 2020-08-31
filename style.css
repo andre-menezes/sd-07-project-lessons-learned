@@ -7,7 +7,7 @@ body {
   border-top-right-radius: 30px;
   background-color: rgb(59 , 206 , 172);
   position: fixed;
-  top: 0px;
+  top: 0%;
 }
 
 #titulo {
@@ -49,8 +49,8 @@ body {
   display: inline-block;
 }
 
-.listas a, 
-.lado-direito a {
+.listas a ,
+  .lado-direito a {
   line-height: 2px;
   text-shadow: 3px 1px rgb(59 , 206 , 172);
   font-weight: 800;
