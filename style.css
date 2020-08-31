@@ -16,6 +16,10 @@ p {
   line-height: 20px;
 }
 
+.posicao {
+  clear: both;
+}
+
 #rodape {
   color: rgb(253 , 251 , 251);
   background-color: black;
@@ -45,8 +49,8 @@ p {
   background-color: rgb(15 , 163 , 107);
   padding: 10px;
   border-radius: 5px;
-  margin-left: 730px;
-  margin-top: -170px;
+  margin-left: 830px;
+  margin-top: -260px;
   position: absolute;
 }
 
@@ -55,12 +59,14 @@ p {
 }
 
 .lado-esquerdo {
+  width: 600px;
   float: left;
+  display: inline-block;
+  clear: both;
 }
 
 .lado-direito {
-  padding-top: 18px;
-  width: 600px;
+  width: 50%;
   float: right;
 }
 
