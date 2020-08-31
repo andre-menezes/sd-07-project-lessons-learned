@@ -1,5 +1,6 @@
 * {
     margin: 10;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,52 +18,125 @@ body {
     left: 10%;
     margin: 10px 10px;
     padding: 20px 100px;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
     text-align: justify;
 }
-
-.header li {
+nav ul {
     list-style-type: none;
-    margin: 2px;
-    padding: 10px 5px;
-    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgb(255, 127, 80);
+    margin-right: 5px;
+}
+
+.nav-header a:hover {
+    background-color: rgb(255, 147, 100);
 }
 
 .lessons-learned {
+    background-color: rgb( 10, 190, 190);
     float: left;
-    width: 50%;
+    padding-left: 20px;
+    width: 49%;
     box-sizing: border-box;
+    color: rgb(45, 23, 89);
+     
+}
+
+.learned-list {
+    background-color: gray;
+    margin: 0;
+}
+
+.learned-item {
+    margin-top: 10px;
 }
 
 .wish-learn {
+    background-color: rgb( 90, 190, 190);
     float: right;
+    padding-left: 20px;
     width: 50%;
     box-sizing: border-box;
+    color: rgb( 55, 33, 99)
 }
 
-.meu-aprendizado {
-    float: left;
+.wish-list {
     width: 50%;
-    box-sizing: border-box;
+    background-color: gray;
+    margin: 12.5%;
 }
 
-.exemplo-aprendizado {
-    float: right;
-    width: 50%;
-    box-sizing: border-box;
+.wish-item {
+    margin-top: 10px;
 }
 
-/* .exemplo-aprendizado:after {
+.my-picture {
+    /* float: right; */
+}
+
+.my-picture::after, .my-picture::before {
+    overflow: hidden;
     clear: both;
+    display: table;
     content: "";
-    display: block;
-    background-color: blue;
-} */
+}
+
+.lado-esquerdo {
+    background-color: rgb( 190, 190, 190);
+    float: left;
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.lado-esquerdo p {
+    line-height: 2rem;
+}
+
+.lado-direito {
+    background-color: rgb( 150, 150, 150);
+    float: right;
+    border: 1px solid black;
+    width: 23.4%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: .75rem;
+    line-height: 1.4rem;
+}
 
 .table-learn {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 5px;
     border: 1px solid brown;
     clear: both;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.personal {
+    margin: 5px 2px 10px 2px;
+}
+
+.skills {
+    margin: 5px 2px 10px 2px;
 }
