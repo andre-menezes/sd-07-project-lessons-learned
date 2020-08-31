@@ -1,6 +1,5 @@
 body{
 background-color:rgb(253, 251, 251);
-
 }
 #cabecalho{
     width: 100vw;
@@ -10,18 +9,15 @@ background-color:rgb(253, 251, 251);
     text-align: center ;
     top: 0;
     left: 0;
-
 }
 #imagem{
     width: 200px;
     margin: auto;
-
 }
 #minha_foto{
     border-radius: 50%;
     width: 200px;
-   margin-top: 100px;
-   
+    margin-top: 100px;
 }
     
 section{
