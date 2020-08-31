@@ -20,9 +20,10 @@ p {
     color: rgb(253, 251, 251);
     background-color: black;
     height: 50px;
-    padding: 5px;
+    padding: 1px;
     text-align: left;
     font-size: 18px;
+    margin-top: 40px;
 }
 
 #minha_foto {
@@ -44,8 +45,8 @@ p {
     background-color:  rgb(15, 163, 107);
     padding: 10px;
     border-radius: 5px;
-    margin-left: 800px;
-    margin-top: -210px;
+    margin-left: 730px;
+    margin-top: -170px;
     position: absolute;
 }
 
@@ -55,6 +56,12 @@ p {
 
 .lado-esquerdo {
     float: left;
+}
+
+.lado-direito {
+    padding-top: 18px;
+    width: 600px;
+    float: right;
 }
 
 #licoes_a_aprender {
