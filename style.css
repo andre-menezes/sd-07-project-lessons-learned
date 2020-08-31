@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
   font-family: Poppins, Ancient Runes, sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   top: 0px;
   text-align: center;
   font-size: 18px;
-  background-color: rgb(15, 163, 107);
+  background-color: rgb(15 ,163 ,107);
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ p {
 }
 
 #rodape {
-  color: rgb(253, 251, 251);
+  color: rgb(253 ,251 ,251);
   background-color: black;
   height: 50px;
   padding: 1px;
@@ -41,8 +41,8 @@ p {
 
 .link {
   text-decoration: none;
-  color: rgb(253, 251, 251);
-  background-color: rgb(15, 163, 107);
+  color: rgb(253 ,251 ,251);
+  background-color: rgb(15 ,163 ,107);
   padding: 10px;
   border-radius: 5px;
   margin-left: 730px;
