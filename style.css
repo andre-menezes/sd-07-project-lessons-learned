@@ -1,14 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* R-1 Corpo da página deve possuir uma cor de fundo específica. */
 body {
     background-color: rgb(253, 251, 251);
 }
 
+/* R-2: Barra superior com título "cabecalho", elemento deve estar fixo no topo da página, com a propriedade top tendo 0px.*/
 header {
     position: fixed;
     top: 0px;
-    
+    padding: 20px;
+    text-align: center;
     background-color: rgb(194, 211, 194);
-    margin: auto;
-    
+    opacity: 0.9;
+    color: rgb(5, 100, 100);
+}
+
+#minha_foto {
+    margin-top: 120px;
+    width: 150px;
+    border-radius: 20px;
 }
 
 p {
@@ -24,10 +38,7 @@ p {
     
 }
 
-#minha_foto {
-    margin-top: 60px;
-    width: 150px;
-}
+
 
 .lado_lado {
     display: inline-block;
