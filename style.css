@@ -17,26 +17,18 @@ header h1 {
 }
 nav ul {
   display: inline-block;
-
   width: 70%;
-
   text-align-last: justify;
 }
 nav ul li {
   display: inline-block;
-
   font-weight: 900;
-
   padding: 7px;
-
   font-family: Roboto, sans-serif;
-
   font-size: 18px;
 }
 nav ul li a {
-
   color: rgb(253 , 251 , 251);
-
   text-decoration: none;
 }
 img {
@@ -81,42 +73,25 @@ div ul {
 }
 section {
   position: relative;
-
   width: 100%;
-
   margin-top: 20px;
-
   border-radius: 22px;
-
   padding: 20px;
-
   text-align-last: left;
-
   margin-left: auto;
-
   margin-right: auto;
 }
 section article {
   padding: 20px 30px;
-
   text-align-last: left;
-
   display: inline-block;
-
   box-shadow: 4px 2px 4px 1px;
-
   width: 50%;
-
   border-radius: 22px;
-
   font-family: Roboto, sans-serif;
-
   font-weight: 450;
-
   line-height: 25px;
-
   position: relative;
-
   left: -20px;
 }
 section aside {
@@ -135,21 +110,16 @@ section aside {
 }
 p {
   font-size: 16px;
-
   font-family: Roboto, sans-serif;
 }
 h2 {
   font-size: 30px;
-
   font-family: Roboto, sans-serif;
 }
 table {
   width: 400px;
-
   border: 1px solid black;
-
   margin-left: auto;
-
   margin-right: auto;
 }
 table td {
