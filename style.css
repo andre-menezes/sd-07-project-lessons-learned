@@ -1,6 +1,6 @@
 @font-face {
-	src: url('TheHistoriaDemo.ttf');
-	font-family: The Historia Demo;
+  src: url('TheHistoriaDemo.ttf');
+  font-family: The Historia Demo;
 }
 
 * {
@@ -24,7 +24,7 @@ li , a , button {
   font-weight: 500;
   font-size: 16px;
   color: rgb(59 , 59 , 59);
- 	text-decoration: none;
+  text-decoration: none;
 }
 
 section a {
@@ -35,7 +35,7 @@ section a {
   font-family: The Historia Demo, sans-serif;
   letter-spacing: 2px;
   font-size: 3rem;
-  background: linear-gradient(to top right , rgb(255,204,0), rgb(204,0,255));
+  background: linear-gradient(to top right , rgb(255 , 204 , 0) , rgb(204 , 0 , 255));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 5px 5px 10px rgba(32 , 32 , 32 , 0.2);
