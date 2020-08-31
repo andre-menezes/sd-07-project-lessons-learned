@@ -7,6 +7,7 @@ body {
   border-top-right-radius: 30px;
   background-color: rgb(59 , 206 , 172);
   position: fixed;
+  top: 0px;
 }
 
 #titulo {
@@ -14,6 +15,10 @@ body {
   text-align-last: center;
   margin: 10px;
   font-family: sans-serif;
+}
+
+.listas li {
+  list-style: none;
 }
 
 #cabecalho nav li {
@@ -44,7 +49,7 @@ body {
   display: inline-block;
 }
 
-.listas a ,
+.listas a, 
 .lado-direito a {
   line-height: 2px;
   text-shadow: 3px 1px rgb(59 , 206 , 172);
@@ -71,10 +76,6 @@ body {
   display: inline-block;
   margin-left: 100px;
   margin-top: 180px;
-}
-
-.listas li {
-  list-style: none;
 }
 
 .lado-direito {
