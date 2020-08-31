@@ -11,6 +11,10 @@ header {
   margin: 0;
 }
 
+#here {
+  margin-right: 20px;
+}
+
 img {
   margin-top: 100px;
   padding: 2px;
@@ -41,6 +45,20 @@ p , li , td , th {
 }
 
 .ladolado {
+  display: inline-block;
+}
+
+.learned-lessons {
+  float: left;
+  width: 50%;
+}
+
+.lessonstolearn {
+  float: right;
+  width: 50%;
+}
+
+.listas {
   display: inline-block;
 }
 
