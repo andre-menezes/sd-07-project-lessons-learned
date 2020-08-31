@@ -27,6 +27,28 @@ header {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: justify;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.lado-direito {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 .tabela {
@@ -34,12 +56,9 @@ p {
     padding: 10px;
     border: 2px;
     border-style: inset;
-    border-color: black;
-    
+    border-color: black;    
 }
-
-
-
+/*
 .lado_lado {
     display: inline-block;
     width: 300;
