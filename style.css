@@ -217,10 +217,33 @@ nav a {
   height: 24.25rem;
   width: 30%;
   display: inline-block;
+  text-align: left;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+#licoes_aprendidas {
   display: inline-block;
+  border-right: 3px solid black;
+  padding: 20px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#licoes i {
+  font-size: 1.7em;
+  z-index: 0;
+  position: absolute;
+  left: 45%;
+  top: 70%;
+  transform: rotate(-8deg);
+  margin: auto;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+}
+
+#licoes i:hover {
+  color: black;
 }
 
 /* Content */
