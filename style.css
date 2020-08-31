@@ -2,27 +2,21 @@
     src: url(TheHistoriaDemo.ttf);
     font-family: The Historia Demo;
 }
-
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-
 body {
     background-color: rgb(253, 251, 251);
-/* 
-width: 1366;
-height: 768; 
-*/
+/*width:1366;
+height:768;*/
 }
-
 .nav {
     display: flex;
     align-items: center;
     padding: 30px 10%;
 }
-
 li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -30,28 +24,22 @@ li, a, button {
     color: rgb(59, 59, 59);
     text-decoration: none;
 }
-
 .nav_links {
     list-style: none;
 }
-
 .nav_links li {
     display: inline-block;
     padding: 0px 20px ;
 }
-
 .nav_links li:nth-child(1) {
     padding: 0 20px 0 0;
 }
-
 .nav_links li a {
     transition: all 0.3s ease 0s;
 }
-
 .nav_links li a:hover { /* mudar pra gradiante eventualmente */
     color: #0088a9; 
 }
-
 button {
     padding: 9px 25px;
     margin-left: 25psssx;
@@ -61,34 +49,30 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
-
 #cabecalho {
     position: fixed;
     top: 0px;
     right: 30px;
 }
-
 #titulo {
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
 }
-
 #minha_foto {
     width: 250px;
     border-radius: 50%;
     box-shadow: 0 1px 15px rgba(32, 32, 32, 0.5);
 }
-
 .container {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
 section a {
     display: block;
     text-align: center;
@@ -102,23 +86,27 @@ section a {
     -webkit-text-fill-color: transparent;
     text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.2);
 }
-
-
 #licoes_aprendidas {
    position: relative;
    top: 50%;
    transform: translateY(-50%);
    line-height: .7cm;
 }
-
+#licoes_aprendidas h4 {
+    color: rgba(0, 136, 169, 1);
+    margin-bottom: 7px;
+}
+#licoes_a_aprender h4 {
+    color: rgba(0, 136, 169, 1);
+    margin-bottom: 7px;
+}
 #licoes_a_aprender {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     list-style: none;
     line-height: .7cm;
- }
-
+}
 table {
     width: 300px;
     border-collapse: collapse;
@@ -129,23 +117,42 @@ table {
     background: #fafafa;
     text-align: left;
     margin: 25px;
+    margin-left: 0;
 }
-
 th, td {
     padding: 12px 15px;
     font-family: "Montserrat", sans-serif;
 }
-
 th {
     background:rgba(0, 136, 169, 1);
     color: #fafafa;
     text-transform: uppercase;
 }
-
 table tbody tr:nth-child(even) {
     background-color: #eeeeee;
 }
-
 table tbody tr:last-of-type {
     border-bottom: 2px solid rgba(0, 136, 169, 1);
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+    margin-right: 50px;
+}
+.lado-esquerdo {
+    float: left;
+    width: 25%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    
+}
+.lado-direito {
+    float: right;
+    width: 25%;
+    margin-top: 75px;
+}
+footer {
+    margin-left: 25px;
+    font-family: "Montserrat", sans-serif;
 }
