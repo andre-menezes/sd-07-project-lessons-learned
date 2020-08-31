@@ -1,7 +1,7 @@
 <style>
     body {
         background-color:rgb(253, 251, 251);
-        margin-top: 150px;
+        margin-top: 500px;s
         font-family:courier,arial,helvetica;
     }
     #cabecalho {
@@ -12,9 +12,18 @@
         height: 100px;
         position: fixed;
         z-index: 5;
+        background-color: rgb(253 , 251 , 251);
     }
-    h1, h2, h3 {
+    h1 {
         color: #0fa36b;
+        font-size: 250%;
+    }
+    h2, h3 {
+        color: #0fa36b;
+    }
+    #menu{
+        background-color: rgb(253 , 251 , 251);
+        border: 25px;        
     }
     #menu ul {
         padding:0px;
@@ -22,8 +31,10 @@
         list-style:none;
         position: fixed;
         width: 100%;
-        top: 80px;
+        top: 100px;
         text-align: center;
+        background-color: rgb(253 , 251 , 251);
+
     }
     #menu ul li {
         padding: 10px 10px;
@@ -52,11 +63,13 @@
         display: inline-block;
         width: 40%;
         float: left;
+        line-height:20px;
     }
     #rodape {
         position:fixed;
         bottom:0;
         width:100%;
         text-align: right;
+        background-color: rgb(253 , 251 , 251);
     }
 </style>
