@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 00%;
+    margin: 00%;
     font-family: sans-serif;
     line-height: 20px;
 }
@@ -22,7 +22,7 @@ body {
 
 }
 
-main ul, main li, main ol{
+main ul, main li, main ol {
     border: 1px solid black;
 }
 
@@ -32,33 +32,31 @@ main ul, main li, main ol{
 }
 
 #minha_foto {
-    width: 160px;
+    width: 155px;
     height: 200px;
     position: relative;
-    border-radius: 200px;
     margin: 20px;
     margin-top: 120px;
-    border:1px solid black;
-    border-radius: 25%;
+    border: 1px solid black;
+    border-radius: 30%;
     padding: 2px;
-
 }
 
-#meu_nome{
+#meu_nome {
     margin-left: 15px;
     font-size: 18px;
     position: absolute;
     top: 335px;
 }
 
-#lista_de_aprendizado{
-    width: 230px;
+#lista_de_aprendizado {
+    width:  230px;
     position: absolute;
     left: 400px;
-    top: 150px
+    top: 150px;
 }
 
-#lista_de_a_aprender{
+#lista_de_a_aprender {
     width: 230px;
     position: absolute;
     left: 850px;
@@ -67,10 +65,10 @@ main ul, main li, main ol{
 
 #tabela_leo {
     margin: 10px;
-    border:solid black;
+    border: solid black;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
     border: 8px solid black;
     width: 500px;
     position: absolute;
@@ -90,7 +88,7 @@ main ul, main li, main ol{
     background-color: lightblue;
 }
 
-.lado-direito{
+.lado-direito {
     border: 8px solid black;
     width: 500px;
     position: absolute;
@@ -99,7 +97,11 @@ main ul, main li, main ol{
     left: 700px;
 }
 
-#tabela{
+.lado-lado {
+    display: inline-block;
+}
+
+#tabela {
     position: absolute;
     left: 50px;
     top: 40px;
