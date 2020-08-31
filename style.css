@@ -73,7 +73,7 @@ figcaption {
   width: 35%;
   vertical-align: top;
   display: inline-block;
-  box-align:left; 
+  box-align: left; 
   text-align: left;
   font-family: sans-serif; 
 }
@@ -82,7 +82,7 @@ figcaption {
   width: 35%;
   vertical-align: top;
   display: inline-block; 
-  box-align:right; 
+  box-align: right; 
   text-align: left;
   font-family: sans-serif;
 }
