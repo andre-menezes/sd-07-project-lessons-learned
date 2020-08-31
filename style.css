@@ -1,4 +1,4 @@
-/*style.css - Lessons Learned Project*/
+/* Lessons Learned Project */
 
 body {
     background-color: rgb(253, 251, 251);
@@ -6,6 +6,7 @@ body {
 
 #cabecalho {
     top: 0px;
+    display: inline-block;
 }
 
 #titulo {
