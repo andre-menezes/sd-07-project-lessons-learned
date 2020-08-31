@@ -19,15 +19,26 @@ body {
     padding: 5px;
 }
 
+.alinhamento {
+    display: inline-block;
+}
+
 .link {
     text-decoration: none;
 }
 
-.lista_licoes {
-    display: inline-block;
+.float {
     float: left;
 }
 
-.artigo {
-    position: relative;
+#licoes_a_aprender {
+    padding-left: 200px;
+}
+
+#licoes_aprendidas {
+    float: left;
+}
+
+.fix {
+    clear: both;
 }
