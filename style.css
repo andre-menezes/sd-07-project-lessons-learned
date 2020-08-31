@@ -25,3 +25,11 @@ body{
     display: inline-block;
     margin-right: 30px;
    }
+  
+#linkGithub{
+margin-top: 71;
+margin-bottom: 10;
+display: inline-block;
+margin-left: 6;
+width: 60;
+}   
