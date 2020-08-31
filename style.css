@@ -1,10 +1,12 @@
 body {
   background-color: rgb(253 , 251 , 251);
 }
+
 div {
   display: inline-block;
   line-height: 20px;
 }
+
 #cabecalho {
   top: 0;
   background-color: aqua;
@@ -14,28 +16,35 @@ div {
   height: 80px;
   display: block;
 }
+
 #titulo {
   text-align: center;
 }
+
 #minha_foto {
   max-width: 200px;
 }
+
 #licoes_aprendidas {
   display: block;
   float: left;
 }
+
 #licoes_a_aprender {
   display: block;
   float: right;
 }
+
 #rodape {
   padding-right: 1100px;
 }
+
 .lado-esquerdo {
   float: left;
   max-width: 800px;
   text-align: justify;
 }
+
 .lado-direito {
   float: right;
   max-width: 300px;
@@ -44,6 +53,7 @@ div {
   border: 100px;
   border-width: 50px;
 }
+
 .Link {
   text-align: left;
   font-size: 20px;
