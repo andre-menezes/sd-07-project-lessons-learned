@@ -3,4 +3,8 @@ body {
 }
 #cabecalho {
     top: 0;
+    background: #554e4dbe;
+    width:  80%;
+    position: relative;
+    transform: translateX(12%);
 }
