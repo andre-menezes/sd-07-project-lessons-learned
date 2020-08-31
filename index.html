@@ -4,69 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="exemplo.css" />
 </head>
 <body>
-    <!--// Cabeçalho-->
-    <header class="cabecalho">
+  <header id="cabecalho">
     <h1 id="titulo">Lições Aprendidas - Trybe</h1>
+        <!--// Menu-->
+        <nav id="menu_nav">
+            <ul>
+                <li><a href="https://github.com/Jorge-D-Alves">GitHub</a></li>
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 1</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="container">
+    <article id="sobre">
+        <figure>
+    <img id="minha_foto" src="rsz_pp.jpg" alt="minha foto"/>
+    <h2>Jorge D Alves</h2>    
+</figure>
+    
+    <section id="aprendidas">
+        <h2>Liçoes Aprendidas</h2>
+        <ul id="licoes_aprendidas">
+        
+            <li>Unix</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Empatia</li>
+            <li>HTML</li>
+
+            <li>CSS</li>
+            <li>Slack</li>
+            <li>Zoom</li>
+            <li>Inspect</li>
+            <li>Semantic HTML</li>
+        </ul>
+    </section>
+    <section id="aprender">
+        <h2>Liçoes à prender</h2>
+        <ul id="licoes_a_aprender">
+            <li>JavaScript</li>
+            <li>DOM</li>
+            <li>Forms</li>
+            <li>CSS Responsive</li>
+            <li>ES6</li>
+            <li>HOF</li>
+            <li>Unit Test</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    
+    </article>
+    <aside>
+    <article  id="artigo" > 
+        <h2>Sobre aprendizado</h2>
+        <p>O aprendizado na Trybe é levado a sério, Aprendizado dinamico, <br>
+            aulas interativas diárias, ditatica que realmente fazco aluno aprender. <br>
+            Projetos praticos simulando o mercado de trabalho</p>
+        <section>
+            <h2>Passagem sobre aprendizado</h2>
+        <p>Foi surpreendente iniciar o curso na Trybe<br>
+            Minha expectativa é que realmente seria  algo diferente do mercado, <br>
+            porém foi surpreendente a ditatica, toda a dinamina e a interação entra alunos e professores<br>
+
+        </section>
+        </article>
+        <clear></clear>
+    </aside>
+  </main>
+
+    
+<clear></clear>
+  <footer id="footer">
     <nav id="menu_nav">
         <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 1</a></li>
-        </ul>
-    </nav>
-</header>
-<div id="foto_nome">
-<img id="minha_foto" src="rsz_pp.jpg" alt="minha fotro"/>
-<h2>Jorge D Alves</h2>
-</div>
-<ul id="licoes_aprendidas">
-    <li>Unix</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Empatia</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Slack</li>
-    <li>Zoom</li>
-    <li>Inspect</li>
-    <li>Semantic HTML</li>
-</ul>
-
-<ul id="licoes_a_aprender">
-    <li>JavaScript</li>
-    <li>DOM</li>
-    <li>Forms</li>
-    <li>CSS Responsive</li>
-    <li>ES6</li>
-    <li>HOF</li>
-    <li>Unit Test</li>
-    <li>React</li>
-    <li>Node</li>
-    <li>SQL</li>
-</ul>
-<article>O artigo deve ter mais de 300 letras e menos de 600</article>
-
-<aside>A seção deve ter mais que 100 letras e menos que 300</aside>
-
-<footer id="rodape">
-    <nav>
-        <ul>
-            <li><a href="#">link 1</a></li>
+            <li><a href="https://github.com/Jorge-D-Alves">GitHub</a></li>
             <li><a href="#">link 1</a></li>
             <li><a href="#">link 1</a></li>
             <li><a href="#">link 1</a></li>
         </ul>
     </nav>
-    <address>
-        <p>Para contatos</p>
-        <a href="#">alvesdjorge@gmail.com</a>
-    </address>
-    <p>Copyright 2020 - Todos os direitor reservados </p>
 
-</footer>
-
-</html>
+  </footer>
+</body>

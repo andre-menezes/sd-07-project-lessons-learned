@@ -1,15 +1,28 @@
-body{ 
-
+/* FUNDO */
+body{
+    min-height:1366px;
+    font-family:Arial;
     background-color: rgb(253 ,251 ,251);
-}
-.cabecalho{
-    width: 100%;
+  }
+
+  /* CBEÇALHO */
+  #cabecalho{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
     background-color: rgb(40, 100,40);
-    top:0px;
-    position: fixed;
     text-align: center;
     color: aliceblue;
 }
+  
+#titulo{
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+    color:rgb(253, 251, 251)
+}  
+  
+/* MENU */
 
 #menu_nav{
     text-align: center;
@@ -17,37 +30,114 @@ body{
 
 #menu_nav ul{
     margin:0px;
-    background-color: rgb(9, 10, 51);
+    background-color: rgb(22, 66, 66);
     list-style: none;
+    padding-top: 10px;
+    height: 30px;
+    
 }
-
 #menu_nav ul li{
     display: inline;
-
 }
 
 #menu_nav ul li a{
-
     padding: 10px 10px;
     color: white;
     text-decoration: none;
 }
 
 #menu_nav ul li a:hover{
-color: black;
-h1{
-    color: aliceblue;
+color: rgb(40, 100,40);
+}   
+
+CORPO
+
+ main{
+     width: 80%;
+    margin-top:00%;
+    float: left;
+    margin:auto;
+    background-color: rgb(197, 216, 219);
+  }
+#containner{
+    float: left;
+    clear: both;
 }
-.alinhamento{
-    float: right;
+
+main #sobre{
+    margin:98px 0px 0 0; 
+   
 }
 
 #minha_foto{
-    text-align: center;
+    margin-top: 60px;
+    border:8px rgb(40, 100,40);
+    border-style: ridge;
 
 }
 
-#foto_nome{
-    margin: 100px;
+#sobre{
+    width:100%;
+float: left;
+}
+
+#licoes_aprendidas{
+    float: left;
+    list-style-type: none;
+
+}
+#licoes_a_aprender{
+    float: left;
+    list-style-type: none;
     
 }
+
+footer{
+    display:block;
+    position:fixed;
+    width:100%;
+    bottom:0vh;
+    left:0;
+    background:white;
+    text-align:center;
+    padding: 0;
+  }
+  h2{
+    margin-left: 50px;
+    
+}
+#artigo{
+    float: left;
+}
+clear{
+    clear:both;
+}
+aside{
+ margin-top: 60px;
+ margin-left: 0px;  
+ display:block;
+    position:fixed;
+    top:60px;
+    right: 0;
+    width:20%;
+    background-color: rgb(40, 100,40);
+    text-align: center;
+    color: aliceblue;
+    height: 100%;
+    }
+aside.p{
+    text-align: left;
+}
+#aprendidas{
+    background-color: rgb(155, 183, 187);
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+#aprender{
+    background-color: rgb(132, 187, 197);
+    float: left;
+    width: 40%; 
+    height: 100%;
+}   
