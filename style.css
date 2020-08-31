@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-#h2 {
+h2 {
   display: inline-block;
 }
 
@@ -17,11 +17,12 @@ body {
   top: 0px;
   width: 100%;
   height: 80px;
+  border-bottom-width: 50px;
   background-color: rgb(235, 177, 102);
   font-family: Verdana, sans-serif;
 }
 
-#minha_foto { 
+#minha_foto {
   max-width: 227px;
   max-height: 172px;
   border-radius: 15%;
@@ -31,6 +32,7 @@ body {
   font-family: sans-serif;
   width: 35%;
   display: inline-block;
+  vertical-align: top;
 }
 
 #licoes_a_aprender {
@@ -38,6 +40,7 @@ body {
   width: 35%;
   list-style: square;
   display: inline-block;
+  vertical-align: top;
 }
 
 #rodape {
@@ -48,7 +51,6 @@ body {
 }
 
 #artigo {
-  align-content: top;
   width: 70%;
   border-block-end-width: 30px;
   object-position: 30px;
@@ -58,6 +60,7 @@ body {
 #navegacao {
   width: 100%;
   display: inline-block;
+  background-color: rgb(235, 177, 102);
 }
 
 figcaption {
@@ -93,11 +96,9 @@ figcaption {
 }
 
 #listanav {
-  background-color: rgb(235, 177, 102);
   width: 100%;
-  padding:0px;
-  margin: 0px;
-  list-style-type: none;
+  padding: 0px;
+  margin: 0px; 
   text-align: right;
   display: inline-block;
   vertical-align: top;
@@ -109,6 +110,7 @@ figcaption {
   vertical-align: text-bottom;
   margin-right: 40px;
   font-family: Verdana, Tahoma, sans-serif;
+  list-style-type: none;
 }
 
 #adec {
@@ -124,9 +126,9 @@ h3 {
 
 #barra_aside { 
   display: inline-block;
-  align-content: right;
-  width: 30%;
-  text-align: center;
+  background-color: rgb(192, 190, 183);
+  text-size-adjust: 30%;
+  text-orientation: sideways-right;
 }
 
 #icon {
@@ -136,5 +138,4 @@ h3 {
 #barra_table {
   display: inline-block;
   text-align: center;
-  background-color: rgb(253, 251, 251);
 }
