@@ -99,10 +99,6 @@ main ul, main li, main ol{
     left: 700px;
 }
 
-.lado-lado{
-    display: inline-block;
-}
-
 #tabela{
     position: absolute;
     left: 50px;
