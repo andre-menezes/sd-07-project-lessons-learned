@@ -7,7 +7,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-image: url(https://1.bp.blogspot.com/-WO23z-_OEto/X0cCoamOM5I/AAAAAAAACMs/0mrqGfYqAO4EseyRGZbrPvesZCymI0mxQCLcBGAsYHQ/s640/header.jpg);
+    background-image: url("https://1.bp.blogspot.com/-WO23z-_OEto/X0cCoamOM5I/AAAAAAAACMs/0mrqGfYqAO4EseyRGZbrPvesZCymI0mxQCLcBGAsYHQ/s640/header.jpg");
     color: rgb(253 , 251 , 251);
     text-align: center;
     z-index: 5;
@@ -24,15 +24,13 @@ nav ul {
     width: 70%;
     text-align-last: justify;
   }
-  
 nav ul li {
     display: inline-block;
-    font-weight: bold;
+    font-weight: 900;
     padding: 7px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
-  }
-  
+}
 nav ul li a {
     color: rgb(253 , 251 , 251);
     text-decoration: none;
@@ -47,7 +45,7 @@ img {
     width: 30%;
     border-radius: 45%;
 }
-    
+
 div {
     border-radius: 20px;
     padding: 20px;
@@ -64,11 +62,11 @@ div ol {
     box-shadow: 4px 2px 4px 1px;
     width: 30%;
     border-radius: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
     position: relative;
     left: -20px;
-  }
+}
 
 div ul {
     padding: 25px 35px;
@@ -77,12 +75,11 @@ div ul {
     width: 30%;
     box-shadow: 4px 2px 4px 1px;
     border-radius: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
     position: relative;
     left: 30px;
-}  
-
+}
 section {
     position: relative;
     width: 100%;
@@ -101,13 +98,13 @@ section article {
     box-shadow: 4px 2px 4px 1px;
     width: 50%;
     border-radius: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 450;
     line-height: 25px;
     position: relative;
     left: -20px;
 }
-  
+
 section aside {
     padding: 20px 30px;
     text-align-last: left;
@@ -115,43 +112,34 @@ section aside {
     width: 20%;
     box-shadow: 4px 2px 4px 1px;
     border-radius: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 450;
     line-height: 25px;
     position: relative;
     left: 20px;
     top: 50%;
 }
-
-
-
 p {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-  
-
- 
 h2 {
     font-size: 30px;
     font-family: Roboto, sans-serif;
 }
-
 table {
       width: 400px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0 , 0 , 0);
     margin-left: auto;
     margin-right: auto;
 }
   
 table td {
-    border: 1px solid  rgb(0, 0, 0);
+    border: 1px solid  rgb(0 , 0 , 0);
     margin-left: auto;
     margin-right: auto;
 }
-  
-  
-  
+
 footer {
     text-align: center;
 }
