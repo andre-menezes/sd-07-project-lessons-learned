@@ -57,6 +57,9 @@ body {
   width: 100%;
   display: inline-block;
   background-color: rgb(235, 177, 102);
+  text-decoration-style: none;
+  text-decoration-color: black;
+  vertical-align: bottom;
 }
 
 figcaption {
@@ -101,7 +104,9 @@ figcaption {
   margin: 0px; 
   text-align: right;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: text-bottom;
+  text-decoration-style: none;
+  text-decoration-color: black;
 }
 
 .navli { 
@@ -111,6 +116,9 @@ figcaption {
   margin-right: 40px;
   font-family: Verdana, Tahoma, sans-serif;
   list-style-type: none;
+  vertical-align: text-bottom;
+  text-decoration-style: none;
+  text-decoration-color: black;
 }
 
 #adec {
@@ -129,6 +137,7 @@ h3 {
   background-color: rgb(192, 190, 183);
   text-size-adjust: 30%;
   text-orientation: sideways-right;
+  text-align: right;
 }
 
 #icon {
