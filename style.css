@@ -1,10 +1,10 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho {
+.box_titulo_in {
     top: 0;
     background: #554e4dbe;
     width:  80%;
-    position: relative;
+    position: fixed;
     transform: translateX(12%);
 }
