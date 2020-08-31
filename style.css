@@ -9,6 +9,15 @@ header {
   display: block;
   width: 100%;
   margin: 0;
+  background: rgb(231, 12, 12);
+}
+
+.enlaces {
+  background: rgb(194, 192, 97);
+}
+
+#titulo {
+  text-align: center;
 }
 
 #here {
@@ -41,8 +50,11 @@ p , li , td , th {
   float: right;
   width: 30%;
   text-align: justify;
-  padding-right: 20px;
 }
+
+/* .aside-direito{
+  padding-right: 20px;
+} */
 
 .ladolado {
   display: inline-block;
