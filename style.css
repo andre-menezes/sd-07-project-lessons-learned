@@ -30,58 +30,53 @@ main ul, main li, main ol{
     margin: 15px;
 }
 
-#rodape {
-  margin-top: 100px;
-  color: white;
-  padding: 40px;
-  background-color: green;
-}
-
 #minha_foto {
-    width: 250px;
-    height: 300px;
+    width: 170px;
+    height: 200px;
     position: relative;
     border-radius: 200px;
     margin: 20px;
-    margin-top: 150px;
-    border: 10px black;
+    margin-top: 120px;
+    border: 5px solid black;
     border-radius: 25%;
 }
 
 #meu_nome{
-    margin-left: 35px;
+    margin-left: 15px;
+    font-size: 20px;
 }
 
 #lista_de_aprendizado{
-    width: 200px;
+    width: 230px;
     position: absolute;
-    left: 600px;
-    top: 300px
+    left: 400px;
+    top: 150px
 }
 
 #lista_de_a_aprender{
     width: 230px;
     position: absolute;
-    left: 900px;
-    top: 300px;
+    left: 850px;
+    top: 150px;
 }
 
-#tabela-leo {
+#tabela_leo {
     margin: 10px;
-    border: aqua;
+    border:solid black;
 }
 
 .lado-esquerdo{
     border: 8px solid black;
     width: 500px;
-    position: relative;
-    height: 350px;
+    position: absolute;
+    height: 230px;
     margin-left: 50px;
     margin-top: 90px;
+    top: 415px;
 }
 
 #aside-article {
-    width: 200px;
+    width: 130px;
     font-size: 15px;
     border-left: 5px solid yellow;
     float: right;
@@ -93,18 +88,32 @@ main ul, main li, main ol{
     border: 8px solid black;
     width: 500px;
     position: absolute;
-    height: 350px;
-    top: 715px;
+    height: 230px;
+    top: 505px;
     left: 700px;
+}
 
+.lado-direito, .lado-esquerdo{
+    display: inline-block;
 }
 
 #tabela{
     position: relative;
     left: 50px;
     top: 40px;
+    margin-left: 70px;
 }
 
 tr, th, td {
     border: 1px solid black;
 }
+
+#rodape {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    padding: 30px;
+    background-color: green;
+    top: 720px;
+  }
