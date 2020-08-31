@@ -37,19 +37,19 @@ main ul, main li, main ol{
   background-color: green;
 }
 
-#minha-foto {
-    width: 400px;
-    height: 400px;
+#minha_foto {
+    width: 250px;
+    height: 300px;
     position: relative;
     border-radius: 200px;
     margin: 20px;
     margin-top: 150px;
-    border: 15px solid black;
+    border: 10px black;
     border-radius: 25%;
 }
 
 #meu_nome{
-    margin-left: 0px;
+    margin-left: 35px;
 }
 
 #lista_de_aprendizado{
