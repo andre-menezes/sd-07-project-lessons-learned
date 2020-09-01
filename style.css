@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: "Montserrat", "sans-serif"
 }
 
@@ -14,10 +14,10 @@ body {
   padding: 2px 30px;
   margin:auto;
   text-align: center;
-  background: rgb(31, 124, 22)
+  background: rgb(31 , 124 , 22)
 }
 
-nav ul li{
+nav ul li {
   display:inline-block;
   margin-right: 30px;
 }
@@ -27,16 +27,16 @@ nav ul li{
   margin: auto;
   margin-top: 30px;
   width: 425px;
-  background-color: rgb(31, 124, 22);
+  background-color: rgb(31 , 124 , 22);
   box-shadow: 3px 3px 5px black;
 }
 
-#minha_foto{
+#minha_foto {
   display:block;
   border-radius:50%;
   margin:auto;
   margin-top: 120px;
-  box-shadow: 3px 3px 5px rgb(31, 124, 22);
+  box-shadow: 3px 3px 5px rgb(31 , 124 , 22);
 }
 
 section ul {
@@ -52,7 +52,7 @@ h2 {
 #titulo {
   margin-left: 45px;
   font-size: 25px;
-  color: white;
+  color: rgb(225 , 225 , 255);
 }
 
 #licoes_aprendidas {
@@ -69,11 +69,11 @@ h2 {
   margin-right:350px;
   float: right;
   width: 13%;
-  background-color: rgb(31, 124, 22);
+  background-color: rgb(31 , 124 , 22);
   border-radius: 5px;
   text-align: center;
   padding: 5px;
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 5px rgb(0 , 0 , 0);
 }
 
 .lado-esquerdo {
@@ -81,18 +81,18 @@ h2 {
   width: 30%;
   margin-top: 50px;
   margin-left: 270px;
-  background-color: rgb(31, 124, 22);
+  background-color: rgb(31 , 124 , 22);
   border-radius:5px;
   padding: 7px;
   text-align:center;
-  box-shadow: 3px 3px 5px black
+  box-shadow: 3px 3px 5px rgb(0 , 0 , 0)
 } 
 
-table{
+table {
   width: 40%;
   margin-top: 420px;
   margin-left: 350px;
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 5px rgb(0 , 0 , 0);
 }
 
 th {
@@ -100,25 +100,29 @@ th {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: #4CAF50;
-  color: white;
-  border-bottom: 1px solid #ddd;
+  background-color: rgb(72 , 170 , 75);
+  color: rgb(225 , 225 , 255);
+  border-bottom: 1px solid rgb(221 , 221 , 221);
 }
 
 td:hover {
-  background-color: rgb(197, 249, 253);
+  background-color: rgb(197 , 249 , 253);
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
-tr{
+tr {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
 }
 
 footer {
-  margin-top: 150px
+  margin-top: 150px;
+}
+
+p {
+  line-height: 21px;
 }
