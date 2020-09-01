@@ -1,11 +1,1 @@
-# This is a comment.
-# Each line is a file pattern followed by one or more owners.
-
-# These owners will be the default owners for everything in
-# the repo. Unless a later match takes precedence,
-# @global-owner1 and @global-owner2 will be requested for
-# review when someone opens a pull request.
-# *       @global-owner1 @global-owner2
-
-
-*         @tryber/monitors
+Já se passaram quase 4 semanas desde o começo dessa jornada como desenvolvedor na Trybe. E posso dizer que tem sido uma das melhores coisas que me aconteceu. Fui acolhido por uma equipe dedicada e que sempre nos motiva a fazer bem o nosso trabalho. As soft skills deixam todo o empenho mais completo, com todo o suporte de um material que realmente nos faz pôr a mão na massa. Os projetos podem parecer complicados às vezes, mas a comunidade de alunos sempre se mantém disposta a ajudar uns aos outros, o que torna tudo mais divertido.
