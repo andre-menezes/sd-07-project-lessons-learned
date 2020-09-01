@@ -1,19 +1,42 @@
-.cabecalho {
-    background: green;
+.cabecalho 
+{
+    background: rgb(0, 0, 0);
     text-align: center;
-    color: black;
+    color: white;
     top: 0px;
     left: 0px;
-    padding: 10px;
     position: fixed;
     width: 100%;
-    
 }
-.minha_foto
+#minha-foto
 {
-    position: absolute;
-
+    margin-top: 100px;
+    border-radius: 100px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
-body{
-background: rgb(253,251,251);
+body
+{
+    background: rgb(253, 251, 251);
+}
+#titulo
+{
+    font-family: tahoma, sans-serif;
+}
+article
+{
+    float: left;
+    text-align: justify;
+}
+footer
+{
+    width: 100%;
+    background-color: red;
+}
+ol ul
+{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
