@@ -28,10 +28,12 @@
 #licoes_aprendidas
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
 }
 #licoes_a_aprender
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
 }
 body
 {
@@ -45,6 +47,7 @@ article
 {
     float: left;
     text-align: justify;
+    margin-bottom: 20px;
 }
 #rodape
 {
@@ -52,4 +55,5 @@ article
     color: white;
     background-color: black;
     text-align: center;
+    margin-top: 10px;
 }
