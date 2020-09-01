@@ -254,6 +254,8 @@ nav a {
 /* Content */
 #container {
   text-align: center;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
 }
 
 /* Artigo */
@@ -261,8 +263,6 @@ article {
   text-align: justify;
   display: inline-block;
   width: 50%;
-  padding-top: 20vh;
-  padding-left: 15px;
 }
 
 article img {
@@ -298,9 +298,24 @@ article img {
 
 /* Passagem */
 aside {
+  text-align: justify;
   display: inline-block;
   width: 30%;
-  padding: 15px;
+  margin-left: 30px;
+}
+
+aside h3 {
+  font-style: italic;
+  margin-bottom: -10px;
+}
+
+aside table {
+  text-align: center;
+  border: 1px solid black
+}
+
+aside table th {
+  background-color: wheat;
 }
 
 /* Rodapé */
