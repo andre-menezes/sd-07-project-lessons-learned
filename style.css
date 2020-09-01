@@ -310,25 +310,25 @@ article img {
 }
 
 /* Passagem */
-aside {
+.lado-direito {
   text-align: justify;
   display: inline-block;
   width: 30%;
   margin-left: 30px;
 }
 
-aside h3 {
+.lado-direito h3 {
   font-style: italic;
   margin-bottom: -10px;
 }
 
-aside table {
+.lado-direito table {
   width: 100%;
   text-align: center;
   border: 1px solid black;
 }
 
-aside table th {
+.lado-direito table th {
   background-color: wheat;
 }
 
