@@ -39,8 +39,8 @@ a:hover {
 
 #rodape {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
   width: 100%;
   max-width: 100%;
   background-color: rgb(102, 191, 191);
