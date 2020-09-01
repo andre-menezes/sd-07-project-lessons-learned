@@ -114,7 +114,7 @@ figcaption {
   height: 35px;
 }
 
-.ladoesquerdo {
+.lado-esquerdo {
   border-block-end-width: 30px;
   object-position: 30px;
   display: inline-block;
@@ -124,7 +124,7 @@ figcaption {
   text-align: justify;
   font-family: sans-serif;
 }
-.ladodireito {
+.lado-direito {
   border-block-end-width: 30px;
   object-position: 30px;
   display: inline-block;
@@ -148,7 +148,11 @@ section h3 {
   text-align: center;
   font-style: italic;
 }
-#barra_table {
+#barratable {
   display: inline-block;
-  text-align: center;
+  background-color: rgb(235, 177, 102);
+  width: 20px;
+  height: 80%;
+  box-align: right;
+  text-align: right;
 }
