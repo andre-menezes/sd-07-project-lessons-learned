@@ -21,9 +21,9 @@ body
 {
     background: rgb(253, 251, 251);
 }
-#titulo
+.titulo
 {
-    font-family: tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 article
 {
