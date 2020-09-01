@@ -1,5 +1,4 @@
-
-body{    
+body{
     background-color: rgb(253, 251, 251);
     overflow:scroll;
     font-family: Arial, sans-serif;
@@ -10,7 +9,7 @@ body{
 
 header{
     position: fixed;
-    top: 0;    
+    top:0;    
 }
 
 table{
