@@ -7,7 +7,7 @@ body {
 .home_animation {
   position: relative;
   top: 13vh;
-  background-image: url(/rhodes.jpg);
+  background-image: url("/rhodes.jpg");
   background-size: 145%;
   background-position: center;
   height: 87vh;
@@ -28,7 +28,7 @@ body {
   position: relative;
   color: yellow;
   font-size: 80px;
-  font-family: "Alegreya SC", serif;
+  font-family: 'Alegreya SC', serif;
 }
 
 .home_animation svg {
@@ -92,15 +92,17 @@ nav a {
   background-color: wheat;
   text-align: center;
 }
+
 .arraste {
   position: relative;
   top: 75%;
   left: 7.5%;
   font-family: monospace;
-  font-weight: bold;
+  font-weight: 100;
   color: black;
   font-size: 1.5em;
 }
+
 .perfil {
   position: relative;
   top: 5vh;
@@ -124,6 +126,7 @@ nav a {
 }
 
 @keyframes arrastar-foto {
+
   to {
     transform: translateX(-100px);
   }
@@ -138,9 +141,6 @@ nav a {
   width: 120%;
 }
 
-.perfil:hover > .div_foto > #minha_foto {
-  animation: foto-perfil 1s forwards;
-}
 
 #minha_foto {
   filter: saturate(0.8);
@@ -153,22 +153,41 @@ nav a {
   opacity: 0;
 }
 
+.perfil:hover > .div_foto > #minha_foto {
+  animation: foto-perfil 1s forwards;
+}
+
 @keyframes foto-perfil {
+
   0% {
     opacity: 0;
     transform: translateY(-200px);
   }
+
   70% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
 .perfil:hover > span {
   animation: arrastar-nome 1s forwards;
+}
+
+.perfil h2 {
+  font-size: 0.9em;
+  width: 90%;
+  z-index: 0;
+  position: relative;
+  left: -45%;
+  margin: auto;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  opacity: 0;
 }
 
 .perfil:hover > span > h2 {
@@ -187,27 +206,18 @@ nav a {
   opacity: 0;
 }
 
-.perfil h2 {
-  font-size: 0.9em;
-  width: 90%;
-  z-index: 0;
-  position: relative;
-  left: -45%;
-  margin: auto;
-  font-family: 'Permanent Marker', cursive;
-  color: red;
-  opacity: 0;
-}
-
 @keyframes arrastar-nome {
+
   60% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     transform: translateX(50%);
   }
 }
+
 .icon-github {
   position: relative;
   height: 50px;
@@ -217,6 +227,7 @@ nav a {
 
 /* Lições */
 #licoes {
+  line-height: 1.15em;
   position: relative;
   top: 1vh;
   height: 24.25rem;
@@ -235,7 +246,7 @@ nav a {
   display: inline-block;
 }
 
-#licoes i {
+#licoes span {
   font-size: 1.7em;
   z-index: 0;
   position: absolute;
@@ -247,7 +258,7 @@ nav a {
   color: red;
 }
 
-#licoes i:hover {
+#licoes span:hover {
   color: black;
 }
 
@@ -272,6 +283,7 @@ article img {
   width: 27%;
   height: 16rem;
 }
+
 .article-text-aside {
   position: relative;
   top: 4px;
@@ -282,7 +294,8 @@ article img {
 .author-quote {
   font-style: italic;
 }
-#first-quote, article a{
+
+#first-quote , article a {
   color: black;
   text-decoration: none;
   position: relative;
@@ -310,8 +323,9 @@ aside h3 {
 }
 
 aside table {
+  width:100%;
   text-align: center;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 aside table th {
@@ -321,7 +335,7 @@ aside table th {
 /* Rodapé */
 footer {
   padding: 15px;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(12 , 12 , 12);
   text-align: center;
   font-size: 1.2em;
   color: white;

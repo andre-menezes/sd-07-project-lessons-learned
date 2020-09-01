@@ -4,9 +4,11 @@
 .home_animation:hover > .destruction-line {
   animation: text 10s forwards;
 }
+
 .home_animation:hover > svg > .cai-primeiro {
   animation: caindo 3s forwards;
 }
+
 .home_animation:hover > svg > .cai-segundo {
   animation: caindo 5s forwards;
 }
@@ -50,7 +52,7 @@
 .base {
   position: relative;
   z-index: 100;
-  fill: rgb(150, 150, 150);
+  fill: rgb(150 , 150 , 150);
   stroke: 2px rgb(66 , 66 , 66);
 }
 
@@ -59,9 +61,10 @@
 }
 
 @keyframes caindo {
+
   100% {
     transform: translateY(80%);
-    fill: rgb(114, 114, 114);
+    fill: rgb(114 , 114 , 114);
   }
 }
 
@@ -72,10 +75,13 @@
   display: inline;
   animation: text 3s forwards;
 }
+
 @keyframes text {
+
   10% {
     opacity: 0;
   }
+  
   100% {
     opacity: 1;
   }
