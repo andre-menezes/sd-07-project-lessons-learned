@@ -271,6 +271,7 @@ nav a {
 
 /* Artigo */
 article {
+  float: left;
   text-align: justify;
   display: inline-block;
   width: 50%;
@@ -311,6 +312,7 @@ article img {
 
 /* Passagem */
 .lado-direito {
+  float: left;
   text-align: justify;
   display: inline-block;
   width: 30%;
