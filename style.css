@@ -45,12 +45,30 @@ body {
   padding: 15px 0px; 
   text-align: center;   
 }
-
-#artigo {
-  width: 70%;
-  border-block-end-width: 30px;
-  object-position: 30px;
+#listanav {
+  width: 100%;
+  padding: 0px;
+  margin: 0px; 
+  text-align: right;
   display: inline-block;
+  vertical-align: text-bottom;
+  margin-top:10px;
+}
+
+.navli { 
+  display: inline-block;  
+  text-align: right;
+  vertical-align: text-bottom;
+  margin-right: 40px;
+  font-family: Verdana, Tahoma, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color:black;
+}
+
+ul li a {
+  color:black;
+  text-decoration: none;
 }
 
 #navegacao {
@@ -70,7 +88,7 @@ figcaption {
 }
 
 #secaoleft {
-  width: 35%;
+  width: 45%;
   vertical-align: top;
   display: inline-block;
   box-align: left; 
@@ -79,7 +97,7 @@ figcaption {
 }
 
 #secaoright {
-  width: 35%;
+  width: 45%;
   vertical-align: top;
   display: inline-block; 
   box-align: right; 
@@ -87,62 +105,9 @@ figcaption {
   font-family: sans-serif;
 }
 
-#secaoarticle {
-  width: 35%;
-  text-align: justify;
-  font-style: italic;
-  font-family: sans-serif;
-  display: inline-block;
-  padding: 20px;
-  align-content: initial;
-  vertical-align: top;
-}
-
-#listanav {
-  width: 100%;
-  padding: 0px;
-  margin: 0px; 
-  text-align: right;
-  display: inline-block;
-  vertical-align: text-bottom;
-  margin-top:10px;
-}
-
-.navli { 
-  display: inline-block;  
-  text-align: right;
-  vertical-align: text-bottom;
-  margin-right: 40px;
-  font-family: Verdana, Tahoma, sans-serif;
-  list-style-type: none;
-  vertical-align: text-bottom;
-  text-decoration: none;
-  color:black;
-}
-
-ul li a {
-  color:black;
-  text-decoration: none;
-
-}
-
 #adec {
   text-decoration: none; 
   text-anchor: black;
-}
-
-h3 {
-  text-align: center;
-  text-align: justify;
-  font-style: italic;
-}
-
-#barra_aside { 
-  display: inline-block;
-  text-size-adjust: 50%;
-  text-orientation: sideways-right;
-  text-align: right;
-  vertical-align:top;
 }
 
 #icon {
@@ -152,4 +117,41 @@ h3 {
 #barra_table {
   display: inline-block;
   text-align: center;
+}
+
+.ladoesquerdo {
+  border-block-end-width: 30px;
+  object-position: 30px;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  box-align: left; 
+  text-align: justify;
+  font-family: sans-serif;
+}
+.ladodireito {
+  border-block-end-width: 30px;
+  object-position: 30px;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  box-align: right; 
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+#secaoarticle {
+  width: 45%;
+  text-align: justify;
+  font-style: italic;
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+section h3 {
+  text-align: center;
+  text-align: justify;
+  font-style: italic;
 }
