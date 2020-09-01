@@ -12,6 +12,16 @@ h2 {
     margin-bottom: 16px
 }
 
+aside {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    float: left;
+    width: 467px;
+    height: 336px;
+}
+
 #cabecalho {
     background: rgb(255, 255, 255);
     top: 0px;
@@ -38,7 +48,7 @@ h2 {
     margin-left: 128px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 48px;
 }
 
@@ -92,13 +102,32 @@ h2 {
     margin: 0px;
 }
 
-#texto-preto-curso-trybe {
+#artigo {
+    display: inline-block;
+    width: auto;
+}
+
+aside {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    float: left;
+    width: 400px;
+    color: #5995FC;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+
+#texto-cinza-curso-trybe {
+    width: 800px;
+    height: 336px;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 48px;
-    width: 1030px;
-    margin-left: auto;
+    margin-left: 500px;
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .curso-trybe div {
@@ -111,8 +140,4 @@ h2 {
     font-size: 32px;
     line-height: 48px;
     margin-left: auto;
-}
-
-table {
-    text-align: center;
 }
