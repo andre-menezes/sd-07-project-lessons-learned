@@ -114,11 +114,6 @@ figcaption {
   height: 35px;
 }
 
-#barra_table {
-  display: inline-block;
-  text-align: center;
-}
-
 .ladoesquerdo {
   border-block-end-width: 30px;
   object-position: 30px;
@@ -141,7 +136,6 @@ figcaption {
 }
 
 #secaoarticle {
-  width: 45%;
   text-align: justify;
   font-style: italic;
   font-family: sans-serif;
@@ -152,6 +146,9 @@ figcaption {
 
 section h3 {
   text-align: center;
-  text-align: justify;
   font-style: italic;
+}
+#barra_table {
+  display: inline-block;
+  text-align: center;
 }
