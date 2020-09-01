@@ -15,8 +15,8 @@ body {
     padding: 10px
 }
 
-#link{
-    color: green;
+#contato{
+    color: white;
     margin-left: 10px ;
 }
 
@@ -49,6 +49,10 @@ table{
     background-color:mediumseagreen;
 }
 
+.artigo{
+    color: green;
+    text-align: justify;
+}
 
 #rodape {
     font: italic 15px arial;
