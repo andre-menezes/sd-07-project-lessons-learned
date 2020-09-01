@@ -7,7 +7,7 @@ body {
 .home_animation {
   position: relative;
   top: 13vh;
-  background-image: url("/rhodes.jpg");
+  background-image: url('/rhodes.jpg');
   background-size: 145%;
   background-position: center;
   height: 87vh;
@@ -28,7 +28,7 @@ body {
   position: relative;
   color: yellow;
   font-size: 80px;
-  font-family: 'Alegreya SC', serif;
+  font-family: Alegreya SC, serif;
 }
 
 .home_animation svg {
@@ -53,7 +53,7 @@ body {
   font-size: 3em;
   top: 50%;
   left: 25%;
-  font-family: 'Permanent Marker', cursive;
+  font-family: Permanent Marker, cursive;
 }
 
 /* Cabeçalho */
@@ -114,15 +114,15 @@ nav a {
   width: 50%;
 }
 
-.informations:hover > .perfil > .div_foto {
-  animation: arrastar-foto 1s forwards;
-}
-
 .div_foto {
   position: relative;
   margin: auto;
   height: 13rem;
   width: 10rem;
+}
+
+.informations:hover > .perfil > .div_foto {
+  animation: arrastar-foto 1s forwards;
 }
 
 @keyframes arrastar-foto {
@@ -185,7 +185,7 @@ nav a {
   position: relative;
   left: -45%;
   margin: auto;
-  font-family: 'Permanent Marker', cursive;
+  font-family: Permanent Marker, cursive;
   color: red;
   opacity: 0;
 }
@@ -254,7 +254,7 @@ nav a {
   top: 70%;
   transform: rotate(-8deg);
   margin: auto;
-  font-family: 'Permanent Marker', cursive;
+  font-family: Permanent Marker, cursive;
   color: red;
 }
 
@@ -323,7 +323,7 @@ aside h3 {
 }
 
 aside table {
-  width:100%;
+  width: 100%;
   text-align: center;
   border: 1px solid black;
 }
