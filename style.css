@@ -89,6 +89,7 @@ nav a {
 
 /* Minha-Foto */
 .informations {
+  height: 55vh;
   background-color: wheat;
   text-align: center;
 }
@@ -104,8 +105,8 @@ nav a {
 }
 
 .perfil {
+  top: -2vh;
   position: relative;
-  top: 5vh;
   left: -1%;
   margin: auto;
   display: inline-block;
@@ -229,7 +230,7 @@ nav a {
 #licoes {
   line-height: 1.15em;
   position: relative;
-  top: 1vh;
+  top: -9vh;
   height: 24.25rem;
   width: 30%;
   display: inline-block;
@@ -262,11 +263,10 @@ nav a {
   color: black;
 }
 
-/* Content */
+/* Container */
 #container {
-  text-align: center;
-  padding-top: 20vh;
-  padding-bottom: 10vh;
+  height: 47vh;
+  padding: 20vh;
 }
 
 /* Artigo */
@@ -274,20 +274,20 @@ article {
   float: left;
   text-align: justify;
   display: inline-block;
-  width: 50%;
+  width: 55%;
 }
 
 article img {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: -10px;
-  width: 27%;
-  height: 16rem;
+  width: 20%;
+  height: 10rem;
 }
 
 .article-text-aside {
   position: relative;
-  top: 4px;
+  top: -30px;
   display: inline-block;
   width: 69%;
 }
@@ -296,27 +296,14 @@ article img {
   font-style: italic;
 }
 
-#first-quote , article a {
-  color: black;
-  text-decoration: none;
-  position: relative;
-  top: -5px;
-  font-style: italic;
-  font-size: 0.9em;
-}
-
-.author-quote-ref {
-  font-style: italic;
-  font-size: 0.9em;
-}
-
 /* Passagem */
 .lado-direito {
+  position: relative;
+  right: -11%;
   float: left;
   text-align: justify;
   display: inline-block;
-  width: 30%;
-  margin-left: 30px;
+  width: 35%;
 }
 
 .lado-direito h3 {
