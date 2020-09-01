@@ -1,11 +1,14 @@
 body{  /*primeiro requisito*/
     background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
 }
 #cabecalho{ /*segundo requisito*/
     position: fixed;
     top: 0px;
     background-color: rgb(151, 27, 27);
-    color: rgb(243, 235, 235)48);
+    color: rgb(243, 235, 235);
+    font-size: larger;
     
 }
 .navegation{
@@ -26,16 +29,19 @@ body{  /*primeiro requisito*/
     position: relative;
     top: 270px;
     color: rgb(10, 10, 10);
+    font-size: large;
 }
 footer{
     position: relative;
     top: 300px;
     color: rgb(10, 10, 10);
+    font-size: small;
 }
 article{
     position: relative;
     top: 260px;
     color: rgb(10, 10, 10);
+    font-size: medium;
 }
 
 aside{
@@ -43,4 +49,5 @@ aside{
     top: 260px;
     left: 150px;
     color: rgb(10, 10, 10);
+    font-size: small;
 }
