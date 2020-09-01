@@ -15,18 +15,17 @@ body {
     padding: 10px
 }
 
-#contato{
-    color: white;
-    margin-left: 10px ;
-}
-
-
 #minha_foto{
     margin-top: 125px;
     max-width: 200px;
     max-height: 200px;
     width: auto;
     height: auto;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
 }
 
 #licoes_aprendidas{
