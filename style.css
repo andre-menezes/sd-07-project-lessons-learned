@@ -12,6 +12,15 @@ h2 {
     margin-bottom: 16px
 }
 
+aside {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    width: 412px;
+    height: 336px;
+}
+
 #cabecalho {
     background: rgb(255, 255, 255);
     top: 0px;
@@ -101,16 +110,12 @@ h2 {
     margin-left: auto;
 }
 
-.curso-trybe div {
+#artigo-2 {
     display: inline-block;
 }
 
-.curso-trybe span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 48px;
-    margin-left: auto;
+#teste {
+    display: inline-block;
 }
 
 table {
