@@ -13,18 +13,33 @@ h2 {
 }
 
 #cabecalho {
-    background: rgba(190, 9, 9, 0.349);
+    background: rgb(255, 255, 255);
     top: 0px;
     position: fixed;
     width: 100%;
 }
 
+#estudante {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+#estudante a {
+    color: rgb(108, 146, 222);
+}
+
 #titulo {
     text-align: center;
-    font-family: poppins;
-    color: rgb(253, 251, 251);
+    color: #027bfe;
     float: left;
     margin-left: 128px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
 }
 
 .navigation {
@@ -32,6 +47,9 @@ h2 {
     text-align: center;
     float: right;
     padding-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
 }
 
 .navigation li {
@@ -60,7 +78,39 @@ h2 {
 }
 
 .curso-trybe {
-    margin-top: 15px;
+    margin-top: 160px;
+    text-align: right;
+    margin-right: 93px;
+}
+
+#supertitulo-curso-trybe {
+    color: rgb(108, 146, 222);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0px;
+}
+
+#texto-preto-curso-trybe {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    width: 1030px;
+    margin-left: auto;
+}
+
+.curso-trybe div {
+    display: inline-block;
+}
+
+.curso-trybe span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: auto;
 }
 
 table {
