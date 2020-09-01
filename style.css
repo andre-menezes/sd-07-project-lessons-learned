@@ -8,3 +8,13 @@ header{
     position: fixed;
     top: 0;    
 }
+
+table{
+    border: 1px solid;
+    border-spacing: 0px;
+}
+
+table td{
+    border: 1px solid;
+    text-align: center;
+}
