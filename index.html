@@ -9,6 +9,12 @@
             body{
                 background-color:rgb(253,251,251);
             }
+            #licoes{
+                position: relative;;
+                top: 0px;
+                left: 250px;
+                bottom: 50px;
+            }
         </style>
     </head>
     <body>
@@ -17,33 +23,40 @@
         <img id="minha_foto"src="Images/ICH.jpg"
         alt="Damiem Fumando" width="400px">
         <br><a id="link" href="https://www.w3schools.com/html/default.asp">---> O melhor Site de HTML <---</a>
-        <h3>Lições</h3>
-            <ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Shell Script</li>
-                <li>HTML</li>
-                <li>Slack</li>
-                <li>Zoom</li>
-                <li>HTML Semantico</li>
-                <li>CSS</li>
-                <li>AutoConhecimento</li> 
-            </ol>     
-            <ul id="licoes_a_aprender"> 
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Ciencia da Computação</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>SQL</li>
-                <li>DOM</li>
-                <li>HOF</li>
-                <li>CSS Responsive</li>
-                <li>ES6</li>
-            </ul>
+        <div id="Classes">
+            <h3>Lições</h3>
+                <ol id="licoes_aprendidas">
+                    <li>Unix</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Shell Script</li>
+                    <li>HTML</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>HTML Semantico</li>
+                    <li>CSS</li>
+                    <li>AutoConhecimento</li> 
+                </ol>     
+                <div id="licoes">
+                    <ul id="licoes_a_aprender"> 
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Ciencia da Computação</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>SQL</li>
+                        <li>DOM</li>
+                        <li>HOF</li>
+                        <li>CSS Responsive</li>
+                        <li>ES6</li>
+                    </ul>
+                </div>
+        </div>
         <article>
+            <header>
             <h3>Oque Ando Aprendendo</h3>
+            <p>By Damiem</p>
+            </header>
             <p>
                 É engraçado em pensar como o desespero de um projeto atrasado pode fazer com que
                 uma pessoa use todos os seus neuronios para atingir o minimo nescessario
@@ -53,7 +66,7 @@
                 que ate eu mesmo duvidei que chegaria
             </p>
         </article> 
-        <footer>
+        <footer id="rodape">
             <p> Author: Damiem<br>
             <a href="mailto:damiemblackwood@gmail.com">damiemblackwood@gmail.com</a></p>
         </footer>    
