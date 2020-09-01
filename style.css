@@ -1,25 +1,25 @@
 * {
-    margin: 10;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 body {
     background-color: rgb(253, 251, 251);
     font-family: "Arial", sans-serif;
+    margin-top: 20px;
 }
 
-.info {
-    overflow: auto;
-}
 
 .header {
     position: fixed;
     top: 0px;
-    left: 10%;
-    margin: 10px 10px;
-    padding: 20px 100px;
-    background-color: rgb(138, 43, 226);
+    left: 20%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #007767;
     text-align: justify;
+    border-radius: 30%;
+    height: 100px;
 }
 nav ul {
     list-style-type: none;
@@ -38,9 +38,10 @@ nav li a {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-    background-color: rgb(255, 127, 80);
+    padding: 14px;
+    background-color: #B8B42D;
     margin-right: 5px;
+    border-radius: 10%;
 }
 
 .nav-header a:hover {
@@ -48,18 +49,21 @@ nav li a {
 }
 
 .lessons-learned {
-    background-color: rgb( 10, 190, 190);
+    background-color: #05349b;
     float: left;
-    padding-left: 20px;
-    width: 49%;
+    padding: 20px 15px;
+    width: 48%;
+    margin-left: 15px;
     box-sizing: border-box;
-    color: rgb(45, 23, 89);
+    color: rgb( 55, 33, 99);
      
 }
 
 .learned-list {
-    background-color: gray;
-    margin: 0;
+    width: 90%;
+    background-color: #9799CA;
+    margin: auto;
+    padding-left: 140px;
 }
 
 .learned-item {
@@ -67,26 +71,35 @@ nav li a {
 }
 
 .wish-learn {
-    background-color: rgb( 90, 190, 190);
+    background-color: #BD93D8;
     float: right;
-    padding-left: 20px;
-    width: 50%;
+    padding: 20px 15px;
+    width: 48%;
+    margin-right: 10px;
     box-sizing: border-box;
-    color: rgb( 55, 33, 99)
+    color: rgb( 55, 33, 99);
+    
+
+}
+
+li::first-letter {
+    font-weight: 700;
 }
 
 .wish-list {
-    width: 50%;
-    background-color: gray;
-    margin: 12.5%;
+    width: 90%;
+    background-color: #9799CA;
+    margin: auto;
+    padding-left: 140px;
 }
 
 .wish-item {
     margin-top: 10px;
 }
 
-.my-picture {
-    /* float: right; */
+.my-picture img {
+    position: relative;
+    left: 10%;
 }
 
 .my-picture::after, .my-picture::before {
@@ -97,13 +110,14 @@ nav li a {
 }
 
 .lado-esquerdo {
-    background-color: rgb( 190, 190, 190);
+    background-color: #9799CA;
     float: left;
     width: 75%;
     padding-right: 10px;
     padding-left: 15px;
     box-sizing: border-box;
     font-size: 1rem;
+    margin-left: 15px;
 }
 
 .lado-esquerdo p {
@@ -111,10 +125,11 @@ nav li a {
 }
 
 .lado-direito {
-    background-color: rgb( 150, 150, 150);
+    background-color: #B8B42D;
     float: right;
     border: 1px solid black;
-    width: 23.4%;
+    width: 22%;
+    margin-right: 10px;
     padding-left: 10px;
     box-sizing: border-box;
     font-size: .75rem;
@@ -122,11 +137,10 @@ nav li a {
 }
 
 .table-learn {
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 5px;
     border: 1px solid brown;
-    clear: both;
 }
 
 .clearfix {
@@ -139,4 +153,10 @@ nav li a {
 
 .skills {
     margin: 5px 2px 10px 2px;
+}
+
+.footer {
+    background-color: #B8B42D;
+    padding: 30px 80px;
+    text-align: right;
 }
