@@ -9,8 +9,12 @@ body {
 }
 #licoes {
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
+}
+#rodape {
+    padding-top: 20px;
+    font-size: 13px;
 }
 h3 {
     padding-top: 20px;
