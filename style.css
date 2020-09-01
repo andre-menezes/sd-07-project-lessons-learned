@@ -17,26 +17,27 @@
     width: auto;
     height: auto;
 }
+#licoes_aprendidas
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body
 {
     background: rgb(253, 251, 251);
 }
 .titulo
 {
-    font-family: tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 article
 {
     float: left;
     text-align: justify;
 }
-footer
+#rodape
 {
     width: 100%;
-    background-color: red;
-}
-ol ul
-{
-    margin-top: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
