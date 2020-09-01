@@ -1,7 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0;
-  text-align: center;
 }
 
 /* Home_animation */
@@ -88,6 +87,10 @@ nav a {
 }
 
 /* Minha-Foto */
+.informations {
+  background-color: wheat;
+  text-align: center;
+}
 .arraste {
   position: relative;
   top: 68%;
@@ -108,7 +111,7 @@ nav a {
   width: 50%;
 }
 
-.perfil:hover > .div_foto {
+.informations:hover > .perfil > .div_foto {
   animation: arrastar-foto 1s forwards;
 }
 
@@ -253,9 +256,42 @@ nav a {
 
 /* Artigo */
 article {
+  text-align: justify;
   display: inline-block;
   width: 50%;
-  padding: 15px;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+article img {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  width: 27%;
+  height: 16rem;
+}
+.article-text-aside {
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  width: 69%;
+}
+
+.author-quote {
+  font-style: italic;
+}
+#first-quote, article a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: -5px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.author-quote-ref {
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 /* Passagem */
