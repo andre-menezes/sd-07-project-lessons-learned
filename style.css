@@ -1,20 +1,20 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #titulo {
-  margin: 0px;
+  margin: 0;
   text-align: center;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 90px;
   border-bottom-width: 50px;
-  background-color: rgb(235, 177, 102);
+  background-color: rgb(235 , 177 , 102);
   font-family: Verdana, sans-serif;
 }
 
@@ -40,24 +40,24 @@ body {
 }
 
 #rodape {
-  background-color: rgb(235, 177, 102);
+  background-color: rgb(235 , 177 , 102);
   width: 100%;
-  padding: 15px 0px; 
-  text-align: center;   
+  padding: 15px 0;
+  text-align: center;
 }
 
 #listanav {
   width: 100%;
-  padding: 0px;
-  margin: 0px; 
+  padding: 0;
+  margin: 0;
   text-align: right;
   display: inline-block;
   vertical-align: text-bottom;
   margin-top: 10px;
 }
 
-.navli { 
-  display: inline-block;  
+.navli {
+  display: inline-block;
   text-align: right;
   vertical-align: text-bottom;
   margin-right: 40px;
@@ -75,7 +75,7 @@ ul li a {
 #navegacao {
   width: 100%;
   display: inline-block;
-  background-color: rgb(235, 177, 102);
+  background-color: rgb(235 , 177 , 102);
   text-decoration-style: none;
   text-decoration-color: black;
   vertical-align: bottom;
@@ -83,7 +83,7 @@ ul li a {
 
 figcaption {
   font: italic smaller sans-serif;
-  padding: 0px 2px;
+  padding: 0 2px;
   text-align: center;
   width: 120px;
 }
@@ -92,22 +92,20 @@ figcaption {
   width: 45%;
   vertical-align: top;
   display: inline-block;
-  box-align: left; 
   text-align: left;
-  font-family: sans-serif; 
+  font-family: sans-serif;
 }
 
 #secaoright {
   width: 45%;
   vertical-align: top;
   display: inline-block; 
-  box-align: right; 
   text-align: left;
   font-family: sans-serif;
 }
 
 #adec {
-  text-decoration: none; 
+  text-decoration: none;
   text-anchor: black;
 }
 
@@ -121,17 +119,16 @@ figcaption {
   display: inline-block;
   vertical-align: top;
   width: 45%;
-  box-align: left; 
   text-align: justify;
   font-family: sans-serif;
 }
+
 .lado-direito {
   border-block-end-width: 30px;
   object-position: 30px;
   display: inline-block;
   vertical-align: top;
   width: 45%;
-  box-align: right; 
   text-align: justify;
   font-family: sans-serif;
 }
@@ -152,11 +149,13 @@ section h3 {
 
 #barratable {
   display: inline-block;
-  background-color: rgb(235, 177, 102);
-  width: 40px;
-  height: 100%;
-  box-align: right;
-  text-align: right;
-  right: 0px;
-  vertical-align: top;
+  text-align: center;
+  
 }
+
+.table td tr{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
