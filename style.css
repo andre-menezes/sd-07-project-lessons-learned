@@ -99,7 +99,7 @@ figcaption {
 #secaoright {
   width: 45%;
   vertical-align: top;
-  display: inline-block; 
+  display: inline-block;
   text-align: left;
   font-family: sans-serif;
 }
@@ -150,10 +150,9 @@ section h3 {
 #barratable {
   display: inline-block;
   text-align: center;
-  
 }
 
-.table td tr{
+.table {
   text-align: center;
   display: inline-block;
   width: 100%;
