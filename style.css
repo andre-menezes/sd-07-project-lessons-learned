@@ -15,6 +15,17 @@ body {
     padding: 10px
 }
 
+.texto{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkgray;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
 #minha_foto{
     margin-top: 125px;
     max-width: 200px;
@@ -36,9 +47,27 @@ h2 {
     text-decoration: underline;
 }
 
+.licao-one{
+    width: 50%;
+    display: inline;
+    float: left;
+    background-color:greenyellow;
+}
+
+.licao-two{
+    width: 50%;
+    display: inline;
+    float: left;
+    background-color: royalblue;
+}
+
+
 h3{
     text-decoration: underline;
+    clear: left;
+    margin-top: 300px;
 }
+
 
 h4{
     text-decoration: underline;
@@ -49,7 +78,6 @@ table{
 }
 
 .artigo{
-    color: green;
     text-align: justify;
 }
 
