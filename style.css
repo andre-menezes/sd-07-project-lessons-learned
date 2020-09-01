@@ -1,29 +1,29 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Montserrat", "sans-serif"
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
-  position:fixed;
-  top:0px;
-  left: 0px;
-  right: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .containerHeader {
   padding: 2px 30px;
-  margin:auto;
+  margin: auto;
   text-align: center;
-  background: rgb(31 , 124 , 22)
+  background: rgb(31 , 124 , 22);
 }
 
 nav ul li {
-  display:inline-block;
+  display: inline-block;
   margin-right: 30px;
 }
 
 .lessons {
-  border-radius:5px;
+  border-radius: 5px;
   margin: auto;
   margin-top: 30px;
   width: 425px;
@@ -32,27 +32,24 @@ nav ul li {
 }
 
 #minha_foto {
-  display:block;
-  border-radius:50%;
-  margin:auto;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
   margin-top: 120px;
   box-shadow: 3px 3px 5px rgb(31 , 124 , 22);
 }
 
-section ul {
-  margin-right:px;
-}
-
 h2 {
   padding:10px;
-  margin-top: 20px; 
+  margin-top: 20px;
+
   text-align: center;
 }
 
 #titulo {
   margin-left: 45px;
   font-size: 25px;
-  color: rgb(225 , 225 , 255);
+  color: white;
 }
 
 #licoes_aprendidas {
@@ -65,8 +62,8 @@ h2 {
 }
 
 .lado-direito {
-  margin-top:85px;
-  margin-right:350px;
+  margin-top: 85px;
+  margin-right: 350px;
   float: right;
   width: 13%;
   background-color: rgb(31 , 124 , 22);
@@ -82,26 +79,26 @@ h2 {
   margin-top: 50px;
   margin-left: 270px;
   background-color: rgb(31 , 124 , 22);
-  border-radius:5px;
+  border-radius: 5px;
   padding: 7px;
   text-align:center;
-  box-shadow: 3px 3px 5px rgb(0 , 0 , 0)
-} 
+  box-shadow: 3px 3px 5px black;
+}
 
 table {
   width: 40%;
   margin-top: 420px;
   margin-left: 350px;
-  box-shadow: 3px 3px 5px rgb(0 , 0 , 0);
+  box-shadow: 3px 3px 5px black;
 }
 
 th {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   background-color: rgb(72 , 170 , 75);
-  color: rgb(225 , 225 , 255);
+  color: white;
   border-bottom: 1px solid rgb(221 , 221 , 221);
 }
 
@@ -114,7 +111,7 @@ a {
 }
 
 tr {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(221 , 221 , 221);
   padding: 8px;
   text-align: center;
 }
