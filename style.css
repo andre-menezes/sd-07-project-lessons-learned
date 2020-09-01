@@ -2,6 +2,10 @@
 body{    
     background-color: rgb(253, 251, 251);
     overflow:scroll;
+    font-family: Arial, sans-serif;
+    font-size: 13pt;
+    color: rgb(20,20,20);
+    line-height:20pt;
 }
 
 header{
