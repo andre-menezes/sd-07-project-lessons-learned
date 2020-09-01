@@ -45,6 +45,7 @@ body {
   padding: 15px 0px; 
   text-align: center;   
 }
+
 #listanav {
   width: 100%;
   padding: 0px;
@@ -52,7 +53,7 @@ body {
   text-align: right;
   display: inline-block;
   vertical-align: text-bottom;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .navli { 
@@ -63,11 +64,11 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
   list-style-type: none;
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 ul li a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
