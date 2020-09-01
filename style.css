@@ -3,8 +3,7 @@ body {
     background: rgb(253, 251, 251);
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
-    line-height: 1,2;
+    line-height: 1,5;
     margin: 0;
 }
 
@@ -23,10 +22,12 @@ body {
 .header {
     position: fixed;
     margin-top: 0px;
+    height: 19%;
     width: 100%;
     background: rgb(84, 167, 39);
     text-align: center;
     color: rgb(253, 251, 251);
+    font-size: 22px;
 }
 
 .button {
@@ -34,11 +35,18 @@ body {
     border-radius: 5px;
     margin: 10px;
     padding: 6px;
+    margin-top: 0px;
 }
 
 a {
     color: rgb(253, 251, 251);
     text-decoration: none;
+}
+
+h2 {
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
 }
 
 footer {
@@ -53,15 +61,27 @@ footer {
 }
 
 .c-dickens, .jornada {
-    width: 40%;
-    height: 150px;
-    border: dotted;
-    padding: 15px;
-    margin: 1%;
+    height: 120px;
+    outline: 1px dashed rgb(253, 251, 251);
+    outline-offset: -5px;
+    background: rgb(84, 167, 39);
+    color: rgb(253, 251, 251);
     display: inline-flex;
-    text-align: justify;
- }
+    margin: 10px;
+}
+
+ .c-dickens {
+    width: 30%;
+    text-align: center;
+}
  
+ .jornada {
+    width: 45%;
+    text-align: justify;
+    padding: 20px;
+
+}
+
 .licoes_aprendidas, .licoes_a_aprender, .tabela {
     max-width: 30%;
     float: left;
@@ -77,6 +97,6 @@ footer {
     place-items: center;
 }
 
-.c-dickens, .jornada, .teste {
+.teste {
     text-align: center;    
 }
