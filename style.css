@@ -25,14 +25,14 @@ body {
 }
 
 #licoes_aprendidas {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   width: 35%;
   display: inline-block;
   vertical-align: top;
 }
 
 #licoes_a_aprender {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   width: 35%;
   list-style: square;
   display: inline-block;
@@ -139,10 +139,10 @@ h3 {
 
 #barra_aside { 
   display: inline-block;
-  background-color: rgb(192, 190, 183);
-  text-size-adjust: 30%;
+  text-size-adjust: 50%;
   text-orientation: sideways-right;
   text-align: right;
+  vertical-align:top;
 }
 
 #icon {
