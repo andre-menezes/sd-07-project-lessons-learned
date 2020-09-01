@@ -24,7 +24,7 @@ body {
   margin-top: 100px;
 }
 
-  section {
+section {
   margin-bottom: 70px;
 }
 
@@ -71,6 +71,7 @@ tbody {
   letter-spacing: inherit;
   font-style: italic;
   font-weight: 500;
+  line-height: 15px;
 }
 
 nav {
