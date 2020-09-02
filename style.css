@@ -25,7 +25,7 @@ p{
     color:rgb(253, 251, 251);
     margin-top: 60px;
     text-shadow: black 0.1em 0.1em 0.2em
-} 
+}
 /* FUNDO */
 body{
     min-height:1366px;
@@ -47,7 +47,7 @@ body{
     position:fixed;
     top:0;
     left:0;
-    width:100%; 
+    width:100%;
     background-color: rgb(40, 100,40);
     text-align: center;
     height: 200px;
@@ -70,7 +70,7 @@ body{
     position:fixed;
     text-align: center;
     height: 50px;
-    width:100%; 
+    width:100%;
     background-color: rgb(137, 189, 137)
 
 }
@@ -88,19 +88,19 @@ body{
 #menu_nav ul li a{
 
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     background-color:  rgb(137, 189, 137);
     padding: 10px 50px 22px 50px;
-    text-align: center;	
+    text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 #menu_nav ul li a:hover{
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     background-color:  rgb(67, 134, 67);
     padding: 10px 50px 22px 50px;
-    text-align: center;	
-    }   
+    text-align: center;
+    }
 
 #nave{
     margin: 0px auto 0px auto;
@@ -108,7 +108,6 @@ body{
     height: 830px;
     float: left;
     background-color: #c0c0ff;
-    
 }
 
 section{
@@ -158,14 +157,14 @@ section{
 #aprender{
     background-color: rgb(132, 187, 197);
     float: left;
-    width: 42%; 
+    width: 42%;
     height:230px;
     margin-top: 20px;
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
     box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
-}  
+}
 
 #licoes_aprendidas{
     list-style-type: decimal;
@@ -174,7 +173,7 @@ section{
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-#licoes_a_aprender{    
+#licoes_a_aprender{
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
@@ -190,7 +189,7 @@ section{
     float: left;
     /* background-color: rgb(137, 189, 137); */
     width: 100%;
-    height: 100px;    
+    height: 100px;   
     }
 
 table{
@@ -206,23 +205,20 @@ aside{
     width: 600px;
     height: 830px;
     float: right;
-    
 }
 
 #rodape{
     margin: 0px auto 0px auto;
     width:100%;
-    height:100px;   
+    height:100px;
     position: relative;
     background-color: #c0c0c0;
     float: left;
-    
 }
 
 .alinh{
     padding-top: 30px;
     text-align: center;
-
 }
 
 #artigo{
@@ -231,11 +227,10 @@ aside{
     width: 265px;
     height: 740px;
     margin-left: 20px;
-    padding-right: 20px;    
+    padding-right: 20px;
     padding-top: 30px;
     }
 #sessao{
-    
     margin-left: 20px;
     float: left;
     background-color: rgb(155, 183, 187);
@@ -247,7 +242,6 @@ aside{
 
     .lado-esquerdo{
         box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
-
     }
     .lado-direito{
         box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
