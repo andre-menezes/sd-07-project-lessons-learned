@@ -298,12 +298,9 @@ article img {
 
 /* Passagem */
 .lado-direito {
-  position: relative;
-  right: -11%;
-  float: left;
+  float: right;
   text-align: justify;
-  display: inline-block;
-  width: 35%;
+  width: 45%;
 }
 
 .lado-direito h3 {
