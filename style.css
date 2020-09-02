@@ -28,10 +28,14 @@ body {
   border: 0.3px solid silver;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .links {
   padding: 0.5em;
   background-color: silver;
-  margin: 15px 100px;
+  margin: 15px 70px;
   border-radius: 20px;
   text-decoration: none;
 }
@@ -44,6 +48,8 @@ body {
   align-items: center;
   display:inline-block;
   justify-content:center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUkMHBYzbz69Paw9mrFsy0fcVinVH3sMB6Xg&usqp=CAU");
+  width: 100%;
 }
 
 #licoes_aprendidas {
