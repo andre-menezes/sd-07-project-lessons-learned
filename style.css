@@ -12,6 +12,13 @@ h2 {
     margin-bottom: 16px
 }
 
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
 aside {
     font-style: normal;
     font-weight: 800;
@@ -122,8 +129,8 @@ aside {
 #texto-cinza-curso-trybe {
     width: 800px;
     height: 336px;
-    font-style: normal;
-    font-weight: 500;
+    font-style: italic;
+    font-weight: 800;
     font-size: 32px;
     line-height: 48px;
     margin-left: 500px;
@@ -140,4 +147,54 @@ aside {
     font-size: 32px;
     line-height: 48px;
     margin-left: auto;
+}
+
+.skills {
+    text-align: center;
+}
+
+#supertitulo-skills {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(108, 146, 222);
+}
+
+#subtitulo-skills {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+.licoes {
+    display: inline-block;
+    text-align: left;
+    width: 755px;
+}
+
+.licoes h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+#licoes_aprendidas {
+    float: left;
+}
+
+#licoes_a_aprender {
+    float: right;
+}
+
+#rodape {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.39);
 }
