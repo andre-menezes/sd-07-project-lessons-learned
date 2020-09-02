@@ -16,7 +16,11 @@ body {
 }
 
 #cabecalho {
+  background-color:aquamarine;
+  border-radius: 20px;  
+  border: 0.3px solid black;
   position: fixed;
+  text-align: center;
   top: 0;
   width: 100%;
 }
