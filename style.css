@@ -1,143 +1,226 @@
+*{margin:0px;
+padding:0px;
+}
+
+body
+h2{
+    margin-left: 50px;
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+    color:rgb(253, 251, 251);
+    
+}
+
+p{
+    margin-left: 50px;
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+    color:rgb(253, 251, 251);
+}
+
+#titulo{
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+    color:rgb(253, 251, 251);
+    margin-top: 60px;
+} 
 /* FUNDO */
 body{
     min-height:1366px;
     font-family:Arial;
-    background-color: rgb(253 ,251 ,251);
-  }
+    background-color: rgb(253 , 251 , 251);
+}
 
-  /* CBEÇALHO */
-  #cabecalho{
+#container{
+    padding-top:240px;
+    margin: 0px auto 0px auto;
+    width: 1366px;
+    height: 852px;
+    background-color: #ccddbb;
+    padding-bottom: 20px;
+}
+
+#cabecalho{
     display:block;
     position:fixed;
     top:0;
     left:0;
-    width:100%;
+    width:100%; 
     background-color: rgb(40, 100,40);
     text-align: center;
-    color: aliceblue;
+    height: 200px;
 }
-  
-#titulo{
-    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
-    color:rgb(253, 251, 251)
-}  
-  
-/* MENU */
+
+
+#corpo{
+    margin: 2px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    min-height: 500px;
+    clear: both;
+}
+
 
 #menu_nav{
+    margin:0px;
+    top:200px;
+    display:block;
+    position:fixed;
     text-align: center;
+    height: 50px;
+    width:100%; 
+    background-color: rgb(137, 189, 137)
+
 }
 
 #menu_nav ul{
     margin:0px;
-    background-color: rgb(22, 66, 66);
+    padding-top: 10px;
     list-style: none;
     padding-top: 10px;
-    height: 30px;
-    
 }
+
 #menu_nav ul li{
     display: inline;
 }
-
 #menu_nav ul li a{
-    padding: 10px 10px;
+
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
+    background-color:  rgb(137, 189, 137);
+    padding: 10px 50px 22px 50px;
+    text-align: center;	
 }
-
 #menu_nav ul li a:hover{
-color: rgb(40, 100,40);
-}   
+    color: white;
+    text-decoration: none;  
+    background-color:  rgb(67, 134, 67);
+    padding: 10px 50px 22px 50px;
+    text-align: center;	
+    }   
 
-CORPO
-
- main{
-     width: 80%;
-    margin-top:00%;
+#nave{
+    margin: 0px auto 0px auto;
+    width: 300px;
+    height: 830px;
     float: left;
-    margin:auto;
-    background-color: rgb(197, 216, 219);
-  }
-#containner{
-    float: left;
-    clear: both;
+    background-color: #c0c0ff;
 }
 
-main #sobre{
-    margin:98px 0px 0 0; 
-   
+section{
+    margin: 0px auto 0px auto;
+    width: 710px;
+    height: auto;
+    float: left;
+    background-color: #c0c088;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cabecalho_artigo{
+    margin: 0px auto 0px auto;
+    width: 670px;
+    height: 400px;
+    float: left;
+    background-color: rgb(40, 100,40);
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #minha_foto{
-    margin-top: 60px;
+    margin-top:20px ;
     border:8px rgb(40, 100,40);
     border-style: ridge;
-
-}
-
-#sobre{
-    width:100%;
-float: left;
-}
-
-#licoes_aprendidas{
-    float: left;
-    list-style-type: none;
-
-}
-#licoes_a_aprender{
-    float: left;
-    list-style-type: none;
     
 }
 
-footer{
-    display:block;
-    position:fixed;
-    width:100%;
-    bottom:0vh;
-    left:0;
-    background:white;
-    text-align:center;
-    padding: 0;
-  }
-  h2{
-    margin-left: 50px;
-    
-}
-#artigo{
-    float: left;
-}
-clear{
-    clear:both;
-}
-aside{
- margin-top: 60px;
- margin-left: 0px;  
- display:block;
-    position:fixed;
-    top:60px;
-    right: 0;
-    width:20%;
-    background-color: rgb(40, 100,40);
-    text-align: center;
-    color: aliceblue;
-    height: 100%;
-    }
-aside.p{
-    text-align: left;
-}
+
+
 #aprendidas{
     background-color: rgb(155, 183, 187);
     float: left;
-    width: 40%;
-    height: 100%;
+    width: 42%;
+    height: 260px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 #aprender{
     background-color: rgb(132, 187, 197);
     float: left;
-    width: 40%; 
-    height: 100%;
-}   
+    width: 42%; 
+    height:260px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}  
+
+#licoes_aprendidas{
+    list-style-type: decimal;
+    margin-left: 50px;
+    color:rgb(253, 251, 251);
+}
+
+#licoes_a_aprender{    
+    list-style-type: decimal;
+    margin-left: 50px;
+    color:rgb(253, 251, 251);
+}
+
+.rodape_artigo{
+    margin-top:20px 0px;
+    float: left;
+    /* background-color: rgb(137, 189, 137); */
+    width: 100%;
+    height: 100px;    
+    }
+
+table{
+    border:1px;
+    color:rgb(253 , 251 , 251)
+}
+tr{
+    color:rgb(253 , 251 , 251)
+}
+
+aside{
+    margin: 0px auto 0px auto;
+    width: 600px;
+    height: 830px;
+    float: right;
+    
+}
+
+#rodape{
+    margin: 0px auto 0px auto;
+    width:100%;
+    height:100px;   
+    position: relative;
+    background-color: #c0c0c0;
+    float: left;
+}
+
+.alinh{
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+#artigo{
+    float: left;
+    background-color: rgb(155, 183, 187);
+    width: 580px;
+    height: 380px;
+    margin-left: 20px;    
+
+    }
+#sessao{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    background-color: rgb(155, 183, 187);
+    width: 580px;
+    height: 380px;
+  
+    }
