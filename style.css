@@ -56,12 +56,31 @@ body{
     flex-wrap: wrap;
     max-width: 800px;
     margin:0 auto;
+    padding: 10px;
     
     }
-.flex > div {
-    flex: 1 1 200px;
-    margin 10px;
-}
+
+    .flex > div {
+        
+        margin:10px;
+    }
+
+    .flex1{
+    
+        display:block;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin:0 auto;
+        padding: 10px;
+        
+    }
+
+    .flex1 > div {
+    
+        margin:10px;
+    }
+
+
 
 
 #titulo{
@@ -99,13 +118,33 @@ body{
     color: royalblue;
 }
 
+.link{
+    display: block;
+
+
+}
 
 .article{
-
+    display: block;
+    flex-wrap: wrap;
     line-height:2.0;
+     max-width: 45%;
+     float: left;
+
+    
+}
+.aside{
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 45%;  
+    margin: 10px;
+    float: right;
+    
+
 }
 
 #rodape{
-
+    
     color: seagreen;
+
 }
