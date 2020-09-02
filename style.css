@@ -3,8 +3,7 @@ body {
 }
 
 #cabecalho {
-
-  top: 0px;
+  top: px;
   background-color: rgb(20 , 100 , 20);
   color: rgb(253 , 251 , 251);
   position: fixed;
@@ -17,7 +16,7 @@ nav {
   top: 80px;
   background-color: rgb(19 , 122 , 28);
   position: fixed;
-  color: rgb(253 ,251 ,251);
+  color: rgb(253 , 251 , 251);
   text-align: center;
   font-size: 1, 5em;
 }
@@ -68,6 +67,7 @@ nav {
   /* margin-top: 0px; */
   vertical-align: top;
   font: 14px monospace;
+
   /* font-family: monospace; font: 14px */
   line-height: 30px;
 }
@@ -75,6 +75,6 @@ nav {
 footer {
   clear: both;
   margin-top: 50px;
-  background-color: rgb(155 ,148 ,148);
+  background-color: rgb(155 , 148 , 148);
   text-align: center;
 }
