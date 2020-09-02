@@ -26,7 +26,8 @@ body {
 }
 
 #minha_foto {
-  border-radius: 10%;
+  border-radius: 50%;
+  border: 0.3px solid silver;
 }
 
 .tabela {
