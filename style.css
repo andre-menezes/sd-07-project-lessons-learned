@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-  top: px;
+  top: 0px;
   background-color: rgb(20 , 100 , 20);
   color: rgb(253 , 251 , 251);
   position: fixed;
