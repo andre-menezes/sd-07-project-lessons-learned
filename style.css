@@ -297,24 +297,24 @@ article img {
 }
 
 /* Passagem */
-.lado-direito {
+aside {
   float: left;
   text-align: justify;
   width: 45%;
 }
 
-.lado-direito h3 {
+aside h3 {
   font-style: italic;
   margin-bottom: -10px;
 }
 
-.lado-direito table {
+aside table {
   width: 100%;
   text-align: center;
   border: 1px solid black;
 }
 
-.lado-direito table th {
+aside table th {
   background-color: wheat;
 }
 
