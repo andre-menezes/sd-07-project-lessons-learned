@@ -298,7 +298,7 @@ article img {
 
 /* Passagem */
 .lado-direito {
-  float: right;
+  float: left;
   text-align: justify;
   width: 45%;
 }
