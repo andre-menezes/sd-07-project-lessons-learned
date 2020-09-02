@@ -7,9 +7,6 @@ body {
   padding: 0;
 }
 
-.conteudo {
-  margin-top: 200px;
-}
 
 #titulo {
   font-size: 1.5em;
@@ -23,11 +20,20 @@ body {
   text-align: center;
   top: 0;
   width: 100%;
+  text-decoration: none;
 }
 
 #minha_foto {
   border-radius: 50%;
   border: 0.3px solid silver;
+}
+
+.links {
+  padding: 0.5em;
+  background-color: silver;
+  margin: 15px 100px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 .tabela {
