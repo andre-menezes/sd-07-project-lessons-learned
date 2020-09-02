@@ -4,24 +4,27 @@ padding:0px;
 
 body
 h2{
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
     color:rgb(253, 251, 251);
     font-size: 25px;
     line-height: 1em;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 p{
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
     color:rgb(253, 251, 251);
     font-size: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 #titulo{
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
     color:rgb(253, 251, 251);
     margin-top: 60px;
+    text-shadow: black 0.1em 0.1em 0.2em
 } 
 /* FUNDO */
 body{
@@ -89,6 +92,7 @@ body{
     background-color:  rgb(137, 189, 137);
     padding: 10px 50px 22px 50px;
     text-align: center;	
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 #menu_nav ul li a:hover{
     color: white;
@@ -104,16 +108,19 @@ body{
     height: 830px;
     float: left;
     background-color: #c0c0ff;
+    
 }
 
 section{
     margin: 0px auto 0px auto;
     width: 710px;
-    height: auto;
+    height: 770px;
     float: left;
     background-color: #c0c088;
     margin-left: 20px;
     text-align: center;
+    box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
+    margin-bottom: 20px;
 }
 
 .cabecalho_artigo{
@@ -124,13 +131,14 @@ section{
     background-color: rgb(40, 100,40);
     margin-left: 20px;
     margin-top: 20px;
+    box-shadow: inset 0 0 1em rgb(137, 189, 137), 0 0 1em black;
 }
 
 #minha_foto{
     margin-top:20px ;
     border:8px rgb(40, 100,40);
     border-style: ridge;
-    
+    box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
 }
 
 
@@ -139,35 +147,43 @@ section{
     background-color: rgb(155, 183, 187);
     float: left;
     width: 42%;
-    height: 260px;
+    height: 230px;
     margin-top: 20px;
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
+    box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
 }
 
 #aprender{
     background-color: rgb(132, 187, 197);
     float: left;
     width: 42%; 
-    height:260px;
+    height:230px;
     margin-top: 20px;
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
+    box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
 }  
 
 #licoes_aprendidas{
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 #licoes_a_aprender{    
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
+    text-shadow: black 0.1em 0.1em 0.2em
+
 }
+
+
+
 
 .rodape_artigo{
     margin-top:20px 0px;
@@ -200,6 +216,7 @@ aside{
     position: relative;
     background-color: #c0c0c0;
     float: left;
+    
 }
 
 .alinh{
@@ -211,18 +228,27 @@ aside{
 #artigo{
     float: left;
     background-color: rgb(155, 183, 187);
-    width: 580px;
-    height: 380px;
-    margin-left: 20px;    
-
+    width: 265px;
+    height: 740px;
+    margin-left: 20px;
+    padding-right: 20px;    
+    padding-top: 30px;
     }
 #sessao{
     
-    margin-top: 20px;
     margin-left: 20px;
     float: left;
     background-color: rgb(155, 183, 187);
-    width: 580px;
-    height: 380px;
-  
+    width: 265px;
+    height: 740px;
+    padding-right: 20px;
+    padding-top: 30px;
+    }
+
+    .lado_esquerdo{
+        box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
+
+    }
+    .lado_direito{
+        box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
     }
