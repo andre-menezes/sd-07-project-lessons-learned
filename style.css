@@ -1,14 +1,15 @@
 body {
     background-color: rgb(253,251,251);
 }
-.artigo1 {
+.lado-esquerdo {
     width: 460px;
     float: left;
     margin-left: 30px;
+    line-height: normal;
 }
-.artigo2 {
+.lado-direito {
     width: 460px;
-    float: left;
+    float: right;
     margin-left: 30px;
 }
 
