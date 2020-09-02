@@ -35,15 +35,22 @@ body {
 }
 
 .conteudo {
+  align-items: center;
+  display:inline-block;
+  justify-content:center;
 }
 
 #licoes_aprendidas {
-  text-align: left;
-  background-image: url();
+  text-align: left;;
   font-size: 20px;
   border: 1px solid blue;
   background-color: rgb(26, 27, 65);
   color: white;
+  float: left;
+  margin: 100px;
+  padding: 40px;
+  vertical-align: middle;
+
 }
 
 #licoes_a_aprender {
@@ -51,6 +58,10 @@ body {
   border: 1px solid blue;
   font-family: 'Orbitron', sans-serif;
   text-align: left;
+  float: right;
+  margin: 100px;
+  padding:40px;
+  vertical-align: middle;
 }
 
 .section-principal {
