@@ -7,7 +7,7 @@ body {
 .home_animation {
   position: relative;
   top: 13vh;
-  background-image: url('/rhodes.jpg');
+  background-image: url('img/rhodes.jpg');
   background-size: 145%;
   background-position: center;
   height: 87vh;
