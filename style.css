@@ -1,8 +1,8 @@
-*{margin:0px;
+* {
+margin:0px;
 padding:0px;
 }
 
-body
 h2 {
     margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
@@ -12,7 +12,7 @@ h2 {
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-p{
+p {
     margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
     color:rgb(253, 251, 251);
@@ -20,20 +20,20 @@ p{
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-#titulo{
+#titulo {
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
     color:rgb(253, 251, 251);
     margin-top: 60px;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 /* FUNDO */
-body{
+body {
     min-height:1366px;
     font-family:Arial;
     background-color: rgb(253 , 251 , 251);
 }
 
-#container{
+#container {
     padding-top:240px;
     margin: 0px auto 0px auto;
     width: 1366px;
@@ -41,7 +41,7 @@ body{
     background-color: #ccddbb;
     padding-bottom: 20px;
 }
-#cabecalho{
+#cabecalho {
     display:block;
     position:fixed;
     top:0;
@@ -52,7 +52,7 @@ body{
     height: 200px;
 }
 
-#corpo{
+#corpo {
     margin: 2px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -60,7 +60,7 @@ body{
     clear: both;
 }
 
-#menu_nav{
+#menu_nav {
     margin:0px;
     top:200px;
     display:block;
@@ -71,17 +71,17 @@ body{
     background-color: rgb(137, 189, 137)
 }
 
-#menu_nav ul{
+#menu_nav ul {
     margin:0px;
     padding-top: 10px;
     list-style: none;
     padding-top: 10px;
 }
 
-#menu_nav ul li{
+#menu_nav ul li {
     display: inline;
 }
-#menu_nav ul li a{
+#menu_nav ul li a {
     color: white;
     text-decoration: none;
     background-color:  rgb(137, 189, 137);
@@ -89,7 +89,7 @@ body{
     text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em
 }
-#menu_nav ul li a:hover{
+#menu_nav ul li a:hover {
     color: white;
     text-decoration: none;
     background-color:  rgb(67, 134, 67);
@@ -97,7 +97,7 @@ body{
     text-align: center;
     }
 
-#nave{
+#nave {
     margin: 0px auto 0px auto;
     width: 300px;
     height: 830px;
@@ -105,7 +105,7 @@ body{
     background-color: #c0c0ff;
 }
 
-section{
+section {
     margin: 0px auto 0px auto;
     width: 710px;
     height: 770px;
@@ -117,7 +117,7 @@ section{
     margin-bottom: 20px;
 }
 
-.cabecalho_artigo{
+.cabecalho_artigo {
     margin: 0px auto 0px auto;
     width: 670px;
     height: 400px;
@@ -128,7 +128,7 @@ section{
     box-shadow: inset 0 0 1em rgb(137, 189, 137), 0 0 1em black;
 }
 
-#minha_foto{
+#minha_foto {
     margin-top:20px ;
     border:8px rgb(40, 100,40);
     border-style: ridge;
@@ -137,7 +137,7 @@ section{
 
 
 
-#aprendidas{
+#aprendidas {
     background-color: rgb(155, 183, 187);
     float: left;
     width: 42%;
@@ -149,7 +149,7 @@ section{
     box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
 }
 
-#aprender{
+#aprender {
     background-color: rgb(132, 187, 197);
     float: left;
     width: 42%;
@@ -161,14 +161,14 @@ section{
     box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
@@ -178,7 +178,7 @@ section{
 
 
 
-.rodape_artigo{
+.rodape_artigo {
     margin-top:20px 0px;
     float: left;
     /* background-color: rgb(137, 189, 137); */
@@ -186,22 +186,22 @@ section{
     height: 100px;
     }
 
-table{
+table {
     border:1px;
     color:rgb(253 , 251 , 251)
 }
-tr{
+tr {
     color:rgb(253 , 251 , 251)
 }
 
-aside{
+aside {
     margin: 0px auto 0px auto;
     width: 600px;
     height: 830px;
     float: right;
 }
 
-#rodape{
+#rodape {
     margin: 0px auto 0px auto;
     width:100%;
     height:100px;
@@ -210,12 +210,12 @@ aside{
     float: left;
 }
 
-.alinh{
+.alinh {
     padding-top: 30px;
     text-align: center;
 }
 
-#artigo{
+#artigo {
     float: left;
     background-color: rgb(155, 183, 187);
     width: 265px;
@@ -224,7 +224,7 @@ aside{
     padding-right: 20px;
     padding-top: 30px;
     }
-#sessao{
+#sessao {
     margin-left: 20px;
     float: left;
     background-color: rgb(155, 183, 187);
@@ -234,9 +234,9 @@ aside{
     padding-top: 30px;
     }
 
-    .lado-esquerdo{
+    .lado-esquerdo {
         box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
     }
-    .lado-direito{
+    .lado-direito {
         box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
     }
