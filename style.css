@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   border: 0;
-
 }
 
 body {
-  background: rgb(253 , 251 , 251);
-  font-family: "Lucida Sans", 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: rgb(253, 251, 251);
+  font-family: "Lucida Sans", sans-serif;
   font-size: 12px;
   line-height: 20px;
   color: blue;
@@ -27,4 +26,3 @@ body {
   position: absolute;
   right: 50%;
 }
-
