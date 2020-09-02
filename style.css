@@ -1,6 +1,7 @@
 
 body {
     margin : 0;
+    background-color: rgb(253, 251, 251);
 }
 
 header {
@@ -59,7 +60,7 @@ main {
 
 .sectionListas {
     text-align: justify;
-    
+
 }
 
 .sectionListas::after {
@@ -76,7 +77,7 @@ main {
     display: inline-block;
     width: 200px;
     vertical-align: top;
-    
+
 }
 
 .divListas ol , .divListas ul {
@@ -117,7 +118,7 @@ main {
 .divArtigo{
     width: 100%;
     float: left;
-    margin-right: -232px; 
+    margin-right: -232px;
     text-align: justify;
 }
 
