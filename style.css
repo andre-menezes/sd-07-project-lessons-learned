@@ -1,32 +1,32 @@
 * {
 margin:0px;
-padding:0px;
+padding:0px; 
 }
 
 h2 {
     margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
-    color:rgb(253, 251, 251);
+    color: rgb(253, 251, 251);
     font-size: 25px;
     line-height: 1em;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 p {
     margin-left: 30px;
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
-    color:rgb(253, 251, 251);
+    color: rgb(253, 251, 251);
     font-size: 20px;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #titulo {
     font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
-    color:rgb(253, 251, 251);
+    color: rgb(253, 251, 251);
     margin-top: 60px;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
-/* FUNDO */
+ /* FUNDO */
 body {
     min-height:1366px;
     font-family:Arial;
@@ -38,7 +38,7 @@ body {
     margin: 0px auto 0px auto;
     width: 1366px;
     height: 852px;
-    background-color: #ccddbb;
+    background-color: rgb(132, 187, 197);
     padding-bottom: 20px;
 }
 #cabecalho {
@@ -68,14 +68,13 @@ body {
     text-align: center;
     height: 50px;
     width:100%;
-    background-color: rgb(137, 189, 137)
+    background-color: rgb(137, 189, 137);
 }
 
 #menu_nav ul {
     margin:0px;
     padding-top: 10px;
     list-style: none;
-    padding-top: 10px;
 }
 
 #menu_nav ul li {
@@ -84,15 +83,15 @@ body {
 #menu_nav ul li a {
     color: white;
     text-decoration: none;
-    background-color:  rgb(137, 189, 137);
+    background-color: rgb(137, 189, 137);
     padding: 10px 50px 22px 50px;
     text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 #menu_nav ul li a:hover {
     color: white;
     text-decoration: none;
-    background-color:  rgb(67, 134, 67);
+    background-color: rgb(67, 134, 67);
     padding: 10px 50px 22px 50px;
     text-align: center;
     }
@@ -102,7 +101,7 @@ body {
     width: 300px;
     height: 830px;
     float: left;
-    background-color: #c0c0ff;
+    background-color: rgb(155, 183, 187);
 }
 
 section {
@@ -110,7 +109,7 @@ section {
     width: 710px;
     height: 770px;
     float: left;
-    background-color: #c0c088;
+    background-color: rgb(155, 183, 187);
     margin-left: 20px;
     text-align: center;
     box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
@@ -129,7 +128,7 @@ section {
 }
 
 #minha_foto {
-    margin-top:20px ;
+    margin-top:20px;
     border:8px rgb(40, 100,40);
     border-style: ridge;
     box-shadow: inset 0 0 1em blanchedalmond, 0 0 1em black;
@@ -165,14 +164,14 @@ section {
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #licoes_a_aprender {
     list-style-type: decimal;
     margin-left: 50px;
     color:rgb(253, 251, 251);
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 
@@ -181,7 +180,6 @@ section {
 .rodape_artigo {
     margin-top:20px 0px;
     float: left;
-    /* background-color: rgb(137, 189, 137); */
     width: 100%;
     height: 100px;
     }
@@ -206,7 +204,7 @@ aside {
     width:100%;
     height:100px;
     position: relative;
-    background-color: #c0c0c0;
+    background-color: rgb(132, 187, 197);
     float: left;
 }
 
