@@ -1,4 +1,8 @@
+
+
+
 body{
+
  background-color:rgb(253,251,251);
 
  
@@ -17,6 +21,49 @@ body{
     
 }
 
+.menu{
+    font-size: 24px;
+    display: flex;
+    list-style: none;
+    background-color: rgb(0,200,0);
+    color: rgb(255,255,255);
+    
+    
+}
+.menu li{
+
+    margin-left: 10px;
+}
+
+.menu li a{
+    display:block;
+    padding: 5px;
+   
+}
+.divfoto{
+    position: relative;
+    top: 120px;
+    left: 1px;
+    width: 300px;
+    height:180px;
+    border-radius: 5px;
+}
+
+
+.flex{
+    
+    display:block;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+    
+    }
+.flex > div {
+    flex: 1 1 200px;
+    margin 10px;
+}
+
+
 #titulo{
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,18 +75,26 @@ body{
 }
 
 #minha_foto {
-    
+    position: absolute;
     width: 150px;
     margin: 1px;
+    float: left;;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    
+    padding:10px;
 
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas { 
 
     color: royalblue;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
 
     color: royalblue;
 }
