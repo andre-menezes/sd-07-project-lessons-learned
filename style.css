@@ -1,198 +1,191 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
-    padding: 0px;
-    padding-top: 150px;
-    font-family: 'Roboto Mono', monospace;
-    width: 100%;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Roboto Mono, monospace;
+  margin: 0;
+  padding: 0;
+  padding-top: 150px;
+  width: 100%;
 }
 
 .header-style {
-    width: 100%;
-    height: 150px;
-    background-color: rgb(84, 110, 95);
-    top: 0px;
-    position: fixed;
+  background-color: rgb(84 , 110 , 95);
+  height: 150px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-.header-style h1{
-    text-align: center;
-    width: 100%;
-    height: 50px;
-    color: rgb(255, 255, 255);
-    font-size: 30pt;
-    text-transform: uppercase;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
-    line-height: 50px;
+.header-style h1 {
+  color: white;
+  font-size: 30pt;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.socials {
+  float: left;
+  padding-left: 10px;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
 }
 
 .menu-nav {
-    width: 100%;
-    padding-left: 50px;
-    line-height: 45px;
-    background-color: rgb(162, 167, 163);
+  background-color: rgb(162 , 167 , 163);
+  line-height: 45px;
+  padding-left: 50px;
+  width: 100%;
 }
 
 .menu-nav a {
-    text-decoration: none;
-    padding-right: 50px;
-    font-size: 16pt;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  color: white;
+  font-size: 16pt;
+  font-weight: 700;
+  text-decoration: none;
+  padding-right: 50px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .menu-nav a:hover {
-    text-decoration: underline;   
+  text-decoration: underline;
 }
 
 .profile {
-    width: 100%;
-    background-color: rgb(229, 236, 233);
-    text-align: center;
-    float: left;
+  background-color: rgb(229 , 236 , 233);
+  float: left;
+  text-align: center;
+  width: 100%;
 }
 
 .profile img {
-    margin: 20px;
-    width: 300px;
-    margin-top: 30px;
-    border-radius: 50%;
-    border: 5px dashed rgb(84, 110, 95);
+  border: 5px dashed rgb(84 , 110 , 95);
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 30px;
+  width: 300px;
 }
 
 .profile h2 {
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40pt;
-    color: rgb(84, 110, 95);
-    font-family: 'Russo One', sans-serif;
-    word-spacing: 15px;
-    font-weight: 200;
-}
-
-.socials {
-    float: right;
+  color: rgb(84 , 110 , 95);
+  font-family: Russo One, sans-serif;
+  font-size: 40pt;
+  font-weight: 200;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  word-spacing: 15px;
 }
 
 .lists {
-    width: 100%;
-    height: 450px;
-    float: left;
+  height: 450px;
+  float: left;
+  width: 100%;
 }
 
 .lists h2 {
-    text-transform: uppercase;
-    font-size: 20pt;
-    margin-left: 50px;
+  font-size: 20pt;
+  margin-left: 50px;
+  text-transform: uppercase;
 }
 
 .lessons-learned {
-    border: 3px solid black;
-    float: left;
-    width: auto;
-    margin-left: 350px;
-    padding: 20px 50px;
+  border: 3px solid black;
+  float: left;
+  margin-left: 350px;
+  padding: 20px 50px;
+  width: auto;
 }
 
 .lessons-unlearned {
-    border: 3px solid black;
-    float: right;
-    width: auto;
-    margin-right: 350px;
-    padding: 20px 50px;
+  border: 3px solid black;
+  float: right;
+  margin-right: 350px;
+  padding: 20px 50px;
+  width: auto;
 }
 
 .artigos {
-    float: left;
-    width: 100%;
-    background-color: rgb(229, 236, 233);
+  background-color: rgb(229 , 236 , 233);
+  float: left;
+  width: 100%;
 }
 
 .artigos h2 {
-    text-transform: uppercase;
-    font-size: 20pt;
-    margin-left: 50px;
+  font-size: 20pt;
+  margin-left: 50px;
+  text-transform: uppercase;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 550px;
-    position: relative;
-    padding: 30px 50px;
+  float: left;
+  padding: 30px 5px;
 }
 
 .lado-esquerdo h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
+
 .lado-esquerdo h4 {
-    font-style: italic;
-    margin: 0;
-    font-weight: normal;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0;
 }
 
 .lado-esquerdo p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .lado-direito {
-    float: right;
-    width: 550px;
-    position: relative;
-    padding: 0px 20px;
-    margin: 30px;
-    border: 3px solid rgb(84, 110, 95);
-    background-color: rgb(253, 251, 251);
-    box-shadow: 5px 5px 5px rgb(84, 110, 95);
-    border-radius: 10px;
+  background-color: rgb(253 , 251 , 251);
+  border: 3px solid rgb(84 , 110 , 95);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(84 , 110 , 95);
+  float: right;
+  position: relative;
+  width: 550px;
 }
 
 .lado-direito p {
-    text-align: justify;
-    margin-bottom: 20px;
-    margin-top: 0px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: justify;
 }
 
 .lado-direito h3 {
-    margin: 20px 0px;
-
+  margin: 20px 0;
 }
 
 .footer-content {
-    float: left;
-    width: 100%;
-    background-color: rgb(84, 110, 95);
+  background-color: rgb(84 , 110 , 95);
+  float: left;
+  width: 100%;
 }
 
 .footer-content img {
-    width: 20px;
+  width: 20px;
 }
 
 .footer-content td {
-    color: rgb(255, 255, 255);
+  color: white;
 }
 
-.footer-content table{
-    float: left;
-    margin: 20px 0px 20px 50px;
-}
-
-.socials {
-    float: left;
-    padding-left: 10px;
-}
-.socials a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.footer-content table {
+  float: left;
+  margin: 20px 0 20px 50px;
 }
 
 .footer-content address {
-    float: right;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    line-height: 154px;
-    margin-right: 350px;
+  color: white;
+  float: right;
+  font-weight: 700;
+  line-height: 154px;
+  margin-right: 350px;
+  text-shadow: 2px 2px 5px black;
 }
