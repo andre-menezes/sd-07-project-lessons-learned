@@ -125,6 +125,7 @@ body {
 .lado-esquerdo {
   float: left;
   padding: 30px 5px;
+  width: 550px;
 }
 
 .lado-esquerdo h3 {
@@ -148,7 +149,6 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(84 , 110 , 95);
   float: right;
-  position: relative;
   width: 550px;
 }
 
