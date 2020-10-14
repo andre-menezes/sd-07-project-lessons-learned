@@ -1,3 +1,28 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+nav{
+    margin: 20px;
+}
+
+#licoes-aprendidas{
+    display: inline-block;
+    border: 2px solid grey;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+#licoes-a-aprender{
+    display: inline-block;
+    border: 2px solid grey;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
