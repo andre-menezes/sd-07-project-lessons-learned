@@ -1,32 +1,30 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-    background-color: royalblue;
-    color: white;
-    text-align: center;
-    top: 0px;
-    position: fixed;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  top: 0px;
+  position: fixed;
+  padding-bottom: 10px;
 }
+
 nav {
-    margin: 20px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin: 10px;
 }
 
 #licoes-aprendidas {
-    display: inline-block;
-    border: 2px solid grey;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-bottom: 8px;
-    padding-top: 8px;
+  display: inline-block;
+  border: 2px solid grey;
+  padding: 8px 10px 8px 30px;
 }
 
 #licoes-a-aprender {
-    display: inline-block;
-    border: 2px solid grey;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-bottom: 8px;
-    padding-top: 8px;
+  display: inline-block;
+  border: 2px solid grey;
+  padding: 8px 10px 8px 30px;
 }
