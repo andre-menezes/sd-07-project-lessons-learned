@@ -6,7 +6,7 @@ body {
   background-color: royalblue;
   color: white;
   text-align: center;
-  top: 0px;
+  top: 0;
   position: fixed;
   padding-bottom: 10px;
 }
