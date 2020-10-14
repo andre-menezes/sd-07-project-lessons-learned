@@ -17,13 +17,13 @@ nav {
   margin: 10px;
 }
 
-#licoes-aprendidas {
+#licoes_aprendidas {
   display: inline-block;
   border: 2px solid grey;
   padding: 8px 10px 8px 30px;
 }
 
-#licoes-a-aprender {
+#licoes_a_aprender {
   display: inline-block;
   border: 2px solid grey;
   padding: 8px 10px 8px 30px;
