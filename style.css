@@ -179,7 +179,7 @@ a {
 
 .social-card {
   align-items: center;
-  background-color: rgb(47 , 193 , 140);
+  background-color: #2fc18c;
   border-radius: 70px;
   color: black;
   display: flex;
@@ -187,6 +187,10 @@ a {
   justify-content: center;
   margin: 10px;
   width: 250px;
+}
+
+.social-card:hover {
+  background-color: white;
 }
 
 .socials-icon {
